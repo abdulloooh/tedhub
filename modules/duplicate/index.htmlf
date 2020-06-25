@@ -1,0 +1,17 @@
+<!-- version=v1.0 -->
+<div class="indexmodule">
+
+    <a href="<?php echo $dir ?>/"><img src="<?php echo $dir ?>/logo.jpg" alt="WASSCE"></a>
+
+    <h2><a href="<?php echo $dir ?>/">WASSCE</a></h2>
+
+    <p>This collection of files will help you study for The West African
+    Senior School Certificate Examination. These files are provided in both
+    .docx and .pdf format and will require appropriate
+    software to view.</p>
+
+    <ul>
+    <li> <a href="<?php echo $dir ?>/">View the Materials...</a></li>
+    </ul>
+
+</div>
