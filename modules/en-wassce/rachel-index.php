@@ -11,7 +11,12 @@
     This collection of files will help you study for The West African
     Senior School Certificate Examination. These files are provided in both
     .docx and .pdf format and will require appropriate
-    software to view.</p>
+    software to view. 
+
+ School Certificate Examination. These files are provided in both
+    .docx and .pdf format and will require appropriate
+    software to view. 
+    </p>
   <!-- Link pointing to index.html for module Here: Link -->
   <a href="<?php echo $dir ?>/index.html" class="btn btn-indigo"><span class="text-white">Get started</span></a>
 </div>

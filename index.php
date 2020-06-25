@@ -42,6 +42,13 @@
         user-select: none;
       }
 
+      p{
+      	max-height: 72px;
+      	white-space: wrap;
+      	overflow: hidden;
+      	text-overflow: ellipsis;
+      }
+
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -256,7 +263,9 @@
         //re-arrange course list to bring file share to the end
         $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
         unset ($fsmods['en-file_share']);
-        $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
+        $file_share = array("en-file_share" => $clone_file_share_sub_array);
+        $fsmods = $file_share + $fsmods;
+        // $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
 
 
         # whether or not we were able to get anything
@@ -268,8 +277,8 @@
             if ($mod['hidden'] || !$mod['fragment']) { continue; }
             $dir  = $mod['dir'];
             $moddir  = $mod['moddir'];
-            if ($mod['moddir'] == 'en-file_share') echo "<br/><br/>";
             include $mod['fragment']; 
+            // if ($mod['moddir'] == 'en-file_share');
             ++$modcount;
         }
 
@@ -372,7 +381,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script type="text/javascript" src="bootstrap.js"></script>
 
-
+<script type="text/javascript" src="style_button_in_rachel_index.js"></script>
 
 </body>
 </html>

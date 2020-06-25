@@ -12,7 +12,7 @@
 
     <a href="<?php echo $dir ?>/index.html"><img height="100"width="100" src="<?php echo $dir ?>/logo.png" alt="File Share"></a>
 
-    <h2><a href="<?php echo $dir ?>/index.html">File Share</a></h2>
+    <h2 style="display:inline"><a href="<?php echo $dir ?>/index.html">File Share</a></h2>
 
     <p>You can share files with other users by uploading them here</p>
 
