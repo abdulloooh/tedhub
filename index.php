@@ -252,26 +252,23 @@
         # custom sorting function in common.php
         uasort($fsmods, 'bypos');
         
-        // die(var_dump($fsmods));
-
-        echo (array_key_exists('en-file_share', $fsmods));
-        die();
+       
+        //re-arrange course list to bring file share to the end
+        $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
+        unset ($fsmods['en-file_share']);
+        $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
 
 
         # whether or not we were able to get anything
         # from the DB, we show what we found in the filesystem
         // die(var_dump($fsmods));
 
-        //include fileshare at the end
-        $mod = $fsmods['en-file_share'];
-        include $mod['fragment'];
-        // die(var_dump($fsmods['en-file_share']['fragment']));
 
         foreach (array_values($fsmods) as $mod) {
             if ($mod['hidden'] || !$mod['fragment']) { continue; }
             $dir  = $mod['dir'];
             $moddir  = $mod['moddir'];
-            if ($mod['moddir'] == 'en-file_share') echo "<br>";
+            if ($mod['moddir'] == 'en-file_share') echo "<br/><br/>";
             include $mod['fragment']; 
             ++$modcount;
         }

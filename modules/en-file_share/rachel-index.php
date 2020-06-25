@@ -10,7 +10,7 @@
 
 <div class="indexmodule">
 
-    <a href="<?php echo $dir ?>/index.html"><img src="<?php echo $dir ?>/logo.png" alt="File Share"></a>
+    <a href="<?php echo $dir ?>/index.html"><img height="100"width="100" src="<?php echo $dir ?>/logo.png" alt="File Share"></a>
 
     <h2><a href="<?php echo $dir ?>/index.html">File Share</a></h2>
 
