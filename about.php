@@ -16,6 +16,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="css/bootstrap-theme.css">
 
+<link rel="stylesheet" href="css/style.css">
 
     <!-- Favicons -->
 <!-- <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -41,10 +42,6 @@
 
     </style>
 
-
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
   </head>
 
 
