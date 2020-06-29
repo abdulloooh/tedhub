@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+@media screen and (max-width: 767px) {
+.sidenav2 {
+display: none;
+}
+}
+
+.sidenav2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav2 a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav2 .closebtn2 {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main2 {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+}
+
+@media screen and (max-width: 767px) {
+.openNav2Button {
+display: none;
+}
+}
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav2" class="sidenav2">
+  <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+  <span style="font-size:30px;cursor:pointer" class="openNav2Button" onclick="openNav2()">&#9776;</span>
+
+
+<div id="main2">
+<p>Page Content</p>
+</div>
+
+<script>
+window.addEventListener("resize", openNav2); 
+function openNav2() {
+if (window.innerWidth > 767) { 
+  document.getElementById("mySidenav2").style.width = "300px";
+  document.getElementById("main2").style.marginLeft = "300px";
+} else {
+  document.getElementById("mySidenav2").style.width = "0";
+  document.getElementById("main2").style.marginLeft = "0";
+}
+}
+
+function closeNav2() {
+  document.getElementById("mySidenav2").style.width = "0";
+  document.getElementById("main2").style.marginLeft = "0";
+}
+
+//Add this to open sidebar on default
+openNav2();
+
+</script>
+   
+</body>
+</html>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Abdullah Oladipo">
+    <meta name="author" content="Tedhub">
     <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
     <title>TedHub</title>
 
@@ -113,7 +113,7 @@
 
     <header>
   	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  	<a class="navbar-brand" href="#"><img src="images/logo.jpg" style="heigt: 70px; width: 100px;"></a>
+  	<a class="navbar-brand" href="/index.php"><img src="images/logo.jpg" style="heigt: 70px; width: 100px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -171,7 +171,7 @@
 	        	<!-- <br>
 	        	Learners, and teachers alike. -->
       		</p>
-            <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse Gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="gallery.php" role="button">Browse Gallery</a></p>
           </div>
         </div>
       </div>

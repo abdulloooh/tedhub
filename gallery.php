@@ -6,14 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Tedhub">
-    <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
+    <meta name="author" content="TedHub">
     <title>TedHub</title>
 
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-<!-- Optional theme -->
 <link rel="stylesheet" href="css/bootstrap-theme.css">
 
 
@@ -29,9 +27,10 @@
 
 
     <style>
-        #content{
+        #tedhub{
             margin-top:100px;
         }
+
       p{
       	max-height: 72px;
       	white-space: wrap;
@@ -39,11 +38,11 @@
       	text-overflow: ellipsis;
       }
 
+      
     </style>
 
 
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -130,10 +129,10 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
       </ul>
-      <!-- <form class="form-inline mt-2 mt-md-0">
+      <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
+      </form>
       <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
       </li>
@@ -155,22 +154,71 @@
   	<!-- start from Ebx -->
 
 <div id="content">
+<div class="row">
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam error voluptatibus ad odit officia voluptate eligendi ratione adipisci assumenda fugit unde, est repudiandae minus commodi quaerat, beatae consectetur optio. Dignissimos aspernatur aliquam ipsam quisquam sint, voluptatem non cumque beatae nihil quae nostrum sed vel fugiat officia atque accusamus qui ipsum tempore excepturi veniam voluptatum in praesentium corporis. Magni architecto, numquam porro laudantium veritatis pariatur, culpa odit labore minima praesentium cupiditate aliquam explicabo excepturi neque accusamus, distinctio dolor debitis temporibus fuga. Laudantium sit eos at voluptatum architecto, ea quas assumenda quis nulla commodi labore fugit nihil ullam molestiae et explicabo totam sint natus vero sapiente expedita odit. Nostrum illum ducimus veritatis quisquam, provident sapiente voluptatibus, aspernatur amet corrupti praesentium ratione voluptatem ullam. Harum ipsa atque libero nemo in exercitationem corrupti? Dolores earum nemo repellat eaque, iusto voluptate maxime consectetur! Nesciunt eaque magnam ad nostrum natus voluptas, mollitia quaerat accusantium sequi fugiat ea nulla vero architecto odio pariatur illo itaque id! Dolores minus accusantium deleniti perspiciatis cumque suscipit libero ea asperiores. Dolor nostrum voluptates eos quaerat tempora, minus quam omnis autem earum optio enim minima ipsam placeat maiores commodi sed? Molestiae error magnam iusto rem. Ea non explicabo quisquam nulla numquam provident!
+<?php
 
-<br>
+    $modcount = 0;
 
-<blockquote>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatem velit nostrum ullam tempore veniam quasi odit facere aut reprehenderit excepturi quisquam repellendus voluptate magnam non, soluta ipsum eligendi sunt. Dicta, amet facere quibusdam rerum non tempora deserunt perspiciatis nobis natus dolorem aperiam officia autem temporibus ipsum fugiat nisi, recusandae qui. At error magnam, repellendus voluptate a quia quos incidunt accusantium earum necessitatibus explicabo numquam ipsum iusto architecto atque officiis voluptates aperiam maiores minima sint in quae sapiente. Saepe eligendi nostrum dolores eos numquam excepturi explicabo incidunt laudantium repudiandae, fuga ratione temporibus magni eius laborum quidem ullam tenetur error accusamus.
-</blockquote>
+    $fsmods = getmods_fs();
+
+    # if there were any modules found in the filesystem
+    if ($fsmods) {
+
+        # get a list from the databases (where the sorting
+        # and visibility is stored)
+        $dbmods = getmods_db();
+
+        # populate the module list from the filesystem 
+        # with the visibility/sorting info from the database
+        foreach (array_keys($dbmods) as $moddir) {
+            if (isset($fsmods[$moddir])) {
+                $fsmods[$moddir]['position'] = $dbmods[$moddir]['position'];
+                $fsmods[$moddir]['hidden'] = $dbmods[$moddir]['hidden'];
+            }
+        }
+
+        # custom sorting function in common.php
+        uasort($fsmods, 'bypos');
+        
+       
+        //re-arrange course list to bring file share to the end
+        $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
+        unset ($fsmods['en-file_share']);
+        $file_share = array("en-file_share" => $clone_file_share_sub_array);
+        $fsmods = $file_share + $fsmods;
+        // $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus porro laborum beatae! Nemo omnis perspiciatis explicabo voluptatum laudantium? Aperiam in expedita dolores reprehenderit quidem ipsum tempora assumenda veniam excepturi maxime, quos, nemo aliquid blanditiis eos hic. Eveniet magnam nemo non quibusdam ad corrupti assumenda ducimus expedita perferendis deleniti odio iste, laudantium ipsum accusamus ipsam voluptatem exercitationem id ipsa adipisci excepturi explicabo. Porro reprehenderit accusamus eaque sit sint. Eveniet sint eos maiores! Magni in totam possimus cupiditate. Nihil, minus. Debitis doloribus aliquam tempore maxime cupiditate! Rem sed rerum alias dolores nihil in quibusdam maiores ut consequuntur, reprehenderit facere eius minima minus, ex quam qui fugit fuga, mollitia odit nisi saepe? Placeat vitae error sunt nisi deleniti debitis repellat facilis eaque dicta nemo ab officiis iure doloremque dolore eos quasi, ut vero cupiditate commodi accusamus dolor. Facere, reprehenderit temporibus? Enim tempora consequuntur nisi nulla quae corrupti sed vero iure ut. Impedit sequi nisi molestias amet, cumque quos possimus facere repellat illo incidunt! Maxime vitae, inventore reiciendis delectus non placeat libero unde consequatur quisquam! Tempore atque alias autem quidem! Maxime reprehenderit magnam ullam dicta fugiat doloremque, mollitia, blanditiis qui dolorum debitis animi aliquam repudiandae fuga repellendus officia et saepe deserunt quidem! Voluptatum.
+        # whether or not we were able to get anything
+        # from the DB, we show what we found in the filesystem
+        // die(var_dump($fsmods));
+
+
+        foreach (array_values($fsmods) as $mod) {
+            if ($mod['hidden'] || !$mod['fragment']) { continue; }
+            $dir  = $mod['dir'];
+            $moddir  = $mod['moddir'];
+            include $mod['fragment']; 
+            // if ($mod['moddir'] == 'en-file_share');
+            ++$modcount;
+        }
+
+    }
+
+    if ($modcount == 0) {
+        echo $lang['no_mods_error'];
+    }
+
+?>
 
 </div>
-
+</div>
+  	<!-- End from Ebx -->
 
     <hr>
+
+  </div><!-- /.container -->
 
   <!-- FOOTER -->
   <footer class="container">
