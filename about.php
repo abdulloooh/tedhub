@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>RACHEL - About</title>
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/about_style.css">
 </head>
 
 <body>
