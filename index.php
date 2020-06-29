@@ -10,15 +10,11 @@
     <!-- <meta name="generator" content="Jekyll v4.0.1"> -->
     <title>TedHub</title>
 
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/"> -->
 
-<!-- Latest compiled and minified CSS -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
 
 
     <!-- Favicons -->
@@ -58,7 +54,8 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
 
@@ -123,7 +120,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="about.php">About </a>       
@@ -145,12 +142,12 @@
         </li> -->
       </ul>
       <form class="form-inline mt-2 mt-md-0">
-      	<li class="nav-item" style="list-style-type: none;">
-          <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
-        </li>
-        <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
+      <li class="nav-item admin">
+        <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
+      </li>
     </div>
   </nav>
 </header>
@@ -158,18 +155,18 @@
 <main role="main">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+    </ol> -->
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
+      <div class="carousel-item active real_results_image">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#888"/></svg> -->
+        <div class="container slide">
           <div class="carousel-caption text-left">
-            <h3>For every student every classroom. Real results.</h3>
+            <h6>For every student every classroom, real results.</h6>
             <p>We're an organization with the mission to provide quality, world-class education for anyone, anywhere.
 	        	<!-- <br>
 	        	Learners, and teachers alike. -->
@@ -178,33 +175,33 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
+      <div class="carousel-item personalized_learning_image">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide">
           <div class="carousel-caption text-left">
-            <h3>Personalized Learning.</h3>
+            <h6>Personalized Learning.</h6>
             <p>Students practice at their own pace, first filling in gaps in their understanding and
             then accelerating their learning</p>
             <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse Gallery</a></p>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container" >
+      <div class="carousel-item trusted_content_image">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide" >
           <div class="carousel-caption text-left">
-            <h3>Trusted Content.</h3>
+            <h6>Trusted Content.</h6>
             <p >Created by experts, Tedprimehub’s library of trusted practice and lessons covers math, 
             science, and more. Always free for learners and teachers.</p>
             <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-        <div class="container">
+      <div class="carousel-item empower_teachers_image">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide">
           <div class="carousel-caption text-left">
-            <h3>Tools to empower teachers</h3>
+            <h6>Tools to empower teachers</h6>
             <p>With TedPrimeHub, teachers can identify gaps in their students’ 
             understanding, tailor instruction, and meet the needs of every student.</p>
             <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
@@ -376,12 +373,12 @@
 
 
 <!-- jQuery library -->
-<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
-<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 
-<script type="text/javascript" src="style_button_in_rachel_index.js"></script>
+<script type="text/javascript" src="js/style_button_in_rachel_index.js"></script>
 
 </body>
 </html>

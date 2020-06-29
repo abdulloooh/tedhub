@@ -5,7 +5,7 @@
 <!--Card content-->
 <div class="card-body">
   <!--Put the name of Module Here : Title-->
-  <h4 class="card-title">WASSCE 1</h4>
+  <h3 class="card-title">WASSCE 1</h3>
   <!--Brief Description About Module Here: Text-->
   <p class="card-text">
     This collection of files will help you study for The West African
