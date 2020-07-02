@@ -269,7 +269,7 @@
         # from the DB, we show what we found in the filesystem
         // die(var_dump($fsmods));
 
-
+        $fsmods = array_slice($fsmods,1,4);
         foreach (array_values($fsmods) as $mod) {
             if ($mod['hidden'] || !$mod['fragment']) { continue; }
             $dir  = $mod['dir'];
@@ -287,6 +287,13 @@
 
 ?>
 
+</div>
+<hr>
+<div class="see_all_wrapper">
+  <a class="btn btn-sm" href="/gallery.php" role="button">
+    <i id="see_all" href="/gallery.php"><img height="50" width="50" src="logo.png" alt="See all"></i>
+    Go to Gallery
+  </a>
 </div>
 </div>
   	<!-- End from Ebx -->

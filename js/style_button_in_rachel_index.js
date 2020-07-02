@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$("a.btn").addClass(" btn-lg btn-primary");
+	$("a.btn").addClass(" btn-md btn-primary");
 })

@@ -9,7 +9,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  /*padding-top: 3rem;*/
+  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: my_font;
@@ -107,7 +107,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  /* margin: 5rem 0;  */
 }
 
 /* Thin out the marketing headings */

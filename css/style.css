@@ -60,12 +60,31 @@ li.admin{
     }
 
     .card-body{
-        max-height: 15em;
+        height: 15em;
+    }
+
+    div.see_all_wrapper{
+        text-align: center;
+        margin: auto;
+    }
+    div.see_all_wrapper a{
+        padding-right: 20px;
+    }
+
+    .btn-primary:hover{
+        background-color: gray;
+        background-image: none;
+        border: none;
+    }
+
+    div i#see_all img{
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg); /* IE 9 */
     }
 
     @media(max-width:1204px){
         .card-body{
-            max-height: 15em;
+            height: 15em;
         }
     }
 
