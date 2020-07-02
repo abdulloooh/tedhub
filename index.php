@@ -141,10 +141,10 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
       </ul>
-      <form class="form-inline mt-2 mt-md-0">
+      <!-- <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      </form> -->
       <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
       </li>
@@ -163,6 +163,7 @@
     </ol> -->
     <div class="carousel-inner">
       <div class="carousel-item active real_results_image">
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#888"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
@@ -176,6 +177,7 @@
         </div>
       </div>
       <div class="carousel-item personalized_learning_image">
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
@@ -187,6 +189,7 @@
         </div>
       </div>
       <div class="carousel-item trusted_content_image">
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide" >
           <div class="carousel-caption text-left">
@@ -198,6 +201,7 @@
         </div>
       </div>
       <div class="carousel-item empower_teachers_image">
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
@@ -292,7 +296,7 @@
 <div class="see_all_wrapper">
   <a class="btn btn-sm" href="/gallery.php" role="button">
     <i id="see_all" href="/gallery.php"><img height="50" width="50" src="logo.png" alt="See all"></i>
-    Go to Gallery
+    See All in Gallery
   </a>
 </div>
 </div>
