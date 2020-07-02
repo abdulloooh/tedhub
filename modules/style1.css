@@ -1,0 +1,26 @@
+@font-face {
+    font-family: my_font;
+    src: url(../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+  }
+
+
+
+body {
+    /* background: #ddd; */
+    color: #444;
+    font-family: my_font;
+}
+
+h1, h2 { margin-top: 0; margin-bottom: 0; }
+a { color: #33c; text-decoration: none; }
+a:visited { color: #639; text-decoration: none; }
+a:hover { text-decoration: underline; }
+li { padding: 3px; }
+table { border-collapse: collapse; }
+td, th { border-bottom: 1px solid #bbb; padding: 8px; }
+th { text-align: left; }
+
+
+#tedhub{
+    margin-top:100px;
+}
