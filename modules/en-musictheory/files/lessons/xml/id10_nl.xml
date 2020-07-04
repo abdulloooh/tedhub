@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- UNICODE UTF-8 -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright �© 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Vertaling: Barbara Touburg</translation> -->
+	<translation>Vertaling: Barbara Touburg</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">c</var>
+	<var name="dText">d</var>
+	<var name="eText">e</var>
+	<var name="fText">f</var>
+	<var name="gText">g</var>
+	<var name="aText">a</var>
+	<var name="bText">b</var>
+	<var name="trebleText">vioolsleutel</var>
+	<var name="bassText">bassleutel</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>De notenbalk, sleutels en hulplijnen</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>De <b>notenbalk</b> is de basis waar de noten op worden geschreven.</text>
+		<gotoAndPlay label="numbers" />
+		<text>De moderne notenbalk bestaat uit vijf lijnen en vier tussenruimtes.</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Elke lijn en elke tussenruimte stelt een witte toets van de piano voor.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text>Met een <b>sleutel</b> krijgen de noten hun eigen plaats op de notenbalk.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Twee sleutels worden het meest gebruikt: de vioolsleutel en de bassleutel.</text>
+		<gotoAndPlay label="treble" />
+		<text>Eerst behandelen we de vioolsleutel (ook wel de g-sleutel genoemd)</text>
+		<gotoAndStop label="treble2" />
+		<text>De notenbalklijn waar de sleutel omheen krult (hierboven in rood getoond) is de plek van de noot g. Elke noot op deze lijn  is een g.</text>
+		<gotoAndStop label="treble3" />
+		<text>De noot in de tussenruimte boven de g is een a (De noot "h" bestaat niet).</text>
+		<gotoAndStop label="treble4" />
+		<text>De noot op de lijn boven de a is de b.</text>
+		<gotoAndPlay label="treble5" />
+		<text>En zo gaat het door.</text>
+		<gotoAndStop label="treble6" />
+		<text>O, o! We hebben geen lijnen en tussenruimtes meer! Wat nu?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text>Met <b>hulplijnen</b> kunnen we dit dilemma oplossen.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>Een hulplijn is een kort lijntje waarmee we de notenbalk eventjes uitbreiden als we ruimte tekort komen.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>Als we een hulplijn gebruiken, kunnen we de noot a opschrijven.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>Nu komt de bassleutel aan de beurt. Deze heet ook wel de f-sleutel.</text>
+		<gotoAndStop label="bass2" />
+		<text>De  plaats op de notenbalk tussen de twee stippen van de sleutel is de f.</text>
+		<gotoAndPlay label="bass3" />
+		<text>Nu kunnen we de rest van de notenbalk vullen met noten.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>Hierna bespreken we de <b>pianobalk</b>, een theoretische balk die bestaat uit elf lijnen.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Kijk goed wat er gebeurt als we de middelste lijn weghalen - dan krijgen we twee gewone notenbalken.</text>
+		<gotoAndPlay label="grand3" />
+		<text>Als we een vioolsleutel op de bovenste balk zetten en een bassleutel op de onderste, wordt de relatie tussen de twee balken zichtbaar.</text>
+		<gotoAndStop label="grand4" />
+		<text>Kijk maar hoe de twee sleutels op elkaar aansluiten op de toonhoogte van c (roodgekleurd).</text>
+		<text>Deze c wordt doorgaans de middelste c genoemd omdat hij overeenkomt met de middelste lijn van de pianobalk.</text>
+	</section>
+
+</lesson>

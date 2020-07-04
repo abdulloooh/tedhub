@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+	<!-- <translation>http://www.musictheory.net/</translation>-->
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Komponowanie w tonacjach minorowych</title>
+	<!-- <title>Composing with Minor Scales</title>-->
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Durowa skala jest tylko jedna, natomiast minor występuje w trzech odmianach.</text>
+		<!-- <text>Unlike the major scale, three different minor scales exist.</text>-->
+		<text>Kompozytorzy często łączą dwie skale - naturalną minorową z harmoniczna minorową - aby uzyskać piękniejsze brzmienie.</text>
+		<!-- <text>Composers will often merge two of these scales - natural minor and harmonic minor - for a more pleasing sound.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="triads" />
+		<text>Przypomnijmy trójdźwięki diatoniczne w obu tych skalach.</text>
+		<!-- <text>Recall the diatonic triads of both scales.</text>-->
+		<gotoAndStop label="triads2" />
+		<text>Widzimy tu wiele takich samych trójdźwięków.</text>
+		<!-- <text>Notice that many of the triads are the same.</text>-->
+		<gotoAndStop label="triads3" />
+		<text>Trzy pary trójdźwięków (<b>III</b>, <b>III+</b>), (<b>v</b>, <b>V</b>), (<b>VII</b>, <b>viiº</b>) różnią się ze względu na podwyższenie siódmego stopnia w minorze harmonicznym.</text>
+		<!-- <text>Three pairs of triads (<b>III</b>, <b>III+</b>), (<b>v</b>, <b>V</b>), (<b>VII</b>, <b>viiº</b>) are different due to harmonic minor's raised seventh degree.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="III" />
+		<text>III zawsze zastępuje III+ dlatego, że III+, jako akord zwiększony, ma osobliwe brzmienie.</text>
+		<!-- <text>III is always used instead of III+.  This is because III+, being an augmented chord, has a peculiar sound.</text>-->
+		<gotoAndPlay label="V" />
+		<text><b>V</b> jest częściej używany niż <b>v</b>, ponieważ posiada dźwięk prowadzący (i z tego powodu jest mocniejszy). Nie oznacza to jednak, że <b>v</b> nie może być używany.</text>
+		<!-- <text>Because it contains a leading tone (and therefore is stronger), <b>V</b> is preferred to <b>v</b>.  This does not mean that <b>v</b> cannot be used.</text>-->
+		<gotoAndStop label="VII" />
+		<text><b>VII</b> i <b>viiº</b> są używane równorzędnie. W jednej z kolejnych lekcji poznasz ich różne funkcje.</text>
+		<!-- <text><b>VII</b> and <b>viiº</b> are both used equally.  As you will later learn, each has a different function.</text>-->
+	</section>
+	
+	</section>
+		<gotoAndPlay label="merged" />
+		<text>Widzimy tu, że powstała z połączenia (trzecia) skala minorowa zawiera dziewięć różnych trójdźwięków diatonicznych.</text>
+		<!-- <text>As you can see, the merged minor scale contains nine different diatonic triads.</text>-->
+	</section>	
+	
+</lesson>

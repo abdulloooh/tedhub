@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">Förm.</var>
+	<var name="minorText">Moll</var>
+	<var name="majorText">Dur</var>
+	<var name="augmentedText">Överst.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Stegteori</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>När man analyserar det ackordiska innehållet i musik, består en mycket använd metod i att man identifierar varje skalegen treklang med en <b>romersk siffra</b>.</text>
+		<gotoAndStop label="numeral_chart" />
+		<text>Fyra olika typer av romerska siffror används inom stegteori - en för varje typ av treklang.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Vi lägger till stegteoribeteckningar till ackorden i C-durskalan.</text>
+		<gotoAndPlay label="major_i" />
+		<text>Eftersom den första treklangen är en durtreklang skrivs den romerska siffran med stor bokstav.</text>
+		<gotoAndPlay label="major_ii_iii" />
+		<text>Den andra och den tredje treklangen är molltreklanger; de romerska siffrorna för dessa treklanger skrivs därför med liten bokstav.</text>
+		<gotoAndPlay label="major_iv_v" />
+		<text>Den fjärde och den femte treklangen är dur; beteckningarna skrivs med stor bokstav.</text>
+		<gotoAndPlay label="major_vi" />
+		<text>Sjätte treklangen är moll, och dess romerska siffra skrivs med liten bokstav.</text>
+		<gotoAndPlay label="major_vii" />
+		<text>Eftersom den sjunde treklangen är förminskad, skrivs stegteoribeteckningen för denna med liten bokstav i kombination med en liten ring.</text>
+		<gotoAndPlay label="major_viii" />
+		<text>Slutligen är den sista treklangen en upprepning av den första.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Vi gör samma sak med ackorden i den naturliga (rena) mollskalan.</text>
+		<gotoAndPlay label="minor_i" />
+		<text>Eftersom den första treklangen är moll skrivs dess romerska siffra med liten bokstav.</text>
+		<gotoAndPlay label="minor_ii" />
+		<text>Treklangen som bildas på det andra skalsteg är förminskad, och vi använder liten bokstav i kombination med en liten ring.</text>
+		<gotoAndPlay label="minor_iii" />
+		<text>Eftersom tredje treklangen är dur, skrivs dess beteckning med stor bokstav.</text>
+		<gotoAndPlay label="minor_iv_v" />
+		<text>Fjärde och femte treklangerna är molltreklanger; deras romerska siffror skrivs med liten bokstav.</text>
+`		<gotoAndPlay label="minor_vi_vii" />
+		<text>Sjätte och sjunde treklangerna är dur; deras siffror skrivs med stor bokstav.</text>
+		<gotoAndPlay label="minor_viii" />
+		<text>Återigen, den sista treklangen är en upprepning av den första.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Till sist ska vi lägga till stegteoribeteckningar för de skalegna treklangerna som bildas ur den harmoniska c-mollskalan.</text>
+		<gotoAndPlay label="harmonic_iii" />
+		<text>Eftersom den tredje treklangen här är överstigande, skrivs dess romerska siffra med stor bokstav och ett tillagt plustecken.</text>
+		<gotoAndPlay label="harmonic_v" />
+		<text>Den femte treklangen är dur - skrivs med stor bokstav.</text>
+		<gotoAndPlay label="harmonic_vii" />
+		<text>Den sjunde treklangen är nu förminskad - och vi använder liten bokstav och den lilla ringen för dess beteckning.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="inversions" />
+		<text>Stegteoribeteckningar kan även användas för att beteckna omvändningar av treklanger.</text>
+		<gotoAndStop label="inversions2" />
+		<text>Första omvändningen (tersläge) skrivs genom att man lägger till en liten siffra 6 efter den romerska siffran. Sexan talar om att ackordets grundton befinner sig en sext ovanför bastonen.</text>
+		<gotoAndStop label="inversions3" />
+		<text>Andra omvändningen (kvintläge) skrivs med tillägg av både siffran 6 och siffran 4. Siffrorna betecknar att tersen och grundtonen i treklangen befinner sig en sext respektive en kvart ovanför bastonen.</text>
+	</section>
+
+</lesson>

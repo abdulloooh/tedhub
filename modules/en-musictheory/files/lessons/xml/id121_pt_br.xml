@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="predominantsText">Subdominantes</var>
+	<var name="dominantsText">Dominantes</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Usando Acordes Napolitanos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Na lição anterior, aprendemos a formar acordes napolitanos.  Nesta lição, vamos aprender como usá-los.</text>
+		<gotoAndPlay label="first_inversion" />
+		<text>Embora haja posição fundamental e segunda inversão napolitanas, geralmente se usa a primeira inversão.</text>
+		<gotoAndStop label="first_inversion2" />
+		<text>Quando nessa inversão, o napolitano é geralmente chamado de um <b>acorde de sexta napolitana</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="bass_notes" />
+		<text>Observe que o baixo do acorde de sexta napolitana é o mesma que o da primeira inversão de <b>iiº</b> (ou <b>ii</b>) ou da posição fundamental de <b>iv</b> (ou <b>IV</b>).</text>
+		<gotoAndPlay label="chart" />
+		<text>Por essa razão, ele geralmente pode ser um substituto para esses acordes.  Logo, ele basicamente funciona como um subdominante.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Para demonstrar isso, considere o exemplo acima.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Vamos trocar o acorde <b>ii</b> invertido por um de sexta napolitana.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Ouça o novo exemplo.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Agora, veja e ouça este exemplo.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Desta vez, vamos trocar o acorde <b>IV</b> com um de sexta napolitana.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Ouça o exemplo novamente.</text>
+	</section>
+
+</lesson>

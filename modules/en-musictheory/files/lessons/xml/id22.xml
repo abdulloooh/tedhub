@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">h</var>
+	<var name="wText">W</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>The Minor Scales</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>While there is only one major scale, three different variations of the minor scale exist.</text>
+		<gotoAndStop label="formula" />
+		<text>The first minor scale that will we discuss is <b>natural minor</b>.  It is constructed with the above formula.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="a_minor" />
+		<text>Let's build an A Natural Minor Scale.  Our starting note will be A.</text>
+		<gotoAndStop label="a_minor2" />
+		<text>From A, we will take a whole step to B.</text>
+		<gotoAndStop label="a_minor3" />
+		<text>Next, we will take a half step to C.</text>
+		<gotoAndStop label="a_minor4" />
+		<text>From C, a whole step will take us to D.</text>
+		<gotoAndStop label="a_minor5" />
+		<text>Another whole step takes us to E.</text>
+		<gotoAndStop label="a_minor6" />
+		<text>From E, we will go up a half step to F.</text>
+		<gotoAndStop label="a_minor7" />
+		<text>From F, a whole step will take us to G.</text>
+		<gotoAndStop label="a_minor8" />
+		<text>Finally, the last whole step returns us to A.</text>
+		<gotoAndStop label="a_minor9" />
+		<text>Notice that the A Natural Minor Scale has no notes with accidentals.</text>
+		<gotoAndPlay label="a_minor10" />
+		<text>Listen to the complete scale.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_minor" />
+		<text>Next, we will construct the C Natural Minor Scale.  Our starting note will be C.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>From D, a half step takes us to Eb.</text>
+		<gotoAndStop label="c_minor3" />
+		<text>The following whole step takes us to F.</text>
+		<gotoAndPlay label="c_minor4" />
+		<text>The half step from G takes us to Ab.</text>
+		<gotoAndStop label="c_minor5" />
+		<text>From Ab, we take a whole step to Bb.</text>
+		<gotoAndStop label="c_minor6" />
+		<text>The final whole step returns us to C.</text>
+		<gotoAndStop label="c_minor7" />
+		<text>Notice that the C Natural Minor Scale has three flats.</text>
+		<gotoAndPlay label="c_minor8" />
+		<text>Listen to the complete scale.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic" />
+		<text>Next, we will discuss <b>harmonic minor</b>.</text>
+		<gotoAndPlay label="harmonic2" />
+		<text>To convert any natural minor scale into harmonic minor, raise the seventh note by a half step.</text>
+		<gotoAndStop label="harmonic3" />
+		<text>Let's convert C Natural Minor into C Harmonic Minor.</text>
+		<gotoAndPlay label="harmonic4" />
+		<text>Simply raise the seventh note (Bb) by a half step, resulting in B.</text>
+		<gotoAndPlay label="harmonic5" />
+		<text>Listen to the complete C Harmonic Minor scale.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="melodic" />
+		<text>Finally, we will discuss <b>melodic minor</b>.</text>
+		<gotoAndStop label="melodic2" />
+		<text>To convert a natural minor scale into melodic minor, raise both the sixth and seventh notes by a half step.</text>
+		<gotoAndPlay label="melodic3" />
+		<text>For example, to convert C Natural Minor into C Melodic Minor, simply raise the Ab and Bb a half step to A and B.</text>
+		<gotoAndPlay label="melodic4" />
+		<text>Listen to the complete C Melodic Minor scale.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="combined" />
+		<text>Most of the time, melodic minor is used only when ascending.  When descending, composers prefer to use the natural minor scale.</text>
+		<gotoAndPlay label="combined2" />
+		<text>Listen to an ascending C Melodic Minor followed by a descending C Natural Minor scale.</text>
+	</section>
+
+</lesson>

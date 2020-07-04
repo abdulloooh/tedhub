@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<!--  <translation>http://www.musictheory.net/</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Rozkład głosów w akordach</title>
+	<!-- <title>Voicing Chords</title> -->
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Akord można rozpisać na wiele sposobów aby urozmaicić jego brzmienie, zależnie od intencji kompozytora. Nazywa się to <b>rozkładem głosów</b>.</text>
+		<!-- <text>Composers will often arrange the notes of a chord in numerous ways in order to vary its sound.  This process is called <b>voicing</b>.</text> -->
+		<gotoAndPlay label="root_position" />
+		<text>Prześledźmy taki rozkład głosów na przykładzie akordu F-dur.</text>
+		<!-- <text>To demonstrate this, we will voice an F major triad.</text> -->
+		<gotoAndPlay label="root_position2" />
+		<text>Pamiętajmy jednak, że możemy przestawiać nuty dowolnie pod warunkiem, że są to nuty F, A i C oraz nuta F znajduje się najniżej.</text>
+		<!-- <text>Notice that we can arrange the notes in any order as long as F, A, and C are used and F is the lowest note.</text> -->
+		<gotoAndPlay label="root_position3" />
+		<text>Posłuchajmy powyższych przykładów.</text>
+		<!-- <text>Listen to the above examples.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Teraz rozłożymy głosy w pierwszym przewrocie akordu F-dur.</text>
+		<!-- <text>Next, we will voice an F major triad in first inversion.</text> -->
+		<gotoAndPlay label="first_inversion2" />
+		<text>Zgodnie z definicją, akord jest w pierwszym przewrocie kiedy tercja jest jego najniższą nutą. Zatem musimy się upewnić, że nuta A w każdym przykładzie będzie znajdowała się na dole.</text>
+		<!-- <text>By definition, a chord is in first inversion when the third is the lowest note.  Thus, we need to make sure that each of our voicings uses A for the bottom note.</text> -->
+		<gotoAndPlay label="first_inversion3" />
+		<text>Posłuchajmy powyższych przykładów.</text>
+		<!-- <text>Listen to the above examples.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="second_inversion" />
+		<text>Na zakończenie rozłożymy głosy w akordzie F-dur w drugim przewrocie.</text>
+		<!-- <text>Finally, we will voice an F major triad in second inversion.</text> -->
+		<gotoAndPlay label="second_inversion2" />
+		<text>Proces jest taki sam, ale należy się upewnić, że kwinta (C) jest najniższą nutą.</text>
+		<!-- <text>The process is the same; however, we must be certain that the fifth (C) is used as the lowest note.</text> -->
+		<gotoAndPlay label="second_inversion3" />
+		<text>Posłuchajmy naszych ostatnich przykładów.</text>
+		<!-- <text>Listen to the final examples.</text> -->
+	</section>
+	
+</lesson>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dominantsText">доминанте</var>
+	<var name="predominantsText">субдоминанте</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Коришћење наполитанских акорада</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>У претходној лекцији смо научили како се граде наполитански акорди.  У овој лекцији ћемо научити како се они користе.</text>
+		<gotoAndPlay label="first_inversion" />
+		<text>Иако постоје основни положај и други обртај наполитанског акорда, најчешће се користи први обртај.</text>
+		<gotoAndStop label="first_inversion2" />
+		<text>Тај први обртај наполитанског акорда се зове <b>наполитански секстакорд</b>.  Име је добио по композиторима <b>наполитанске школе</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="bass_notes" />
+		<text>Приметите да је басов тон наполитанског секстакорда исти као и код првог обртаја акорда <b>iiº</b> ступња (или <b>ii</b> ступња), тј. исти као код основног положаја акорда <b>iv</b> ступња (или <b>IV</b> ступња).</text>
+		<gotoAndPlay label="chart" />
+		<text>Из овог разлога се често користи као замена ових акорада.  Значи,  овде има превасходно субдоминантну функцију.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Да бисмо ово показали, размотрићемо овај пример.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Хајде да заменимо први обртај акорда <b>ii</b> ступња са наполитанским секстакордом.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Послушајте преправљени пример.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Сада погледајте и послушајте овај пример.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Овог пута ћемо заменити акорд <b>iv</b> ступња са наполитанским секстакордом.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Послушајте поново промењени пример.</text>
+	</section>
+		
+</lesson>

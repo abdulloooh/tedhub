@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="phraseText">Phrase</var>
+	<var name="halfCadenceText">ImC</var>
+	<var name="authenticCadenceText">PeC</var>
+	<var name="plagalCadenceText">PlC</var>
+	<var name="deceptiveCadenceText">InC</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Phrases and Cadences</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>phrase</b> is a series of notes that sound complete even when played apart from the main song.</text>
+		<gotoAndPlay label="example" />
+		<text>We will use the above musical example to demonstrate phrases.</text>
+		<gotoAndPlay label="phrase_one" />
+		<text>Listen to the first two bars, notice how they sound incomplete.</text>
+		<gotoAndPlay label="phrase_one2" />
+		<text>Now listen to the first four bars, it now sounds more complete.</text>
+		<gotoAndPlay label="phrase_one3" />
+		<text>These bars could be considered a phrase.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="phrase_two" />
+		<text>Listen to the fifth through eighth bars.</text>
+		<gotoAndPlay label="phrase_two2" />
+		<text>Due to their completeness, they also form a phrase.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadence" />
+		<text>A <b>cadence</b> is a two-chord progression that occurs at the end of a phrase.</text>
+		<gotoAndPlay label="half_cadence" />
+		<text>If a phrase ends with any chord going to <b>V</b>, an <b>imperfect cadence (ImC)</b> occurs.</text>
+		<gotoAndPlay label="half_cadence2" />
+		<text>Listen again to the first four bars and notice the sound of the imperfect cadence.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="authentic_cadence" />
+		<text>Most people will hear an imperfect cadence as sounding incomplete.  Because of this, composers usually will follow imperfect cadences with a phrase ending in a <b>perfect cadence (PeC)</b>.</text>
+		<gotoAndPlay label="authentic_cadence2" />
+		<text>A perfect cadence occurs whenever a phrase ends with <b>V</b> going to <b>I</b> (or <b>i</b> if minor) in root position.</text>
+		<gotoAndPlay label="authentic_cadence3" />
+		<text>Listen to the above example, noting the sound of both cadences.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="plagal" />
+		<text>In addition to perfect and imperfect cadences, two other kinds exist.</text>
+		<gotoAndPlay label="plagal2" />
+		<text>If a phrase ends with <b>IV</b> (or <b>iv</b>) going to <b>I</b> (or <b>i</b>), a <b>plagal cadence (PlC)</b> occurs.</text>
+		<gotoAndPlay label="plagal3" />
+		<text>Listen to the above example, note the sound of the plagal cadence.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="deceptive" />
+		<text>If a phrase ends with <b>V</b> going to <b>vi</b> (or <b>VI</b> in minor), an <b>interupted cadence (InC)</b> occurs.</text>
+		<text>Interupted cadences are often used in place of a perfect cadence.</text>
+		<gotoAndPlay label="deceptive2" />
+		<text>Recall the musical example used at the beginning of this lesson.  Notice that we have replaced the perfect cadence at the end of the second phrase with an interupted cadence.</text>
+		<gotoAndPlay label="deceptive3" />
+		<text>Listen to the modified example.  Notice how the cadence feels "interupted" (since you are expecting to hear a <b>I</b>).</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="majorSeventhText">7M</var>
+	<var name="minorSeventhText">7m</var>
+	<var name="dominantSeventhText">7D</var>
+	<var name="fullyDiminishedSeventhText">7d</var>
+	<var name="halfDiminishedSeventhText">7md</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Acordes de Sétima Diatônicos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Além das tríades diatônicas, cada escala maior e menor tem sete <b>acordes de sétima diatônicos</b>.</text>
+		<text>No exemplo a seguir, veremos os acordes de sétima diatônicos da Escala de Dó Maior.</text>
+		<gotoAndPlay label="major" />
+		<text>Primeiro, comece com as tríades diatônicas.</text>
+		<gotoAndPlay label="major2" />
+		<text>Depois, adicione uma terça genérica acima de cada tríade.</text>
+		<gotoAndStop label="major3" />
+		<text>Por fim, analise os acordes de sétima resultantes.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>O primeiro acorde é uma tríade maior e uma sétima maior.  Logo, é um acorde de sétima maior.</text>
+		<gotoAndStop label="major_ii" />
+		<text>O segundo acorde é uma tríade menor e uma sétima menor.  Logo, é um acorde de sétima menor.</text>
+		<gotoAndStop label="major_iii" />
+		<text>O terceiro acorde é uma tríade menor com uma sétima menor.  Logo, ele também é um acorde de sétima menor.</text>
+		<gotoAndStop label="major_iv" />
+		<text>O quarto acorde é uma tríade maior e uma sétima maior.  Logo, é um acorde de sétima maior.</text>
+		<gotoAndStop label="major_v" />
+		<text>O quinto acorde é uma tríade maior e uma sétima menor.  Essa combinação cria um acorde de sétima da dominante.</text>
+		<gotoAndStop label="major_vi" />
+		<text>O sexto acorde é uma tríade menor e uma sétima menor.  Logo, é um acorde de sétima menor.</text>
+		<gotoAndStop label="major_vii" />
+		<text>O sétimo acorde é uma tríade diminuta e uma sétima menor.  Logo, é um acorde meio-diminuto.</text>
+		<gotoAndStop label="major_viii" />
+		<text>Por fim, o último acorde é o mesmo que o primeiro.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Agora, vamos analisar os acordes de sétima diatônicos da Escala de Dó Menor Natural.</text>
+		<gotoAndStop label="minor_i" />
+		<text>O primeiro acorde é uma tríade menor e uma sétima menor. Logo, é um acorde de sétima menor.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>O segundo acorde é uma tríade diminuta e uma sétima menor. Logo, é um acorde meio-diminuto.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>O terceiro acorde é uma tríade maior e uma sétima maior. Logo, é uma acorde de sétima maior.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>O quarto acorde é uma tríade menor e uma sétima menor. Logo, é um acorde de sétima menor.</text>
+		<gotoAndStop label="minor_v" />
+		<text>O quinto acorde é uma tríade menor e uma sétima menor. Logo, também é um acorde de sétima menor.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>O sexto acorde é uma tríade maior e uma sétima maior. Logo, é uma acorde de sétima maior.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>O sétimo acorde é uma tríade maior e uma sétima menor. Logo, é um acorde de sétima da dominante.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>Novamente, o último acorde é o mesmo que o primeiro.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Por fim, vamos analisar os acordes de sétima diatônicos da Escala de Dó Menor Harmônica.</text>
+		<gotoAndStop label="harmonic_i" />
+		<text>Como o primeiro acorde contém uma tríade menor e uma sétima maior, ele não se encaixa em nenhuma das categorias de acordes de sétima que aprendemos.</text>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Como o terceiro acorde contém uma tríade aumentada, também não se encaixa.  Esses dois acordes raramente são usados.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>O quinto acorde agora contém uma tríade maior e uma sétima menor. Logo, é um acorde de sétima da dominante.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Por fim, o sétimo acorde contém uma tríade diminuta e uma sétima diminuta. Logo, é um acorde de sétima diminuta.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="analysis" />
+		<text>Vamos agora discutir os símbolos de análise para os acordes de sétima diatônicos.</text>
+		<gotoAndPlay label="analysis2" />
+		<text>Recorde-se dos símbolos das tríades maiores e menores diatônicas.</text>
+		<gotoAndPlay label="analysis3" />
+		<text>Simplesmente acrescentamos um pequeno sete acima à direita de cada numeral romano.</text>
+		<gotoAndPlay label="analysis4" />
+		<text>Se o acorde de sétima for meio-diminuto, um traço é colocado no meio do círculo.</text>
+	</section>
+
+</lesson>

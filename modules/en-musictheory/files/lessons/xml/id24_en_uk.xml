@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tonic</var>
+	<var name="supertonicText">Supertonic</var>
+	<var name="mediantText">Mediant</var>
+	<var name="subdominantText">Subdominant</var>
+	<var name="dominantText">Dominant</var>
+	<var name="submediantText">Submediant</var>
+	<var name="leadingToneText">Leading Tone</var>
+	<var name="subtonicText">Subtonic</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Key Signatures</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>key signature</b> is a collection of every accidental found in a scale.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>To demonstrate this, we will use the key of C Minor, which has three flats.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Instead of writing a flat next to every E, A, and B; a key signature can simply be added to the beginning of the bar.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>For our next example, we will use A Major, which has three sharps.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>Again, a key signature can be used instead of writing a sharp next to every C, F, and G.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>As you may have noticed, the sharps are arranged in a special order.</text>
+		<gotoAndStop label="sharps2" />
+		<text>F# comes first, followed by C# then G#.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Next comes D#, A#, E#, and finally B#.</text>
+		<gotoAndStop label="sharps4" />
+		<text>You can remember this order by using the following saying: "<b>F</b>ather <b>C</b>harles <b>G</b>oes <b>D</b>own <b>A</b>nd <b>E</b>nds <b>B</b>attle"</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Starting with Bb, the order of the flats is the exact opposite.</text>
+		<gotoAndPlay label="flats2" />
+		<text>Next comes Eb, Ab, Db, Gb, Cb, and finally Fb.</text>
+		<gotoAndStop label="flats3" />
+		<text>This order can be remembered with another saying: "<b>B</b>attle <b>E</b>nds <b>A</b>nd <b>D</b>own <b>G</b>oes <b>C</b>harles' <b>F</b>ather"</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Compases Simples y Compuestos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Cada compás puede ser clasificado por su cantidad de <b>tiempos</b>.</text>
+		<text>Los términos <b>binario</b>, <b>ternario</b> y <b>cuaternario</b> hacen referencia al número de tiempos existentes dentro de un compás.</text>
+		<text>El término <b>simple</b> significa que cada uno de estos tiempos puede ser subdividido en mitades.</text>
+	</section>
+	
+	<section>	
+		<gotoAndStop label="simple_duple" />
+		<text>Por ejemplo, el compás de 2/4 es clasificado como <b>binario simple</b>.</text>
+		<gotoAndStop label="simple_duple2" />
+		<text>El término "binario" indica que existen dos tiempos en cada compás.</text>
+		<gotoAndStop label="simple_duple3" />
+		<text>"Simple" significa que cada uno de esos tiempos puede ser dividido en dos notas o mitades.</text>
+		<gotoAndStop label="simple_duple4" />
+		<text>Los compases de 2/2 y 2/8 también son compases binarios simples.</text>
+	</section>	 
+		
+	<section>
+		<gotoAndStop label="simple_triple" />
+		<text>El compás de 3/4 es clasificado como <b>ternario simple</b>.</text>
+		<gotoAndStop label="simple_triple2" />
+		<text>"Ternario" indica que hay tres tiempos por compás.</text>
+		<gotoAndStop label="simple_triple3" />
+		<text>Nuevamente, "simple" significa que cada tiempo es divisible en mitades.</text>
+		<gotoAndStop label="simple_triple4" />
+		<text>Los compases de 3/2 y 3/8 también son compases ternarios simples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="simple_quadruple" />
+		<text>El compás de 4/4 es clasificado como cuaternario simple pues sus cuatro tiempos son subdivisibles en mitades.</text>
+		<gotoAndStop label="simple_quadruple2" />
+		<text>Los compases de 4/2 y 4/8 también son compases cuaternarios simples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="top_number" />
+		<text>Observa que un indicador de compás simple siempre tendrá un 2, 3 ó 4 como numerador.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound" />
+		<text>Mientras que los tiempos en compases simples se dividen en dos, los de un compás compuesto se dividen en tres.</text>
+		<gotoAndStop label="compound2" />
+		<text>Para demostrarlo, examinemos al compás de 6/8.</text>
+		<gotoAndStop label="compound3" />
+		<text>Observa que las seis corcheas pueden ser subdividias en dos tiempos (<b>binario compuesto</b>) o en tres tiempos (<b>ternario simple</b>).</text>
+		<gotoAndStop label="compound4" />
+		<text>Debido a que el patrón ternario simple le pertenece al compás de 3/4, el compás de 6/8 es clasificado como binario compuesto.</text>
+		<gotoAndStop label="compound5" />
+		<text>Observa que cada tiempo en el compás de 6/8 es una nota negra con puntillo.  De hecho, todos los compases compuestos tienen alguna nota con puntillo como su unidad de tiempo.</text>
+		<gotoAndStop label="compound6" />
+		<text>Cualquier indicador de compás con un 6 como numerador es un binario compuesto.  De los indicadores de compás mostrados aquí, el compás de 6/8 y el de 6/4 son los más utilizados.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound_triple" />
+		<text>El compás de 9/8 es clasificado cono un <b>ternario compuesto</b>.</text>
+		<gotoAndStop label="compound_triple2" />
+		<text>Este compás tiene tres tiempos (tres notas negras con puntillo), lo cual lo convierte en ternario.</text>
+		<gotoAndStop label="compound_triple3" />
+		<text>Dado que cada tiempo está formado por tres notas, deducimos que es compuesto.</text>
+		<gotoAndStop label="compound_triple4" />
+		<text>Cualquier indicador de compás con un 9 como denominador es un ternario compuesto.  Aunque el de 9/8 es el más común; los compases de 9/2, 9/4, y 9/16 también pueden ser utilizados.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound_quadruple" />
+		<text>Para terminar, veremos que el compás de 12/8 es clasificado como <b>cuaternario compuesto</b>.</text>
+		<gotoAndStop label="compound_quadruple2" />
+		<text>Este compás tiene cuatro tiempos, lo cual lo convierte en cuaternario.</text>
+		<gotoAndStop label="compound_quadruple3" />
+		<text>Dado que cada tiempo está formado por tres notas, determinamos que el compás es compuesto.</text>
+		<gotoAndStop label="compound_quadruple4" />
+		<text>Cualquier indicador de compás con un 12 como denominador es un cuaternario compuesto.  De los compases mostrados, el de 12/8 y el de 12/16 son los más comunes.</text>
+	</section>
+</lesson>

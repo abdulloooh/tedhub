@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="majorText">Maior</var>
+	<var name="minorText">Menor</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Progressões em Círculo</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>O <b>movimento da fundamental</b> é o movimento da nota fundamental de um acorde à fundamental de outro acorde.</text>
+		<gotoAndPlay label="example_one" />
+		<text>Para demonstrar o movimento da fundamental, usaremos um acorde <b>I</b> e um <b>vi</b> em Dó Maior.</text>
+		<gotoAndStop label="example_one2" />
+		<text>A fundamental do acorde <b>I</b> (uma tríade maior de Dó) é o Dó.</text>
+		<gotoAndStop label="example_one3" />
+		<text>A fundamental do acorde <b>vi</b> (uma tríade menor de Lá) é o Lá.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Logo, o movimento da fundamental entre  <b>I</b> e <b>vi</b> (Dó para Lá) é <i>uma terça descendente</i>.</text>
+		<gotoAndPlay label="example_one5" />
+		<text>Devido à inversão de intervalos, o movimento da fundamental pode também ser classificado como uma <i>uma sexta ascendente.</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Vamos tentar outro exemplo: um acorde <b>IV</b> em primeira inversão indo para <b>V</b>.</text>
+		<gotoAndStop label="example_two2" />
+		<text>A fundamental do primeiro acorde (uma tríade maior de Fá) é o Fá.  Como o acorde está invertido, a fundamental não é a nota mais grave.</text>
+		<gotoAndStop label="example_two3" />
+		<text>A fundamental do segundo acorde (uma tríade maior de Sol) é o Sol.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Logo, o movimento da fundamental desses dois acordes á <i>uma segunda ascendente</i> ou <i>uma sétima descendente</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="circle" />
+		<text>Uma <b>progressão em círculo</b> ocorre toda vez que o movimento da fundamental é igual a <i>uma quarta ascendente</i> ou <i>uma quinta descendente</i>.</text>
+		<gotoAndPlay label="circle2" />
+		<text>Tanto o <b>I -> IV</b> quanto o <b>ii -> V</b> são progressões em círculo.</text>
+		<gotoAndPlay label="circle3" />
+		<text><b>iii -> vi</b> e <b>IV -> viiº na primeira inversão</b> também são progressões em círculo.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Vamos elaborar todas as progressões em círculo possíveis numa escala maior.</text>
+		<gotoAndPlay label="major2" />
+		<text><b>I</b> move-se para <b>IV</b>, que se move para <b>viiº</b>.</text>
+		<gotoAndPlay label="major3" />
+		<text><b>viiº</b> move-se para <b>iii</b> e depois para <b>vi</b>.</text>
+		<gotoAndPlay label="major4" />
+		<text><b>vi</b> move-se para <b>ii</b>, <b>V</b>, e por fim para <b>I</b>.</text>
+		<gotoAndPlay label="major5" />
+		<text>Ouça o exemplo acima.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Agora, vamos elaborar todas as possíveis progressões em círculo numa escala menor.</text>
+		<gotoAndPlay label="minor2" />
+		<text><b>i</b> move-se para <b>iv</b> e depois para <b>VII</b> (e não <b>viiº</b>).</text>
+		<gotoAndPlay label="minor3" />
+		<text><b>VII</b> move-se para <b>III</b> e depois para <b>VI</b>.</text>
+		<gotoAndPlay label="minor4" />
+		<text><b>VI</b> move-se para <b>iiº</b>, <b>V</b> (e não <b>v</b>), e finalmente para <b>i</b>.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Ouça o exemplo acima.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="chart" />
+		<text>O quadro acima mostra as progressões em círculo para as escalas maiores e menores.</text>
+	</section>
+
+</lesson>

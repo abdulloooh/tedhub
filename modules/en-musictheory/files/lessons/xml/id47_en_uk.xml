@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="bassText">Bass</var>
+	<var name="rootText">Root</var>
+	<var name="thirdText">Third</var>
+	<var name="fifthText">Fifth</var>
+	<var name="seventhText">Seventh</var>
+	<var name="secondAbbrText">2nd</var>
+	<var name="thirdAbbrText">3rd</var>
+	<var name="fourthAbbrText">4th</var>
+	<var name="fifthAbbrText">5th</var>
+	<var name="sixthAbbrText">6th</var>
+	<var name="seventhAbbrText">7th</var>
+	<var name="rootPositionText">Root Position:</var>
+	<var name="firstInversionText">First Inversion:</var>
+	<var name="secondInversionText">Second Inversion:</var>
+	<var name="thirdInversionText">Third Inversion:</var>
+	<var name="numbersText">7, 6, 5, 4, 3, 2</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Seventh Chord Inversion</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Like triads, seventh chords can be inverted by moving the lowest note up an octave.</text>
+		<gotoAndPlay label="first" />
+		<text>First inversion is the same as a triad - the third is the lowest note.</text>
+		<gotoAndPlay label="second" />
+		<text>Second inversion is also the same - the fifth is the lowest note.</text>
+		<gotoAndPlay label="third" />
+		<text>Seventh chords can also form a third inversion in which the seventh is the lowest note.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="roman" />
+		<text>As you have already learned, a root position seventh chord is identified by a roman numeral with a 7.</text>
+		<gotoAndStop label="roman2" />
+		<text>A first inversion seventh chord is identified by a roman numeral with a 6 and a 5.</text>
+		<gotoAndStop label="roman3" />
+		<text>A second inversion seventh chord is identified by a roman numeral with a 4 and a 3.</text>
+		<gotoAndStop label="roman4" />
+		<text>Finally, a roman numeral with a 2 identifies a third inversion seventh chord.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pattern" />
+		<text>Let's arrange the roman numerals in a different way.  Notice anything unusual?</text>
+		<gotoAndStop label="pattern2" />
+		<text>The inversion numbers are in numeric order from 7 to 2.</text>
+		<gotoAndStop label="pattern3" />
+		<text>You can use this pattern to easily remember the roman numerals for seventh chord inversion.</text>
+	</section>
+
+</lesson>

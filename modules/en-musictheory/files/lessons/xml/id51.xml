@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Voicing Chords</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Composers will often arrange the notes of a chord in numerous ways in order to vary its sound.  This process is called <b>voicing</b>.</text>
+		<gotoAndPlay label="root_position" />
+		<text>To demonstrate this, we will voice an F major triad.</text>
+		<gotoAndPlay label="root_position2" />
+		<text>Notice that we can arrange the notes in any order as long as F, A, and C are used and F is the lowest note.</text>
+		<gotoAndPlay label="root_position3" />
+		<text>Listen to the above examples.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Next, we will voice an F major triad in first inversion.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>By definition, a chord is in first inversion when the third is the lowest note.  Thus, we need to make sure that each of our voicings uses A for the bottom note.</text>
+		<gotoAndPlay label="first_inversion3" />
+		<text>Listen to the above examples.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="second_inversion" />
+		<text>Finally, we will voice an F major triad in second inversion.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>The process is the same; however, we must be certain that the fifth (C) is used as the lowest note.</text>
+		<gotoAndPlay label="second_inversion3" />
+		<text>Listen to the final examples.</text>
+	</section>
+	
+</lesson>

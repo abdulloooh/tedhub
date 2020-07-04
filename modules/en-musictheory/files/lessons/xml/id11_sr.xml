@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Заставица</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Трајање нота</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Дужина времена колико се нота свира зове се <b>трајање ноте</b> и оно зависи од врсте ноте.</text>
+		<gotoAndPlay label="whole" />
+		<text><b>Цела нота</b> има најдуже трајање од свих нота у савременој музици.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text><b>Половина ноте</b> траје дупло краће од целе ноте.</text>
+		<gotoAndPlay label="half2" />
+		<text>Две половине заједно трају колико и једна цела нота.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text><b>Четвртина ноте</b> траје једну четвртину целе ноте.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Четири четвртине заједно трају колико и једна цела нота.  А две четвртине трају колико једна половина.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Ноте краће од четвртине имају <b>заставице</b>.  Свака заставица двоструко умањује вредност ноте.</text>
+		<gotoAndPlay label="eighth" />
+		<text><b>Осмина ноте</b> има једну заставицу, и стога траје дупло мање од четвртине.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text><b>Шеснаестина ноте</b> има две заставице, које поново преполовљују трајање ноте.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Иако постоје и ноте са три или више заставица, оне се ретко користе.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Горња слика приказује односе свих пет врста обрађених нота.</text>
+	</section>
+
+</lesson>

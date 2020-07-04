@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Taktar og taktboðar</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">Þrjár</var>
+	<var name="fourText">Fjórar</var>
+	<var name="sixText">Sex</var>
+	<var name="halfText">Hálf (1/2) nótur</var>
+	<var name="quarterText">Fjórðungs (1/4) nótur</var>
+	<var name="eighthText">Áttungs (1/8) nótur</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Taktstrik</b> skipta nótnastreng í <b>takta</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>Nótnastrengnum hér fyrir ofan hefur verið skipt í tvo takta.</text>
+		<gotoAndPlay label="timesig" />
+		<text><b>Taktboðar</b> tilgreina takttegund, þ.e., hvernig hver taktur skiptist í taktliði (slög).</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>Hér eru tveir taktboðar: 4/4 (fjórir fjórðu) og 3/4 (þrír fjórðu).</text>
+		<gotoAndPlay label="4/4" />
+		<text>Fyrri takturinn (4/4) inniheldur fjórar fjórðungsnótur - 4 slög, hvert slag er fjórðungsnóta.</text>
+		<gotoAndPlay label="3/4" />
+		<text>Seinni takturinn (3/4) inniheldur þrjár fjórðungsnótur - 3 slög, hvert slag er fjórðungsnóta.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Hér sérðu taktboða sem innihalda önnur nótnagildi en fjórðungsnótur.</text>
+		<gotoAndPlay label="6/8" />
+		<text>Taktboðinn 6/8 táknar sex áttungsnótur í takti.</text>
+		<gotoAndPlay label="3/2" />
+		<text>3/2 þýðir þrjár hálfnótur í takti.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Hér sérðu taktboðana sem ræddir hafa verið.</text>
+	</section>
+	
+</lesson>

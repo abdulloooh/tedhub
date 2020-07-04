@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <title> and </title> -->	 
+	<title>Непарни метар</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Непарни метар</b> је онај метар који садржи и прости и сложени метар у себи.</text>
+		<gotoAndStop label="odd1" />
+		<text>Прво ћемо обрадити такт 5/8.  Он садржи један прости и један сложени откуцај.</text>
+		<gotoAndStop label="odd2" />
+		<text>Редослед није важан.  Ако сложени откуцај дође први, то ће опет бити такт 5/8.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd3" />
+		<text>Сада прелазимо на непарни метар са три откуцаја.</text>
+		<gotoAndStop label="odd4" />
+		<text>Такт 7/8 садржи два проста и један сложени откуцај.</text>
+		<gotoAndStop label="odd5" />
+		<text>Редослед откуцаја поново није важан.</text>
+		<gotoAndStop label="odd6" />
+		<text>Сложени откуцај може чак да се нађе између два проста откуцаја.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="odd7" />
+		<text>Такт 8/8 садржи два сложена и један прост откуцај.</text>
+		<gotoAndStop label="odd8" />
+		<text>Такт 8/8 је лако побркати са 4/4, пошто оба метра имају 8 осмина ноте.</text>
+		<gotoAndStop label="odd9" />
+		<text>Приметите да је у такту 4/4 метар подељен на четири откуцаја од две осмине (прост четвороделни), док је у такту 8/8 подељен на три непарна откуцаја.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd10" />
+		<text>Наша последња два непарна метра имају укупно 4 откуцаја.</text>
+		<gotoAndStop label="odd11" />
+		<text>Такт 10/8 има два сложена и два проста откуцаја.</text>
+		<gotoAndStop label="odd12" />
+		<text>Такт 11/8 има три сложена и један прост откуцај.</text>
+	</section>
+	
+</lesson>

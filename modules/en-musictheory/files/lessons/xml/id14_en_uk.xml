@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">Dot</var>
+	<var name="tieText">Tie</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Dots and Ties</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text><b>Augmentation dots</b> and <b>tenuto ties</b> are two types of markings used to alter a note's duration.</text>
+        <gotoAndStop label="dot" />
+        <text>A dot increases duration by one half.</text>
+		<gotoAndPlay label="dot2" />
+        <text>Since a quaver note is half the duration of a crotchet note, we will substitute it for the 1/2 symbol above.</text>
+		<gotoAndStop label="dot3" />
+		<text>As you can see, a dotted crotchet note is equal to a crotchet note plus a quaver note.</text>
+		<gotoAndPlay label="dot4" />
+		<text>A dotted crotchet can also equal three quaver notes.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<text>Ties merge multiple notes of the same pitch.  They are used to let the duration of a note travel across barriers (such as the bar line in the above example).</text>
+		<gotoAndPlay label="tie2" />
+		<text>As you listen, notice how the fourth and fifth note are combined.</text>
+		<gotoAndPlay label="tie3" />
+		<text>If the bar line was not there, we could have simply written a minim note for the tied crotchet notes.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>Use the above chart for reference to augmentation dots.</text>
+	</section>    	
+	
+</lesson>

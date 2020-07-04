@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tonic</var>
+	<var name="supertonicText">Supertonic</var>
+	<var name="mediantText">Mediant</var>
+	<var name="subdominantText">Subdominant</var>
+	<var name="dominantText">Dominant</var>
+	<var name="submediantText">Submediant</var>
+	<var name="leadingToneText">Leading Tone</var>
+	<var name="subtonicText">Subtonic</var>
+	<var name="hText">h</var>
+	<var name="wText">W</var>
+	
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Scale Degrees</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<text>Each note of a scale has a special name, called a <b>scale degree</b>.</text>
+		<gotoAndStop label="tonic" />
+    	<text>The first note is called the <b>tonic</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<text>The fifth note is called the <b>dominant</b>.</text>
+		<gotoAndPlay label="subdominant" />
+    	<text>The fourth note is called the <b>subdominant</b> (meaning lower dominant).</text>
+		<gotoAndPlay label="mediant" />
+    	<text>Since it is in the <i>middle</i> of the tonic and dominant, the third note is called the <b>mediant</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<text>Likewise, the sixth note is called the <b>submediant</b> since it is in the middle of the upper tonic and <i>sub</i>dominant.</text>
+		<gotoAndPlay label="supertonic" />
+    	<text>The second note is called the <b>supertonic</b>.  <i>Super</i> is Latin for "above."</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<text>While the scale degrees for the first six notes are the same for both major and minor scales, the seventh one is special.</text>
+		<gotoAndStop label="seventh2" />
+		<text>If the seventh note is a half step below the tonic, it is called a <b>leading tone</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<text>Listen to the C Major Scale, notice how the seventh note wants to <i>lead</i> into the tonic.</text>
+		<gotoAndStop label="seventh4" />
+		<text>Leading tones also occur in harmonic minor and melodic minor.</text>
+		<gotoAndPlay label="seventh5" />
+		<text>In natural minor, the seventh note is a whole step below the tonic.  In this case, the note is called a <b>subtonic</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<text>Listen to the C Natural Minor scale, notice how the seventh tone lacks the desire to lead into the tonic.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tónica</var>
+	<var name="supertonicText">Supertónica</var>
+	<var name="mediantText">Mediante</var>
+	<var name="subdominantText">Subdominante</var>
+	<var name="dominantText">Dominante</var>
+	<var name="submediantText">Superdominante</var>
+	<var name="leadingToneText">Sensible</var>
+	<var name="subtonicText">Tónica</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Armaduras de Clave</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Una <b>armadura de clave</b> es una colección de todas las alteraciones encontradas en una escala determinada.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>Para demostrarlo, usaremos la Escala de Do menor, la cual contiene tres bemoles.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>En lugar de escribir un bemol junto a cada Mi, La y Si, simplemente se puede agregar una armadura de clave al inicio del compás.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>Para nuestro próximo ejemplo, utilizaremos la Escala de La Mayor, la cual contiene tres sostenidos.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>Nuevamente, se puede usar una armadura de clave para evitar escribir un sostenido junto a cada Do, Fa y Sol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Como habrás notado, los sostenidos están dispuestos en un orden especial.</text>
+		<gotoAndStop label="sharps2" />
+		<text>Empezamos con Fa Sostenido, seguido de Do Sostenido y posteriormente de Sol Sostenido.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Luego vienen Re, La, Mi y finalmente Si Sostenidos.</text>
+		<gotoAndStop label="sharps4" />
+		<text>Puedes recordar este orden usando el siguiente refrán en inglés: "<b>F</b>ather <b>C</b>harles <b>G</b>oes <b>D</b>own <b>A</b>nd <b>E</b>nds <b>B</b>attle"</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Comenzando con Si Bemol, el orden de los bemoles es exactamente opuesto.</text>
+		<gotoAndPlay label="flats2" />
+		<text>Luego siguen Mi, La, Re, Sol, Do y Fa Bemoles.</text>
+		<gotoAndStop label="flats3" />
+		<text>Este orden puede ser recordado con facilidad usando otro refrán en inglés: "<b>B</b>attle <b>E</b>nds <b>A</b>nd <b>D</b>own <b>G</b>oes <b>C</b>harles' <b>F</b>ather"</text>
+	</section>
+
+</lesson>

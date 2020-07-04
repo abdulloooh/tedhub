@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="predominantsText">субдоминантни</var>
+	<var name="dominantsText">доминантни</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Уобичајени хармонски токови</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<text>Иако постоји на стотине различитих хармонских токова, већина их следи одређени образац.</text>
+		<gotoAndPlay label="major" />
+		<text>У дурском тоналитету, циљ сваког хармонског тока је тонични акорд.</text>
+		<gotoAndStop label="major2" />
+		<text>Остали акорди се нижу тако да на најупечатљивији начин дођу до тоничног акорда.</text>
+		<gotoAndPlay label="major3" />
+		<text>Аутентична каденца (<b>V → I</b>) или (<b>viiº → I</b>) је најупечатљивији начин да се дође до тоничног акорда.</text>
+		<gotoAndStop label="major4" />
+		<text>Сада ћемо користити кружни хармонски ток.</text>
+		<gotoAndPlay label="major5" />
+		<text>Најупечатљивији начин да се дође до доминантног акорда је коришћењем кружног хармонског тока од акорда <b>ii</b> ступња.  А да би се дошло до акорда <b>viiº</b> ступња најбоље је кружним хармонским током од субдоминантног акорда.</text>
+		<gotoAndStop label="major6" />
+		<text>Најупечатљивији начин да се дође до субдоминантног акорда је кружним хармонским током од тоничног акорда; али, пошто је тонични акорд већ употребљен, нећемо га понављати.</text>
+		<gotoAndPlay label="major7" />
+		<text>Кружни хармонски ток од акорда <b>vi</b> ступња води нас до акорда <b>ii</b> ступња.</text>
+		<gotoAndPlay label="major8" />
+		<text>Кружни хармонски ток од акорда <b>iii</b> ступња води нас до акорда <b>vi</b> ступња.</text>
+		<gotoAndPlay label="major9" />
+		<text>Најупечатљивији начин да се дође до акорда <b>iii</b> ступња је кружним хармонским током од акорда <b>viiº</b> ступња, који је већ употребљен.</text>
+		<gotoAndPlay label="major10" />
+		<text>На крају, пошто је тонични акорд основни акорд лествице, он не може да иде ни у који други акорд.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="labels" />
+		<text>Сада кад смо завршили образац, треба да научимо још пар појмова.</text>
+		<text>Присетите се да назив "доминанта" значи пети ступањ лествице.  Доминантни акорд  је добио име по томе што је изграђен на доминанти.</text>
+		<text>Како акорд <b>viiº</b> ступња има исту улогу као и доминантни (води у тонични акорд), он се може означити као доминантни.</text>
+		<gotoAndStop label="labels2" />
+		<text>Значи, акорди <b>V</b> и <b>viiº</b> ступња су <b>доминантни</b> акорди.</text>
+		<gotoAndStop label="labels3" />
+		<text>А како акорди <b>ii</b> и <b>IV</b> ступња садрже у себи субдоминантну и претходе акордима <b>V</b> и <b>viiº</b> ступња, они се обично означавају као <b>субдоминантни</b> акорди.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="example" />
+		<text>Хајде да направимо један хармонски ток користећи овај образац.  Почећемо од тоничног акорда.</text>
+		<gotoAndPlay label="example2" />
+		<text>За следећи акорд можемо изабрати било који.  Нека то буде акорд <b>vi</b> ступња.</text>
+		<gotoAndStop label="example3" />
+		<text>Сада можемо изабрати или акорд <b>ii</b> ступња или субдоминантни.</text>
+		<gotoAndPlay label="example4" />
+		<text>Узећемо субдоминантни.</text>
+		<gotoAndPlay label="example5" />
+		<text>Сада бирамо између акорда <b>V</b> или акорда <b>viiº</b> ступња.  Ја ћу узети доминантни акорд.</text>
+		<gotoAndStop label="example6" />
+		<text>Коначно, доминантни акорд нас води назад до тоничног акорда.</text>
+		<gotoAndPlay label="example7" />
+		<text>Послушајте хармонски ток коју смо направили.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Образац за хармонски ток преко молске лествице је врло сличан оном за дурску лествицу.  Постоји само једна главна разлика.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Најупечатљивији начин да се дође до акорда <b>III</b> ступња није преко акорда <b>viiº</b> ступња, већ кружним хармонским током од акорда <b>VII</b> ступња.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Кружни хармонски ток од акорда <b>iv</b> до акорда <b>VII</b> ступња употпуњава образац.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>Овакве обрасце не морате дословно следити.  Ако неки хармонски ток није добијен оваквим обрасцем, то не значи да га не смете користити.</text>
+	</section>
+	
+</lesson>

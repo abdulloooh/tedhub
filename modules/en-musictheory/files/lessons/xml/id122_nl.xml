@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Vertaald door Rob Kap" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Vertaling: Rob Kap</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cSharpMinorText">c#</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Beschouwing 3</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>In deze beschouwing zullen we de maten 48-50 van Beethoven's Moonlight Sonata bekijken (Opus 27, Nummer 2, deel 1).</text>
+		<gotoAndStop label="key" />
+		<text>Een tip: omdat we in het midden van het stuk beginnen: het staat in C# mineur.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="group_one" />
+		<text>De eerste helft van maat bevat G#'s, B#'s, D#'s, and F#'s - a G# dominant septiem accoord.  Omdat de B# de laagste toon is, is het accoord de eerste omkering.</text>
+		<gotoAndPlay label="group_two" />
+		<text>De tweede helft van maat 48 bevat C#'s, E's, and G#'s - een C# mineur drieklank.</text>
+		<gotoAndPlay label="group_three" />
+		<text>De eerste helft van maat 49 bevat D's, F#'s, and A's - een D majeur drieklank.</text>
+		<gotoAndPlay label="group_four" />
+		<text>De tweede helft van maat 49 bevat G#'s, B#'s, and F#'s - een G# dominant septiem accoord met een ontbrekende vijfde.</text>
+		<gotoAndPlay label="group_five" />
+		<text>Het eerste deel van maat 50 bevat C#'s, E's, and G#'s - another C# mineur drieklank.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Luister naar bovenstaande passage.</text>
+	</section>
+	
+</lesson>

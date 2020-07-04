@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorThirdText">l3</var>
+	<var name="majorSixthText">S6</var>
+	<var name="diminishedFifthText">mk5</var>
+	<var name="augmentedFourthText">Stæ4</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Sexundarhljómar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Við höfum þegar lært að greina og setja saman sexundarhljóm (þríhljóm í 1. hljómhvörfum). Nú má spyrja <i>hvenær</i> sé við hæfi að nota þennan hljóm?</text>
+		<text>Ein ástæða fyrir að nota 1. hljómhvörf er að þannig má fá fjölbreyttari bassalínu.</text>
+		<gotoAndPlay label="bass" />
+		<text>Taktu eftir hvernig bassalínan breytir um stefnu við seinni <b>V</b> hljóminn.</text>
+		<gotoAndPlay label="bass2" />
+		<text>Með því að hafa þennan hljóm í 1. hljómhvörfum verður bassinn hins vegar svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="repeat" />
+		<text>Önnur ástæða til að nota 1. hljómhvörf er þegar hljómur er endurtekinn.</text>
+		<gotoAndPlay label="repeat2" />
+		<text>Hér eru t.d. fyrstu tveir hljómarnir eins. Til að auka fjölbreytni,</text>
+		<gotoAndPlay label="repeat3" />
+		<text>og án þess að breyta efstu röddinni, má einfaldlega hafa seinni hljóminn í 1. hljómhvörfum.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>Loks er að nefna 1. hljómhvörf minnkaðs hljóms.</text>
+		<text>Fyrr á öldum forðuðust tónskáld stækkuð eða minnkuð tónbil.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Minnkuð 5und er hluti minnkaðs hljóms í rótarstöðu.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Og stækkuð 4und er hluti sama hljóms í 2. hljómhvörfum.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Þessi tónbil koma hins vegar ekki fyrir í 1. hljómhvörfum.</text>
+		<gotoAndPlay label="diminished5" />
+		<text>Þetta er ástæðan fyrir að minnkaðir hljómar eru oftast notaðir í 1. hljómhvörfum.</text>
+		<gotoAndStop label="diminished6" />
+		<text>Rótarstaða kemur stundum fyrir en 2. hljómhvörf nær aldrei.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>Tekið skal fram að það sem hér hefur verið sagt eru ekki ófrávíkjanlegar reglur. Fyrir kemur auðvitað að 1. hljómhvörf eru notuð eingögnu vegna þess að tónskáldinu líkar hljómurinn við tilteknar aðstæður.</text>
+	</section>	
+</lesson>

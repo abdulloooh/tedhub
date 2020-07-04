@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1</var>
+	<var name="secondText">2</var>
+	<var name="thirdText">3</var>
+	<var name="fourthText">4</var>
+	<var name="fifthText">5</var>
+	<var name="sixthText">6</var>
+	<var name="seventhText">7</var>
+	<var name="eighthText">8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Grundintervall</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Ett musikaliskt <b>intervall</b> beskriver avståndet mellan två toner.</text>
+		<text>Vi ska först gå igenom <b>grundintervallen</b>, vilka enkelt kan utläsas direkt i notsystemet.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="first" />
+		<text>När två noter finns på sammma linje eller mellanrum mellan linjer, kallas avståndet mellan dem för en <b>prim</b>.</text>
+		<gotoAndStop label="first2" />
+		<text>C till C är ett exempel på en prim.</text>
+		<gotoAndStop label="first3" />
+		<text>C till C# och C till Cb är också primer.</text>
+	</section>
+	
+	<section>	
+		<gotoAndPlay label="second" />
+		<text>När två toner finns direkt intill varandra på notsystemet, kallas avståndet mellan dem för en <b>sekund</b>.</text>
+		<gotoAndStop label="second2" />
+		<text>C till D är ett exempel på en sekund.</text>
+		<gotoAndStop label="second3" />
+		<text>C till D#, Cb till D och Cb till D# är också sekunder.</text>
+	</section>
+	
+	<section>		
+		<gotoAndPlay label="third" />
+		<text>När två toner är staplade på varandra i notsystemet, kallas intervallet mellan dem för en <b>ters</b>.</text>
+		<gotoAndStop label="third2" />
+		<text>C till E är ett exempel på en ters.</text>
+		<gotoAndStop label="third3" />
+		<text>E till G och F till A är också terser.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="further" />
+		<text>I takt med att tonerna kommer längre och längre ifrån varandra, ökar storleken på intervallen.</text>
+		<gotoAndStop label="fourth" />
+		<text>C till F är en <b>kvart</b>.</text>
+		<gotoAndStop label="fifth" />
+		<text>C till G är en <b>kvint</b>.</text>
+		<gotoAndStop label="sixth" />
+		<text>C till A är en <b>sext</b>.</text>
+		<gotoAndStop label="seventh" />
+		<text>C till B är en <b>septima</b>.</text>
+		<gotoAndStop label="eighth" />
+		<text>C till C är en <b>oktav</b>.</text>
+	</section>
+
+</lesson>

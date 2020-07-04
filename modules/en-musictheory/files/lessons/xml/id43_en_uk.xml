@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">d</var>
+	<var name="minorText">m</var>
+	<var name="majorText">M</var>
+	<var name="augmentedText">A</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Diatonic Triads</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Every major and minor scale has seven special triads, called <b>diatonic triads</b>, which are formed from that scale's notes.</text>
+		<text>To discover the diatonic triads, a three step process must be used.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major_intro" />
+		<text>First, construct the scale.  We will be using the C major scale for our first example.</text>
+		<gotoAndPlay label="major_intro2" />
+		<text>Next, stack two generic thirds on top of each note.</text>
+		<gotoAndStop label="major_intro3" />
+		<text>Finally, analyze the resulting triads.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>The first triad is C, E, and G - a major third and a perfect fifth.  Therefore, the triad is major.</text>
+		<gotoAndStop label="major_ii" />
+		<text>The second triad is D, F, and A - a minor third and a perfect fifth.  Therefore, it is minor.</text>
+		<gotoAndStop label="major_iii" />
+		<text>The third triad is E, G, and B - a minor third and a perfect fifth.  Therefore, it is also minor.</text>
+		<gotoAndStop label="major_iv" />
+		<text>The fourth triad is F, A, and C - a major third and a perfect fifth.  Therefore, it is major.</text>
+		<gotoAndStop label="major_v" />
+		<text>The fifth triad is G, B, and D - a major third and a perfect fifth.  Therefore, it is also major.</text>
+		<gotoAndStop label="major_vi" />
+		<text>The sixth triad is A, C, and E - a minor third and a perfect fifth.  Therefore, it is minor.</text>
+		<gotoAndStop label="major_vii" />
+		<text>The seventh triad is B, D, and F - a minor third and a diminished fifth.  Therefore, it is diminished.</text>
+		<gotoAndStop label="major_viii" />
+		<text>The eighth triad is a repetition of the first (C, E, and G), making it major.</text>
+		<gotoAndStop label="major_recap" />
+		<text>The first triad of a major scale will always be major, the second and third triads will always be minor, etc.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_intro" />
+		<text>Next, we will uncover the diatonic triads of the C Natural Minor scale.</text>
+		<gotoAndPlay label="minor_intro2" />
+		<text>First, the scale is constructed.  Notice that we are using a key signature rather than placing the accidentals by each note.</text>
+		<gotoAndPlay label="minor_intro3" />
+		<text>Again, two generic thirds are stacked on each note.</text>
+		<gotoAndStop label="minor_intro4" />
+		<text>Finally, let's analyze the resulting triads.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_i" />
+		<text>The first triad is C, Eb, and G - a minor third and a perfect fifth.  Therefore, the triad is minor.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>The second triad is D, F, and Ab - a minor third and a diminished fifth.  Therefore, it is diminished.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>The third triad is Eb, G, and Bb - a major third and a perfect fifth.  Therefore, it is major.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>The fourth triad is F, Ab, and C - a minor third and a perfect fifth.  Therefore, it is minor.</text>
+		<gotoAndStop label="minor_v" />
+		<text>The fifth triad is G, Bb, and D - a minor third and a perfect fifth.  Therefore, it is also minor.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>The sixth triad is Ab, C, and Eb - a major third and a perfect fifth.  Therefore, it is major.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>The seventh triad is Bb, D, and F - a major third and a perfect fifth.  Therefore, it is also major.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>The eighth triad is a repetition of the first (C, Eb, and G), making it minor.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="harmonic_intro" />
+		<text>Finally, we will discuss the diatonic triads of harmonic minor.</text>
+		<gotoAndPlay label="harmonic_intro2" />
+		<text>To convert natural minor to harmonic minor, the seventh note is raised a semitone.  Therefore, each Bb (the seventh note of C minor) is raised to a B.</text>
+		<gotoAndStop label="harmonic_intro3" />
+		<text>Since the third, fifth, and seventh chords have been altered, they need to be reanalyzed.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic_iii" />
+		<text>The third triad is now Eb, G, and B - a major third and an augmented fifth.  Therefore, it is augmented.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>The fifth triad is now G, B, and D - a major third and a perfect fifth.  Therefore, it is major.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Finally, the seventh triad is now B, D, and F - a minor third and a diminished fifth.  Therefore, it is diminished.</text>
+	</section>
+
+</lesson>

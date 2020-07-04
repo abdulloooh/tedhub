@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <title> and </title> -->	 
+	<title>Les Mesures Irrégulières</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>Une <b>mesure irrégulière</b> est une mesure qui contient à la fois des temps binaires et des temps ternaires.</text>
+		<gotoAndStop label="odd1" />
+		<text>La première mesure irrégulière dont nous allons parler est la mesure à 5/8. Elle contient un temps binaire et un temps ternaire.</text>
+		<gotoAndStop label="odd2" />
+		<text>L'ordre des temps n'a pas d'importance. Si le temps ternaire vient en premier c'est toujours une mesure à 5/8.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd3" />
+		<text>Nous allons parler maintenant des mesures irrégulières à trois temps.</text>
+		<gotoAndStop label="odd4" />
+		<text>La mesure à 7/8 contient deux temps binaires et un temps ternaire.</text>
+		<gotoAndStop label="odd5" />
+		<text>Et là aussi, l'ordre des temps (binaire ou ternaire) n'a pas d'importance.</text>
+		<gotoAndStop label="odd6" />
+		<text>Le temps ternaire peut même se trouver entre deux temps binaires.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="odd7" />
+		<text>La mesure à 8/8 contient deux temps ternaires et un temps binaire.</text>
+		<gotoAndStop label="odd8" />
+		<text>Souvent les gens confondent la mesure à 8/8 avec la mesure à 4/4 car ces deux mesures contiennent toutes les deux huits croches.</text>
+		<gotoAndStop label="odd9" />
+		<text>Mais la mesure à 4/4 est divisée en quatre temps simples (quatre fois deux croches), alors que la mesure à 8/8 est divisée en trois temps.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd10" />
+		<text>Les deux dernières mesures irrégulières que nous allons étudier contiennent quatre temps.</text>
+		<gotoAndStop label="odd11" />
+		<text>La mesure à 10/8 contient deux temps ternaires et deux temps binaires.</text>
+		<gotoAndStop label="odd12" />
+		<text>La mesure à 11/8 contient trois temps ternaires et un seul temps binaire.</text>
+	</section>
+	
+</lesson>

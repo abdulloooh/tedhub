@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- UNICODE UTF-8 -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Vertaling: Barbara Touburg</translation> -->
+	<translation>Vertaling: Barbara Touburg</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Flag</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Notenwaarden</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>De tijdsduur van een gespeelde noot noemt met de <b>notenwaarde</b>, die bepaald wordt door het soort noot.</text>
+		<gotoAndPlay label="whole" />
+		<text>De hele noot duurt in moderne muziek het langst.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>De halve noot duurt half zo lang als de hele noot.</text>
+		<gotoAndPlay label="half2" />
+		<text>Twee halve noten duren even lang als één hele noot.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text>De kwartnoot ie éénvierde (ofwel een kwart) van de hele noot.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Vier kwartnoten duren even lang als één hele noot.  Twee kwartnoten zijn even lang als een halve noot.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>BNoten die korter duren dan een kwartnoot, krijgen een vlag. Elke vlag halveert de duur van de noot.</text>
+		<gotoAndPlay label="eighth" />
+		<text>Een achtste noot heeft één vlag; daarom duurt hij half zo lang als een kwartnoot.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>Een zestiende noot heeft twee vlaggen, waardoor de duur nog eens gehalveerd wordt.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Hoewel noten met drie of meer vlaggen mogelijk zijn, worden ze niet vaak gebruikt.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Bovenstaand schema toont de relaties tussen alle vijf soorten notenwaarden die in deze les behandeld zijn.</text>
+	</section>
+
+</lesson>

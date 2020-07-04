@@ -1,0 +1,104 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">½</var>
+	<var name="wText">1</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Молске лествице</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>Постоји само једна дурска лествица, а чак три различите молске лествице.</text>
+		<gotoAndStop label="formula" />
+		<text>Прво ћемо обрадити <b>природну молску лествицу</b>.  Она се гради по горе датом обрасцу.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="a_minor" />
+		<text>Хајде да направимо природну a-мол лествицу.  Полазимо од ноте <b>a</b>.</text>
+		<gotoAndStop label="a_minor2" />
+		<text>Цео степен од доводи нас до <b>h</b>.</text>
+		<gotoAndStop label="a_minor3" />
+		<text>Затим нас полустепен доводи до <b>c</b>.</text>
+		<gotoAndStop label="a_minor4" />
+		<text>Цео степен од <b>c</b> доводи нас до <b>d</b>.</text>
+		<gotoAndStop label="a_minor5" />
+		<text>Још један цео степен доводи нас до <b>e</b>.</text>
+		<gotoAndStop label="a_minor6" />
+		<text>Затим полустепен од <b>e</b> до <b>f</b>.</text>
+		<gotoAndStop label="a_minor7" />
+		<text>Цео степен од <b>f</b> до <b>g</b>.</text>
+		<gotoAndStop label="a_minor8" />
+		<text>Коначно, последњи цео степен нас враћа на полазни тон <b>a</b>.</text>
+		<gotoAndStop label="a_minor9" />
+		<text>Приметите на природна a-мол лествица нема предзнак тоналитета.</text>
+		<gotoAndPlay label="a_minor10" />
+		<text>Послушајте целу лествицу.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_minor" />
+		<text>Сада ћемо направити природну c-мол лествицу.  Полазимо од <b>c</b>.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Полустепен од <b>d</b> нас доводи до <b>es</b>.</text>
+		<gotoAndStop label="c_minor3" />
+		<text>Следећи цео степен нас доводи до <b>f</b>.</text>
+		<gotoAndPlay label="c_minor4" />
+		<text>Полустепен од <b>g</b> доводи нас до <b>as</b>.</text>
+		<gotoAndStop label="c_minor5" />
+		<text>Од <b>as</b> цео степен до <b>b</b>.</text>
+		<gotoAndStop label="c_minor6" />
+		<text>Последњи цео степен нас враћа на <b>c</b>.</text>
+		<gotoAndStop label="c_minor7" />
+		<text>Приметите да природна c-мол лествица има три снизилице.</text>
+		<gotoAndPlay label="c_minor8" />
+		<text>Послушајте целу лествицу.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic" />
+		<text>Сада је на реду <b>хармонска молска лествица</b>.</text>
+		<gotoAndPlay label="harmonic2" />
+		<text>Да бисмо од природне молске добили хармонску лествицу, треба повисити седми ступањ за полустепен.</text>
+		<gotoAndStop label="harmonic3" />
+		<text>Хајде да претворимо природну c-мол лествицу у хармонску c-мол.</text>
+		<gotoAndPlay label="harmonic4" />
+		<text>Једноставно повисимо седму ноту (<b>b</b>) за један полустепен и тако добијемо <b>h</b>.</text>
+		<gotoAndPlay label="harmonic5" />
+		<text>Послушајте целу хармонску c-мол лествицу.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="melodic" />
+		<text>И на крају ћемо обрадити <b>мелодијску молску лествицу</b>.</text>
+		<gotoAndStop label="melodic2" />
+		<text>Да бисмо од природне молске добили мелодијску молску лествицу, треба повисити и шести и седми ступањ за један полустепен.</text>
+		<gotoAndPlay label="melodic3" />
+		<text>На пример, да бисмо од природне c-мол лествице добили мелодијску, једноставно повисимо тонове <b>as</b> и <b>b</b> за полустепен и добијемо <b>a</b> и <b>h</b>.</text>
+		<gotoAndPlay label="melodic4" />
+		<text>Послушајте целу мелодијску c-мол лествицу.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="combined" />
+		<text>Мелодијска молска лествица се већином користи само за узлазне мелодије.  Када мелодија силази, композитори више воле да користе природну молску лествицу.</text>
+		<gotoAndPlay label="combined2" />
+		<text>Послушајте узлазну мелодијску c-мол лествицу на коју се надовезује силазна природна c-мол лествица.</text>
+	</section>
+
+</lesson>

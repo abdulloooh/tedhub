@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!-- <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1</var>
+	<var name="secondText">2</var>
+	<var name="thirdText">3</var>
+	<var name="fourthText">4</var>
+	<var name="fifthText">5</var>
+	<var name="sixthText">6</var>
+	<var name="seventhText">7</var>
+	<var name="eighthText">8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Interwały podstawowe</title>
+	<!-- <title>Generic Intervals</title> -->
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Interwał</b> jest to odległość między dwoma nutami.</text>
+		<!-- <text>An <b>interval</b> measures the distance between two notes.</text> -->
+		<text> Zajmiemy się najpierw <b>interwałami podstawowymi</b>, które można mierzyć wprost na pięciolinii.</text>
+		<!-- <text>We will first discuss <b>generic intervals</b>, which can be measured on the staff.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="first" />
+		<text>Kiedy dwie nuty leżą na tej samej linii lub polu, jest to tzw. <b>pryma</b> (czyli <b>1</b>).</text>
+		<!-- <text>When two notes occupy the same line or space, they are a <b>first</b> (or a <b>prime</b>) apart.</text> -->
+		<gotoAndStop label="first2" />
+		<text>C do C jest przykładem prymy.</text>
+		<!-- <text>C to C is an example of a first.</text> -->
+		<gotoAndStop label="first3" />
+		<text>Również C do Cis i C do Ces są prymami.</text>
+		<!-- <text>C to Cb and C to C# are also firsts.</text> -->
+	</section>
+	
+	<section>	
+		<gotoAndPlay label="second" />
+		<text>Kiedy dwie nuty przylegają do siebie bokiem, na ukos, jest to tzw. <b>sekunda</b> (czyli <b>2</b>).</text>
+		<!-- <text>When two notes are askewed to each other, they are a <b>second</b> apart.</text> -->
+		<gotoAndStop label="second2" />
+		<text>C do D to sekunda.</text>
+		<!-- <text>C to D is an example of a second.</text> -->
+		<gotoAndStop label="second3" />
+		<text>C do Dis, Ces do D i Ces to Dis są również sekundami.</text>
+		<!-- <text>C to D#, Cb to D, and Cb to D# are also seconds.</text> -->
+	</section>
+	
+	<section>		
+		<gotoAndPlay label="third" />
+		<text>Kiedy dwie nuty leżą najbliżej jedna nad drugą, jest to tzw. <b>tercja</b> (czyli <b>3</b>).</text>
+		<!-- <text>When two notes are stacked tightly together, they are a <b>third</b> apart.</text> -->
+		<gotoAndStop label="third2" />
+		<text>C do E jest przykładem tercji.</text>
+		<!-- <text>C to E is an example of a third.</text> -->
+		<gotoAndStop label="third3" />
+		<text>E do G i F do A to także tercje.</text>
+		<!-- <text>E to G and F to A are also thirds.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="further" />
+		<text>Z każdą następną nutą zwiększa się odległość czyli interwał.</text>
+		<!-- <text>As the notes become further apart, their interval type increases.</text> -->
+		<gotoAndStop label="fourth" />
+		<text>C do F jest <b>kwartą</b> (<b>4</b>).</text>
+		<!-- <text>C to F is a <b>fourth</b>.</text> -->
+		<gotoAndStop label="fifth" />
+		<text>C do G jest <b>kwintą</b> (<b>5</b>).</text>
+		<!-- <text>C to G is a <b>fifth</b>.</text> -->
+		<gotoAndStop label="sixth" />
+		<text>C do A jest <b>sekstą</b> (<b>6</b>).</text>
+		<!-- <text>C to A is a <b>sixth</b>.</text> -->
+		<gotoAndStop label="seventh" />
+		<text>C to H jest <b>septymą</b> (<b>7</b>).</text>
+		<!-- <text>C to B is a <b>seventh</b>.</text> -->
+		<gotoAndStop label="eighth" />
+		<text>C to C jest <b>oktawą</b> (<b>8</b>).</text>
+		<!-- <text>C to C is an <b>eighth</b> (or <b>octave</b>).</text> -->
+	</section>
+
+</lesson>

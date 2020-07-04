@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">First</var>
+	<var name="secondText">Second</var>
+	<var name="thirdText">Third</var>
+	<var name="fourthText">Fourth</var>
+	<var name="fifthText">Fifth</var>
+	<var name="sixthText">Sixth</var>
+	<var name="seventhText">Seventh</var>
+	<var name="eighthText">Eighth</var>
+	<var name="diminishedText">Diminished</var>
+	<var name="minorText">Minor</var>
+	<var name="perfectText">Perfect</var>
+	<var name="majorText">Major</var>
+	<var name="augmentedText">Augmented</var>
+	<var name="majorSecondText">M2</var>
+	<var name="majorThirdText">M3</var>
+	<var name="perfectFourthText">P4</var>
+	<var name="augmentedFourthText">A4</var>
+	<var name="diminishedFifthText">d5</var>
+	<var name="perfectFifthText">P5</var>
+	<var name="majorSixthText">M6</var>
+	<var name="augmentedSixthText">A6</var>
+	<var name="diminishedSeventhText">d7</var>
+	<var name="minorSeventhText">m7</var>
+	<var name="majorSeventhText">M7</var>
+	<var name="perfectEighthText">P8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Specific Intervals</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Specific intervals</b> are measured both on the staff and in half steps on the keyboard.</text>
+		<gotoAndPlay label="intro" />
+		<text>As you learned in the previous lesson, C to D and C to Db are both generic seconds.  Specifically, however, C to D is one semitone larger than C to Db.</text>
+		<gotoAndStop label="intro2" />
+		<text>Let's learn a few specific intervals.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text>A major second is made up of two semitones.</text>
+		<gotoAndPlay label="major_second2" />
+		<text>C to D is a major second since it is a generic second on the staff and two semitones on the keyboard.</text>
+		<gotoAndPlay label="major_second3" />
+		<text>E to F# would be another example of a major second.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text>A <b>major third</b> is made up of four semitones.</text>
+		<gotoAndPlay label="major_third2" />
+		<text>C to E is a major third.</text>
+		<gotoAndPlay label="major_third3" />
+		<text>E to G# is also a major third.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text>A <b>perfect fourth</b> is made up of five semitones.</text>
+		<gotoAndPlay label="perfect_fourth2" />
+		<text>C to F is a perfect fourth.</text>
+		<gotoAndPlay label="perfect_fourth3" />
+		<text>F to Bb is also a perfect fourth.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text>A <b>perfect fifth</b> is made up of seven semitones.</text>
+		<gotoAndPlay label="perfect_fifth2" />
+		<text>C to G is a perfect fifth.</text>
+		<gotoAndPlay label="perfect_fifth3" />
+		<text>B to F# is also a perfect fifth.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text>A <b>major sixth</b> is made up of nine semitones.</text>
+		<gotoAndPlay label="major_sixth2" />
+		<text>C to A is a major sixth.</text>
+		<gotoAndPlay label="major_sixth3" />
+		<text>Eb to C is also a major sixth.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text>A <b>major seventh</b> is made up of eleven semitones.</text>
+		<gotoAndPlay label="major_seventh2" />
+		<text>C to B is a major seventh.</text>
+		<gotoAndPlay label="major_seventh3" />
+		<text>D to C# is also a major seventh.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Finally, a <b>perfect eighth</b> (or <b>perfect octave</b>) is made up of twelve semitones.</text>
+		<gotoAndPlay label="perfect_eighth2" />
+		<text>C to high C is a perfect eighth.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>In addition to major and perfect; <b>minor</b>, <b>augmented</b>, and <b>diminished</b> intervals exist.</text>
+		<gotoAndStop label="diminished2" />
+		<text>A diminished interval has one less semitone than a perfect interval.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Since C to G is a perfect fifth (7 half steps), C to Gb would be a diminished fifth (6 half steps).</text>
+		<gotoAndPlay label="diminished4" />
+		<text>B to F is also a diminished fifth (since B to F# is a perfect fifth).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>An augmented interval has one more semitone than a perfect interval.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Since C to F is a perfect fourth (5 half steps), C to F# would be an augmented fourth (6 half steps).</text>
+		<gotoAndPlay label="augmented3" />
+		<text>F to B is also an augmented fourth (since F to Bb is a perfect fourth).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Major intervals can also be made augmented by adding a semitone.</text>
+		<gotoAndPlay label="major_augmented2" />
+		<text>For example, since C to A is a major sixth (9 semitones), C to A# is an augmented sixth (10 semitones).</text>
+		<gotoAndPlay label="major_augmented3" />
+		<text>Db to B is also an augmented 6th (Since Db to Bb is a major sixth).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Subtracting a semitone from a major interval does not make it diminished; instead, it becomes minor.</text>
+		<gotoAndPlay label="minor2" />
+		<text>For example, since C to B is a major seventh (11 semitones), C to Bb is a minor seventh (10 semitones).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Only after subtracting another semitone does it become diminished.  Thus, C to Bbb would be our diminished seventh (9 semitones).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>The above chart shows the number of semitones that each specific interval contains.</text>
+	</section>
+</lesson>

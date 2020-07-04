@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minusText">-</var>
+	<var name="plusText">+</var>
+	<var name="equalsText">=</var>
+	<var name="minusSevenText">-7</var>
+	<var name="minusSixText">-6</var>
+	<var name="minusFiveText">-5</var>
+	<var name="minusFourText">-4</var>
+	<var name="minusThreeText">-3</var>
+	<var name="minusTwoText">-2</var>
+	<var name="minusOneText">-1</var>
+	<var name="ZeroText">0</var>
+	<var name="OneText">1</var>
+	<var name="TwoText">2</var>
+	<var name="ThreeText">3</var>
+	<var name="FourText">4</var>
+	<var name="FiveText">5</var>
+	<var name="SixText">6</var>
+	<var name="SevenText">7</var>
+	<var name="EightText">8</var>
+	<var name="cFlatMajorText">Cb</var>
+	<var name="cMajorText">C</var>
+	<var name="cSharpMajorText">C#</var>
+	<var name="cMinorText">c</var>
+	<var name="dMajorText">D</var>
+	<var name="dMinorText">d</var>
+	<var name="eFlatMajorText">Eb</var>
+	<var name="eMajorText">E</var>
+	<var name="fMajorText">F</var>
+	<var name="fSharpMajorText">F#</var>
+	<var name="fMinorText">f</var>
+	<var name="gMajorText">G</var>
+	<var name="gSharpMajorText">G#</var>
+	<var name="gSharpMinorText">g#</var>
+	<var name="aMajorText">A</var>
+	<var name="bMajorText">B</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Construcción de Armaduras de Claves</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Existen 30 tipos distintos de armaduras de clave (15 para las escalas mayores y 15 para las menores).  La mayoría de los estudiantes de teoría musical deben memorizar las 30 armaduras de clave.</text>
+		<text>Afortunadamente, utilizando el <b>método de cálculo de armaduras de clave</b>, sólo debemos memorizar siete armaduras.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="number_line" />
+		<text>En el método de cálculo, asignamos un valor numérico a cada armadura de clave basándonos en el número y tipo de alteraciones de contiene.  Los sostenidos son positivos; los bemoles, negativos.</text>
+				
+		<gotoAndStop label="c_major" />
+		<text>La armadura de clave de Do Mayor no tiene alteraciones; por lo tanto, su valor numérico es 0.</text>
+		<gotoAndStop label="d_major" />
+		<text>La de Re Mayor tiene dos sostenidos; por ello, su valor numérico es 2.</text>
+		<gotoAndStop label="e_major" />
+		<text>La de Mi Mayor tiene cuatro sostenidos y un valor numérico de 4.</text>
+		<gotoAndStop label="f_major" />
+		<text>La armadura de Fa Mayor contiene un bemol; por lo tanto, su valor numérico es -1.  (Recuerda: los bemoles reciben valores numéricos negativos)</text>
+		<gotoAndStop label="g_major" />
+		<text>La armadura de Sol Mayor tiene un sostenido.  Su valor numérico es 1.</text>
+		<gotoAndStop label="a_major" />
+		<text>La de La Mayor tiene tres sostenidos y un valor numérico de 3.</text>
+		<gotoAndStop label="b_major" />
+		<text>Y para terminar, la armadura de Si Mayor tiene cinco sostenidos, los cuales le asignan un valor numérico de 5.</text>
+		<text>Debemos memorizar estos siete valores antes de seguir adelante.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="seven" />
+		<text>Ahora, comparemos las armaduras de Do Bemol Mayor, Do Mayor y Do Sostenido Mayor.</text>
+		<gotoAndStop label="seven2" />
+		<text>Si comenzamos en Do Mayor y restamos 7, terminaremos en Do Bemol Mayor.</text>
+		<text>Si comenzamos en Do Mayor y sumamos 7, terminaremos en Do Sostenido Mayor.</text>
+		<text>Estas dos relaciones numéricas pueden ayudarnos a calcular las armaduras que no conocemos.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="eb_major" />
+		<text>Averigüemos cómo se forma la armadura de Mi Bemol Mayor.  Primero, comencemos con Mi Mayor, que tiene un valor numérico de 4.</text>
+		<gotoAndStop label="eb_major2" />
+		<text>Para convertirla en Mi Bemol Mayor, restamos 7.</text>
+		<gotoAndPlay label="eb_major3" />
+		<text>El resultado es -3; por lo tanto, Mi Bemol Major tiene 3 bemoles.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="fs_major" />
+		<text>Ahora, probemos con Fa Sostenido Mayor.  Comencemos con Fa Mayor, que tiene un valor de -1.</text>
+		<gotoAndStop label="fs_major2" />
+		<text>Para convertirla en Fa Sostenido Mayor, sumamos 7.</text>
+		<gotoAndPlay label="fs_major3" />
+		<text>El resultado es 6; por lo tanto, Fa Sostenido Major tiene 6 sostenidos.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="three" />
+		<text>A continuación, examinaremos las escalas menores.  Compara Do Mayor con Do menor.</text>
+		<gotoAndStop label="three2" />
+		<text>Para converitr una escala mayor en su contraparte menor, simplemente restamos 3.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="d_minor" />
+		<text>Calculemos Re menor.  Comenzaremos con Re Mayor, con valor de 2.</text>
+		<gotoAndStop label="d_minor2" />
+		<text>Luego, simplemente restamos 3.</text>
+		<gotoAndPlay label="d_minor3" />
+		<text>El resultado es -1.  Por consiguiente, Re menor tiene 1 bemol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="f_minor" />
+		<text>Ahora, probemos con Fa menor.  Comenzaremos con Fa Mayor, con valor de -1.</text>
+		<gotoAndStop label="f_minor2" />
+		<text>Después, restaremos 3.</text>
+		<gotoAndPlay label="f_minor3" />
+		<text>Y el resultado será -4.  Por lo tanto, Fa menor tiene 4 bemoles.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="gs_minor" />
+		<text>Algunas armaduras de clave requieren de dos conversiones.  Por ejemplo, calculemos Sol Sostenido menor.</text>
+		<gotoAndStop label="gs_minor2" />
+		<text>Comencemos con Sol Mayor, la cual tiene un valor numérico de 1.</text>
+		<gotoAndStop label="gs_minor3" />
+		<text>Luego, sumemos 7 para obtener Sol Sostenido Mayor.</text>
+		<gotoAndStop label="gs_minor4" />
+		<text>Finalmente, restemos 3 para convertirla en Sol Sostenido menor.</text>
+		<gotoAndPlay label="gs_minor5" />
+		<text>El resultado es 5.  Ahora sabemos que Sol Sostenido menor tiene 5 sostenidos.</text>
+	</section>
+	
+</lesson>

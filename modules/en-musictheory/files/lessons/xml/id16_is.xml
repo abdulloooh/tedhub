@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <title> and </title> -->	 
+	<title>Óreglulegar takttegundir</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Óregluleg takttegund</b> er samsett úr einföldum og samsettum taktliðum (slögum).</text>
+		<gotoAndStop label="odd1" />
+		<text>5/8 er til að mynda samsett úr einu einföldu slagi og einu samsettu.</text>
+		<gotoAndStop label="odd2" />
+		<text>Ekki skiptir máli hvor taktliðurinn kemur fyrst.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd3" />
+		<text>Lítum næst á óreglulega takttegund sem hefur þrjú slög.</text>
+		<gotoAndStop label="odd4" />
+		<text>7/8 er samsett úr tveimur einföldum slögum og einu samsettu.</text>
+		<gotoAndStop label="odd5" />
+		<text>Röðin skiptir ekki máli.</text>
+		<gotoAndStop label="odd6" />
+		<text>Samsetta slagið getur jafnvel verið milli tveggja einfaldra slaga.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="odd7" />
+		<text>Takttegundin 8/8 er samsett úr tveimur samsettum slögum og einu einföldu.</text>
+		<gotoAndStop label="odd8" />
+		<text>Stundum ruglar fólk saman 8/8 og 4/4 þar sem báðar takttegundirnar hafa 8 áttungsnótur.</text>
+		<gotoAndStop label="odd9" />
+		<text>Athugaðu að 4/4 skiptir taktinum í fjögur slög þar sem hver taktliður skiptist í tvær áttungsnótur (einfaldur fjórskiptur taktur); 8/8 skiptist hins vegar í tvö samsett slög og eitt einfalt.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd10" />
+		<text>Loks nefnum við tvær ójafnar takttegundir sem hafa fjóra taktliði (4 slög).</text>
+		<gotoAndStop label="odd11" />
+		<text>10/8 er samsett úr tveimur samsettum slögum og tveimur einföldum.</text>
+		<gotoAndStop label="odd12" />
+		<text>11/8 samanstendur af þremur samsettum slögum og einu einföldu.</text>
+	</section>
+	
+</lesson>

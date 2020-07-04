@@ -1,0 +1,88 @@
+<div class="indexmodule">
+
+    <form action="<?php echo $dir ?>/search/search.php">
+      <div>
+        <input name="query" id="<?php echo $moddir ?>_search" autocomplete="off">
+        <input type="submit" value="Search MedlinePlus">
+      </div>
+    </form>
+
+    <a href="<?php echo $dir ?>/index.html"><img src="<?php echo $dir ?>/medlinepluslogo.png" alt="MedlinePlus"></a>
+
+    <h2><a href="<?php echo $dir ?>/index.html">MedlinePlus Medical Encyclopedia</a></h2>
+
+    <p>
+        More than 4,000 cross-referenced medical articles from the U.S.
+        National Library of Medicine and the National Institutes of Health.
+        Includes comprehensive illustrations and photographs.
+    </p>
+
+    <table>
+    <tr>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_A-Ag.htm" target="content">A-Ag</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Ah-Ap.htm" target="content">Ah-Ap</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Aq-Az.htm" target="content">Aq-Az</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_B-Bk.htm" target="content">B-Bk</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Bl-Bz.htm" target="content">Bl-Bz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_C-Cg.htm" target="content">C-Cg</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Ch-Co.htm" target="content">Ch-Co</a></td>
+    </tr>
+    <tr>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Cp-Cz.htm" target="content">Cp-Cz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_D-Di.htm" target="content">D-Di</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Dj-Dz.htm" target="content">Dj-Dz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_E-Ep.htm" target="content">E-Ep</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Eq-Ez.htm" target="content">Eq-Ez</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_F.htm">F</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_G.htm" target="content">G</a></td>
+    </tr>
+    <tr>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_H-Hf.htm" target="content">H-Hf</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Hg-Hz.htm" target="content">Hg-Hz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_I-In.htm" target="content">I-In</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Io-Iz.htm" target="content">Io-Iz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_J.htm" target="content">J</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_K.htm" target="content">K</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_L-Ln.htm" target="content">L-Ln</a></td>
+    </tr>
+    <tr>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Lo-Lz.htm" target="content">Lo-Lz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_M-Mf.htm" target="content">M-Mf</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Mg-Mz.htm" target="content">Mg-Mz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_N.htm" target="content">N</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_O.htm" target="content">O</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_P-Pl.htm" target="content">P-Pl</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Pm-Pz.htm" target="content">Pm-Pz</a></td>
+    </tr>
+    <tr>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Q.htm" target="content">Q</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_R.htm" target="content">R</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_S-Sh.htm" target="content">S-Sh</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Si-Sp.htm" target="content">Si-Sp</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Sq-Sz.htm" target="content">Sq-Sz</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_T-Tn.htm" target="content">T-Tn</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_To-Tz.htm" target="content">To-Tz</a></td>
+    </tr>
+    <tr>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_U.htm" target="content">U</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_V.htm" target="content">V</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_W.htm" target="content">W</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_X.htm" target="content">X</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Y.htm" target="content">Y</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_Z.htm" target="content">Z</a></td>
+    <td><a href="<?php echo $dir ?>/ency/encyclopedia_0-9.htm" target="content">0-9</a></td>
+    </tr>
+    </table>
+
+    <p class="smallblurb">
+        These materials do not provide medical advice and are for informational purposes only.
+        This content is not intended to be a substitute for professional medical advice, diagnosis or
+        treatment. Always seek the advice of a qualified health provider with any questions you may
+        have regarding a medical condition. Never disregard professional medical advice or delay in
+        seeking it because of something you have read here.
+    </p>
+
+</div>
+
+^Exit
+

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="augmentedSecondText">x</var>
+	<var name="augmentedFourthText">x</var>
+	<var name="diminishedFifthText">x</var>
+	<var name="minorThirdText">x</var>
+	<var name="diminishedSeventhText">x</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Escritura de Intervalos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Al escribir intervalos en el pentagrama, es común confundir intervalos con el mismo número de semitonos.</text>
+		<gotoAndPlay label="wrong" />
+		<text>Por ejemplo, podríamos escribir accidentalmente un intervalo de Do a Fa Sostenido (Cuarta Aumentada) en vez de Do a Sol Bemol (Quinta Disminuida).</text>
+		<gotoAndStop label="wrong2" />
+		<text>Aunque ambos intervalos suenan igual y se ven idénticos en el teclado del piano, uno es una Cuarta y el otro una Quinta.</text>
+		<text>Afortunadamente, existe un fácil proceso de tres pasos para reducir el riesgo de error.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Escribamos una Tercera menor a partir de Do.</text>		
+		<gotoAndPlay label="example_one2" />
+		<text>Primero, escribe el  intervalo genérico en el pentagrama.  En este caso, escribiremos una tercera genérica.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Después, averigua el número de semitonos en el teclado del piano.  Dado que una Tercera Mayor tiene 4 semitonos, nuestra Tercera menor tendrá 3 semitonos.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Para finalizar, transfiere cualquier alteración necesaria.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Para nuestro siguiente ejemplo, creemos una Séptima Disminuida a partir de Fa.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Primero, escribe la séptima genérica en el pentagrama.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Después, averigua sus semitonos en el teclado (Dado que una Séptima Mayor tiene 11 semitonos y una menor 10, nuestra Séptima Disminuida tendrá 9).</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Finalmente, transfiere cualquier alteración necesaria.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Para nuestro ejemplo final, harémos una Quinta Disminuida a partir de Si.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Primero, escribe una quinta genérica en el pentagrama.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Luego, averigua sus semitonos en el teclado del piano (Dado que una Quinta Justa tiene 7 semitonos, nuestra Quinta Disminuida tendrá 6).</text>
+		<gotoAndStop label="example_three4" />
+		<text>Para terminar, transfiere cualquier alteración necesaria.  En este ejemplo, no se requieren alteraciones.</text>
+	</section>
+
+</lesson>

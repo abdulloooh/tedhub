@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="FText">Fá</var>
+	<var name="neighboringToneText">NV</var>
+	<var name="escapeToneText">NE</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Análise Número 2</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>Nesta análise, vamos examinar os primeiros compassos de <i>Auld Lang Syne</i>, uma tradicional balada escocesa.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="key" />
+		<text>Primeiro, precisamos determinar o tom.  Como a armadura contém um bemol, temos duas possibilidades: Fá maior ou Ré menor.</text>
+		<gotoAndPlay label="key2" />
+		<text>O primeiro acorde contém Fá, Lá e Dó - uma tríade maior de Fá.  Como este é o <b>I</b> em Fá Maior, estamos muito provavelmente neste tom.</text>	
+		<gotoAndStop label="measure_two" />
+		<text>O compasso seguinte contém somente Fás, Lás e Dós - tríades maiores de Fá.  Logo, todos os quatro acordes são <b>I</b>.  Como estaríamos repetindo um símbolo analítico, não há necessidade de escrevê-lo novamente.</text>		
+	</section>
+
+	<section>
+		<gotoAndPlay label="measure_three" />
+		<text>O primeiro acorde do compasso seguinte contém Dó, Dó, Mi e Sol - uma tríade maior de Dó.  Logo, é um acorde <b>V</b>.</text>
+		<gotoAndPlay label="measure_three2" />
+		<text>O segundo acorde contém Dó, Dó, Ré e Fá - que é simplesmente esquisito.  Vamos pular ele por ora.</text>
+		<gotoAndPlay label="measure_three3" />
+		<text>O terceiro acorde é uma duplicação do primeiro.</text>
+		<gotoAndPlay label="measure_three4" />
+		<text>O quarto acorde contém Dó, Si bemol, Mi e Lá.  De novo, isso não se encaixa direito numa tríade.  Vamos pular este também.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="measure_four" />
+		<text>O compasso seguinte contém somente Fás, Lás e Dós.  Novamente, todos os quatro acordes são acordes <b>I</b>.</text>
+		<gotoAndPlay label="measure_five" />
+		<text>O último compasso contém Si bemol, Si Bemol, Fá e Ré - uma tríade maior de Si bemol.  Logo, trata-se de um acorde <b>IV</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="skipped" />
+		<text>Vamos agora voltar e analisar as partes que pulamos.</text>
+		<gotoAndPlay label="first_skipped" />
+		<text>Se considerarmos as notas estranhas à harmonia, a primeira parte pulada pode se analisada como contendo duas notas vizinhas.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="second_skipped" />
+		<text>Antes de passarmos para a segunda parte, há uma pequena informação que você precisa saber:</text>
+		<text>Quando fazem abertura de um acorde de sétima, os compositores às vezes deixam a quinta de fora.</text>
+		<text>Armado com esse conhecimento, vamos reexaminar o misterioso acorde.</text>
+		<gotoAndPlay label="second_skipped2" />
+		<text>As três notas de baixo são a fundamental, terça e sétima de um acorde de sétima da dominante de Dó.  Somente o Sol (a quinta) está faltando.</text>
+		<gotoAndStop label="second_skipped3" />
+		<text>O Lá pode agora ser analisado como uma nota estranha.  Como ela chega num passo e depois dá um salto, ela é uma nota de escape.</text>
+		<gotoAndStop label="second_skipped4" />
+		<text>Esta análise é reforçada pelo fato de que os acordes <b>V</b> geralmente resolvem em <b>I</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Ouça os compassos acima de <i>Auld Lang Syne</i>.</text>	
+	</section>
+	
+</lesson>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1und</var>
+	<var name="secondText">2und</var>
+	<var name="thirdText">3und</var>
+	<var name="fourthText">4und</var>
+	<var name="fifthText">5und</var>
+	<var name="sixthText">6und</var>
+	<var name="seventhText">7und</var>
+	<var name="eighthText">8und</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tónbil</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Tónbil</b> er bilið (fjarlægðin) milli tveggja tóna.</text>
+		<text>Skoðum fyrst tónbil sem telja má út á nótnastrengnum.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="first" />
+		<text>Þegar tveir tónar nota sama bil eða sömu línu nótnastrengsins nefnist bilið milli þeirra <b>einund</b>.</text>
+		<gotoAndStop label="first2" />
+		<text>Bilið frá C til C er einund.</text>
+		<gotoAndStop label="first3" />
+		<text>Bilið frá C til Cís og C til Ces er líka einund.</text>
+	</section>
+	
+	<section>	
+		<gotoAndPlay label="second" />
+		<text>Þegar nótur eru hlið við hlið (önnur á línu, hin á bili) er bilið milli nótnanna <b>tvíund</b>.</text>
+		<gotoAndStop label="second2" />
+		<text>Tónbilið C til D er dæmi um tvíund.</text>
+		<gotoAndStop label="second3" />
+		<text>C til Dís, Ces til D, og Ces til Dís eru allt tvíundir.</text>
+	</section>
+	
+	<section>		
+		<gotoAndPlay label="third" />
+		<text>Ef hægt er að stafla nótunum þétt saman þannig að báðar séu á línu eða báðar á bili mynda þær <b>þríund</b>.</text>
+		<gotoAndStop label="third2" />
+		<text>C til E er dæmi um þríund.</text>
+		<gotoAndStop label="third3" />
+		<text>E til G og F til A eru líka þríundir.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="further" />
+		<text>Eftir því sem nóturnar fjarlægjast stækkar tónbilið milli þeirra.</text>
+		<gotoAndStop label="fourth" />
+		<text>C til F er <b>ferund</b>.</text>
+		<gotoAndStop label="fifth" />
+		<text>C til G, <b>fimmund</b>.</text>
+		<gotoAndStop label="sixth" />
+		<text>C til A, <b>sexund</b>.</text>
+		<gotoAndStop label="seventh" />
+		<text>C til H, <b>sjöund</b>.</text>
+		<gotoAndStop label="eighth" />
+		<text>Og C til C er <b>áttund</b>.</text> 
+	</section>
+
+</lesson>

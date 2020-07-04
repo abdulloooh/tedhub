@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="augmentedSecondText">x</var>
+	<var name="augmentedFourthText">x</var>
+	<var name="diminishedFifthText">x</var>
+	<var name="minorThirdText">x</var>
+	<var name="diminishedSeventhText">x</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Ritun tónbila</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Þegar nótur eru ritaðar á nótnastreng er algengt að ruglað sé saman tónbilum og fjölda hálftóna (lítilla tvíunda).</text>
+		<gotoAndPlay label="wrong" />
+		<text>Dæmi er t.d. tónbilin C - Fís og C - Ges.</text>
+		<gotoAndStop label="wrong2" />
+		<text>Tónbilin hljóma eins og nota sömu nótur á hljómborði. C - Fís er hins vegar stækkuð 4und en C - Ges minnkuð 5und.</text>
+		<text>Til er aðferð til að minnka hættuna á mistökum af þessu tagi.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Við ætlum að skrifum litla 3und upp frá C.</text>		
+		<gotoAndPlay label="example_one2" />
+		<text>Fyrst teljum við 3und upp frá C, sem er E.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Næst teljum við út hálftónana (litlu tvíundirnar) á hljómborði. Stór 3und er 4 hálftónar og lítil 3und því 3 hálftónar.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Því þarf að setja lækkunarmerki við E-ið.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Finnum næst út minnkaða 7und upp frá F.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Fyrst teljum við 7und upp frá F á nótnastrengnum.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Síðan teljum við út hálftónana á hljómborði. Stór 7und er 11 hálftónar; lítil 7und er því 10 hálftónar og minnkuð 7und 9 hálftónar.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Því þarf að tvílækka E-ið.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Að lokum skulum við skrifa minnkaða 5und upp frá H.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Við teljum út 5und á nótnastrengnum.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Og finnum út hálftónsbilin á hljómborði. Hrein 5und er 7 hálftónar, minnkuð 5und er því 6 hálftónar.</text>
+		<gotoAndStop label="example_three4" />
+		<text>Ekki þarf að nota formerki í þessu dæmi.</text>
+	</section>
+
+</lesson> 

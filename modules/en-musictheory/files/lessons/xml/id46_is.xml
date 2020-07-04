@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="majorSeventhText">Dúr7</var>
+	<var name="minorSeventhText">Moll7</var>
+	<var name="dominantSeventhText">V7</var>
+	<var name="fullyDiminishedSeventhText">°7</var>
+	<var name="halfDiminishedSeventhText">ø7</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Heimasjöundarhljómar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Ef 7und er bætt við heimaþríhljóma má segja að hver dúr og moll tónstigi hafi 7 <b>heimasjöundarhljóma</b>.</text>
+		<text>Lítum á heimasjöundarhljóma C dúr tónstigans.</text>
+		<gotoAndPlay label="major" />
+		<text>Við höfum heimaþríhljómana,</text>
+		<gotoAndPlay label="major2" />
+		<text>bætum 7und við hvern hljóm,</text>
+		<gotoAndStop label="major3" />
+		<text>og greinum síðan hvern hljóm fyrir sig.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Fyrsti hljómurinn er dúr þríhljómur með stórri 7und; dúrsjöundarhljómur.</text>
+		<gotoAndStop label="major_ii" />
+		<text>Hljómur 2 er moll með lítilli 7und; mollsjöundarhljómur.</text>
+		<gotoAndStop label="major_iii" />
+		<text>Hljómur 3 er líka moll þríhljómur með lítilli 7und (mollsjöundarhljómur).</text>
+		<gotoAndStop label="major_iv" />
+		<text>Hljómur 4 er dúr með stórri 7und; dúrsjöundarhljómur.</text>
+		<gotoAndStop label="major_v" />
+		<text>Hljómur 5 er dúr með lítilli 7und; forsjöundarhljómur.</text>
+		<gotoAndStop label="major_vi" />
+		<text>Hljómur 6 er moll með lítilli 7und; mollsjöundarhljómur.</text>
+		<gotoAndStop label="major_vii" />
+		<text>Hljómur 7 er minnkaður þríhljómur með lítilli 7und; hálfminnkaður sjöundarhljómur.</text>
+		<gotoAndStop label="major_viii" />
+		<text>8. hljómurinn er svo eins og 1. hljómurinn.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Greinum næst heimsjöundarhljóma í hreinum moll.</text>
+		<gotoAndStop label="minor_i" />
+		<text>Hljómur 1 er moll þríhljómur með lítilli 7und; mollsjöundarhljómur.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>Hljómur 2 er minnkaður þríhljómur með lítilli 7und; hálfminnkaður sjöundarhljómur.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>Hljómur 3 er dúr þríhljómur með stórri 7und; dúrsjöundarhljómur.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>Hljómur 4 er moll með lítilli 7und; mollsjöundarhljómur.</text>
+		<gotoAndStop label="minor_v" />
+		<text>Hljómur 5 er líka mollsjöundarhljómur.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>Hljómur 6 er dúr þríhljómur með stórri 7und; dúrsjöundarhljómur.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>Hljómur 7 er dúr með lítilli 7und; forsjöundarhljómur.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>8. hljómurinn er eins og sá 1.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Loks greinum við heimasjöundarhljóma í hljómhæfum moll.</text>
+		<gotoAndStop label="harmonic_i" />
+		<text>1. hljómurinn er nú moll þríhljómur með stórri 7und og passar því ekki við neinn þeirra sjöundarhljóma sem við höfum rætt.</text>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Þriðja hljóminn, sem er stækkaður, höfum við heldur ekki rætt. Þessir tveir hljómar eru sjaldan notaðir.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>5. hljómurinn er nú dúr með lítilli 7und; forsjöundarhljómur.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Loks er 7. hljómurinn nú minnkaður með minnkaðri 7und og því fullminnkaður sjöundarhljómur.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="analysis" />
+		<text>Lítum nú á þau tákn sem notuð eru til að merkja sjöundarhljóma.</text>
+		<gotoAndPlay label="analysis2" />
+		<text>Eins og fram er komið er sætisnúmer venjulegra þríhljóma auðkennd með rómverskum há eða lágstöfum.</text>
+		<gotoAndPlay label="analysis3" />
+		<text>Sjöundarhljómar eru auðkenndir á sama hátt nema hvað tölunni 7 er bætt aftan við hvert sætisnúmer.</text>
+		<gotoAndPlay label="analysis4" />
+		<text>Ef hljómur er hálfminnkaður er strik sett í gegnum hringinn sem táknar minnkaðan hljóm.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <title> and </title> -->	 
+	<title>Odd Meter</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>An <b>odd meter</b> is a meter which contains both simple and compound beats.</text>
+		<gotoAndStop label="odd1" />
+		<text>The first odd meter that we will discuss is 5/8 time.  It contains one simple beat and one compound.</text>
+		<gotoAndStop label="odd2" />
+		<text>The order of the beats does not matter.  If the compound beat comes first, it is still 5/8 time.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd3" />
+		<text>Next, we will discuss odd meters with three total beats.</text>
+		<gotoAndStop label="odd4" />
+		<text>7/8 time contains two simple beats and one compound beat.</text>
+		<gotoAndStop label="odd5" />
+		<text>Again, the order of the beats does not matter.</text>
+		<gotoAndStop label="odd6" />
+		<text>The compound beat can even be positioned between two simple beats.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="odd7" />
+		<text>8/8 time contains two compound beats and one simple beat.</text>
+		<gotoAndStop label="odd8" />
+		<text>Sometimes, people confuse 8/8 with 4/4, since both meters have 8 eighth notes.</text>
+		<gotoAndStop label="odd9" />
+		<text>Notice that 4/4 divides the meter into four beats of two eight notes (simple quadruple), while 8/8 divides it into three odd beats.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd10" />
+		<text>Our last two odd meters have a total of four beats.</text>
+		<gotoAndStop label="odd11" />
+		<text>10/8 time has two compound beats and two simple beats.</text>
+		<gotoAndStop label="odd12" />
+		<text>11/8 time has three compound beats and one simple beat.</text>
+	</section>
+	
+</lesson>

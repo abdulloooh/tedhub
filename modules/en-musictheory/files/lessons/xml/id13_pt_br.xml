@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Valores das Pausas</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>As <b>pausas</b> são usadas para mostrar períodos de silêncio num compasso.</text>
+		<gotoAndPlay label="notes" />
+		<text>Cada tipo de pausa tem um valor equivalente ao de um tipo de nota.</text>
+		<gotoAndStop label="notes2" />
+		<text>Por exemplo, tanto uma pausa de semínima quanto uma semínima ocupam a mesma quantidade de tempo.  Enquanto a nota produzi um som, a pausa é silenciosa.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example" />
+		<text>Para demonstrar isso, preenchemos um compasso 4/4 com semínimas.</text>
+		<gotoAndPlay label="example2" />
+		<text>Ouça o exemplo acima.</text>
+		<gotoAndPlay label="example3" />
+		<text>Agora, substituímos a segunda semínima por uma pausa de semínima.</text>
+		<gotoAndPlay label="example4" />
+		<text>Observe como o segundo tempo é agora silencioso.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Use este quadro como referência parar os valores das pausas.</text>
+	</section>
+
+</lesson>

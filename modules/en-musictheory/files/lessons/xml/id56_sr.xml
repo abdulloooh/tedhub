@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="majorText">дур</var>
+	<var name="minorText">мол</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Кружни хармонски токови</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Покрет основног тона</b> је кретање од основног тона једног акорда до основног тона другог акорда.</text>
+		<gotoAndPlay label="example_one" />
+		<text>Да бисте то схватили, узећемо тонични и акорд <b>vi</b> ступња у C-дуру.</text>
+		<gotoAndStop label="example_one2" />
+		<text>Основни тон тоничног акорда (C-дура) је <b>c</b>.</text>
+		<gotoAndStop label="example_one3" />
+		<text>Основни тон акорда <b>vi</b> ступња (a-мола) је <b>a</b>.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Дакле, покрет основног тона од тоничног до акорда <b>vi</b> ступња (<b>c</b> - <b>a</b>) је <b>терца наниже</b>.</text>
+		<gotoAndPlay label="example_one5" />
+		<text>А због могућности обртања интервала, такође може да се каже да је то <b>секста навише</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Сад ћемо узети други пример: субдоминантни акорд (у првом обртају) који прелази у доминантни акорд.</text>
+		<gotoAndStop label="example_two2" />
+		<text>Основни тон првог акорда (F-дура) је <b>f</b>.  Пошто је тај акорд у обртају, основни тон није и најнижи тон.</text>
+		<gotoAndStop label="example_two3" />
+		<text>Основни тон другог акорда (G-дура) је <b>g</b>.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Дакле, покрет основног тона између ова два акорда је <b>секунда навише</b> или <b>септима наниже</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="circle" />
+		<text><b>Кружни хармонски ток</b> настаје при покрету основног тона <b>кварту навише</b> или <b>квинту наниже</b>.</text>
+		<gotoAndPlay label="circle2" />
+		<text>Кретање акорада <b>I → IV</b> ступња и <b>ii → V</b> ступња су примери кружног хармонског тока.</text>
+		<gotoAndPlay label="circle3" />
+		<text>Кретања акорада <b>iii → vi</b> ступња и <b>IV → viiº</b> ступња (у првом обртају), су такође кружни хармонски токови.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Хајде сад да нађемо све могуће кружне хармонске токове за дурску лествицу.</text>
+		<gotoAndPlay label="major2" />
+		<text>Тонични акорд се креће у субдоминантни, а овај прелази у акорд <b>viiº</b> ступња.</text>
+		<gotoAndPlay label="major3" />
+		<text>Акорд <b>viiº</b> ступња прелази у акорд <b>iii</b>, па у акорд <b>vi</b> ступња.</text>
+		<gotoAndPlay label="major4" />
+		<text>Акорд <b>vi</b> ступња прелази у акорд <b>ii</b> ступња, па у доминантни и коначно се враћа на тонични акорд.</text>
+		<gotoAndPlay label="major5" />
+		<text>Послушајте овај пример.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Сада ћемо наћи све могуће кружне хармонске токове за молску лествицу.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Тонични акорд се креће у субдоминантни, па у акорд <b>VII</b> ступња (а не <b>viiº</b> ступња).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Акорд <b>VII</b> ступња прелази у акорд <b>III</b>, па у акорд <b>VI</b> ступња.</text>
+		<gotoAndPlay label="minor4" />
+		<text>Акорд <b>VI</b> ступња прелази у акорд <b>iiº</b> ступња, па у акорд <b>V</b> (а не <b>v</b>) ступња и коначно у тонични молски акорд.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Послушајте овај пример.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>На горњој слици је дат образац за кружни хармонски ток преко дурске и молске лествице.</text>
+	</section>
+	
+</lesson>

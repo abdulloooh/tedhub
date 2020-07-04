@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<!-- <var name="tonicText">Tonic</var> -->
+	<var name="tonicText">tonika (T)</var>
+	<!-- <var name="supertonicText">Supertonic</var> -->
+	<var name="supertonicText">dźwięk prowadzący w dół</var>
+	<!-- <var name="mediantText">Mediant</var> -->
+	<var name="mediantText">medianta górna (Mg)	</var>
+	<!-- <var name="subdominantText">Subdominant</var> -->
+	<var name="subdominantText">subdominanta</var>
+	<!-- <var name="dominantText">Dominant</var> -->
+	<var name="dominantText">dominanta</var>
+	<!-- <var name="submediantText">Submediant</var> -->
+	<var name="submediantText">medianta dolna (Md)</var>
+	<!-- <var name="leadingToneText">Leading Tone</var> -->
+	<var name="leadingToneText">dźwięk prowadzący w górę</var>
+	<!-- <var name="subtonicText">Subtonic</var> -->
+	<var name="subtonicText">subtonika</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <!-- <title>Key Signatures</title> -->
+    <title>Znaki przykluczowe</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Znaki przykluczowe</b> są kolekcją stałych znaków chromatycznych danej gamy.</text>
+		<!-- <text>A <b>key signature</b> is a collection of every accidental found in a scale.</text> -->
+		<gotoAndPlay label="c_minor" />
+		<text>Zanalizujemy to na przykładzie gamy c-moll, w której występują trzy bemole.</text>
+		<!-- <text>To demonstrate this, we will use the key of C Minor, which has three flats.</text> -->
+		<gotoAndPlay label="c_minor2" />
+		<text>Zamiast pisania znaków bemola przy każdej nucie E, A i H, można je wpisać przy kluczu na początku taktu.</text>
+		<!-- <text>Instead of writing a flat next to every E, A, and B; a key signature can simply be added to the beginning of the measure.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>Rozpatrzmy to teraz na przykładzie gamy A-dur, która ma trzy krzyżyki.</text>
+		<!-- <text>For our next example, we will use A Major, which has three sharps.</text>-->
+		<gotoAndPlay label="a_major2" />
+		<text>Znowu umieścimy znaki przy kluczu, żeby ich nie pisać przy każdej nucie C, F i G.</text>
+		<!-- <text>Again, a key signature can be used instead of writing a sharp next to every C, F, and G.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Jak widać, znaki przykluczowe są notowane w specjalnej kolejności.</text>
+		<!-- <text>As you may have noticed, the sharps are arranged in a special order.</text> -->
+		<gotoAndStop label="sharps2" />
+		<text>Najpierw Fis, po nim Cis i Gis.</text>
+		<!-- <text>F# comes first, followed by C# then G#.</text> -->
+		<gotoAndPlay label="sharps3" />
+		<text>Dalej Dis, Ais, Eis i na końcu His.</text>
+		<!-- <text>Next comes D#, A#, E#, and finally B#.</text> -->
+		<gotoAndStop label="sharps4" />
+		<text>Możesz zapamiętać tę kolejność wypowiadając: „<b>F</b>ilip <b>C</b>iągle <b>G</b>ra <b>D</b>la <b>A</b>gaty <b>E</b>cho <b>H</b>imalajów".</text>
+		<!-- <text>You can remember this order by using the following saying: "<b>F</b>ather <b>C</b>harles <b>G</b>oes <b>D</b>own <b>A</b>nd <b>E</b>nds <b>B</b>attle"</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Zaczynając od B w przeciwnym kierunku dostajemy kolejność bemoli.</text>
+		<!-- <text>Starting with Bb, the order of the flats is the exact opposite.</text> -->
+		<gotoAndPlay label="flats2" />
+		<text>A więc Es, As, Des, Ges, Ces, i na koniec Fes.</text>
+		<!-- <text>Next comes Eb, Ab, Db, Gb, Cb, and finally Fb.</text> -->
+		<gotoAndStop label="flats3" />
+		<text>Kolejność tę zapamiętamy wymawiając: „<b>B</b>ębni <b>E</b>chem <b>A</b>gata <b>D</b>la <b>G</b>rającego <b>C</b>iągle <b>F</b>ilipa".</text>
+		<!-- <text>This order can be remembered with another saying: "<b>B</b>attle <b>E</b>nds <b>A</b>nd <b>D</b>own <b>G</b>oes <b>C</b>harles' <b>F</b>ather"</text> -->
+	</section>
+
+</lesson>

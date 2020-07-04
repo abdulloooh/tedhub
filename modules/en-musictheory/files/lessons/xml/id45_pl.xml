@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedSeventhText">7 zm</var>
+	<var name="minorSeventhText">7 m</var>
+	<var name="majorSeventhText">7 W</var>
+
+	<var name="MajorTriadText">trójdźwięk majorowy</var>
+	<var name="MinorTriadText">trójdźwięk minorowy</var>
+	<var name="DiminishedTriadText">trójdźwięk zmniejszony</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Akordy septymowe</title>
+	<!-- <title>Seventh Chords</title> -->
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Akord septymowy</b> składa się z trójdźwięku oraz septymy.</text>
+		<!-- <text>A <b>seventh chord</b> is the combination of a triad and an interval of a seventh.</text> -->
+		<text>Omówimy pięć rodzajów akordów septymowych, które są najczęściej używane.</text>
+		<!-- <text>Five types of seventh chords are commonly used.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="dominant" />
+		<text>Kiedy trójdźwięk majorowy poszerzymy o małą septymę, otrzymamy <b>akord dominantowy septymowy</b>.</text>
+		<!-- <text>When a major triad and a minor seventh combine, a <b>dominant seventh chord</b> results.</text> -->
+		<gotoAndPlay label="dominant2" />
+		<text>Posłuchajmy jak brzmi akord dominantowy septymowy C.</text>
+		<!-- <text>listen to a C dominant seventh chord.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Kiedy trójdźwięk majorowy poszerzymy o septymę wielką, otrzymamy <b>akord durowy septymowy</b>.</text>
+		<!-- <text>When a major triad and a major seventh combine, a <b>major seventh chord</b> results.</text> -->
+		<gotoAndPlay label="major2" />
+		<text>Posłuchajmy jak brzmi akord C-dur septymowy.</text>
+		<!-- <text>Listen to a C major seventh chord.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Kiedy do akordu minorowego dołączymy septymę małą, otrzymamy <b>akord minorowy septymowy</b>.</text>
+		<!-- <text>When a minor triad and a minor seventh combine, a <b>minor seventh chord</b> results.</text> -->
+		<gotoAndPlay label="minor2" />
+		<text>Posłuchajmy jak brzmi akord c-moll septymowy.</text>
+		<!-- <text>Listen to a C minor seventh chord.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>Połączenie trójdźwięku zmniejszonego i septymy zmniejszonej daje <b>akord zmniejszony septymowy</b>.</text>
+		<!-- <text>When a diminished triad and a diminished seventh combine, a <b>fully-diminished seventh chord</b> results.  It is sometimes just called a <b>diminished seventh chord</b>.</text> -->
+		<gotoAndPlay label="diminished2" />
+		<text>Posłuchajmy jak brzmi akord c zmniejszony septymowy.</text>
+		<!-- <text>Listen to a C fully-diminished seventh chord.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="half_diminished" />
+		<text>I na zakończenie, akord składający się z trójdźwięku zmniejszonego i septymy małej nazywa się <b>półzmniejszonym akordem septymowym</b>.</text>
+		<!-- <text>Finally, when a diminished triad and a minor seventh combine, a <b>half-diminished seventh chord</b> results.</text> -->
+		<gotoAndPlay label="half_diminished2" />
+		<text>Posłuchajmy jak brzmi akord półzmniejszony septymowy c.</text>
+		<!-- <text>Listen to a C half-diminished seventh chord.</text> -->
+	</section>
+
+</lesson>

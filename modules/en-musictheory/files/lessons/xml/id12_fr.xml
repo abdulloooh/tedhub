@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Les Mesures et la Signature Temporelle</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">Trois</var>
+	<var name="fourText">Quatre</var>
+	<var name="sixText">Six</var>
+	<var name="halfText">Blanche (1/2 de Ronde)</var>
+	<var name="quarterText">Noire (1/4 de Ronde)</var>
+	<var name="eighthText">Croche (1/8 de Ronde)</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Les barres verticales sont appellées <b>les barres de mesures</b> elles divisent la portée en <b>mesures</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>La portée ci-dessus à été divisée en deux mesures.</text>
+		<gotoAndPlay label="timesig" />
+		<text><b>La signature temporelle</b> définit le nombre de notes (chiffre du haut) contenues dans chaque mesure et la valeur de l'unité de temps (chiffre du bas).</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>Dans l'exemple ci-dessus, la première mesure est à 4/4 et la deuxième mesure à 3/4.</text>
+		<gotoAndPlay label="4/4" />
+		<text>La première mesure (4/4) est constituée de 4 noires.</text>
+		<gotoAndPlay label="3/4" />
+		<text>La deuxième mesure (3/4) est constituée de 3 noires.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Maintenant nous allons parler des signatures temporelles qui ont d'autres valeurs de base que la noire.</text>
+		<gotoAndPlay label="6/8" />
+		<text>La signature temporelle 6/8 est constituée de 6 croches.</text>
+		<gotoAndPlay label="3/2" />
+		<text>La signature temporelle 3/2 est constituée de 3 blanches.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Le diagramme ci-dessus présente toutes les signatures temporelles dont nous avons parlé dans cette leçon.</text>
+	</section>
+	
+</lesson>

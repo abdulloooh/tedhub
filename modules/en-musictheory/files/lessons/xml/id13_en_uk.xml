@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Rest Duration</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text><b>Rests</b> are used to show periods of silence in a bar.</text>
+		<gotoAndPlay label="notes" />
+		<text>Each type of rest shares a duration with a certain type of note.</text>
+		<gotoAndStop label="notes2" />
+		<text>For example, both a crotchet rest and a crotchet note occupy the same amount of time.  While the note would make a sound, the rest is silent.</text>
+	</section>
+			
+	<section>
+		<gotoAndPlay label="example" />
+		<text>To demonstrate this, we will fill a bar of 4/4 time with crotchet notes.</text>
+		<gotoAndPlay label="example2" />
+		<text>Listen to the above example.</text>
+		<gotoAndPlay label="example3" />
+		<text>Next, we will replace the second crotchet note with a crotchet rest.</text>
+		<gotoAndPlay label="example4" />
+		<text>Notice how the second beat is now silent.</text>
+	</section>	
+
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Use this chart for reference to rest duration.</text>
+	</section>		
+
+</lesson>

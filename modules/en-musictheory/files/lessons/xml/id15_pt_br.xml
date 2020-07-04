@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Compasso Simples e Composto</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Toda fórmula de compasso pode ser classificada numa certa <b>métrica</b>.</text>
+		<text>Os termos <b>binário</b>, <b>ternário</b> e <b>quaternário</b> referem-se ao número de tempos em um compasso.</text>
+		<text>O termo <b>simples</b> significa que cada um desses tempos, ou unidades de tempo, pode ser dividido em duas notas.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="simple_duple" />
+		<text>Por exemplo, o compasso 2/4 é classificado como um compasso <b>binário simples</b>.</text>
+		<gotoAndStop label="simple_duple2" />
+		<text>"Binário" refere-se aos dois tempos por compasso.</text>
+		<gotoAndStop label="simple_duple3" />
+		<text>"Simples" quer dizer que cada um desses tempos pode ser dividido em duas notas.</text>
+		<gotoAndStop label="simple_duple4" />
+		<text>O 2/2 e o 2/8 também são compassos binários simples.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="simple_triple" />
+		<text>O compasso 3/4 é classificado como <b>ternário simples</b>.</text>
+		<gotoAndStop label="simple_triple2" />
+		<text>"Ternário" refere-se aos três tempos por compasso.</text>
+		<gotoAndStop label="simple_triple3" />
+		<text>E "simples" quer dizer que cada um desses tempos pode ser dividido em duas notas.</text>
+		<gotoAndStop label="simple_triple4" />
+		<text>O 3/2 e o 3/8 também são ternários simples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="simple_quadruple" />
+		<text>O compasso 4/4 é classificado como quaternário simples por ele ter quatro tempos que podem ser divididos, cada um, em duas notas.</text>
+		<gotoAndStop label="simple_quadruple2" />
+		<text>O 4/2 e o 4/8 também são quaternários simples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="top_number" />
+		<text>Observe que uma fórmula de compasso com métrica simples terá sempre 2, 3, ou 4 como numerador, o número que fica na parte de cima da fórmula.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound" />
+		<text>Enquanto os tempos no compasso simples são divisíveis em duas notas, os tempos no compasso composto são divisíveis em três.</text>
+		<gotoAndStop label="compound2" />
+		<text>Para demonstrar isso, examinaremos o compasso 6/8.</text>
+		<gotoAndStop label="compound3" />
+		<text>Observe que as seis colcheias podem ser agrupadas tanto em dois tempos (<b>binário composto</b>) quanto em três tempos (<b>ternário simples</b>).</text>
+		<gotoAndStop label="compound4" />
+		<text>Como o padrão ternário simples já pertence ao compasso 3/4, o 6/8 é um binário composto.</text>
+		<gotoAndStop label="compound5" />
+		<text>Observe que cada tempo, ou unidade de tempo, num compasso 6/8 é uma semínima pontuada.  Aliás, todos os compassos compostos terão alguma nota pontuada como sua unidade de tempo.</text>
+		<gotoAndStop label="compound6" />
+		<text>Qualquer fórmula de compasso com um 6 em cima é de um compasso binário composto. Das fórmulas de compasso acima, o 6/8 e o 6/4 são os compassos mais usados.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound_triple" />
+		<text>O compasso 9/8 é classificado como <b>ternário composto</b>.</text>
+		<gotoAndStop label="compound_triple2" />
+		<text>Há três tempos (três semínimas pontuadas), o que torna a métrica ternária.</text>
+		<gotoAndStop label="compound_triple3" />
+		<text>Como cada unidade de tempo é feita de três notas, a métrica é composta.</text>
+		<gotoAndStop label="compound_triple4" />
+		<text>Qualquer fórmula de compasso com um 9 em cima é um compasso ternário composto.  Embora o 9/8 seja o mais comum, 9/2, 9/4, e 9/16 também são utilizados.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound_quadruple" />
+		<text>Por fim, o compasso 12/8 é classificado como <b>quaternário composto</b>.</text>
+		<gotoAndStop label="compound_quadruple2" />
+		<text>Há quatro tempos, o que torna a métrica quaternária.</text>
+		<gotoAndStop label="compound_quadruple3" />
+		<text>Como cada unidade de tempo é feita de três notas, a métrica é composta.</text>
+		<gotoAndStop label="compound_quadruple4" />
+		<text>Qualquer fórmula de compasso com um 12 em cima é um compasso quaternário composto. Das fórmulas de compasso acima, 12/8 e 12/16 são as mais usadas.</text>
+	</section>
+</lesson>

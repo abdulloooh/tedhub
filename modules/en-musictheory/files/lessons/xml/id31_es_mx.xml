@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">Primera</var>
+	<var name="secondText">Segunda</var>
+	<var name="thirdText">Tercera</var>
+	<var name="fourthText">Cuarta</var>
+	<var name="fifthText">Quinta</var>
+	<var name="sixthText">Sexta</var>
+	<var name="seventhText">Séptima</var>
+	<var name="eighthText">Octava</var>
+	<var name="diminishedText">Disminuida</var>
+	<var name="minorText">Menor</var>
+	<var name="perfectText">Justa</var>
+	<var name="majorText">Mayor</var>
+	<var name="augmentedText">Aumentada</var>
+	<var name="majorSecondText">2M</var>
+	<var name="majorThirdText">3M</var>
+	<var name="perfectFourthText">4J</var>
+	<var name="augmentedFourthText">4A</var>
+	<var name="diminishedFifthText">5D</var>
+	<var name="perfectFifthText">5J</var>
+	<var name="majorSixthText">6M</var>
+	<var name="augmentedSixthText">6A</var>
+	<var name="diminishedSeventhText">7d</var>
+	<var name="minorSeventhText">7m</var>
+	<var name="majorSeventhText">7M</var>
+	<var name="perfectEighthText">8J</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Intervalos Especiales</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Los <b>intervalos especiales</b> se miden tanto en el pentagrama como por semitonos en el teclado del piano.</text>
+		<gotoAndPlay label="intro" />
+		<text>Como aprendiste en la lección anterior, de Do a Re y de Do a Re Bemol existe un intervalo genérico de segunda.  Especificamente, sin embargo, de Do a Re hay un semitono más que de Do a Re Bemol.</text>
+		<gotoAndStop label="intro2" />
+		<text>Aprendamos unos cuantos intervalos especiales.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text>Una Segunda Mayor está compuesta por dos semitonos.</text>
+		<gotoAndPlay label="major_second2" />
+		<text>De Do a Re hay un intervalo de Segunda Mayor puesto que es un intervalo genérico de segunda en el pentagrama y tiene dos semitonos en el teclado del piano.</text>
+		<gotoAndPlay label="major_second3" />
+		<text>Otro ejemplo de intervalo de Segunda Mayor, es la distancia de Mi a Fa Sostenido.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text>Un intervalo de <b>Tercera Mayor</b> está compuesto por cuatro semitonos.</text>
+		<gotoAndPlay label="major_third2" />
+		<text>De Do a Mi hay una Tercera Mayor.</text>
+		<gotoAndPlay label="major_third3" />
+		<text>De Mi a Sol Sostenido también existe una Tercera Mayor.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text>Un intervalo de <b>Cuarta Justa</b> comprende cinco semitonos.</text>
+		<gotoAndPlay label="perfect_fourth2" />
+		<text>De Do a Fa hay una Cuarta Justa.</text>
+		<gotoAndPlay label="perfect_fourth3" />
+		<text>Otro ejemplo de Cuarta Justa es la distancia de Fa a Si Bemol.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text>Un intervalo de <b>Quinta Justa</b> está constituido por siete semitonos.</text>
+		<gotoAndPlay label="perfect_fifth2" />
+		<text>De Do a Sol hay una Quinta Justa.</text>
+		<gotoAndPlay label="perfect_fifth3" />
+		<text>De Si a Fa Sostenido también hay una Quinta Justa.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text>Un intervalo de <b>Sexta Mayor</b> contiene nueve semitonos.</text>
+		<gotoAndPlay label="major_sixth2" />
+		<text>De Do a La hay una Sexta Mayor.</text>
+		<gotoAndPlay label="major_sixth3" />
+		<text>De igual forma, de Mi Bemol a Do hay una Sexta Mayor.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text>Un intervalo de <b>Séptima Mayor</b> comprende once semitonos.</text>
+		<gotoAndPlay label="major_seventh2" />
+		<text>De Do a Si hay una Séptima Mayor.</text>
+		<gotoAndPlay label="major_seventh3" />
+		<text>De Re a Do Sostenido también hay una Séptima Mayor.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Finalmente, veremos que un intervalo de <b>Octava Justa</b> está compuesto por doce semitonos.</text>
+		<gotoAndPlay label="perfect_eighth2" />
+		<text>De Do al Do siguiente hay una Octava Justa.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Además de los intervalos Mayores y Justos; existen los intervalos <b>menores</b>, <b>Aumentados</b> y <b>Disminuidos</b>.</text>
+		<gotoAndStop label="diminished2" />
+		<text>Un intervalo Disminuido tiene un semitono menos que un intervalo Justo.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Dado que de Do a Sol hay una Quinta Justa (7 semitonos), de Do a Sol Bemol habrá una Quinta Disminuida (6 semitonos).</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Otro ejemplo de Quinta Disminuida es la distancia de Si a Fa (pues de Si a Fa Sostenido hay una quinta justa).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Un intervalo Aumentado tiene un semitono más que un intervalo Justo.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Dado que de Do a Fa hay una Cuarta Justa (5 semitonos), de Do a Fa Sostenido habrá una Cuarta Aumentada (6 semitonos).</text>
+		<gotoAndPlay label="augmented3" />
+		<text>De Fa a Si también hay una Cuarta Aumentada (pues de Fa a Si Bemol hay una Cuarta Justa).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Los intervalos Mayores también pueden ser Aumentados al añadirles un semitono.</text>
+		<gotoAndPlay label="major_augmented2" />
+		<text>Por ejemplo, dado que de Do a La hay una Sexta Mayor (9 semitonos), de Do a La Sostenido habrá una Sexta Aumentada (10 semitonos).</text>
+		<gotoAndPlay label="major_augmented3" />
+		<text>Otro ejemplo de Sexta Aumentada es la distancia de Re Bemol a Si, (pues de Re Bemol a Si Bemol hay una Sexta Mayor).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>El restarle un semitono a un intervalo Mayor no lo Disminuye; en vez de ello lo convierte en intervalo menor.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Por ejemplo, dado que de Do a Si hay una Séptima Mayor (11 semitonos), de Do a Si Bemol habrá una Séptima menor (10 semitonos).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Sólo tras sustraer otro semitono a un intervalo Mayor lo convertiremos en Disminuido.  Por lo tanto, de Do a Si Doble Bemol encontramos nuestra Séptima Disminuida (9 semitonos).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>La presente tabla muestra el número de semitonos contenidos en cada intervalo especial.</text>
+	</section>
+</lesson>

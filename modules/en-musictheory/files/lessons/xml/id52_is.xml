@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "Eighth Note:" followed by an eighth note -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- Eighth Note: ♪ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="EbText">Es</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómgreining 1</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Hljómgreining tónlistar er mikilvægur hluti tónfræða.</text>
+		<gotoAndPlay label="song" />
+		<text>Lítum á fyrstu fjóra takta kanadíska þjóðsöngsins, <i>O Canada!</i></text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>Fyrst þarf að greina tóntegundina. Með þrjú bé sem föst formerki höfum við tvo möguleika: Es dúr eða c moll.</text>
+		<gotoAndStop label="measure_one" />
+		<text>Fyrsti hljómurinn er Es dúr þríhljómur (Es - B - Es og G). Þar sem þessi hljómur er <b>I</b> (frumhljómur) í Es dúr er það líklega tóntegund lagsins.</text>
+		<gotoAndStop label="measure_one2" />
+		<text>Hljómur tvö er B dúr þríhljómur (D - B - F - B), sem er <b>V</b> (forhljómur) Es dúr. Þar sem 3und hljómsins er í bassa er hljómurinn í 1. hljómhvörfum.</text>
+		<gotoAndStop label="measure_one3" />
+		<text>Við þurfum ekki að auðkenna næsta hljóm þar sem hann er endurtekning á hljómi tvö.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_two" />
+		<text>Fyrsti hljómurinn í takti tvö er c moll (C - G - C - Eb). Hljómurinn er því <b>vi</b>.</text>
+		<gotoAndStop label="measure_two2" />
+		<text>Næsti hljómur er B dúr (B - B - D - F), eins og hljómur tvö, en hér er hljómurinn í grunnstöðu (B í bassanum).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_three" />
+		<text>1. hljómur 3. takts er Es dúr (Es - B - Es - G) og því <b>I</b> (frumhljómur).</text>
+		<gotoAndStop label="measure_three2" />
+		<text>Næsti hljómur er undirforhljómur (As) í 1. hljómhvörfum (C - As - Es - As).</text>
+		<gotoAndStop label="measure_three3" />
+		<text>Þá kemur frumhljómur (Es) í 1. hljómhvörfum (G - G - Eb - Bb).</text>
+		<gotoAndStop label="measure_three4" />
+		<text>Síðan undirforhljómur (As) í grunnstöðu (As - C - Es - C).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_four" />
+		<text>Síðasti hljómurinn, B - B - D - F, er B dúr og því <b>V</b>.</text>
+		<gotoAndPlay label="listen" />
+		<text>Fyrstu fjórir taktar lagsins hljóma þá svona.</text>
+	</section>
+	
+</lesson>

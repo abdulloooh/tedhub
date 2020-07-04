@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">L2</var>
+	<var name="majorThirdText">S3</var>
+	<var name="perfectFourthText">H4</var>
+	<var name="perfectFifthText">H5</var>
+	<var name="minorSixthText">L6</var>
+	<var name="majorSeventhText">S7</var>
+	<var name="minorText">Lítil</var>
+	<var name="majorText">Stór</var>
+	<var name="perfectText">Hrein</var>
+	<var name="diminishedText">Minnkuð</var>
+	<var name="augmentedText">Stækkuð</var>
+	<var name="secondText">Tvíund</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fourthText">Ferund</var>
+	<var name="fifthText">Fimmund</var>
+	<var name="sixthText">Sexund</var>
+	<var name="seventhText">Sjöund</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tónhvörf</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Orðið <b>tónhvarf</b> merkir að lægri nótan í tónbili er færð upp um 8und (eða sú efri 8und niður).</text>
+		<text>Tónbilið er þannig hverft, því er snúið. Skoðum þetta nánar.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Lítum fyrst á tónbilið C - G (hrein 5und).</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Til að hverfa tónbilið færum við neðri nótuna (C) upp um 8und.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Tónbilið sem þá myndast er hrein 4und (G - C).</text>
+		<gotoAndStop label="example_one4" />
+		<text>Ef hreinu tónbili er snúið á þennan hátt er útkoman ávallt hreint tónbil.  4undir hverfast alltaf í 5undir og öfugt.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Skoðum næst tónbilið C - E (stór 3und).</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Neðri nótan (C) er færð 8und upp.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Útkoman er lítil 6und (E - C).</text>
+		<gotoAndStop label="example_two4" />
+		<text>Stór tónbil hverfast alltaf í lítil og öfugt - lítil 3und hverfist þannig í stóra 6und.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Næst hverfum við C - H (stóra 7und)...</text>
+		<gotoAndPlay label="example_three2" />
+		<text>með því að færa neðri nótuna upp um 8und.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Útkoman er lítil 2und (H - C).</text>
+		<gotoAndStop label="example_three3" />
+		<text>Tónbilin 2und og 7und hverfast ávallt í hvort annað.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>Síðasta reglan er að stækkuð og minnkuð tónbil hverfast hvort í annað.</text>
+		<gotoAndPlay label="example_four2" />
+		<text>C - Fís (stækkuð 4und) hverfist því í Fís - C (minnkaða 5und).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Taflan dregur saman þær reglur sem kynntar hafa verið um tónhvörf.</text>
+	</section>
+
+</lesson>

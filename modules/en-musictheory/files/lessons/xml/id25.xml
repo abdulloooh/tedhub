@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minusText">-</var>
+	<var name="plusText">+</var>
+	<var name="equalsText">=</var>
+	<var name="minusSevenText">-7</var>
+	<var name="minusSixText">-6</var>
+	<var name="minusFiveText">-5</var>
+	<var name="minusFourText">-4</var>
+	<var name="minusThreeText">-3</var>
+	<var name="minusTwoText">-2</var>
+	<var name="minusOneText">-1</var>
+	<var name="ZeroText">0</var>
+	<var name="OneText">1</var>
+	<var name="TwoText">2</var>
+	<var name="ThreeText">3</var>
+	<var name="FourText">4</var>
+	<var name="FiveText">5</var>
+	<var name="SixText">6</var>
+	<var name="SevenText">7</var>
+	<var name="EightText">8</var>
+	<var name="cFlatMajorText">Cb</var>
+	<var name="cMajorText">C</var>
+	<var name="cSharpMajorText">C#</var>
+	<var name="cMinorText">c</var>
+	<var name="dMajorText">D</var>
+	<var name="dMinorText">d</var>
+	<var name="eFlatMajorText">Eb</var>
+	<var name="eMajorText">E</var>
+	<var name="fMajorText">F</var>
+	<var name="fSharpMajorText">F#</var>
+	<var name="fMinorText">f</var>
+	<var name="gMajorText">G</var>
+	<var name="gSharpMajorText">G#</var>
+	<var name="gSharpMinorText">g#</var>
+	<var name="aMajorText">A</var>
+	<var name="bMajorText">B</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Key Signature Calculation</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>30 different key signatures exist (15 for major scales and 15 for minor scales).  Most theory students are expected to memorize all 30.</text>
+		<text>Fortuately, using the <b>key signature calculation method</b>, one only has to memorize seven.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="number_line" />
+		<text>In the calculation method, each key signature is assigned a numeric value based on the number and type of accidentals.  Sharps are positive; flats are negative.</text>
+				
+		<gotoAndStop label="c_major" />
+		<text>The key of C Major has no accidentals; therefore, its numeric value is 0.</text>
+		<gotoAndStop label="d_major" />
+		<text>The key of D Major has two sharps; thus, its numeric value is 2.</text>
+		<gotoAndStop label="e_major" />
+		<text>The key of E Major has four sharps - a numeric value of 4.</text>
+		<gotoAndStop label="f_major" />
+		<text>The key of F Major has one flat; therefore, its numeric value is -1.  (Remember: flats are assigned negative numbers)</text>
+		<gotoAndStop label="g_major" />
+		<text>The key of G Major has one sharp.  Its numeric value is 1.</text>
+		<gotoAndStop label="a_major" />
+		<text>The key of A Major has three sharps - a numeric value of 3.</text>
+		<gotoAndStop label="b_major" />
+		<text>Finally, the key of B Major has five sharps - giving it a numeric value of 5.</text>
+		<text>These seven values must be memorized before we can proceed.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="seven" />
+		<text>Next, let's compare Cb, C, and C# Major.</text>
+		<gotoAndStop label="seven2" />
+		<text>If we start at C Major and subtract 7, we end up at Cb Major.</text>
+		<text>If we start at C Major and add 7, we end up at C# Major.</text>
+		<text>These two numeric relationships can help us calculate keys that we do not know.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="eb_major" />
+		<text>Let's figure out Eb Major.  First, start with E Major, which has a numeric value of 4.</text>
+		<gotoAndStop label="eb_major2" />
+		<text>To convert to Eb Major, subtract 7.</text>
+		<gotoAndPlay label="eb_major3" />
+		<text>The result is -3; thus, Eb Major has 3 flats.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="fs_major" />
+		<text>Let's try F# Major.  Start with F Major, which is -1.</text>
+		<gotoAndStop label="fs_major2" />
+		<text>To convert to F# Major, add 7.</text>
+		<gotoAndPlay label="fs_major3" />
+		<text>The result is 6; thus, F# Major has 6 sharps.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="three" />
+		<text>Next, we will examine minor scales.  Compare C Major and C Minor.</text>
+		<gotoAndStop label="three2" />
+		<text>To convert a major scale into its parallel minor, simply subtract 3.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="d_minor" />
+		<text>Let's calculate D Minor.  We will start with D Major, which is 2.</text>
+		<gotoAndStop label="d_minor2" />
+		<text>Next, simply subtract 3.</text>
+		<gotoAndPlay label="d_minor3" />
+		<text>The result is -1.  Therefore, D Minor has one 1 flat.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="f_minor" />
+		<text>Next, let's try F Minor.  We will start with F Major, which is -1.</text>
+		<gotoAndStop label="f_minor2" />
+		<text>Next, subtract 3.</text>
+		<gotoAndPlay label="f_minor3" />
+		<text>The result is -4.  Thus, F Minor has 4 flats.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="gs_minor" />
+		<text>Some key signatures require two conversions.  For example, let's calculate G# Minor.</text>
+		<gotoAndStop label="gs_minor2" />
+		<text>Start with G Major, which has a numeric value of 1.</text>
+		<gotoAndStop label="gs_minor3" />
+		<text>Next, add 7 to get to G# Major.</text>
+		<gotoAndStop label="gs_minor4" />
+		<text>Finally, subtract 3 to convert to G# Minor.</text>
+		<gotoAndPlay label="gs_minor5" />
+		<text>The result is 5.  G# Minor therefore has 5 sharps.</text>
+	</section>
+	
+</lesson>

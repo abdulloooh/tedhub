@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="phraseText">фраза</var>
+	<var name="halfCadenceText">полукаденца</var>
+	<var name="authenticCadenceText">АК</var>
+	<var name="plagalCadenceText">плагална к.</var>
+	<var name="deceptiveCadenceText">варљива к.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Фразе и каденце</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Фраза</b> је скуп нота која звучи целовито чак и кад се свира сама за себе, одвојено од главне песме.</text>
+		<gotoAndPlay label="example" />
+		<text>Да би смо показали шта је фраза користићемо овај пример.</text>
+		<gotoAndPlay label="phrase_one" />
+		<text>Послушајте прва два такта и приметите да звуче недовршено.</text>
+		<gotoAndPlay label="phrase_one2" />
+		<text>Сада послушајте прва четири такта, који звуче довршеније.</text>
+		<gotoAndPlay label="phrase_one3" />
+		<text>Прва четири такта зовемо <b>фраза</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="phrase_two" />
+		<text>Послушајте мелодију од 5. до 8. такта.</text>
+		<gotoAndPlay label="phrase_two2" />
+		<text>Будући да је и ова мелодија целовита, то је такође фраза.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadence" />
+		<text><b>Каденца</b> је сам крај хармонског тока који се састоји од два акорда и појављује се на крају фразе.</text>
+		<gotoAndPlay label="half_cadence" />
+		<text>Ако се фраза завршава било којим акордом који се разрешава у акорд <b>V</b> ступња, настаје <b>полукаденца</b>.</text>
+		<gotoAndPlay label="half_cadence2" />
+		<text>Послушајте поново прва четири такта и приметите да се завршава полукаденцом.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="authentic_cadence" />
+		<text>Већини људи ће полукаденца звучати недовршено.  Због тога композитори често после полукаденце стављају фразу која се завршава <b>аутентичном каденцом (АК)</b>.</text>
+		<gotoAndPlay label="authentic_cadence2" />
+		<text>Аутентична каденца настаје кад се фраза завршава акордом <b>V</b> или <b>viiº</b> ступња који се разрешава у акорд <b>I</b> стпуња (или <b>i</b> ступња у молу).</text>
+		<gotoAndPlay label="authentic_cadence3" />
+		<text>Послушајте дати пример и осетите звучни утисак обе каденце.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pac" />
+		<text>Аутентична каденца се често дели на савршену и несавршену.</text>
+		<gotoAndPlay label="pac2" />
+		<text>Да би аутентична каденца била и <b>савршена (САК)</b>, мора задовољити три услова.</text>
+		<gotoAndPlay label="pac3" />
+		<text>Прво, акорд <b>V</b> ступња се мора корисити уместо акорда <b>viiº</b> ступња.</text>
+		<gotoAndPlay label="pac4" />
+		<text>Друго, оба акорда каденце морају бити у основном положају.</text>
+		<gotoAndPlay label="pac5" />
+		<text>Коначно, највиша нота акорда <b>I</b> ступња (или <b>i</b> ступња) мора бити тоника лествице.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="iac" />
+		<text>У <b>несавршеној аутентичној каденци (НАК)</b> бар један услов није испуњен.</text>
+		<gotoAndPlay label="iac2" />
+		<text>Све ове аутентичне каденце су несавршене из различитих разлога.</text>
+		<gotoAndPlay label="iac3" />
+		<text>У првом примеру, акорд <b>viiº</b> ступња се користи уместо акорда <b>V</b> ступња.</text>
+		<gotoAndPlay label="iac4" />
+		<text>У другом примеру, први акорд није у основном положају.</text>
+		<gotoAndPlay label="iac5" />
+		<text>У трећем примеру, највиша нота акорда <b>I</b> ступња није тоника лествице.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="plagal" />
+		<text>Поред аутентичне и полукаденце, постоје још две врсте каденци.</text>
+		<gotoAndPlay label="plagal2" />
+		<text>Ако се фраза завршава акордом <b>IV</b> ступња (или <b>iv</b> ступња) који се разрешава у акорд <b>I</b> ступња (или <b>i</b>), тад настаје <b>плагална каденца (ПК)</b>.</text>
+		<gotoAndPlay label="plagal3" />
+		<text>Послушајте дати пример и осетите како звучи плагална каденца.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="deceptive" />
+		<text>Ако се фраза завршава акордом <b>V</b> ступња који се разрешава у акорд <b>vi</b> ступња (или <b>VI</b> ступња у молу), настаје <b>варљива каденца (ВК)</b>.</text>
+		<text>Варљива каденца се често користи уместо аутентичне.</text>
+		<gotoAndPlay label="deceptive2" />
+		<text>Присетите се примера с почетка ове лекције.  Приметите да смо аутентичну каденцу са краја друге фраза заменили варљивом каденцом.</text>
+		<gotoAndPlay label="deceptive3" />
+		<text>Послушајте промењени пример.  Приметите како каденца "вара" (јер очекујемо да ћемо чути акорд <b>I</b> ступња).</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Using Neapolitan Chords</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>In the previous lessons, we learned how to construct Neapolitan chords.  In this lesson, we will learn how to use them.</text>
+		<gotoAndPlay label="first_inversion" />
+		<text>Although root position and second inversion Neapolitans exists, first inversion is normally used.</text>
+		<gotoAndStop label="first_inversion2" />
+		<text>When in this inversion, the Neapolitan is commonly called a <b>Neapolitan sixth</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="bass_notes" />
+		<text>Notice that the Neapolitan sixth's bass note is the same as a first inversion <b>iiº</b> (or <b>ii</b>) or a root position <b>iv</b> (or <b>IV</b>).</text>
+		<gotoAndPlay label="chart" />
+		<text>For this reason, its often substitutes for these chords.  Hence, it primarily functions as a predominant.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>To demonstrate this, consider the above example.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Let's replace the inverted <b>ii</b> chord with a Neapolitan sixth.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Listen to the new example.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Next, look and listen to this example.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>This time, we will replace the <b>IV</b> with a Neapolitan sixth.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Listen to the example again.</text>
+	</section>
+		
+</lesson>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tonique</var>
+	<var name="supertonicText">Sus-Tonique</var>
+	<var name="mediantText">Médiante</var>
+	<var name="subdominantText">Sous-Dominante</var>
+	<var name="dominantText">Dominante</var>
+	<var name="submediantText">Sus-Dominante</var>
+	<var name="leadingToneText">Sensible</var>
+	<var name="subtonicText">Sous-Tonique</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Les Armatures</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Une <b>armature</b> va nous donner toutes les altérations que l'on peut trouver dans une gamme.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>Pour comprendre cela nous allons utiliser la gamme de Do mineur qui comporte trois bémols.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Au lieu d'écrire un bémol devant chaque Si, Mi ou La, les altérations de ces notes sont inscrites au début de la première mesure.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>Pour notre prochain exemple nous allons utiliser la gamme de La Majeur qui comporte trois dièses.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>A nouveau, au lieu d'écrire un dièse devant chaque Fa, Do ou Sol nous allons utiliser l'armature et mettre ces trois dièzes à la clef.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Comme vous avez pu le remarquer, les dièses sont plaçés dans un ordre déterminé.</text>
+		<gotoAndStop label="sharps2" />
+		<text>Le Fa# vient en premier, suivi du Do# puis du Sol#.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Ensuite viennent le Ré#, le La#, le Mi#, et pour finir le Si#.</text>
+		<gotoAndStop label="sharps4" />
+		<text>Vous pouvez vous rappeller cette succession en utilisant cette phrase: "<b>Fa</b><b>Do</b> <b>Sol</b>itaire <b>Ré</b>(rê)ve à <b>L'a</b><b>Mi</b>e <b>Si</b>rène"</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Commençant par le Sib, l'ordre des bémols est exactement à l'inverse.</text>
+		<gotoAndPlay label="flats2" />
+		<text>Vient ensuite le Mib, le Lab, le Réb, le Solb, le Dob, et pour finir le Fab.</text>
+		<gotoAndStop label="flats3" />
+		<text>Pour vous rappeler cet ordre vous pouver utiliser la phrase suivante: "<b>Si</b>x <b>Mi</b>lle <b>La</b>cs <b>Ré</b>(res)plendissent aux <b>Sol</b>eils <b>Do</b>(d'au)tomnes <b>Fa</b>nés"</text>
+	</section>
+
+</lesson>

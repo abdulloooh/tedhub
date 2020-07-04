@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">Doble</var>
+	<var name="doubleFlatTwoText">bemol</var>
+	<var name="flatText">Bemol</var>
+	<var name="naturalText">Becuadro</var>
+	<var name="sharpText">Sostenido</var>
+	<var name="doubleSharpOneText">Doble</var>
+	<var name="doubleSharpTwoText">sostenido</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tonos y Alteraciones</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Un <b>semitono</b> es la distancia existente entre una tecla del piano y la tecla inmediata siguiente.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Dado que están una al lado de la otra, la distancia entre la Tecla 1 y la Tecla 2 sería un buen ejemplo de un semitono.</text>
+		<gotoAndStop label="half_step2" />
+		<text>Sin embargo, un semitono no sólo existe desde una tecla blanca a una negra.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>En este ejemplo, tanto la Tecla 1 como la Tecla 2 son blancas y adyacentes entre sí.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text>Un <b>tono</b> es la misma distancia que dos semitonos.</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>De la Tecla 1 a la Tecla 3 hay un tono. (El primer semitono es del 1 al 2 y el segundo del 2 al 3)</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text>Una <b>alteración</b> es un signo usado para subir o bajar el tono de una nota.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>Las primeras alteraciones que estudiaremos son el <b>bemol</b> y el <b>sostenido</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>El bemol reduce en un semitono la entonación de una nota, mientras que el sostenido incrementa su entonación en un semitono.</text>
+		<gotoAndStop label="accidentals4" />
+		<text>Cuando mecanografies, puedes usar un símbolo de <b>#</b> para representar un sostenido y una <b>b</b> para el bemol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<text>Examinemos la tecla negra entre las notas Do y Re.</text>
+		<gotoAndStop label="example2" />
+		<text>Esta tecla puede ser llamada Do Sostenido por estar un semitono arriba de Do.</text>
+		<gotoAndStop label="example3" />
+		<text>También puede llamársele Re Bemol pues se encuentra un semitono abajo de Re.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Otro ejemplo son las teclas Mi y Fa.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>Mi puede ser llamada Fa Bemol por estar un semitono debajo de Fa.</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>Asimismo, Fa puede ser llamada Mi Sostenido.</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>Se llama <b>enarmonía</b> al hecho de que una nota reciba nombres distintos para referir un mismo sonido.</text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>Las siguientes alteraciones a tratar son el <b>doble bemol</b> y el <b>doble sostenido</b>.</text>
+		<gotoAndStop label="double2" />
+		<text>Mientras que los bemóles y sostenidos alteran una nota en un semitono, el doble bemol y el doble sostenido la alteran en un tono.</text>
+		<gotoAndStop label="double3" />
+		<text>Al mecanografiar, puedes usar una <b>x</b> para representar un sostenido doble y una doble <b>bb</b> para el doble bemol.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>Por ejemplo, tanto Re como Mi Doble Bemol tienen la misma entonación pues podemos alcanzar Re bajando un tono (o dos semitonos) desde Mi.</text>
+		<gotoAndPlay label="double_example2" />
+		<text>Re también suena igual a Do Doble Sostenido pues éste se encuentra un tono arriba de Do.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Para terminar, veremos que un <b>becuadro</b> cancela cualquier alteración y devuelve la nota a su tono original.</text>
+		<gotoAndStop label="natural2" />
+		<text>Aprenderemos más acerca de los becuadros en lecciones posteriores.</text>
+	</section>
+	
+</lesson>

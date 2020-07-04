@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Compondo com Escalas Menores</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Diferentemente da escala maior, há três escalas menores.</text>
+		<text>Os compositores geralmente fundem duas dessas escalas - menor natural e menor harmônica - para obter um som mais agradável.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="triads" />
+		<text>Recorde-se das tríades diatônicas dessas escalas.</text>
+		<gotoAndStop label="triads2" />
+		<text>Observe que muitas das tríades são as mesmas.</text>
+		<gotoAndStop label="triads3" />
+		<text>Três pares de tríades (<b>III</b>, <b>III+</b>), (<b>v</b>, <b>V</b>), (<b>VII</b>, <b>viiº</b>) são diferentes por causa do sétimo grau elevado da menor harmônica.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="III" />
+		<text>III é sempre usado em vez do III+.  Isso é porque o III+, sendo um acorde aumentado, tem um som estranho.</text>
+		<gotoAndPlay label="V" />
+		<text>Como ele contém uma nota sensível (e portanto é mais forte), o <b>V</b> is preferível ao <b>v</b>.  Isso não significa que o <b>v</b> não possa ser usado.</text>
+		<gotoAndStop label="VII" />
+		<text>O <b>VII</b> e o <b>viiº</b> são igualmente usados.  Como você verá mais tarde, cada um deles tem uma função diferente.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="merged" />
+		<text>Como pode ver, a escala menor fundida contém nove tríades diatônicas diferentes.</text>
+	</section>
+
+</lesson>

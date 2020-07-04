@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">Förm.</var>
+	<var name="minorText">Moll</var>
+	<var name="majorText">Dur</var>
+	<var name="augmentedText">Överst.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Skalegna treklanger</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Varje dur- och mollskala har sju speciella treklanger som kallas för de <b>skalegna treklangerna</b>, vilka bildas av de i skalan ingående tonerna.</text>
+		<text>För att få fram de skalegna treklangerna ska vi använda en metod i tre steg.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major_intro" />
+		<text>Först skriver vi in skalan i notsystemet. Vi använder C-durskalan i vårt första exempel.</text>
+		<gotoAndPlay label="major_intro2" />
+		<text>Därefter staplar vi två terser ovanpå varje ton i skalan.</text>
+		<gotoAndStop label="major_intro3" />
+		<text>Slutligen ser vi efter vilka treklanger som uppstått på detta sätt.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Den första treklangen består av tonerna C, E och G - en stor ters och en ren kvint. Detta mönster känner vi igen som en durtreklang.</text>
+		<gotoAndStop label="major_ii" />
+		<text>Andra treklangen som bildas består av D, F och A - en liten ters och en ren kvint. Detta är en molltreklang.</text>
+		<gotoAndStop label="major_iii" />
+		<text>Tredje treklangen består av tonerna E, G och B - en liten ters och en ren kvint. Detta är också en molltreklang.</text>
+		<gotoAndStop label="major_iv" />
+		<text>Den fjärde treklangen består av F, A och C - en stor ters och en ren kvint. Ännu en durtreklang.</text>
+		<gotoAndStop label="major_v" />
+		<text>Femte treklangen består av G, B och D - en stor ters och en ren kvint. Ytterligare en durtreklang.</text>
+		<gotoAndStop label="major_vi" />
+		<text>Den sjätte treklangen består av tonerna A, C och E - en liten ters och en ren kvint. Känner vi igen som en molltreklang.</text>
+		<gotoAndStop label="major_vii" />
+		<text>Sjunde treklangen består av B, D och F - en liten ters och en förminskad kvint. Denna treklang är förminskad.</text>
+		<gotoAndStop label="major_viii" />
+		<text>Den åttonde treklangen består av samma toner som den första (C, E och G en oktav högre), och är som vi redan vet en durtreklang.</text>
+		<gotoAndStop label="major_recap" />
+		<text>Den första skalegna treklangen i en durskala är alltid en durtreklang. Den andra och tredje treklangen är alltid molltreklanger osv.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_intro" />
+		<text>Nu ska vi titta på vilka skalegna treklanger som bildas av tonerna i den rena (naturliga) c-mollskalan.</text>
+		<gotoAndPlay label="minor_intro2" />
+		<text>Först skriver vi in skalans toner i notsystemet. Lägg märke till att vi använder fasta förtecken istället för att sätta ut tillfälliga förtecken för varje ton.</text>
+		<gotoAndPlay label="minor_intro3" />
+		<text>Som tidigare bygger vi på med två terser ovanpå varje ton i skalan.</text>
+		<gotoAndStop label="minor_intro4" />
+		<text>Slutligen ser vi efter vilka treklanger som blivit resultatet.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_i" />
+		<text>Den första treklangen består av tonerna C, Eb och G - en liten ters och en ren kvint. Detta är med andra ord en molltreklang.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>Den andra treklangen består av D, F och Ab - en liten ters och en förminskad kvint. Denna treklang är därför förminskad.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>Tredje treklangen består av Eb, G och Bb - en stor ters och en ren kvint. Den är därigenom en durtreklang. </text>
+		<gotoAndStop label="minor_iv" />
+		<text>Fjärde treklangen består av F, Ab och C - en liten ters och en ren kvint. Känner vi igen som en molltreklang.</text>
+		<gotoAndStop label="minor_v" />
+		<text>Den femte treklangen består av tonerna G, Bb och D - en liten ters och en ren kvint. Är också en molltreklang.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>Sjätte treklangen består av Ab, C och Eb - en stor ters och en ren kvint. En durtreklang.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>Sjunde treklangen består av Bb, D och F - en stor ters och en ren kvint. Också en durtreklang.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>Åttonde treklangen är en upprepning av den första (tonerna C, Eb och G en oktav högre) och är som vi redan vet en molltreklang.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="harmonic_intro" />
+		<text>Avslutningsvis ska vi titta på de skalegna treklangerna för den harmoniska mollskalan.</text>
+		<gotoAndPlay label="harmonic_intro2" />
+		<text>För att förändra en naturlig (ren) mollskala till motsvarande harmoniska mollskala, höjer vi den sjunde tonen i skalan ett halvt tonsteg. Varje Bb (sjunde tonen i C-mollskalan) höjs alltså till ett B.</text>
+		<gotoAndStop label="harmonic_intro3" />
+		<text>Eftersom den tredje, femte och sjunde treklangen härigenom blivit förändrad, får vi analysera dem på nytt.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Den tredje treklangen består nu av Eb, G och B - en stor ters och en överstigande kvint. Denna treklang är därigenom överstigande.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>Den femte treklangen består av G, B och D - en stor ters och en ren kvint. Den är nu en durtreklang.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Slutligen består den sjunde treklangen nu av B, D och F - en liten ters och en förminskad kvint. Denna treklang är därför förminskad.</text>
+	</section>
+
+</lesson>

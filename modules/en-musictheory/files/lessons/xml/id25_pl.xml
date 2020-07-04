@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minusText">-</var>
+	<var name="plusText">+</var>
+	<var name="equalsText">=</var>
+	<var name="minusSevenText">-7</var>
+	<var name="minusSixText">-6</var>
+	<var name="minusFiveText">-5</var>
+	<var name="minusFourText">-4</var>
+	<var name="minusThreeText">-3</var>
+	<var name="minusTwoText">-2</var>
+	<var name="minusOneText">-1</var>
+	<var name="ZeroText">0</var>
+	<var name="OneText">1</var>
+	<var name="TwoText">2</var>
+	<var name="ThreeText">3</var>
+	<var name="FourText">4</var>
+	<var name="FiveText">5</var>
+	<var name="SixText">6</var>
+	<var name="SevenText">7</var>
+	<var name="EightText">8</var>
+	<var name="cFlatMajorText">Ces</var>
+	<var name="cMajorText">C</var>
+	<var name="cSharpMajorText">Cis</var>
+	<var name="cMinorText">c</var>
+	<var name="dMajorText">D</var>
+	<var name="dMinorText">d</var>
+	<var name="eFlatMajorText">Es</var>
+	<var name="eMajorText">E</var>
+	<var name="fMajorText">F</var>
+	<var name="fSharpMajorText">Fis</var>
+	<var name="fMinorText">f</var>
+	<var name="gMajorText">G</var>
+	<var name="gSharpMajorText">Gis</var>
+	<var name="gSharpMinorText">gis</var>
+	<var name="aMajorText">A</var>
+	<var name="bMajorText">H</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Obliczanie znaków przykluczowych</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Jest 30 zestawów znaków przykluczowych (15 dla gam majorowych i 15 dla minorowych). Zapamiętanie wszystkich 30 jest na ogół wymagane od studentów teorii muzyki.</text>
+		<!-- <text>30 different key signatures exist (15 for major scales and 15 for minor scales).  Most theory students are expected to memorize all 30.</text> -->
+		<text>Na szczęście, używając <b>metody obliczania znaków przykluczowych</b>, wystarczy zapamiętać siedem.</text>
+		<!-- <text>Fortuately, using the <b>key signature calculation method</b>, one only has to memorize seven.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="number_line" />
+		<text>W metodzie tej, każdemu zapisowi przykluczowemu gamy jest przydzielona wartość cyfrowa odpowiadająca ilości i typowi jej znaków chromatycznych. Krzyżyki mają znak dodatni, bemole ujemny.</text>
+		<!-- <text>In the calculation method, each key signature is assigned a numeric value based on the number and type of accidentals.  Sharps are positive; flats are negative.</text> -->
+				
+		<gotoAndStop label="c_major" />
+		<text>C Major nie ma znaków przykluczowych, toteż wartość numeryczna zapisu jest równa 0.</text>
+		<!-- <text>The key of C Major has no accidentals; therefore, its numeric value is 0.</text> -->
+		<gotoAndStop label="d_major" />
+		<text>D Major ma dwa krzyżyki; wartość numeryczna 2.</text>
+		<!-- <text>The key of D Major has two sharps; thus, its numeric value is 2.</text> -->
+		<gotoAndStop label="e_major" />
+		<text>E Major cztery krzyżyki - wartość numeryczna 4.</text>
+		<!-- <text>The key of E Major has four sharps - a numeric value of 4.</text> -->
+		<gotoAndStop label="f_major" />
+		<text>F Major ma jeden bemol; wartość numeryczna równa jest -1. (Pamiętajmy: wartość odpowiadająca bemolowi jest minusowa)</text>
+		<!-- <text>The key of F Major has one flat; therefore, its numeric value is -1.  (Remember: flats are assigned negative numbers)</text> -->
+		<gotoAndStop label="g_major" />
+		<text>G Major ma jeden krzyżyk. Wartość numeryczna 1.</text>
+		<!-- <text>The key of G Major has one sharp.  Its numeric value is 1.</text> -->
+		<gotoAndStop label="a_major" />
+		<text>A Major ma trzy krzyżyki - wartość numeryczna jej zapisu równa się 3.</text>
+		<!-- <text>The key of A Major has three sharps - a numeric value of 3.</text> -->
+		<gotoAndStop label="b_major" />
+		<text>W końcu, H-dur mająca pięć krzyżyków dostaje wartość numeryczną 5.</text>
+		<!-- <text>Finally, the key of B Major has five sharps - giving it a numeric value of 5.</text> -->
+		<text>Zapamiętanie tych siedmiu wartości numerycznych jest konieczne dla zrozumienia dalszego ciągu tego wykładu.</text>
+		<!-- <text>These seven values must be memorized before we can proceed.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="seven" />
+		<text>Porównajmy teraz Ces, C i Cis-dur.</text>
+		<!-- <text>Next, let's compare Cb, C, and C# Major.</text> -->
+		<gotoAndStop label="seven2" />
+		<text>Jeśli zaczniemy od C-dur i odejmiemy 7 znajdziemy się w Ces-dur.</text>
+		<!-- <text>If we start at C Major and subtract 7, we end up at Cb Major.</text> -->
+		<text>Jeśli zaczniemy od C-dur i dodamy 7 znajdziemy się w Cis-dur.</text>
+		<!-- <text>If we start at C Major and add 7, we end up at C# Major.</text> -->
+		<text>Te dwie zależności numeryczne pozwalają nam obliczyć znaki przykluczowe pozostałych gam.</text>
+		<!-- <text>These two numeric relationships can help us calculate keys that we do not know.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="eb_major" />
+		<text>Weźmy Es-dur. Zaczynamy od E-dur, której wartość numeryczna równa się 4.</text>
+		<!-- <text>Let's figure out Eb Major.  First, start with E Major, which has a numeric value of 4.</text> -->
+		<gotoAndStop label="eb_major2" />
+		<text>Aby otrzymać wynik dla Es-dur odejmujemy 7.</text>
+		<!-- <text>To convert to Eb Major, subtract 7.</text> -->
+		<gotoAndPlay label="eb_major3" />
+		<text>Wynik jest -3, a więc Es-dur ma 3 bemole.</text>
+		<!-- <text>The result is -3; thus, Eb Major has 3 flats.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="fs_major" />
+		<text>Spróbujmy z Fis-dur. Zaczynamy od F-dur z wartością -1.</text>
+		<!-- <text>Let's try F# Major.  Start with F Major, which is -1.</text> -->
+		<gotoAndStop label="fs_major2" />
+		<text>Przemieniamy ją na Fis-dur dodając 7.</text>
+		<!-- <text>To convert to F# Major, add 7.</text> -->
+		<gotoAndPlay label="fs_major3" />
+		<text>Wynik jest 6, a wiec Fis-dur ma 6 krzyżyków.</text>
+		<!-- <text>The result is 6; thus, F# Major has 6 sharps.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="three" />
+		<text>Następnie zajmiemy się gamami minorowymi. Porównamy C-dur i c-moll.</text>
+		<!-- <text>Next, we will examine minor scales.  Compare C Major and C Minor.</text> -->
+		<gotoAndStop label="three2" />
+		<text>Aby przemienić daną durową gamę w minorową, zwyczajnie odejmujemy 3.</text>
+		<!-- <text>To convert a major scale into its parallel minor, simply subtract 3.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="d_minor" />
+		<text>Obliczmy d-moll. Zaczynamy od D Major z wartością 2.</text>
+		<!-- <text>Let's calculate D Minor.  We will start with D Major, which is 2.</text> -->
+		<gotoAndStop label="d_minor2" />
+		<text>Następnie po prostu odejmujemy 3.</text>
+		<!-- <text>Next, simply subtract 3.</text> -->
+		<gotoAndPlay label="d_minor3" />
+		<text>Otrzymaliśmy -1. Zatem, d-moll ma 1 bemol.</text>
+		<!-- <text>The result is -1.  Therefore, D Minor has one 1 flat.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="f_minor" />
+		<text>Teraz, weźmy f-moll. Zaczynamy od F-dur z wartością -1.</text>
+		<!-- <text>Next, let's try F Minor.  We will start with F Major, which is -1.</text> -->
+		<gotoAndStop label="f_minor2" />
+		<text>Odejmujemy 3.</text>
+		<!-- <text>Next, subtract 3.</text> -->
+		<gotoAndPlay label="f_minor3" />
+		<text>Otrzymujemy -4. Zatem f-moll ma 4 bemole.</text>
+		<!-- <text>The result is -4.  Thus, F Minor has 4 flats.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="gs_minor" />
+		<text>Niektóre notacje przykluczowe wymagają podwójnego konwertowania. Na przykład przeliczmy gis-moll.</text>
+		<!-- <text>Some key signatures require two conversions.  For example, let's calculate G# Minor.</text> -->
+		<gotoAndStop label="gs_minor2" />
+		<text>Zaczynamy od G-dur z wartością numeryczną 1.</text>
+		<!-- <text>Start with G Major, which has a numeric value of 1.</text> -->
+		<gotoAndStop label="gs_minor3" />
+		<text>Następnie, dodajemy 7, żeby obliczyć Gis-dur.</text>
+		<!-- <text>Next, add 7 to get to G# Major.</text> -->
+		<gotoAndStop label="gs_minor4" />
+		<text>I odejmujemy 3, żeby skonwertować na gis-moll.</text>
+		<!-- <text>Finally, subtract 3 to convert to G# Minor.</text> -->
+		<gotoAndPlay label="gs_minor5" />
+		<text>W wyniku otrzymujemy 5; gis-moll ma zatem 5 krzyżyków.</text>
+		<!-- <text>The result is 5.  G# Minor therefore has 5 sharps.</text> -->
+	</section>
+	
+</lesson>

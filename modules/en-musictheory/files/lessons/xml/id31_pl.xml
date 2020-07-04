@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">Pryma</var>
+	<var name="secondText">Sekunda</var>
+	<var name="thirdText">Tercja</var>
+	<var name="fourthText">Kwarta</var>
+	<var name="fifthText">Kwinta</var>
+	<var name="sixthText">Seksta</var>
+	<var name="seventhText">Septyma</var>
+	<var name="eighthText">Oktawa</var>
+	<var name="diminishedText">Zmniejszona</var>
+	<var name="minorText">Mała</var>
+	<var name="perfectText">Czysta</var>
+	<var name="majorText">Wielka</var>
+	<var name="augmentedText">Zwiększona</var>
+	<var name="majorSecondText">2 W</var>
+	<var name="majorThirdText">3 W</var>
+	<var name="perfectFourthText">4 cz</var>
+	<var name="augmentedFourthText">4 Zw</var>
+	<var name="diminishedFifthText">5 zm</var>
+	<var name="perfectFifthText">5 cz</var>
+	<var name="majorSixthText">6 W</var>
+	<var name="augmentedSixthText">6 Zw</var>
+	<var name="diminishedSeventhText">7 zm</var>
+	<var name="minorSeventhText">7 m</var>
+	<var name="majorSeventhText">7 W</var>
+	<var name="perfectEighthText">8 cz</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Interwały przekształcone</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Interwały przekształcone</b> są mierzone zarówno na pięciolinii jak i półtonami na klawiaturze.</text>
+		<!-- <text><b>Specific intervals</b> are measured both on the staff and in half steps on the keyboard.</text> -->
+		<gotoAndPlay label="intro" />
+		<text>Jak już nauczyliśmy się w poprzedniej lekcji, C do D i C do Des są w obu przypadkach sekundami podstawowymi. Jednak od C do D jest o jeden półton dalej niż po przekształceniu od C do Des.</text>
+		<!-- <text>As you learned in the previous lesson, C to D and C to Db are both generic seconds.  Specifically, however, C to D is one half step larger than C to Db.</text> -->
+		<gotoAndStop label="intro2" />
+		<text>Zajmijmy się teraz kilkoma interwałami przekształconymi.</text>
+		<!-- <text>Let's learn a few specific intervals.</text> -->
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text>Sekunda wielka zbudowana jest z dwóch półtonów.</text>
+		<!-- <text>A major second is made up of two half steps.</text> -->
+		<gotoAndPlay label="major_second2" />
+		<text>C do D jest sekundą wielką, gdyż jest podstawową sekundą na pięciolinii i składa się z dwóch półtonów na klawiaturze.</text>
+		<!-- <text>C to D is a major second since it is a generic second on the staff and two half steps on the keyboard.</text> -->
+		<gotoAndPlay label="major_second3" />
+		<text>E do Fis jest drugim przykładem sekundy wielkiej.</text>
+		<!-- <text>E to F# would be another example of a major second.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text><b>Tercja wielka</b> składa się z czterech półtonów.</text>
+		<!-- <text>A <b>major third</b> is made up of four half steps.</text> -->
+		<gotoAndPlay label="major_third2" />
+		<text>C do E jest tercją wielką.</text>
+		<!-- <text>C to E is a major third.</text> -->
+		<gotoAndPlay label="major_third3" />
+		<text>E to Gis jest także tercją wielką.</text>
+		<!-- <text>E to G# is also a major third.</text> -->
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text><b>Kwarta czysta</b> składa się z pięciu półtonów.</text>
+		<!-- <text>A <b>perfect fourth</b> is made up of five half steps.</text> -->
+		<gotoAndPlay label="perfect_fourth2" />
+		<text>C do F jest kwartą czystą.</text>
+		<!-- <text>C to F is a perfect fourth.</text> -->
+		<gotoAndPlay label="perfect_fourth3" />
+		<text>F do B jest także kwartą czystą.</text>
+		<!-- <text>F to Bb is also a perfect fourth.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text><b>Kwinta czysta</b> zbudowana jest z siedmiu półtonów.</text>
+		<!-- <text>A <b>perfect fifth</b> is made up of seven half steps.</text> -->
+		<gotoAndPlay label="perfect_fifth2" />
+		<text>C do G jest kwintą czystą.</text>
+		<!-- <text>C to G is a perfect fifth.</text> -->
+		<gotoAndPlay label="perfect_fifth3" />
+		<text>H do Fis także jest kwintą czystą.</text>
+		<!-- <text>B to F# is also a perfect fifth.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text><b>Seksta wielka</b> składa się z dziewięciu półtonów.</text>
+		<!-- <text>A <b>major sixth</b> is made up of nine half steps.</text> -->
+		<gotoAndPlay label="major_sixth2" />
+		<text>C do A jest sekstą wielką.</text>
+		<!-- <text>C to A is a major sixth.</text> -->
+		<gotoAndPlay label="major_sixth3" />
+		<text>Es do C jest także sekstą wielką.</text>
+		<!-- text>Eb to C is also a major sixth.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text><b>Septyma wielka</b> składa się z jedenastu półtonów.</text>
+		<!-- <text>A <b>major seventh</b> is made up of eleven half steps.</text> -->
+		<gotoAndPlay label="major_seventh2" />
+		<text>C do H jest septymą wielką.</text>
+		<!-- <text>C to B is a major seventh.</text> -->
+		<gotoAndPlay label="major_seventh3" />
+		<text>D do Cis jest także septymą wielką.</text>
+		<!-- <text>D to C# is also a major seventh.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Wreszcie <b>oktawa czysta</b> składa się z dwunastu półtonów.</text>
+		<!-- <text>Finally, a <b>perfect eighth</b> (or <b>perfect octave</b>) is made up of twelve half steps.</text> -->
+		<gotoAndPlay label="perfect_eighth2" />
+		<text>Odległość od C do następnego C jest oktawą czystą.</text>
+		<!-- <text>C to high C is a perfect eighth.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Poza wielkimi oraz czystymi interwałami mamy jeszcze <b>małe</b>, <b>zwiększone</b> i <b>zmniejszone</b>.</text>
+		<!-- <text>In addition to major and perfect; <b>minor</b>, <b>augmented</b>, and <b>diminished</b> intervals exist.</text> -->
+		<gotoAndStop label="diminished2" />
+		<text>Zmniejszony interwał ma o jeden półton mniej niż czysty.</text>
+		<!-- <text>A diminished interval has one less half step than a perfect interval.</text> -->
+		<gotoAndPlay label="diminished3" />
+		<text>Ponieważ C do G jest kwintą czystą (7 półtonów), C do Ges jest kwintą zmniejszoną (6 półtonów).</text>
+		<!-- <text>Since C to G is a perfect fifth (7 half steps), C to Gb would be a diminished fifth (6 half steps).</text> -->
+		<gotoAndPlay label="diminished4" />
+		<text>H do F jest także kwintą zmniejszoną (gdyż H do Fis jest kwintą czystą).</text>
+		<!-- <text>B to F is also a diminished fifth (since B to F# is a perfect fifth).</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Interwał zwiększony ma o jeden półton więcej niż interwał czysty.</text>
+		<!-- <text>An augmented interval has one more half step than a perfect interval.</text> -->
+		<gotoAndPlay label="augmented2" />
+		<text>Ponieważ C do F jest kwartą czystą (5 półtonów), C do Fis jest kwartą zwiększoną (6 półtonów).</text>
+		<!-- <text>Since C to F is a perfect fourth (5 half steps), C to F# would be an augmented fourth (6 half steps).</text> -->
+		<gotoAndPlay label="augmented3" />
+		<text>F do H jest także kwartą zwiększoną (gdyż F do B jest kwartą czystą).</text>
+		<!-- <text>F to B is also an augmented fourth (since F to Bb is a perfect fourth).</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Wielkie interwały także mogą być zwiększone przez dodanie półtonu.</text>
+		<!-- <text>Major intervals can also be made augmented by adding a half step.</text> -->
+		<gotoAndPlay label="major_augmented2" />
+		<text>Przykładowo, ponieważ C do A jest sekstą wielką (9 półtonów), C do Ais jest sekstą zwiększoną (10 półtonów).</text>
+		<!-- <text>For example, since C to A is a major sixth (9 half steps), C to A# is an augmented sixth (10 half steps).</text> -->
+		<gotoAndPlay label="major_augmented3" />
+		<text>Des do H jest także sekstą zwiększoną (gdyż Des do B jest sekstą wielką).</text>
+		<!-- <text>Db to B is also an augmented 6th (Since Db to Bb is a major sixth).</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Po odjęciu jednego półtonu od interwału wielkiego nie zostaje nam interwał zmniejszony, lecz mały.</text>
+		<!-- <text>Subtracting a half step from a major interval does not make it diminished; instead, it becomes minor.</text> -->
+		<gotoAndPlay label="minor2" />
+		<text>Przykładowo, ponieważ C do H jest septymą wielką (11 półtonów), C do B jest septymą małą (10 półtonów).</text>
+		<!-- <text>For example, since C to B is a major seventh (11 half steps), C to Bb is a minor seventh (10 half steps).</text> -->
+		<gotoAndPlay label="minor3" />
+		<text>Potrzebne jest jeszcze jedno obniżenie o pół tonu dla uzyskania zmniejszenia. Tak więc, C do BB będzie naszą zmniejszoną septymą (9 półtonów).</text>
+		<!-- <text>Only after subtracting another half step does it become diminished.  Thus, C to Bbb would be our diminished seventh (9 half steps).</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Powyższy wykaz przedstawia ilość półtonów zawartych w każdej odmianie interwału.</text>
+		<!-- <text>The above chart shows the number of half steps that each specific interval contains.</text> -->
+	</section>
+</lesson>

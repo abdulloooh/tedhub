@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">Point</var>
+	<var name="tieText">Liaison</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Les Points et les Liaisons</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text><b>Les points de prolongation</b> et <b>les liaisons de prolongation</b> sont deux sortes de marques utilisées pour modifier la durée de la note.</text>
+        <gotoAndStop label="dot" />
+        <text>Un point augmente la durée de la note de la moitié de sa valeur.</text>
+		<gotoAndPlay label="dot2" />
+        <text>Comme la croche représente la moitié d'une noire, nous allons donc remplacer le symbole 1/2 par une croche.</text>
+		<gotoAndStop label="dot3" />
+		<text>Comme vous pouvez le voir, une noire pointée équivaut à une noire plus une croche.</text>
+		<gotoAndPlay label="dot4" />
+		<text>Une noire pointée est aussi égale à trois croches.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<text>Les liaisons de durées servent à fusionner plusieurs notes de même hauteur. Elles sont utilisées pour augmenter la durée des notes au delà de la barre de mesure (comme dans l'exemple ci-dessus).</text>
+		<gotoAndPlay label="tie2" />
+		<text>Comme vous pouvez l'entendre, les durées des quatrième et cinquième notes sont fusionnées.</text>
+		<gotoAndPlay label="tie3" />
+		<text>Si la barre de mesure n'avait pas existé, nous aurions pu écrire tout simplement une blanche à la place des deux noires liées.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>Utilisez ce tableau comme référence pour les points de prolongation.</text>
+	</section>    	
+	
+</lesson>

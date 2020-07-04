@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="FText">F</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómgreining 2</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>Í þessari hljómgreiningu skoðum við fyrstu taktana í gamalli skoskri ballöðu, <i>Auld Lang Syne</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>Fyrst er að ákveða tóntegundina. Eitt lækkunarmerki gefur tvo möguleika: F dúr eða d moll.</text>
+		<gotoAndPlay label="key2" />
+		<text>Fyrsti hljómurinn er F dúr þríhljómur (F - A - C). Þetta er frumhljómur (I) í F dúr sem sennilega er þá tóntegundin.</text>	
+		<gotoAndStop label="measure_two" />
+		<text>Fyrsti takturinn inniheldur aðeins F dúr þríhljóma. Hljómarnir eru því allir <b>I</b>. Óþarfi er að skrifa greiningu undir hvern hljóm þar sem um endurtekningar er að ræða.</text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="measure_three" />
+		<text>1. hljómur takts nr. 2 er C dúr (C - C - E - G) og því <b>V</b>.</text>
+		<gotoAndPlay label="measure_three2" />
+		<text>Næsti hljómur er óvenjulegur (C - C - D - F) þannig að við bíðum aðeins með að greina hann.</text>
+		<gotoAndPlay label="measure_three3" />
+		<text>3. hljómur taktsins er endurtekning á þeim fyrsta.</text>
+		<gotoAndPlay label="measure_three4" />
+		<text>4. hljómurinn er óvenjulegur, líkt og hljómur tvö, þannig að við bíðum einnig með greiningu hans.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="measure_four" />
+		<text>Þriðji takturinn inniheldur aðeins nóturnar F, A og C, sem er F dúr hljómur (<b>I</b>).</text>
+		<gotoAndPlay label="measure_five" />
+		<text>Lokahljómurinn er B dúr (B - B - F - D) og því <b>IV</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="skipped" />
+		<text>Skoðum nú hljómana sem við slepptum.</text>
+		<gotoAndPlay label="first_skipped" />
+		<text>Við höfum áður fjallað um spennutóna. Við getum því greint fyrri hljóminn þannig að hann innihaldi tvo nálgunartóna (neighboring tones).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="second_skipped" />
+		<text>Áður en lengra er haldið skulum við athuga eitt:</text>
+		<text>Í sjöundarhljómi er fimmundinni stundum sleppt.</text>
+		<text>Með þetta í huga má greina seinni hljóminn...</text>
+		<gotoAndPlay label="second_skipped2" />
+		<text>sem C forsjöundarhljóm (rót, 3und og 7und). Fimmundina (G) vantar.</text>
+		<gotoAndStop label="second_skipped3" />
+		<text>Efsta tóninn er hægt að greina sem spennutón. Þar sem gengið er í A með skrefi og horfið frá því með stökki, er A-ið „escape tone“.</text>
+		<gotoAndStop label="second_skipped4" />
+		<text>Þessi greining er undirstrikuð með því að forhljómur leysist vanalega í frumhljóm (<b>I</b>).</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Hlustum nú á <i>Auld Lang Syne</i>.</text>	
+	</section>
+	
+</lesson>

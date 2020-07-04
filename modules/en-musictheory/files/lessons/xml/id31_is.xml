@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">Einund</var>
+	<var name="secondText">Tvíund</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fourthText">Ferund</var>
+	<var name="fifthText">Fimmund</var>
+	<var name="sixthText">Sexund</var>
+	<var name="seventhText">Sjöund</var>
+	<var name="eighthText">Áttund</var>
+	<var name="diminishedText">Minnkuð</var>
+	<var name="minorText">Lítil</var>
+	<var name="perfectText">Hrein</var>
+	<var name="majorText">Stór</var>
+	<var name="augmentedText">Stækkuð</var>
+	<var name="majorSecondText">s2</var>
+	<var name="majorThirdText">s3</var>
+	<var name="perfectFourthText">h4</var>
+	<var name="augmentedFourthText">stæ4</var>
+	<var name="diminishedFifthText">mnk5</var>
+	<var name="perfectFifthText">h5</var>
+	<var name="majorSixthText">s6</var>
+	<var name="augmentedSixthText">stæ6</var>
+	<var name="diminishedSeventhText">mnk7</var>
+	<var name="minorSeventhText">l7</var>
+	<var name="majorSeventhText">s7</var>
+	<var name="perfectEighthText">h8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Að fullgreina tónbil</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Til að <b>fullgreina tónbil</b> þarf bæði að skoða ritun þess á nótnastrenginn og stærðina t.d. á hljómborði.</text>
+		<gotoAndPlay label="intro" />
+		<text>Eins og fram kom í kennslueiningunni Tónbil eru tónbilin C - D og C - Des hvort um sig tvíund. Tónbilið C - D er þó hálftóni stærra en tónbilið frá C - Des.</text>
+		<gotoAndStop label="intro2" />
+		<text>Skoðum þetta nánar.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text><b>Stór 2und</b> samanstendur af tveimur hálftónum (tveimur litlum 2undum).</text>
+		<gotoAndPlay label="major_second2" />
+		<text>Tónbilið C - D er stór 2und þar sem nóturnar eru hlið við hlið á nótnastrengnum (önnur á línu, hin á bili) og á hljómborði eru tvær litlar tvíundir á milli þeirra.</text>
+		<gotoAndPlay label="major_second3" />
+		<text>E - Fís er annað dæmi um stóra tvíund.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text><b>Stór 3und</b> samanstendur af 4 litlum tvíundum.</text>
+		<gotoAndPlay label="major_third2" />
+		<text>C - E er stór 3und.</text>
+		<gotoAndPlay label="major_third3" />
+		<text>E - Gís er líka stór 3und.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text><b>Hrein ferund</b> er 5 litlar tvíundir.</text>
+		<gotoAndPlay label="perfect_fourth2" />
+		<text>C - F er hrein ferund.</text>
+		<gotoAndPlay label="perfect_fourth3" />
+		<text>F - Bb er líka hrein ferund.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text><b>Hrein fimmund</b> er 7 litlar tvíundir.</text>
+		<gotoAndPlay label="perfect_fifth2" />
+		<text>C - G er hrein fimmund.</text>
+		<gotoAndPlay label="perfect_fifth3" />
+		<text>H - Fís er líka hrein fimmund.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text><b>Stór sexund</b> er 9 litlar tvíundir.</text>
+		<gotoAndPlay label="major_sixth2" />
+		<text>C - A er stór sexund.</text>
+		<gotoAndPlay label="major_sixth3" />
+		<text>Es - C er líka stór sexund.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text><b>Stór sjöund</b> er 11 litlar tvíundir.</text>
+		<gotoAndPlay label="major_seventh2" />
+		<text>C - H er stór sjöund.</text>
+		<gotoAndPlay label="major_seventh3" />
+		<text>D - Cís er líka stór sjöund.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Og að lokum er <b>hrein áttund</b> 12 litlar tvíundir.</text>
+		<gotoAndPlay label="perfect_eighth2" />
+		<text>C - C er hrein áttund.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>En tónbil eru ekki aðeins stór og hrein; tónbil eru líka <b>lítil</b>, <b>stækkuð</b> og <b>minnkuð</b>.</text>
+		<gotoAndStop label="diminished2" />
+		<text>Minnkað tónbil er hálftóni minna en hreint tónbil.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>C - G er hrein fimmund (7 hálftónar); C - Ges er hins vegar minnkuð fimmund (6 hálftónar).</text>
+		<gotoAndPlay label="diminished4" />
+		<text>H - F er líka minnkuð fimmund (þar sem H - Fís er hrein fimmund).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Stækkað tónbil er hálftóni stærra en hreint tónbil.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Þar sem C - F er hrein ferund (5 litlar tvíundir), þá er C - Fís stækkuð ferund (6 litlar tvíundir).</text>
+		<gotoAndPlay label="augmented3" />
+		<text>F - H er líka stækkuð ferund (F - B er hrein ferund).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Stór tónbil má stækka með því að bæta við þau lítilli tvíund.</text>
+		<gotoAndPlay label="major_augmented2" />
+		<text>C - A er til að mynda stór 6und (9 hálftónar), C - Aís er því stækkuð sexund (10 hálftónar).</text>
+		<gotoAndPlay label="major_augmented3" />
+		<text>Des - H er líka stækkuð 6und (þar sem Des - B er stór 6und).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Ef stórt tónbil er minnkað um hálftón (litla 2und) verður það lítið tónbil.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Þannig er C - H stór 7und (11 hálftónar) en C - B lítil 7und (10 hálftónar).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Ef hálftónn í viðbót er tekinn af sjöundinni verður hún minnkuð. C - Bes er því minnkuð sjöund (9 hálftónar).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Taflan sýnir fjölda hálftóna (lítilla tvíunda) sem mynda hvert tónbil.</text>
+	</section>
+</lesson>

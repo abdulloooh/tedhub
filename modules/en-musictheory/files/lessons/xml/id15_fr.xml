@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Mesures Simples et Mesures Composées</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Chaque signature de temps est représenté par un certain nombre de <b>temps</b>.</text>
+		<text>Les termes de mesure à <b>2 temps</b>, à <b>3 temps</b>, et à <b>4 temps</b> font référence au nombre de battements qu'il y a dans chaque mesure.</text>
+		<text>Le terme de <b>mesure simple</b> signifie que chaque battement de la mesure peut être séparé en deux notes.</text>
+	</section>
+	
+	<section>	
+		<gotoAndStop label="simple_duple" />
+		<text>Par exemple, la mesure à 2/4 est classée comme une <b> mesure simple à 2 temps</b>.</text>
+		<gotoAndStop label="simple_duple2" />
+		<text>"2 temps" signifie qu'il y a 2 battements par mesure.</text>
+		<gotoAndStop label="simple_duple3" />
+		<text>"Mesure simple" signifie que chacun de ces battements peut être divisé en deux notes.</text>
+		<gotoAndStop label="simple_duple4" />
+		<text>2/2 et 2/8 sont toutes les deux, des mesures simples à 2 temps.</text>
+	</section>	 
+		
+	<section>
+		<gotoAndStop label="simple_triple" />
+		<text>3/4 est classé comme une <b>mesure simple à 3 temps</b>.</text>
+		<gotoAndStop label="simple_triple2" />
+		<text>"3 temps" signifie qu'il y a 3 battements par mesure.</text>
+		<gotoAndStop label="simple_triple3" />
+		<text>Encore ici, le mot "mesure simple" signifie que chacun de ces battements peut être divisé en deux notes.</text>
+		<gotoAndStop label="simple_triple4" />
+		<text>3/2 et 3/8 sont toutes les deux, des mesures simples à 3 temps.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="simple_quadruple" />
+		<text>4/4 est classé comme une mesure simple à 4 temps, donc 4 battements par mesure, chacun de ces battements pouvant être divisé en deux notes.</text>
+		<gotoAndStop label="simple_quadruple2" />
+		<text>4/2 and 4/8 sont toutes les deux des mesures simples à 4 temps.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="top_number" />
+		<text>Remarquez que toutes les signatures de temps de "mesures simples" ont toujours 2, 3, ou 4 comme chiffre supérieur.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound" />
+		<text>Alors que les battements des mesures simples sont divisés en deux notes, ceux des mesures composées sont divisés en trois notes.</text>
+		<gotoAndStop label="compound2" />
+		<text>Pour vous démontrer cela, nous allons examiner une mesure à 6/8.</text>
+		<gotoAndStop label="compound3" />
+		<text>Remarquez que les  six croches de la mesure peuvent être soit partagées en deux battements (<b>mesure composée à 2 temps</b>) ou en trois battements (<b>mesure simple à 3 temps</b>).</text>
+		<gotoAndStop label="compound4" />
+		<text>Comme le partage en trois battements appartient déjà à la mesure à 3/4, 6/8 est donc une mesure composée à deux temps.</text>
+		<gotoAndStop label="compound5" />
+		<text>Remarquez que chaque battement de la mesure à 6/8 correspond à une noire pointée. En fait, toutes les mesures composées auront des notes pointées comme unité de temps.</text>
+		<gotoAndStop label="compound6" />
+		<text>Toutes les signatures de temps avec le chiffre 6 au dessus sont des mesures composées à 2 temps. De toutes les signatures de temps présentées ci-dessus, les mesures à 6/8 et à 6/4 sont les plus souvent utilisées.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound_triple" />
+		<text>9/8 est classée comme une <b>mesure composée à 3 temps</b>.</text>
+		<gotoAndStop label="compound_triple2" />
+		<text>Il y a trois battements (trois noires pointées), ce qui fait une mesure à trois temps.</text>
+		<gotoAndStop label="compound_triple3" />
+		<text>Comme chacun des battements comprends trois notes, c'est une mesure composée.</text>
+		<gotoAndStop label="compound_triple4" />
+		<text>Toutes les signatures de temps avec le chiffre 9 au dessus sont des mesures composées à 3 temps. Bien que la mesure à 9/8 soit la plus fréquente; 9/2, 9/4, et 9/16 peuvent aussi être utilisées.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound_quadruple" />
+		<text>Pour finir, la mesure à 12/8 est classée comme une <b>mesure composée à 4 temps</b>.</text>
+		<gotoAndStop label="compound_quadruple2" />
+		<text>Il y a quatre battements, ce qui donne une mesure à quatre temps.</text>
+		<gotoAndStop label="compound_quadruple3" />
+		<text>Comme chaque battement comprends trois notes, c'est une mesure composée.</text>
+		<gotoAndStop label="compound_quadruple4" />
+		<text>Toutes les signatures de temps avec le chiffre 12 au dessus sont des mesures composées à 4 temps. Dans les mesures ci-dessus, 12/8 et 12/16 sont les mesures les plus utilisées.</text>
+	</section>
+</lesson>

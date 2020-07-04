@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">Puntillo</var>
+	<var name="tieText">Ligadura</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Puntillos y Ligaduras</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text>Los <b>puntillos de prolongación</b> y las <b>ligaduras de unión</b> son dos tipos de signos musicales utilizados para alterar la duración de una nota.</text>
+        <gotoAndStop label="dot" />
+        <text>Un puntillo incrementa la duración de una nota en una mitad de su valor.</text>
+		<gotoAndPlay label="dot2" />
+        <text>Dado que una corchea dura la mitad de una nota negra, la utilizaremos para sustituir al símbolo 1/2.</text>
+		<gotoAndStop label="dot3" />
+		<text>Como puedes ver, una nota negra con puntillo equivale a una nota negra más una corchea.</text>
+		<gotoAndPlay label="dot4" />
+		<text>Una nota negra con puntillo también es igual a tres corcheas.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<text>Las ligaduras sirven para unir notas del mismo tono.  Y son usadas para permitir que la duración de la nota viaje a través de las barras de compás (como se muestra en el ejemplo).</text>
+		<gotoAndPlay label="tie2" />
+		<text>Escucha con atención y observa como la cuarta y la quinta nota están fusionadas.</text>
+		<gotoAndPlay label="tie3" />
+		<text>Si la barra de compás no existiera, podríamos haber escrito una nota blanca en lugar de las dos notas negras ligadas.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>Usa esta tabla como referencia sobre los puntillos de prolongación.</text>
+	</section>    	
+	
+</lesson>

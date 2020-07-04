@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">½</var>
+	<var name="wText">1</var>
+	<var name="tonicText">тоника</var>
+	<var name="supertonicText">супертоника</var>
+	<var name="mediantText">медијанта</var>
+	<var name="subdominantText">субдоминанта</var>
+	<var name="dominantText">доминанта</var>
+	<var name="submediantText">субмедијанта</var>
+	<var name="leadingToneText">вођица</var>
+	<var name="subtonicText">субтоника</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Имена ступњева лествице</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<text>Свака нота у оквиру лествице има своје засебно име и представља <b>ступањ лествице</b>.</text>
+		<gotoAndStop label="tonic" />
+    	<text>Прва нота у лествици зове се <b>тоника</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<text>Пета нота се зове <b>доминанта</b>.</text>
+		<gotoAndPlay label="subdominant" />
+    	<text>Четврта нота се зове <b>субдоминанта</b> (што значи доња доминанта).</text>
+		<gotoAndPlay label="mediant" />
+    	<text>Трећа нота, будући да се налази <i>између</i> тонике и доминанте, се зове <b>медијанта</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<text>Слично томе, шеста нота се зове <b>субмедијанта</b> будући да се налази између горње тонике и <i>суб</i>доминанте.</text>
+		<gotoAndPlay label="supertonic" />
+    	<text>Друга нота се зове <b>супертоника</b>.  <i>Супер</i> на латинском значи "изнад."</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<text>Првих шест тонова имају иста имена и у дурској и у молској лествици, међутим седми је изузетак.</text>
+		<gotoAndStop label="seventh2" />
+		<text>Ако се седма нота налази полустепен испод тонике, онда се зове <b>вођица</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<text>Послушајте C-дур лествицу и приметите како седми тон тежи да <i>води</i> мелодију до тонике.</text>
+		<gotoAndStop label="seventh4" />
+		<text>Вођица се појављује још у хармонском и мелодијском молу.</text>
+		<gotoAndPlay label="seventh5" />
+		<text>У природном молу, седми тон се налази један цео степен испод тонике.  У том случају, седми степен се зове <b>субтоника</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<text>Послушајте природну c-мол лествицу и приметите да седмом тону недостаје тежња да води у тонику.</text>
+	</section>
+
+</lesson>

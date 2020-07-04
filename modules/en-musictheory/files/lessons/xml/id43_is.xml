@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">dim.</var>
+	<var name="minorText">moll</var>
+	<var name="majorText">dúr</var>
+	<var name="augmentedText">aug.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Heimaþríhljómar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Þríhljómar sem myndaðir eru á hverju sæti (hverjum tóni) dúr eða moll tónstiga nefnast <b>heimahljómar</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major_intro" />
+		<text>Fyrst þarf að skrifa tónstigann - við skulum byrja á að nota C dúr tónstiga.</text>
+		<gotoAndPlay label="major_intro2" />
+		<text>Næst myndum við þríhljóm á hverri nótu tónstigans.</text>
+		<gotoAndStop label="major_intro3" />
+		<text>Loks greinum við hljómana.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Fyrsti hljómurinn (C - E - G) samanstendur af stórri 3und og hreinni 5und. Hljómurinn er því dúr þríhljómur.</text>
+		<gotoAndStop label="major_ii" />
+		<text>Annar hljómurinn (D - F - A), lítil 3und og hrein 5und, er moll hljómur.</text>
+		<gotoAndStop label="major_iii" />
+		<text>Sá þriðji (E - G - H), lítil 3und og hrein 5und, er líka moll.</text>
+		<gotoAndStop label="major_iv" />
+		<text>Fjórði hljómurinn (F - A - C), stór 3und og hrein 5und, er dúr hljómur.</text>
+		<gotoAndStop label="major_v" />
+		<text>Fimmti hljómurinn (G - B - D), stór 3und og hrein 5und, er einnig dúr.</text>
+		<gotoAndStop label="major_vi" />
+		<text>Sá sjötti (A - C - E), lítil 3und og hrein 5und, er moll.</text>
+		<gotoAndStop label="major_vii" />
+		<text>Sjöundi hljómurinn (B - D - F), lítil 3und og minnkuð 5und, er minnkaður þríhljómur.</text>
+		<gotoAndStop label="major_viii" />
+		<text>Hljómurinn á áttunda sæti (C - E - G) er eins og sá fyrsti og því dúr.</text>
+		<gotoAndStop label="major_recap" />
+		<text>Hljómur á fyrsta sæti dúr tónstiga er ávallt dúr hljómur, annar og þriðji hljómurinn eru moll hljómar o.s.frv.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_intro" />
+		<text>Lítum næst á heimahljóma moll tónstigans, notum fyrst hreinan moll.</text>
+		<gotoAndPlay label="minor_intro2" />
+		<text>Fyrst ritum við tónstigann - notum föst formerki í stað lausra.</text>
+		<gotoAndPlay label="minor_intro3" />
+		<text>Þá byggjum við þríhljóm á hverri nótu.</text>
+		<gotoAndStop label="minor_intro4" />
+		<text>Og greinum síðan hljómana.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_i" />
+		<text>Fyrsti hljómurinn (C - Es - G), lítil 3und og hrein 5und, er moll hljómur.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>Annar hljómurinn (D - F - As), lítil 3und og minnkuð 5und, er minnkaður.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>Sá þriðji (Es - G - B), stór 3und og hrein 5und er dúr.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>Fjórði hljómurinn er moll (F - As - C), lítil 3und og hrein 5und.</text>
+		<gotoAndStop label="minor_v" />
+		<text>Fimmti hljómurinn er einnig moll (G - B - D), lítil 3und og hrein 5und.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>Sá sjötti er dúr (As - C - Es), stór 3und og hrein 5und.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>Sjöundi hljómurinn er einnig dúr (B - D - F), stór 3und og hrein 5und.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>Hljómurinn á áttunda sæti (C - Es - G) er eins og sá fyrsti og því moll.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="harmonic_intro" />
+		<text>Skoðum að síðustu heimhljóma hljómhæfa moll tónstigans.</text>
+		<gotoAndPlay label="harmonic_intro2" />
+		<text>Til að breyta hreinum moll í hljómhæfan þarf að hækka sjöunda tóninn; í c moll verður B þannig H (leiðsögutónn).</text>
+		<gotoAndStop label="harmonic_intro3" />
+		<text>Þetta hefur áhrif á 3., 5. og 7. hljóminn; þessa hljóma þarf því að greina aftur.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Þriðji hljómurinn er nú Es - G - H (stór 3und og stækkuð 5und); stækkaður hljómur.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>Fimmti hljómurinn verður G - H - D (stór 3und og hrein 5und); dúr hljómur.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Og að síðustu, sjöundi hljómurinn (H - D - F), lítil 3und og minnkuð 5und, sem er minnkaður þríhljómur.</text>
+	</section>
+
+</lesson>

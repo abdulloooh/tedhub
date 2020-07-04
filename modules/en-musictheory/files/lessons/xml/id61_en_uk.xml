@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Triads in Second Inversion</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>While root position and first inversion triads can be used freely, second inversion usually occurs only in three situations.</text>
+		<gotoAndStop label="passing" />
+		<text>Like first inversion, second inversion may be used to smooth out a bass line.</text>
+		<gotoAndPlay label="passing2" />
+		<text>Look at the above example - notice the movement of the bass line.</text>
+		<gotoAndPlay label="passing3" />
+		<text>By placing the <b>V</b> chord in second inversion, the bass line moves by step and becomes smooth.</text>
+		<gotoAndStop label="passing4" />
+		<text>When used in this fashion, a second inversion triad is called a <b>passing six-four chord</b>.</text>
+		<gotoAndPlay label="passing5" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pedal" />
+		<text>Second inversion may also be used to straighten a bass line.</text>
+		<gotoAndPlay label="pedal2" />
+		<text>Look at the above example - notice how the bass line jumps up to the F and then returns back to C.</text>
+		<gotoAndPlay label="pedal3" />
+		<text>By placing the <b>IV</b> chord in second inversion, all movement in the bass line is eliminated.</text>	
+		<gotoAndStop label="pedal4" />
+		<text>When used in this fashion, a second inversion triad is called a <b>pedal six-four chord</b>.</text>	
+		<gotoAndPlay label="pedal5" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadential" />
+		<text>The <b>cadential six-four chord</b> is the final and most noticeable use of second inversion.</text>
+		<gotoAndPlay label="cadential2" />
+		<text>In this form, the second inversion triad preceeds a <b>V</b> chord in a cadence.  Often, the cadence will sound stronger due to the cadential six-four's presence.</text>
+		<gotoAndPlay label="cadential3" />
+		<text>Listen to the above example.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="chart" />
+		<text>On the chord progression chart, the cadential six-four occurs in between a predominant and dominant.</text>
+	</section>
+	
+</lesson>

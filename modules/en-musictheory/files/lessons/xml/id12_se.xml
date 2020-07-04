@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Takter och taktarter</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">Tre</var>
+	<var name="fourText">Fyra</var>
+	<var name="sixText">Sex</var>
+	<var name="halfText">Halvnoter (1/2)</var>
+	<var name="quarterText">Fjärdedelsnoter (1/4)</var>
+	<var name="eighthText">Åttondelsnoter (1/8)</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Vertikala svarta linjer som kallas <b>taktstreck</b> delar in notsystemet i <b>takter</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>Notsystemet ovan har delats in i två takter.</text>
+		<gotoAndPlay label="timesig" />
+		<text><b>Taktartssignaturer</b> specificerar antalet och typen av noter som varje takt innehåller.</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>I ovanstående exempel är den första takten i 4/4-takt (fyra fjärdedelstakt) och den andra takten är i 3/4-takt (tre fjärdedelstakt).</text>
+		<gotoAndPlay label="4/4" />
+		<text>Den första takten (4/4) innehåller fyra fjärdedelsnoter.</text>
+		<gotoAndPlay label="3/4" />
+		<text>Den andra takten (3/4) innehåller tre fjärdedelsnoter.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Närmast ska vi se på taktartssignaturer som inte baseras på fjärdedelsnoter.</text>
+		<gotoAndPlay label="6/8" />
+		<text>6/8-takt (sex åttondelstakt) utgörs av sex åttondelsnoter.</text>
+		<gotoAndPlay label="3/2" />
+		<text>Slutligen består 3/2-takt av tre halvnoter.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Sammanställningen ovan visar alla taktartssignaturer vi tagit upp under den här lektionen.</text>
+	</section>
+	
+</lesson>

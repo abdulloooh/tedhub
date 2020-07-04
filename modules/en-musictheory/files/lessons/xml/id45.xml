@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedSeventhText">d7</var>
+	<var name="minorSeventhText">m7</var>
+	<var name="majorSeventhText">M7</var>
+
+	<var name="MajorTriadText">Major Triad</var>
+	<var name="MinorTriadText">Minor Triad</var>
+	<var name="DiminishedTriadText">Diminished Triad</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Seventh Chords</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>seventh chord</b> is the combination of a triad and an interval of a seventh.</text>
+		<text>Five types of seventh chords are commonly used.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="dominant" />
+		<text>When a major triad and a minor seventh combine, a <b>dominant seventh chord</b> results.</text>
+		<gotoAndPlay label="dominant2" />
+		<text>listen to a C dominant seventh chord.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>When a major triad and a major seventh combine, a <b>major seventh chord</b> results.</text>
+		<gotoAndPlay label="major2" />
+		<text>Listen to a C major seventh chord.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>When a minor triad and a minor seventh combine, a <b>minor seventh chord</b> results.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Listen to a C minor seventh chord.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>When a diminished triad and a diminished seventh combine, a <b>fully-diminished seventh chord</b> results.  It is sometimes just called a <b>diminished seventh chord</b>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Listen to a C fully-diminished seventh chord.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="half_diminished" />
+		<text>Finally, when a diminished triad and a minor seventh combine, a <b>half-diminished seventh chord</b> results.</text>
+		<gotoAndPlay label="half_diminished2" />
+		<text>Listen to a C half-diminished seventh chord.</text>
+	</section>
+
+</lesson>

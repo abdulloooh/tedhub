@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> --> 
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">zm</var>
+	<var name="minorText">m</var>
+	<var name="majorText">M</var>
+	<var name="augmentedText">Zw</var>
+	<var name="sixthText">6</var>
+	<var name="fourthText">4</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Analiza trójdźwięków metodą cyfr rzymskich</title>
+	<!--<title>Roman Numeral Analysis</title> -->	
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Dla potrzeb analizy muzycznej można stosować system oznaczania każdego trójdźwięku diatonicznego <b>cyfrą rzymską</b>.</text>
+		<!-- <text>When analyzing music, each diatonic triad is identified by a <b>roman numeral</b>.</text> -->
+		<gotoAndStop label="numeral_chart" />
+		<text>Mamy cztery różne rodzaje rzymskiego cyfrowania odpowiadające każdemu rodzajowi trójdźwięku.</text>
+		<!-- <text>Four different types of roman numerals exist - one for each triad type.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Zapiszmy rzymskie cyfrowanie w gamie C-dur.</text>
+		<!-- <text>Let's apply roman numerals to the C major scale.</text> -->
+		<gotoAndPlay label="major_i" />
+		<text>Ponieważ pierwszy trójdźwięk jest durowy, notujemy go dużą cyfrą.</text>
+		<!-- <text>Since the first triad is major, its roman numeral is upper-case.</text> -->
+		<gotoAndPlay label="major_ii_iii" />
+		<text>Drugi i trzeci są minorowe, zatem notujemy je małymi cyframi.</text>
+		<!-- <text>The second and third triads are minor; therefore, their numerals are lower-case.</text> -->
+		<gotoAndPlay label="major_iv_v" />
+		<text>Trójdźwięki czwarty i piąty są majorowe - zapis dużymi cyframi.</text>
+		<!-- <text>The fourth and fifth triads are major; therefore, their numerals are upper-case.</text> -->
+		<gotoAndPlay label="major_vi" />
+		<text>Szósty trójdźwięk jest minorowy i cyfra jest mała.</text>
+		<!-- <text>The sixth triad is minor, making its numeral lower-case.</text> -->
+		<gotoAndPlay label="major_vii" />
+		<text>Siódmy trójdźwięk jest zmniejszony - cyfra jest mała z malutkim kółeczkiem dodanym po prawej stronie u góry.</text>
+		<!-- <text>Since the seventh triad is diminished, its roman numeral is lower-case and a little circle is added.</text> -->
+		<gotoAndPlay label="major_viii" />
+		<text>Ostatni trójdźwięk jest powtórzeniem pierwszego.</text>
+		<!-- <text>Finally, the last triad is a repeat of the first.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Następnie zapiszemy rzymskie cyfrowanie w gamie naturalnej c-moll.</text>
+		<!-- <text>Next, we will apply roman numerals to the C natural minor scale.</text> -->
+		<gotoAndPlay label="minor_i" />
+		<text>Pierwszy trójdźwięk jest molowy, a więc cyfra rzymska jest mała.</text>
+		<!-- <text>Since the first triad is minor, its roman numeral is lower case.</text> -->
+		<gotoAndPlay label="minor_ii" />
+		<text>Drugi trójdźwięk jest zmniejszony - mała rzymska cyfra z kółeczkiem.</text>
+		<!-- <text>The second triad is diminished; thus, we will use a lower-case numeral with the little circle.</text> -->
+		<gotoAndPlay label="minor_iii" />
+		<text>Trzeci trójdźwięk jest durowy - cyfra rzymska duża.</text>
+		<!-- <text>Since the third triad is major, its numeral is upper-case.</text> -->
+		<gotoAndPlay label="minor_iv_v" />
+		<text>Czwarty i piąty są molowe - cyfry rzymskie małe.</text>
+		<!-- <text>The fourth and fifth triads are minor; therefore, their numerals are lower-case.</text> -->
+`		<gotoAndPlay label="minor_vi_vii" />
+		<text>Trójdźwięki szósty i siódmy są durowe - cyfry duże.</text>
+		<!-- <text>The sixth and seventh triads are major; therefore, their numerals are upper-case.</text> -->
+		<gotoAndPlay label="minor_viii" />
+		<text>I znowu ostatni trójdźwięk jest powtórzeniem pierwszego.</text>
+		<!-- <text>Again, the last triad is a repeat of the first.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Na zakończenie zapiszemy cyfrowanie rzymskie w gamie c-moll harmonicznej.</text>
+		<!-- <text>Finally, we will apply roman numerals to the C harmonic minor scale.</text> -->
+		<gotoAndPlay label="harmonic_iii" />
+		<text>Ponieważ trzeci trójdźwięk jest teraz zwiększony, cyfra rzymska jest wielka z dodanym znaczkiem "plus".</text>
+		<!-- <text>Since the third triad is now augmented, its roman numeral is upper-case with an added plus sign.</text> -->
+		<gotoAndPlay label="harmonic_v" />
+		<text>Piąty trójdźwięk jest teraz durowy, a więc duża cyfra.</text>
+		<!-- <text>The fifth triad is now major - making its numeral upper-case.</text> -->
+		<gotoAndPlay label="harmonic_vii" />
+		<text>Siódmy trójdźwięk jest teraz zmniejszony; zapisujemy go małą cyfrą z kółeczkiem.</text>
+		<!-- <text>The seventh triad is now diminished - making its numeral lower-case with the little circle.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="inversions" />
+		<text>Rzymski zapis cyfrowy może być stosowany także dla oznaczania przewrotów.</text>
+		<!-- <text>The roman numeral system can also be used to indicate inversions.</text> -->
+		<gotoAndStop label="inversions2" />
+		<text>Pierwszy przewrót oznaczamy małą 6 dodaną po cyfrze rzymskiej. Znaczy to, że podstawa trójdźwięku leży teraz w odległości podstawowej seksty nad nutą w jego basie.</text>
+		<!-- <text>First inversion is represented by a small 6 after the roman numeral.  This is due to the root being a generic sixth above the bass note.</text> -->
+		<gotoAndStop label="inversions3" />
+		<text>Drugi przewrót oznaczamy małymi cyferkami 6 i 4. Znaczy to, że podstawa i tercja są teraz w odległości podstawowej kwarty i podstawowej seksty nad nutą znajdującą się w basie.</text>
+		<!-- <text>Second inversion is represented with both a small 6 and 4.  This is due to the root and third being a generic sixth and fourth above the bass note.</text> -->
+	</section>
+
+</lesson>

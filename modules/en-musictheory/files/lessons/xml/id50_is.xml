@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tónsmíðar í moll</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Til eru 3 moll tónstigar en bara 1 dúr tónstigi.</text>
+		<text>Tónsmiðir steypa hins vegar oft saman tveimur moll tónstigum (hreinum moll og hljómhæfum moll).</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="triads" />
+		<text>Rifjum upp heimaþríhljóma þessara moll tónstiga.</text>
+		<gotoAndStop label="triads2" />
+		<text>Þú tekur eftir að margir hljómanna er þeir sömu í báðum tónstigum.</text>
+		<gotoAndStop label="triads3" />
+		<text>Þrjú hljómapör eru ólík: <b>III</b>, <b>III+</b>; <b>v</b>, <b>V</b> og <b>VII</b>, <b>viiº</b>. Ástæðan er stóra 7undin í hljómhæfum moll.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="III" />
+		<text>III er ávalt notaður í stað III+.  Þetta er vegna þess að III+ þykir hljóma undarlega (stækkaður hljómur).</text>
+		<gotoAndPlay label="V" />
+		<text>Þar sem <b>V</b> inniheldur leiðsögutón (og hljómar því ákveðnar eða meira leiðandi) er þessi hljómur oftar notaður en <b>v</b> - þó vel megi nota <b>v</b>.</text>
+		<gotoAndStop label="VII" />
+		<text><b>VII</b> og <b>viiº</b> eru notaðir álíka mikið. Eins og við munum síðar sjá hafa þessir hljómar mismunandi virkni.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="merged" />
+		<text>Með því að sameina þessa tvo moll tónstiga fáum við 9 mismunandi þríhljóma.</text>
+	</section>	
+	
+</lesson>

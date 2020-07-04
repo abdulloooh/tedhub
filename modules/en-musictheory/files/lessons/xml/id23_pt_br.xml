@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tônica</var>
+	<var name="supertonicText">Supertônica</var>
+	<var name="mediantText">Mediante</var>
+	<var name="subdominantText">Subdominante</var>
+	<var name="dominantText">Dominante</var>
+	<var name="submediantText">Submediante</var>
+	<var name="leadingToneText">Sensível</var>
+	<var name="subtonicText">Subtônica</var>
+	<var name="hText">s</var>
+	<var name="wText">T</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Graus da Escala</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<text>Cada nota de uma escala tem um nome especial, chamado de <b>grau da escala</b>.</text>
+		<gotoAndStop label="tonic" />
+    	<text>A primeira nota é chamada de <b>tônica</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<text>A quinta nota é chamada de <b>dominante</b>.</text>
+		<gotoAndPlay label="subdominant" />
+    	<text>A quarta nota é chamada de <b>subdominante</b> (ou seja, abaixo da dominante).</text>
+		<gotoAndPlay label="mediant" />
+    	<text>Como está no <i>meio</i> da tônica e da dominante, a terceira nota é chamada de <b>mediante</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<text>Do mesmo modo, a sexta nota é chamada de <b>submediante</b>, já que está no meio da tônica superior e da <i>sub</i>dominante.</text>
+		<gotoAndPlay label="supertonic" />
+    	<text>A segunda nota é chamada de <b>supertônica</b>.  <i>Super</i> em latim quer dizer "acima de".</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<text>Embora os graus da escala para as primeiras seis notas sejam os mesmos tanto para escalas maiores quanto menores, o sétimo grau é especial.</text>
+		<gotoAndStop label="seventh2" />
+		<text>Se a sétima nota estiver um semitom abaixo da tônica, ela é chamada de nota <b>sensível</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<text>Ouça a Escala Dó Maior, repare como a sétima nota quer levar à tônica.</text>
+		<gotoAndStop label="seventh4" />
+		<text>As notas sensíveis também ocorrem nas escalas menor harmônica e menor melódica.</text>
+		<gotoAndPlay label="seventh5" />
+		<text>Na menor natural, a sétima nota está um tom abaixo da tônica. Neste caso, a nota é chamada de <b>subtônica</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<text>Ouça a Escala Dó Menor Natural, e repare como a sétima nota não possui a intenção de levar à tônica.</text>
+	</section>
+
+</lesson>

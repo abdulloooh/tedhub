@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Компоновање са молским лествицама</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>За разлику од само једне дурске, постоје три различите молске лествице.</text>
+		<text>Композитори често спајају две молске лествице (природну и хармонску) у једну - ради лепшег звука.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="triads" />
+		<text>Присетите се лествичних трозвука за обе лествице.</text>
+		<gotoAndStop label="triads2" />
+		<text>Приметите да су већина трозвука исти.</text>
+		<gotoAndStop label="triads3" />
+		<text>Три пара трозвука, (<b>III</b>, <b>III+</b>), (<b>v</b>, <b>V</b>), (<b>VII</b>, <b>viiº</b>), су различити јер је у хармонском молу септима повишена.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="III" />
+		<text>Акорд <b>III</b> ступња се увек користи уместо акорда <b>III+</b> ступња.  И то зато што акорд <b>III+</b> ступња, пошто је прекомерни, звучи необично.</text>
+		<gotoAndPlay label="V" />
+		<text>Како акорд <b>V</b> ступња садржи вођицу (и због тога има јаче дејство),  радије се користи него акорд <b>v</b> ступња.  Али то не значи да се акорд <b>v</b> ступња не може користити.</text>
+		<gotoAndStop label="VII" />
+		<text>Акорди <b>VII</b> и <b>viiº</b> ступња се користе равноправно.  А касније ћете научити да сваки има засебну улогу.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="merged" />
+		<text>Као што можете видети, ове две молске лествице спојене у једну имају укупно 9 различитих лествичних акорада.</text>
+	</section>	
+	
+</lesson>

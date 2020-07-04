@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Frumtónn</var>
+	<var name="supertonicText">Yfirfrumtónn</var>
+	<var name="mediantText">Miðtónn</var>
+	<var name="subdominantText">Undirfortónn</var>
+	<var name="dominantText">Fortónn</var>
+	<var name="submediantText">Undirmiðtónn</var>
+	<var name="leadingToneText">Leiðsögutónn</var>
+	<var name="subtonicText">Undirfrumtónn</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Sætisnöfn tónstigans</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<text>Hvert sæti (hver tónn) tónstigans hefur nafn.</text>
+		<gotoAndStop label="tonic" />
+    	<text>Nótan á 1. sæti nefnist <b>frumtónn</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<text>Nótan á 5. sæti nefnist <b>fortónn</b>,</text>
+		<gotoAndPlay label="subdominant" />
+    	<text>og nótan á 4. sæti <b>undirfortónn</b>.</text>
+		<gotoAndPlay label="mediant" />
+    	<text>Þar sem nótan á 3. sæti er mitt á milli frumtóns og fortóns nefnist hún <b>miðtónn</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<text>Nótan á 6. sæti nefnist <b>undirmiðtónn</b> þar sem hún liggur mitt á milli efri frumtóns og undirfortóns.</text>
+		<gotoAndPlay label="supertonic" />
+    	<text>Nótan á 2. sæti nefnist <b>yfirfrumtónn</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<text>Nöfn þessara sæta tónstigans eru þau sömu hvort sem um er að ræða dúr eða moll. 7. sætið er hins vegar sérstakt.</text>
+		<gotoAndStop label="seventh2" />
+		<text>Ef tónbilið milli 7. og 8. tóns tónstigans er lítil 2und nefnist 7. tónninn <b>leiðsögutónn</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<text>Hlustaðu á C dúr tónstigann og taktu eftir hvernig 7. tónninn <i>leiðir</i> til frumtóns.</text>
+		<gotoAndStop label="seventh4" />
+		<text>Leiðsögutónn kemur líka fyrir í hljómhæfum og laghæfum moll.</text>
+		<gotoAndPlay label="seventh5" />
+		<text>Í hreinum moll er heiltónn (stór 2und) milli 7. og 8. tóns. Í því tilfelli nefnist 7. tónninn <b>undirfrumtónn</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<text>Hlustaðu á hreinan c moll; sjöunda sætið vantar leiðnina til frumtóns sem er greinileg þegar um er að ræða leiðsögutón.</text>
+	</section>
+
+</lesson>

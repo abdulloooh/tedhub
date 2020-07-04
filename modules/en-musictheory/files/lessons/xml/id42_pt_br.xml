@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Fundamental</var>
+	<var name="thirdText">Terça</var>
+	<var name="fifthText">Quinta</var>
+	<var name="bassText">Baixo</var>
+	<var name="rootPositionText">Posição Fundamental</var>
+	<var name="firstInversionText">Primeira Inversão</var>
+	<var name="secondInversionText">Segunda Inversão</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Inversão de Tríades</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Assim como os intervalos, as tríades podem ser invertidas movendo-se a nota mais grave uma oitava acima.  Essa nota mais grave, chamada de <b>baixo</b>, determina o nome da inversão.</text>
+		<gotoAndPlay label="root_position" />
+		<text>No exemplo acima, a fundamental do acorde está no baixo.  Chama-se a isso de <b>posição fundamental</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Agora, vamos inverter o acorde.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Observe que o baixo é agora a terça.  Isso é chamado de <b>primeira inversão</b>.</text>
+		<gotoAndPlay label="second_inversion" />
+		<text>Vamos inverter o acorde novamente.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>Agora, a quinta é a nota mais grave do acorde.  Isso é chamado de <b>segunda inversão</b>.</text>
+		<gotoAndPlay label="root_position_again" />
+		<text>Se invertermos a tríade uma terceira vez, ela voltará à posição fundamental.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>O quadro acima mostra todas as três posições das tríades.</text>
+	</section>
+
+</lesson>

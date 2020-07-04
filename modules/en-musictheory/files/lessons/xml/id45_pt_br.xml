@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedSeventhText">7d</var>
+	<var name="minorSeventhText">7m</var>
+	<var name="majorSeventhText">7M</var>
+
+	<var name="MajorTriadText">Tríade Maior</var>
+	<var name="MinorTriadText">Tríade Menor</var>
+	<var name="DiminishedTriadText">Tríade Diminuta</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Acordes de Sétima</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Um <b>acorde de sétima</b> é uma combinação de uma tríade com um intervalo de sétima.</text>
+		<text>Cinco tipos de acordes de sétima são usados mais freqüentemente.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="dominant" />
+		<text>Quando uma tríade maior e uma sétima menor se combinam, isso resulta num <b>acorde de sétima da dominante</b>.</text>
+		<gotoAndPlay label="dominant2" />
+		<text>Ouça um acorde de Dó com sétima da dominante.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Quando uma tríade maior e uma sétima maior se combinam, resultam num <b>acorde de sétima maior</b>.</text>
+		<gotoAndPlay label="major2" />
+		<text>Ouça um acorde de Dó com sétima maior.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Quando uma tríade menor e uma sétima menor se combinam, resultam num <b>acorde de sétima menor</b>, ou <b>acorde menor com sétima</b>.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Ouça um acorde de Dó menor com sétima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>Quando uma tríade diminuta e uma sétima diminuta se combinam, resultam num <b>acorde com sétima diminuta</b>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Ouça um acorde de Dó com sétima diminuta.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="half_diminished" />
+		<text>Finalmente, quando uma tríade diminuta e uma sétima menor se combinam, resultam num <b>acorde meio diminuto</b>.</text>
+		<gotoAndPlay label="half_diminished2" />
+		<text>Ouça um acorde de Dó meio diminuto.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">podstawa</var>
+	<!-- <var name="rootText">Root</var> -->
+	<var name="thirdText">tercja</var>
+	<!-- <var name="thirdText">Third</var> -->
+	<var name="fifthText">kwinta</var>
+	<!-- var name="fifthText">Fifth</var> -->
+	<var name="bassText">bas</var>
+	<!-- <var name="bassText">Bass</var> -->
+	<var name="rootPositionText">pozycja zasadnicza</var>
+	<!-- <var name="rootPositionText">Root Position</var> -->
+	<var name="firstInversionText">pierwszy przewrót</var>
+	<!-- <var name="firstInversionText">First Inversion</var> -->
+	<var name="secondInversionText">drugi przewrót</var>
+	<!-- <var name="secondInversionText">Second Inversion</var> -->
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Przewroty trójdźwięków</title>
+	<!-- <title>Triad Inversion</title> -->
+
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Podobnie jak interwały, trójdźwięki występują w przewrotach, po przeniesieniu ich najniższej nuty o oktawę w górę. Ta najniższa nuta, czyli <b>nuta basowa</b>, decyduje o nazwie przewrotu.</text>
+		<!-- <text>Like intervals, triads can be inverted by moving the lowest note up an octave.  This lowest note, called the <b>bass note</b>, determines the name of the inversion.</text> -->
+		<gotoAndPlay label="root_position" />
+		<text>W powyższym przykładzie, dźwięk podstawowy (podstawa) jest nutą basową. Nazywa się to <b>pozycją zasadniczą</b>.</text>
+		<!-- <text>In the above example, the root of the chord is the bass note.  This is referred to as <b>root position</b>.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Teraz wykonamy przewrót akordu.</text>
+		<!-- <text>Next, we will invert the chord.</text> -->
+		<gotoAndPlay label="first_inversion2" />
+		<text>Zauważmy, że nutą basową jest teraz jego tercja. Jest to <b>pierwszy przewrót</b>.</text>
+		<!-- <text>Notice that the bass note is now the third.  This is called <b>first inversion</b>.</text> -->
+		<gotoAndPlay label="second_inversion" />
+		<text>Wykonajmy jeszcze jeden przewrót.</text> -->
+		<gotoAndPlay label="second_inversion2" />
+		<text>Teraz kwinta znajduje się w basie. Jest to <b>drugi przewrót</b>.</text>
+		<!-- <text>Now, the fifth is the lowedst note of the chord.  This is called <b>second inversion</b>.</text> -->
+		<gotoAndPlay label="root_position_again" />
+		<text>Jeśli jeszcze raz wykonamy przewrót trójdźwięku, wrócimy do wyjściowej pozycji zasadniczej.</text>
+		<!-- <text>If we invert the triad a third time, it will return to root position.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Powyższe zestawienie pokazuje wszystkie trzy pozycje trójdźwięku.</text>
+		<!-- <text>The above chart displays all three triad positions.</text> -->
+	</section>
+
+</lesson>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="bassText">Bassi</var>
+	<var name="rootText">Rót</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fifthText">Fimmund</var>
+	<var name="seventhText">Sjöund</var>
+	<var name="secondAbbrText">2und</var>
+	<var name="thirdAbbrText">3und</var>
+	<var name="fourthAbbrText">4und</var>
+	<var name="fifthAbbrText">5und</var>
+	<var name="sixthAbbrText">6und</var>
+	<var name="seventhAbbrText">7und</var>
+	<var name="rootPositionText">Grunnstaða:</var>
+	<var name="firstInversionText">Fyrstu hljómhvörf:</var>
+	<var name="secondInversionText">Önnur hljómhvörf:</var>
+	<var name="thirdInversionText">Þriðju hljómhvörf:</var>
+	<var name="numbersText">7, 6, 5, 4, 3, 2</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómhvörf sjöundarhljóma</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Hverfa má sjöundarhljóma líkt og þríhljóma með því að færa neðstu nótuna upp um áttund.</text>
+		<gotoAndPlay label="first" />
+		<text>Fyrstu hljómhvörf sjöundarhljóms eru eins og 1. hljómhvörf þríhljóms; 3undin er í bassa.</text>
+		<gotoAndPlay label="second" />
+		<text>Sama má segja um önnur hljómhvörf - 5und hljómsins er í bassa.</text>
+		<gotoAndPlay label="third" />
+		<text>Sjöundarhljómar hafa 4 tóna og geta því myndað 3 hljómhvörf. Í 3. hljómhvörfum er 7undin í bassa.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="roman" />
+		<text>Eins og fram er komið er sjöundarhljómur í grunnstöðu auðkenndur með rómverskri sætistölu og tölustafnum 7.</text>
+		<gotoAndStop label="roman2" />
+		<text>Sjöundarhljómur í 1. hljómhvörfum er auðkenndur með sætistölu ásamt tölunum 6 og 5.</text>
+		<gotoAndStop label="roman3" />
+		<text>Sjöundarhljómur í 2. hljómhvörfum er auðkenndur með sætistölu og tölunum 4 og 3.</text>
+		<gotoAndStop label="roman4" />
+		<text>3. hljómhvörf eru svo auðkennt með tölustafnum 2.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pattern" />
+		<text>Röðum táknunum nú á annan hátt. Tekurðu eftir einhverri reglu?</text>
+		<gotoAndStop label="pattern2" />
+		<text>Hljómhvörfin eru í númeraröð frá 7 - 2.</text>
+		<gotoAndStop label="pattern3" />
+		<text>Notaðu þessa röð til að hjálpa þér að muna tölurnar sem auðkenna hljómhvörf sjöundarhljóma.</text>
+	</section>
+
+</lesson>

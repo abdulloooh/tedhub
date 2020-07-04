@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="predominantsText">Predominants</var>
+	<var name="dominantsText">Dominants</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Common Chord Progressions</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<text>Although hundreds of different chord progressions are possible, most tend to follow a pattern.</text>
+		<gotoAndPlay label="major" />
+		<text>In a major key, the goal of any chord progression is the <b>I</b> chord.</text>
+		<gotoAndStop label="major2" />
+		<text>The rest of the pattern is based around the strongest ways to get to this chord.</text>
+		<gotoAndPlay label="major3" />
+		<text>A Perfect cadence (<b>V -&gt; I</b>) is the strongest way to approach a <b>I</b> chord.  Since, <b>viiº -&gt; I</b> sounds similar to a perfect cadence, it can also be used.</text>
+		<gotoAndStop label="major4" />
+		<text>Next, we use circle progressions.</text>
+		<gotoAndPlay label="major5" />
+		<text>The strongest way to approach <b>V</b> is a circle progression from <b>ii</b>.  The strongest way to approach <b>viiº</b> is a circle progression from <b>IV</b>.</text>
+		<gotoAndStop label="major6" />
+		<text>The strongest way to approach <b>IV</b> is a circle progression from <b>I</b>; however, since <b>I</b> is already on the chart, we will not repeat it.</text>
+		<gotoAndPlay label="major7" />
+		<text>A circle progression from <b>vi</b> leads us to <b>ii</b>.</text>
+		<gotoAndPlay label="major8" />
+		<text>A circle progression from <b>iii</b> leads us to <b>vi</b>.</text>
+		<gotoAndPlay label="major9" />
+		<text>The strongest way to get to <b>iii</b> is a circle progression from <b>viiº</b>, which is already on the chart.</text>
+		<gotoAndPlay label="major10" />
+		<text>Finally, since <b>I</b> is the main chord of the scale, it can go to any other chord.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="labels" />
+		<text>Now that the chart is complete, there are a few terms that you should learn.</text>
+		<text>Recall that the term "dominant" means the fifth scale degree.  Since the <b>V</b> chord is built on the dominant, it is a dominant chord.</text>
+		<text>Since <b>viiº</b> functions like <b>V</b> (by going to <b>I</b>), it can also be labeled as a dominant.</text>
+		<gotoAndStop label="labels2" />
+		<text>Hence, <b>V</b> and <b>viiº</b> are <b>dominants</b>.</text>
+		<gotoAndStop label="labels3" />
+		<text>Since <b>ii</b> and <b>IV</b> come before <b>V</b> and <b>viiº</b>, they are usually labeled as <b>predominants</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="example" />
+		<text>Let's work out a chord progression using the chart.  We will start at <b>I</b>.</text>
+		<gotoAndPlay label="example2" />
+		<text>Next, we can choose any chord.  Let's go to <b>vi</b>.</text>
+		<gotoAndStop label="example3" />
+		<text>Now, we can choose either <b>ii</b> or <b>IV</b>.</text>
+		<gotoAndPlay label="example4" />
+		<text>Let's go with <b>IV</b>.</text>
+		<gotoAndPlay label="example5" />
+		<text>Now, we can choose either <b>V</b> or <b>viiº</b>.  I will pick <b>V</b>.</text>
+		<gotoAndStop label="example6" />
+		<text>Finally, <b>V</b> takes us back to <b>I</b>.</text>
+		<gotoAndPlay label="example7" />
+		<text>Listen to the above progression.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>The chord progression chart for minor scales is very similar to the major scale chart.  There is only one main difference.</text>
+		<gotoAndPlay label="minor2" />
+		<text>The strongest way to approach <b>III</b> is not <b>viiº</b>.  Instead, it is a circle progression from <b>VII</b>.</text>
+		<gotoAndPlay label="minor3" />
+		<text>A circle progression from <b>iv</b> to <b>VII</b> completes the chart.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>It should be noted that the charts do not have to be followed strictly.  If a progression is not presented, a composer is not banned from using it.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Flag</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Note Duration</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>The length of time that a note is played is called its <b>note duration</b>, which is determined by the type of note.</text>
+		<gotoAndPlay label="whole" />
+		<text>The <b>whole note</b> has the longest note duration in modern music.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>The <b>half note</b> has half the duration of a whole note.</text>
+		<gotoAndPlay label="half2" />
+		<text>Two half notes occupy the same amount of time as one whole note.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text>The <b>quarter note</b> is a fourth (or a quarter) of a whole note.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Four quarter notes occupy the same amount of time as one whole note.  Two quarter notes equal the duration of a half note.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Notes smaller in duration than a quarter note have <b>flags</b>.  Each flag halves the value of a note.</text>
+		<gotoAndPlay label="eighth" />
+		<text>An <b>eighth note</b> has one flag; therefore, it is half the value of a quarter note.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>A <b>sixteenth note</b> has two flags, halving the value again.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Although it is possible to have notes with three or more flags, they are seldomly used.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>The above chart displays the relationship of all five note types discussed in this lesson.</text>
+	</section>
+
+</lesson>

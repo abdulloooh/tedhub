@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1</var>
+	<var name="secondText">2</var>
+	<var name="thirdText">3</var>
+	<var name="fourthText">4</var>
+	<var name="fifthText">5</var>
+	<var name="sixthText">6</var>
+	<var name="seventhText">7</var>
+	<var name="eighthText">8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Генерички интервали</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Интервал</b> је размак између два тона.</text>
+		<text>У овој лекцији ћемо обрадити <b>генеричке интерале</b>, који се мере само на нотном систему.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="first" />
+		<text>Када се две ноте налазе на истој линији или празнини, онда је то <b>прима</b> (<b>1</b>).</text>
+		<gotoAndStop label="first2" />
+		<text><b>c</b> - <b>c</b> је пример за интервал приму.</text>
+		<gotoAndStop label="first3" />
+		<text><b>c</b> - <b>cis</b>, <b>c</b> - <b>ces</b> су такође приме.</text>
+	</section>
+	
+	<section>	
+		<gotoAndPlay label="second" />
+		<text>Када се две ноте налазе једна косо поред друге, то је <b>секунда</b> (<b>2</b>).</text>
+		<gotoAndStop label="second2" />
+		<text><b>c</b> - <b>d</b> је секунда.</text>
+		<gotoAndStop label="second3" />
+		<text><b>c</b> - <b>dis</b>, <b>ces</b> - <b>d</b> и <b>ces</b> - <b>dis</b> су секунде.</text>
+	</section>
+	
+	<section>		
+		<gotoAndPlay label="third" />
+		<text>Када се две ноте налазе тачно једна изнад друге, то је <b>терца</b> (<b>3</b>).</text>
+		<gotoAndStop label="third2" />
+		<text><b>c</b> - <b>e</b> је терца.</text>
+		<gotoAndStop label="third3" />
+		<text><b>e</b> - <b>g</b>, <b>f</b> - <b>a</b> су такође терце.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="further" />
+		<text>И како ноте бивају удаљеније, интервал се увећава.</text>
+		<gotoAndStop label="fourth" />
+		<text><b>c</b> - <b>f</b> је <b>кварта</b> (<b>4</b>).</text>
+		<gotoAndStop label="fifth" />
+		<text><b>c</b> - <b>g</b> је <b>квинта</b> (<b>5</b>).</text>
+		<gotoAndStop label="sixth" />
+		<text><b>c</b> - <b>a</b> је <b>секста</b> (<b>6</b>).</text>
+		<gotoAndStop label="seventh" />
+		<text><b>c</b> - <b>h</b> је <b>септима</b> (<b>7</b>).</text>
+		<gotoAndStop label="eighth" />
+		<text><b>c</b> - <b>c</b> је <b>октава</b> (<b>8</b>).</text>
+	</section>
+
+</lesson>

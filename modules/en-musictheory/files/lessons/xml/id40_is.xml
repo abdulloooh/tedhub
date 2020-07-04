@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Rót</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fifthText">Fimmund</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómar - inngangur</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Hljómur</b> samanstendur af þremur eða fleiri tónum (nótum).</text>
+		<text>Hljómar eru byggðir upp frá tilteknum tóni sem nefnist <b>rót</b> eða <b>grunntón</b>.</text>
+		<gotoAndStop label="triad" />
+		<text>Í þessari kennslueiningu verður fjallað um <b>þríhljóma</b>. Þeir eru samsettir úr rót, 3und og 5und upp frá rótinni.</text>
+	</section> 
+	
+	<section>
+		<gotoAndStop label="major" />
+		<text>Byrjum með C <b>dúr þríhljóm</b>. Þessi hljómur er byggður með stórri 3und og hreinni 5und upp af rótinni.</text>
+		<gotoAndPlay label="major2" />
+		<text>Fyrst skrifum við rótina (C), þríundin er E og fimmundin G.</text>
+		<gotoAndPlay label="major3" />
+		<text>Skoðum næst þennan hljóm á hljómborði. Þar sem við viljum dúr hljóm þurfum við stóra 3und (4 hálftóna) upp frá rótinni...</text>
+		<gotoAndPlay label="major4" />
+		<text>og svo hreina 5und upp frá rótinni.</text>
+		<gotoAndStop label="major5" />
+		<text>Þar sem hljómurinn inniheldur aðeins hvítar nótur hljómborðsins þarf engin formerki.</text>
+		<gotoAndPlay label="major6" />
+		<text>C dúr þríhljómur hljómar þá svona.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Skoðum næst <b>moll þríhljóm</b> sem byggður er með lítilli 3und og hreinni 5und upp af rótinni.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Ef við erum t.d. með c moll þríhljóm teljum við fyrst út tónbilin á nótnastrengnum.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Finnum næst út litla 3und (3 hálftóna) á hljómborði.</text>
+		<gotoAndPlay label="minor4" />
+		<text>Þá hreina 5und.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Og bætum loks réttu formerki við. C moll þríhljómur samanstendur þannig af nótunum C, Es og G...</text>
+		<gotoAndPlay label="minor6" />
+		<text>og hljómar svona.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text><b>Stækkaður þríhljómur</b> er gerður af stórri 3und og <i>stækkaðri</i> 5und.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Mundu að stækkuð 5und er 8 hálftónar.</text>
+		<gotoAndPlay label="augmented3" />
+		<text>Eftir að formerkið er komið er ljóst að stækkaður C hljómur er gerður af C, E og Gís...</text>
+		<gotoAndPlay label="augmented4" />
+		<text>og hljómar svona.</text>
+		<gotoAndStop label="augmented5" />
+		<text>Stækkaður þríhljómur hefur því stækkaða 5und en dúr þríhljómur hreina 5und.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Lítum að síðustu á <b>minnkaðan þríhljóm</b> sem byggður er á lítilli 3und og <i>minnkaðri</i> 5und.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Mundu, að minnkuð 5und er 6 hálftónar.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Þegar formerkin erum komin er ljóst að minnkaður c þríhljómur samanstendur af C, Es og Ges...</text>
+		<gotoAndPlay label="diminished4" />
+		<text>og hljómar svona.</text>
+		<gotoAndStop label="diminished5" />
+		<text>Minnkaður þríhljómur hefur því minnkaða 5und en moll þríhljómur hreina 5und.</text>
+	</section>
+
+</lesson>

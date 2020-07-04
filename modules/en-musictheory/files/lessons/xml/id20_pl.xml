@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">podwójny </var>
+	<var name="doubleFlatTwoText">bemol</var>
+	<var name="flatText">bemol</var>
+	<var name="naturalText">kasownik</var>
+	<var name="sharpText">krzyżyk</var>
+	<var name="doubleSharpOneText">podwójny</var>
+	<var name="doubleSharpTwoText">krzyżyk</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<!--<title>Steps and Accidentals</title>-->
+	<title>Całe tony, półtony i znaki chromatyczne</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<!--<text>A <b>half step</b> is the distance from one key on the keyboard to the next adjacent key.</text>-->
+		<text> <b>Półton</b> to odległość między dwoma najbliższymi klawiszami na klawiaturze.</text>
+		<gotoAndPlay label="half_step" />
+		<!--<text>Since they are next to each other, Key 1 to Key 2 would be an example of a half step.</text>-->
+		<text>Ponieważ klawisze 1 i 2 następują bezpośrednio po sobie mogą ilustrować półton.</text>
+		<gotoAndStop label="half_step2" />
+		<!--<text>A half step is not always from a white key to a black key.</text>-->
+		<text>Półton nie leży zawsze między białym i czarnym klawiszem.</text>
+		<gotoAndPlay label="half_step3" />
+		<!--<text>In this example, both Key 1 and Key 2 are still adjacent to each other.</text>-->
+		<text>W tym przykładzie klawisze 1 i 2 także następują bezpośrednio po sobie.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<!--<text>A <b>whole step</b> is the same distance as two half steps.</text>-->
+		<text> <b>Cały ton</b> jest odległością równą dwu półtonom.</text>
+		<gotoAndPlay label="whole_step2" />
+		<!--<text>Key 1 to Key 3 is a whole step. (The first half step is from 1 to 2, the second from 2 to 3)</text>-->
+		<text>Od klawisza 1 do klawisza 3 jest cały ton. (Pierwszy półton między 1 i 2, drugi między 2 i 3).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<!--<text>An <b>accidental</b> is a sign used to raise or lower the pitch of a note.</text>-->
+		<text> <b>Znak chromatyczny</b> używany jest do podwyższenia lub obniżenia brzmienia nuty.</text>
+		<gotoAndPlay label="accidentals2" />
+		<!--<text>The first accidentals that we will discuss are the <b>flat</b> and the <b>sharp</b>.</text>-->
+		<text>Pierwszymi znakami chromatycznymi, które omówimy, są <b>bemol</b> i <b>krzyżyk</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<!--<text>The flat lowers a note by a half step while the sharp raises a note by a half step.</text>-->
+		<text>Bemol obniża nutę o pół tonu, a krzyżyk podwyższa nutę o pół tonu.</text>
+		<gotoAndStop label="accidentals4" />
+		<!--<text>When typing, you can use a <b>#</b> to represent a sharp and a <b>b</b> to represent a flat.</text>-->
+		<text>Pisząc nuty, używamy znaku <b>#</b> aby zanotować krzyżyk i znaku <b>b</b> aby zanotować bemol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<!--<text>Let's examine the black key in between C and D.</text>-->
+		<text>Zwróćmy uwagę na czarny klawisz leżący między C i D.</text>
+		<gotoAndStop label="example2" />
+		<!--<text>This key could be called C# since it is a half step above C.</text>-->
+		<text>Klawisz ten mógłby nazywać się Cis (C#), gdyż leży o pół tonu powyżej C.</text>
+		<gotoAndStop label="example3" />
+		<!--<text>It could also be called Db since it is a half step below D.</text>-->
+		<text>Ale także mógłby nazywać się Des (Db), leżąc o pół tonu poniżej D.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<!--<text>Another example would be E and F.</text>-->
+		<text>Innym przykładem niech będzie E i F.</text>
+		<gotoAndStop label="enharmonic2" />
+		<!--<text>E could also be called Fb since it is half step below F.</text>-->
+		<text>E, które leży o pół tonu niżej od F, mogłoby nazywać się Fes (Fb).</text>
+		<gotoAndStop label="enharmonic3" />
+		<!--<text>Likewise, F could be called E#.</text>-->
+		<text>Podobnie jak i F mogłoby nazywać się Eis (E#).</text>
+		<gotoAndStop label="enharmonic4" />
+		<!--<text>Whenever a certain pitch has multiple names, it is called <b>enharmonic spelling.</b></text>-->
+		<text>Kiedy dany dźwięk ma kilka nazw mówimy, że są to <b>dźwięki enharmoniczne.</b></text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<!--<text>The next accidentals we will discuss are the <b>double flat</b> and the <b>double sharp</b>.</text>-->
+		<text>Następnymi omawianymi przez nas znakami chromatycznymi będą <b>podwójny bemol</b> i <b>podwójny krzyżyk</b>.</text>
+		<gotoAndStop label="double2" />
+		<!--<text>While flats and sharps alter a note by a half step, the double flat and double sharp alter a note by a whole step.</text>-->
+		<text>Podczas gdy bemole i krzyżyki zmieniają wysokość nuty o pół tonu, podwójny bemol i krzyżyk zmieniają wysokość nuty o cały ton.</text>
+		<gotoAndStop label="double3" />
+		<!--<text>When typing, you can use a <b>x</b> to represent a double sharp and a <b>bb</b> to represent a double flat.</text>-->
+		<text>W zapisie nutowym znak <b>x</b> wyraża podwójny krzyżyk, a <b>bb</b> jest znakiem podwójnego bemola.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<!--<text>For example, both D and Ebb have the same pitch since you can reach D by going a whole step (or two half steps) down from E.</text>-->
+		<text>Przykładowo zarówno D jak i Eses (Ebb) oznaczają ten sam dźwięk. D znajduje się w tym samym miejscu co obniżone o cały ton (lub dwa półtony) E.</text>
+		<gotoAndPlay label="double_example2" />
+		<!--<text>D also sounds the same as Cx since it is a whole step above C.</text>-->
+		<text>D brzmi również tak samo jak Cisis (Cx), leżąc o cały ton powyżej C.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<!--<text>Finally, a <b>natural</b> cancels out any accidental and returns a note to its original white key.</text>-->
+		<text>I wreszcie <b>kasownik</b> unieważnia wszystkie znaki chromatyczne i przywraca nutom ich właściwe białe klawisze.</text>
+		<gotoAndStop label="natural2" />
+		<!--<text>We will learn more about naturals in an upcoming lesson.</text>-->
+		<text>Więcej o kasownikach dowiemy się w jednej z kolejnych lekcji.</text>
+	</section>
+	
+</lesson>

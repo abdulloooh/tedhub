@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Corchete</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Duración de las Notas</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Llamamos <b>duración de nota</b> a la cantidad de tiempo durante el cual una nota es ejecutada. Dicha duración es determinada por el tipo de nota.</text>
+		<gotoAndPlay label="whole" />
+		<text>La <b>nota redonda</b> tiene usualmente la mayor duración de nota en la música moderna.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>La <b>nota blanca</b> dura exactamente la mitad de una nota redonda.</text>
+		<gotoAndPlay label="half2" />
+		<text>Dos notas blancas ocupan la misma cantidad de tiempo que una nota redonda.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text>La <b>nota negra</b> equivale a un cuarto de una nota redonda.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Cuatro notas negras ocupan la misma cantidad de tiempo que una nota redonda.  Dos notas negras duran tanto como a una nota blanca.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Las notas de menor duración que una nota negra poseen <b>corchetes</b>.  Cada corchete reduce a la mitad el valor de la nota.</text>
+		<gotoAndPlay label="eighth" />
+		<text>Una <b>corchea</b> tiene un corchete; por lo tanto, tiene la mitad del valor de una nota negra.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>Una <b>semicorchea</b> tiene dos corchetes, lo que reduce su valor en otra mitad.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Aunque es posible tener notas con tres o más corchetes, su uso es poco frecuente.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Esta tabla muestra las relaciones de los cinco tipos de notas estudiados en esta lección.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Flagga</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Notvärden</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Den tid som en not ljuder kallas för dess <b>notvärde</b>, vilket bestäms av typen av not.</text>
+		<gotoAndPlay label="whole" />
+		<text><b>Helnoten</b> har det längsta notvärdet i modern notation.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>En <b>halvnot</b> har hälften så långt notvärde som en helnot.</text>
+		<gotoAndPlay label="half2" />
+		<text>Två halvnoter har lika långt notvärde (varar lika länge) som en helnot.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text><b>Fjärdelsnoten</b> har en fjärdedel så lång varaktighet som en helnot.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Fyra fjärdedelsnoter varar lika lång tid som en helnot. Två fjärdelsnoter har samma notvärde som en halvnot.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Noter med kortare tidsvärde än en fjärdedel har <b>flaggor</b>.  Varje flagga halverar tidsvärdet på noten.</text>
+		<gotoAndPlay label="eighth" />
+		<text>En <b>åttondelsnot</b> har en flagga; därför har den hälften så långt notvärde som en fjärdedelsnot.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>En <b>sextondelsnot</b> har två flaggor, vilket halverar notvärdet ännu en gång.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Även om det är möjligt att ha tre eller fyra flaggor på en not, så används dessa notvärden mindre ofta än de notvärden vi tagit upp här.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Figuren ovan visar sambanden mellan alla de fem notvärden vi diskuterat under den här lektionen.</text>
+	</section>
+
+</lesson>

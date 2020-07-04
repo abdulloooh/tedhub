@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cSharpMinorText">c#</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Analysis #3</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>In this analysis, we will be examining bars 48-50 of Beethoven's Moonlight Sonata (Opus 27, Number 2, Movement 1).</text>
+		<gotoAndStop label="key" />
+		<text>Since we are starting in the middle of the piece, I will give you a hint: it is in C# minor.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="group_one" />
+		<text>The first half of bar 48 contains G#'s, B#'s, D#'s, and F#'s - a G# dominant seventh chord.  Since the B# is the lowest note, the chord is in first inversion.</text>
+		<gotoAndPlay label="group_two" />
+		<text>The second half of bar 48 contains C#'s, E's, and G#'s - a C# minor triad.</text>
+		<gotoAndPlay label="group_three" />
+		<text>The first half of bar 49 contains D's, F#'s, and A's - a D major triad in first inversion.  This is the Neapolitan sixth chord in C# minor.</text>
+		<gotoAndPlay label="group_four" />
+		<text>The second half of bar 49 contains G#'s, B#'s, and F#'s - a G# dominant seventh chord with a missing fifth.</text>
+		<gotoAndPlay label="group_five" />
+		<text>The first part of bar 50 contains C#'s, E's, and G#'s - another C# minor triad.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Listen to the above excerpt.</text>
+	</section>
+	
+</lesson>

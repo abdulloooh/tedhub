@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">Dubbel-</var>
+	<var name="doubleFlatTwoText">b</var>
+	<var name="flatText">B-tecknet</var>
+	<var name="naturalText">Återställnings-</var>
+	<var name="naturalTwoText">tecknet</var>
+	<var name="sharpText">Korstecknet</var>
+	<var name="doubleSharpOneText">Dubbel-</var>
+	<var name="doubleSharpTwoText">kors</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tonsteg och förtecken</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Ett <b>halvt tonsteg (halvton)</b> är avståndet mellan två intilliggande tangenter på en klaviatur.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Eftersom tangent 1 och 2 ligger intill varandra, är avståndet mellan dessa båda tangenter ett exempel på ett halvt tonsteg.</text>
+		<gotoAndStop label="half_step2" />
+		<text>Ett halvt tonsteg finns inte alltid mellan en vit och en svart tangent.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>I det här exemplet är tangent 1 och 2 också intilliggande tangenter på klaviaturen.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text>Ett <b>helt tonsteg (helton)</b> är samma avstånd som två halvtoner.</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>Avståndet mellan tangent 1 och tangent 3 är ett helt tonsteg. (Första halvtonsteget är från 1 till 2, det andra från 2 till 3).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text>Ett <b>förtecken</b> är ett tecken som används för att höja eller sänka en nots tonhöjd.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>De första förtecknen vi ska ta upp är <b>b-tecknet</b> och <b>korstecknet</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>B-tecknet sänker en  not med ett halvt tonsteg medan korstecknet höjer en not med ett halvt tonsteg.</text>
+		<gotoAndStop label="accidentals4" />
+		<text>I löpande text, kan du använda tecknet <b>#</b> för korstecknet och bokstaven <b>b</b> för b-tecknet.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<text>Vi undersöker den svarta tangenten mellan C och D.</text>
+		<gotoAndStop label="example2" />
+		<text>Den här tangenten kan kallas för C# (ciss) eftersom den är ett halvt tonsteg över C.</text>
+		<gotoAndStop label="example3" />
+		<text>Den kan också kallas för Db (dess) eftersom den är ett halvt tonsteg under D.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Ett annat exempel är E och F.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>E skulle också kunna kallas för Fb (fess) eftersom den är ett halvt tonsteg under F.</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>På samma sätt skulle F kunna kallas för E# (eiss).</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>I alla fall när en viss tonhöjd har flera beteckningar så kallas detta för <b>enharmonisk förväxling.</b></text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>Nästa förtecken vi ska ta upp är <b>dubbel-b</b> och <b>dubbelkors</b>.</text>
+		<gotoAndStop label="double2" />
+		<text>Medan b:n och kors förändrar en nots tonhöjd med ett halvt tonsteg, så ändrar dubbel-b:n och dubbelkors noters tonhöjd med ett helt tonsteg.</text>
+		<gotoAndStop label="double3" />
+		<text>I löpande text kan du använda <b>x</b> för dubbelkors och <b>bb</b> för dubbel-b.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>Exempelvis så avser tonnamnen D och Ebb (essess) samma faktiska tonhöjd, eftersom man kommer till D om man går en helton (eller två halvtoner) ned från E.</text>
+		<gotoAndPlay label="double_example2" />
+		<text>D är också samma tonhöjd som Cx (cississ), eftersom båda befinner sig ett helt tonsteg ovanför C.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Slutligen, ett <b>återställningstecken</b> upphäver alla slag av förtecken och återställer en not till dess ursprungliga vita tangent.</text>
+		<gotoAndStop label="natural2" />
+		<text>Vi kommer att lära oss mer om återställningstecken i en kommande lektion.</text>
+	</section>
+	
+</lesson>

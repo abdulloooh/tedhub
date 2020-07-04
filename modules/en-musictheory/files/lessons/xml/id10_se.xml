@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">C</var>
+	<var name="dText">D</var>
+	<var name="eText">E</var>
+	<var name="fText">F</var>
+	<var name="gText">G</var>
+	<var name="aText">A</var>
+	<var name="bText">B</var>
+	<var name="trebleText">Diskantklav</var>
+	<var name="bassText">Basklav</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>Notsystemet, klaver och hjälplinjer</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>På ett <b>notsystem</b> skriver man noter.</text>
+		<gotoAndPlay label="numbers" />
+		<text>Det moderna notsystemet består av fem linjer och fyra mellanrum mellan linjerna.</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Varje linje, och varje mellanrum mellan linjer, motsvarar en vit tangent på en pianoklaviatur.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text><b>Klaver</b> avgör placeringen av enskilda toner på linjer eller mellanrum.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Två klaver är mest använda: diskantklaven och basklaven.</text>
+		<gotoAndPlay label="treble" />
+		<text>Den första klaven vi ska lära oss är diskantklaven (som också kallas för G-klaven).</text>
+		<gotoAndStop label="treble2" />
+		<text>Notlinjen som klaven omsluter (visas markerad med rött) kallas för G.  Varje not placerad på den här linjen blir ett G.</text>
+		<gotoAndStop label="treble3" />
+		<text>Tonen (noten) på utrymmet ovanför G är A.  (Kom ihåg att det inte finns någon ton "H").</text>
+		<gotoAndStop label="treble4" />
+		<text>Tonen på linjen ovanför A är B.</text>
+		<gotoAndPlay label="treble5" />
+		<text>Den här processen fortsätter.</text>
+		<gotoAndStop label="treble6" />
+		<text>Ojdå.  Det finns inte mer plats för att placera noterna. Vad gör vi då?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text><b>Hjälplinjer</b> löser problemet.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>En hjälplinje är en kort notlinje som utökar notsystemet vid behov.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>Med hjälp av hjälplinjen, kan vi placera in A-et.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>Nästa punkt på dagordningen är basklaven (som också kallas F-klaven).</text>
+		<gotoAndStop label="bass2" />
+		<text>Notlinjen mellan de två prickarna i klaven är tonen F.</text>
+		<gotoAndPlay label="bass3" />
+		<text>Nu kan vi fylla resten av notsystemet med noter.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>Nu ska vi titta närmare på ett hypotetiskt notsystem som består av elva notlinjer.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Se vad som händer när vi tar bort den mittersta notlinjen - resultatet blir två vanliga notsystem.</text>
+		<gotoAndPlay label="grand3" />
+		<text>Genom att lägga till en diskantklav till det översta systemet och en basklav till det undre, kan vi se förhållandet mellan dom två systemen.</text>
+		<gotoAndStop label="grand4" />
+		<text>Lägg märke till hur de två klaverna "förenas" av tonen C (rödmarkerad).</text>
+		<text>Det här C-et kallas vanligen "nyckelhåls-C" eller "mitten-C" eftersom det dels finns i mitten av en pianoklaviatur (mitt för nyckelhålet), och dels finns på notlinjen mitt emellan två notsystem försedda med en basklav och en diskantklav.</text>
+	</section>
+
+</lesson>

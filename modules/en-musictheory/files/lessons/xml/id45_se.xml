@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Grundton</var>
+	<var name="thirdText">Ters</var>
+	<var name="fifthText">Kvint</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Septimackord</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Ett <b>septimackord</b> består av en treklang med en tillagd septima.</text>
+		<text>Det är främst fem olika typer av septimackord som används.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="dominant" />
+		<text>En durtreklang med en tillagd liten septima kallas för ett <b>dominantseptimackord</b>.</text>
+		<gotoAndPlay label="dominant2" />
+		<text>Lyssna på ett dominantseptimackord utgående från tonen C (C7).</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>En durtreklang i kombination med en stor septima blir ett <b>majseptimackord (majsjuackord)</b>.</text>
+		<gotoAndPlay label="major2" />
+		<text>Lyssna på ett C-majsju (Cmaj7).</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>En molltreklang med en tillagd liten septima kallas för ett <b>mollseptimackord (mollsjuackord)</b>.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Lyssna på hur ett C-mollsju (Cm7) låter.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>En förminskad treklang med en tillagd förminskad septima kallas för ett <b>förminskat septimackord</b>.  Den här typen av septimackord kallas också för ett <b>dimackord</b>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Lyssna på hur ett C-dim låter.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="half_diminished" />
+		<text>Slutligen, en förminskad treklang med en tillagd liten septima kallas för ett <b>halvförminskat septimackord</b>. Denna typ av septimackord kallas också <b>moll-sju-minus-fem</b>.</text>
+		<gotoAndPlay label="half_diminished2" />
+		<text>Så här låter ett C-mollsjuminusfem (Cm7-5).</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2002-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorThirdText">3m</var>
+	<var name="majorSixthText">6M</var>
+	<var name="diminishedFifthText">5d</var>
+	<var name="augmentedFourthText">4A</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tríades em Primeira Inversão</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Em uma lição anterior, aprendemos como formar, identificar e analisar tríades em primeira inversão.  Uma questão ainda permanece: <i>quando é exatamente que as utilizamos?</i></text>
+		<text>Um uso da primeira inversão é para suavizar a linha do baixo.</text>
+		<gotoAndPlay label="bass" />
+		<text>Veja o exemplo acima. Note como a linha do baixo muda de direção durante o segundo acorde <b>V</b>.</text>
+		<gotoAndPlay label="bass2" />
+		<text>Ao colocar esse acorde em primeira inversão, a linha do baixo fica mais suave.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="repeat" />
+		<text>Também podemos usar primeira inversão quando repetimos um acorde.</text>
+		<gotoAndPlay label="repeat2" />
+		<text>Veja o exemplo acima. Os primeiros dois acordes são cópias exatas um do outro.  Um compositor pode sentir que essa passagem precisa de mais movimento.</text>
+		<gotoAndPlay label="repeat3" />
+		<text>Em vez de alterar as vozes superiores, o acorde pode simplesmente ser colocado em primeira inversão.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>A tríade diminuta apresenta a utilidade final da primeira inversão.</text>
+		<text>Compositores antigos não gostavam de usar intervalos aumentados ou diminutos.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Note que uma tríade diminuta em posição fundamental contém uma quinta diminuta.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>A segunda inversão da mesma tríade contém uma quarta aumentada.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Somente a primeira inversão não contém intervalos nem diminutos, nem aumentados.</text>
+		<gotoAndPlay label="diminished5" />
+		<text>Por causa disso, as tríades diminutas geralmente aparecem em primeira inversão.</text>
+		<gotoAndStop label="diminished6" />
+		<text>Tríades diminutas em posição fundamental são usadas ocasionalmente.  As tríades diminutas em segunda inversão, entretanto, quase nunca são encontradas.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>Deve ser observado que os exemplos apresentados nesta lição não são regras estritas.  Às vezes, a primeira inversão é usada simplesmente porque um compositor gosta de seu som.</text>
+	</section>	
+</lesson>

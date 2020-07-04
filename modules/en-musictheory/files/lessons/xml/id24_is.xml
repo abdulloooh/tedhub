@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Föst formerki</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Föst formerki</b> sýna formerki tiltekinnar tóntegundar.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>Lítum á c moll sem hefur þrjú bé (lækkunarmerki).</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Í stað þess að nota laus formerki (lækkunarmerki við H, E og A) eru föst formerki oftast notuð.</text>
+		<gotoAndPlay label="c_minor3" />
+		<text>Föst formerki koma á nótnastrenginn í upphafi hverrar línu, á eftir lyklinum. Ef lag nær yfir meira en einn nótnastreng þarf að endurtaka föstu formerkin á hverjum nýjum nótnastreng til enda lagsins, eða þar til tóntegundin breytist.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>Skoðum næst A dúr sem hefur þrjá krossa.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>Aftur, nota má föst formerki í stað lausra við F, C og G.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Föstu formerkin eru skrifuð í tiltekinni röð.</text>
+		<gotoAndStop label="sharps2" />
+		<text>Fís er fyrst, síðan Cís og Gís.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Næst koma Dís, Aís, Eís og loks Hís.</text>
+		<gotoAndStop label="sharps4" />
+		<text>Þú getur notað eftirfarandi setningu til að minna þig á röðina: „<b>F</b>ather <b>C</b>harles <b>G</b>oes <b>D</b>own <b>A</b>nd <b>E</b>nds <b>B</b>attle“.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Röð lækkunarmerkjanna er öfug miðað við röð krossanna.</text>
+		<gotoAndPlay label="flats2" />
+		<text>Á eftir Bé (lækkað H) kemur Es, As, Des, Ges, Ces, og loks Fes.</text>
+		<gotoAndStop label="flats3" />
+		<text>Og með því að fara með minnissetninguna sem fyrr er nefnd aftur á bak ættir þú að muna röð lækkunarmerkjanna: „<b>B</b>attle <b>E</b>nds <b>A</b>nd <b>D</b>own <b>G</b>oes <b>C</b>harles' <b>F</b>ather“.</text>
+	</section>
+
+</lesson> 

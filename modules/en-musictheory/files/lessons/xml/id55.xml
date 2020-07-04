@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="phraseText">Phrase</var>
+	<var name="halfCadenceText">HC</var>
+	<var name="authenticCadenceText">AC</var>
+	<var name="plagalCadenceText">PC</var>
+	<var name="deceptiveCadenceText">DC</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Phrases and Cadences</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>phrase</b> is a series of notes that sound complete even when played apart from the main song.</text>
+		<gotoAndPlay label="example" />
+		<text>We will use the above musical example to demonstrate phrases.</text>
+		<gotoAndPlay label="phrase_one" />
+		<text>Listen to the first two measures, notice how they sound incomplete.</text>
+		<gotoAndPlay label="phrase_one2" />
+		<text>Now listen to the first four measures, it now sounds more complete.</text>
+		<gotoAndPlay label="phrase_one3" />
+		<text>These measures could be considered a phrase.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="phrase_two" />
+		<text>Listen to the fifth through eighth measures.</text>
+		<gotoAndPlay label="phrase_two2" />
+		<text>Due to their completeness, they also form a phrase.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadence" />
+		<text>A <b>cadence</b> is a two-chord progression that occurs at the end of a phrase.</text>
+		<gotoAndPlay label="half_cadence" />
+		<text>If a phrase ends with any chord going to <b>V</b>, a <b>half cadence (HC)</b> occurs.</text>
+		<gotoAndPlay label="half_cadence2" />
+		<text>Listen again to the first four measures and notice the sound of the half cadence.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="authentic_cadence" />
+		<text>Most people will hear a half cadence as sounding incomplete.  Because of this, composers usually will follow half cadences with a phrase ending in an <b>authentic cadence (AC)</b>.</text>
+		<gotoAndPlay label="authentic_cadence2" />
+		<text>An authentic cadence occurs whenever a phrase ends with <b>V</b> or <b>viiº</b> going to <b>I</b> (or <b>i</b> if minor).</text>
+		<gotoAndPlay label="authentic_cadence3" />
+		<text>Listen to the above example, noting the sound of both cadences.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pac" />
+		<text>Authentic cadences are often classified as either perfect or imperfect.</text>
+		<gotoAndPlay label="pac2" />
+		<text>To be considered a <b>perfect authentic cadence (PAC)</b>, the cadence must meet three requirements.</text>
+		<gotoAndPlay label="pac3" />
+		<text>First, <b>V</b> must be used rather than <b>viiº</b>.</text>
+		<gotoAndPlay label="pac4" />
+		<text>Second, both chords must be in root position.</text>
+		<gotoAndPlay label="pac5" />
+		<text>Finally, the highest note of the <b>I</b> (or <b>i</b>) chord must be the tonic of the scale.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="iac" />
+		<text>An <b>imperfect authentic cadence (IAC)</b> fails to meet these requirements.</text>
+		<gotoAndPlay label="iac2" />
+		<text>The above authentic cadences are all imperfect due to various reasons.</text>
+		<gotoAndPlay label="iac3" />
+		<text>In the first example, a <b>viiº</b> is used instead of a <b>V</b>.</text>
+		<gotoAndPlay label="iac4" />
+		<text>In the second example, one of the chords is not in root position.</text>
+		<gotoAndPlay label="iac5" />
+		<text>In the third example, the highest note of the <b>I</b> chord is not the tonic of the scale.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="plagal" />
+		<text>In addition to authentic and half cadences, two other kinds exist.</text>
+		<gotoAndPlay label="plagal2" />
+		<text>If a phrase ends with <b>IV</b> (or <b>iv</b>) going to <b>I</b> (or <b>i</b>), a <b>plagal cadence (PC)</b> occurs.</text>
+		<gotoAndPlay label="plagal3" />
+		<text>Listen to the above example, note the sound of the plagal cadence.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="deceptive" />
+		<text>If a phrase ends with <b>V</b> going to <b>vi</b> (or <b>VI</b> in minor), a <b>deceptive cadence (DC)</b> occurs.</text>
+		<text>Deceptive cadences are often used in place of an authentic cadence.</text>
+		<gotoAndPlay label="deceptive2" />
+		<text>Recall the musical example used at the beginning of this lesson.  Notice that we have replaced the authentic cadence at the end of the second phrase with a deceptive cadence.</text>
+		<gotoAndPlay label="deceptive3" />
+		<text>Listen to the modified example.  Notice how the cadence "deceives" you (since you are expecting to hear a <b>I</b>).</text>
+	</section>
+	
+</lesson>

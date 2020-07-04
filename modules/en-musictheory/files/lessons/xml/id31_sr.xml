@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">прима</var>
+	<var name="secondText">секунда</var>
+	<var name="thirdText">терца</var>
+	<var name="fourthText">кварта</var>
+	<var name="fifthText">квинта</var>
+	<var name="sixthText">секста</var>
+	<var name="seventhText">септима</var>
+	<var name="eighthText">октава</var>
+	<var name="diminishedText">умањена</var>
+	<var name="minorText">мала</var>
+	<var name="perfectText">чиста</var>
+	<var name="majorText">велика</var>
+	<var name="augmentedText">прекомерна</var>
+	<var name="majorSecondText">в2</var>
+	<var name="majorThirdText">в3</var>
+	<var name="perfectFourthText">ч4</var>
+	<var name="augmentedFourthText">п4</var>
+	<var name="diminishedFifthText">у5</var>
+	<var name="perfectFifthText">ч5</var>
+	<var name="majorSixthText">в6</var>
+	<var name="augmentedSixthText">п6</var>
+	<var name="diminishedSeventhText">ум7</var>
+	<var name="minorSeventhText">м7</var>
+	<var name="majorSeventhText">в7</var>
+	<var name="perfectEighthText">ч8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Специфични интервали</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Специфични интервали</b> се мере и на нотном систему и на клавиру.</text>
+		<gotoAndPlay label="intro" />
+		<text>Као што сте научили у претходној лекцији и <b>c</b> - <b>d</b> и <b>c</b> - <b>des</b> су генеричке секунде.  Међутим, специфични интервал <b>c</b> - <b>d</b> је за један полустепен већи од (генеричког) интервала <b>c</b> - <b>des</b>.</text>
+		<gotoAndStop label="intro2" />
+		<text>Хајде да научимо специфичне интервале.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text><b>Велика секунда</b> има два полустепена.</text>
+		<gotoAndPlay label="major_second2" />
+		<text><b>c</b> - <b>d</b> је велика секунда пошто је на нотном систему генеричка секунда, а на клавиру има два полустепена.</text>
+		<gotoAndPlay label="major_second3" />
+		<text><b>e</b> - <b>fis</b> био би други пример за велику секудну.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text><b>Велика терца</b> има четири полустепена.</text>
+		<gotoAndPlay label="major_third2" />
+		<text><b>c</b> - <b>e</b> је велика терца.</text>
+		<gotoAndPlay label="major_third3" />
+		<text><b>e</b> - <b>gis</b> је такође велика терца.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text><b>Чиста кварта</b> има пет полустепени.</text>
+		<gotoAndPlay label="perfect_fourth2" />
+		<text><b>c</b> - <b>f</b> је чиста кварта.</text>
+		<gotoAndPlay label="perfect_fourth3" />
+		<text><b>f</b> - <b>b</b> је такође чиста кварта.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text><b>Чиста квинта</b> има седам полустепени.</text>
+		<gotoAndPlay label="perfect_fifth2" />
+		<text><b>c</b> - <b>g</b> је чиста квинта.</text>
+		<gotoAndPlay label="perfect_fifth3" />
+		<text><b>h</b> - <b>fis</b> је такође чиста квинта.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text><b>Велика секста</b> има девет полустепени.</text>
+		<gotoAndPlay label="major_sixth2" />
+		<text><b>c</b> - <b>a</b> је велика секста.</text>
+		<gotoAndPlay label="major_sixth3" />
+		<text><b>es</b> - <b>c</b> је такође велика секста.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text><b>Велика септима</b> има једанаест полустепени.</text>
+		<gotoAndPlay label="major_seventh2" />
+		<text><b>c</b> - <b>b</b> је велика септима.</text>
+		<gotoAndPlay label="major_seventh3" />
+		<text><b>d</b> - <b>cis</b> је такође велика септима.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Коначно, <b>чиста октава</b> има дванаест полустепени.</text>
+		<gotoAndPlay label="perfect_eighth2" />
+		<text><b>c</b> - <b>c</b> је чиста октава.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Поред великих и чистих интервала постоје и <b>мали</b>, <b>прекомерни</b> и <b>умањени</b>.</text>
+		<gotoAndStop label="diminished2" />
+		<text>Умањени интервал има један полустепен мање од чистог интервала.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Пошто је <b>c</b> - <b>g</b> чиста квинта (7 полустепени), <b>c</b> - <b>ges</b> би била умањена квинта (6 полустепени).</text>
+		<gotoAndPlay label="diminished4" />
+		<text><b>h</b> - <b>f</b> је такође умањена квинта (пошто  је <b>h</b> - <b>fis</b> чиста квинта).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Прекомерни интервал има један полустепен више од чистог интервала.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Пошто је <b>c</b> - <b>f</b> чиста кварта (5 полустепени), <b>c</b> - <b>fis</b> је прекомерна кварта (6 полустепени).</text>
+		<gotoAndPlay label="augmented3" />
+		<text><b>f</b> - <b>h</b> је такође прекомерна кварта (пошто је <b>f</b> - <b>b</b> чиста кварта).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Такође се и од великог интервала може добити прекомерни додавањем полустепена.</text>
+		<gotoAndPlay label="major_augmented2" />
+		<text>На пример, <b>c</b> - <b>a</b> је велика секста (9 полустепени), <b>c</b> - <b>ais</b> је прекомерна секста (10 полустепени).</text>
+		<gotoAndPlay label="major_augmented3" />
+		<text><b>des</b> - <b>h</b> је прекомерна секста (јер је <b>des</b> - <b>b</b> велика секста).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Међутим, када се великом интервалу одузме полустепен, он не постаје умањени, него мали.</text>
+		<gotoAndPlay label="minor2" />
+		<text>На пример, <b>c</b> - <b>h</b> је велика септима (11 полустепени), <b>c</b> - <b>b</b> је мала септима (10 полустепени).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Тек када му се још једном одузме полустепен, он постаје умањени.  Значи, <b>c</b> - <b>heses</b> је умањена септима (9 полустепени).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>У горњој табели дат је преглед свих врста специфичних интервала у полустепеновима.</text>
+	</section>
+</lesson>

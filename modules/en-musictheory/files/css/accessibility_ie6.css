@@ -1,0 +1,9 @@
+
+
+#movie-area {
+    height: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? Math.floor(documentElement.clientHeight / 2) - 2 : Math.floor(document.body.clientHeight / 2) - 2);
+}
+
+#text-area {
+    height: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? Math.floor(documentElement.clientHeight / 2) : Math.floor(document.body.clientHeight / 2));
+}

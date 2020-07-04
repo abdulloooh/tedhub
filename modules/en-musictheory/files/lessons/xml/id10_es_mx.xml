@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">Do</var>
+	<var name="dText">Re</var>
+	<var name="eText">Mi</var>
+	<var name="fText">Fa</var>
+	<var name="gText">Sol</var>
+	<var name="aText">La</var>
+	<var name="bText">Si</var>
+	<var name="trebleText">Clave de Sol</var>
+	<var name="bassText">Clave de Fa</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>Pentagrama, Claves y Líneas Adicionales</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>El <b>pentagrama</b> es la base sobre la que se escriben las notas.</text>
+		<gotoAndPlay label="numbers" />
+		<text>El pentagrama moderno está compuesto por cinco líneas y cuatro espacios, contados de abajo hacia arriba</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Cada línea o espacio del pentagrama representa una tecla blanca en el teclado del piano.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text>Las <b>claves</b> determinan el nombre y la altura de cada nota del pentagrama.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Las dos claves más comunes son: la Clave de Sol y la Clave de Fa.</text>
+		<gotoAndPlay label="treble" />
+		<text>La primera que abordaremos será la Clave de Sol.</text>
+		<gotoAndStop label="treble2" />
+		<text>Esta clave le da el nombre de Sol a la línea del pentagrama que es envuelta por su círculo inferior (en color rojo).  Cualquier nota colocada sobre esta línea recibirá el nombre de Sol.</text>
+		<gotoAndStop label="treble3" />
+		<text>La nota en el espacio superior inmediato a Sol es La.</text>
+		<gotoAndStop label="treble4" />
+		<text>La nota de la línea superior inmediata a La es Si.</text>
+		<gotoAndPlay label="treble5" />
+		<text>Este proceso se repite consecutivamente utilizando la escala de sonidos.</text>
+		<gotoAndStop label="treble6" />
+		<text>¡Oh! ¡No!  Se nos acabó el espacio para colocar notas. ¿Qué haremos ahora?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text>Las <b>líneas adicionales</b> resolverán nuestro problema.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>Una línea adicional es una pequeña línea que sirve para prolongar el pentagrama hacia arriba o hacia abajo cuando se nos acaba el espacio.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>Con la línea adicional trazada, ya podemos escribir la nota La.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>El siguiente punto a tratar es la Clave de Fa.</text>
+		<gotoAndStop label="bass2" />
+		<text>La línea del pentagrama situada entre los dos puntos de la clave recibe el nombre de Fa.</text>
+		<gotoAndPlay label="bass3" />
+		<text>Ahora podemos escribir el resto de las notas del pentagrama.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>A continuación, estudiaremos el <b>Pentagrama Pianístico</b>, un pentagrama teórico que consta de once líneas.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Observa lo que sucede cuando eliminamos la línea de en medio. Ahora tenemos dos pentagramas normales.</text>
+		<gotoAndPlay label="grand3" />
+		<text>Al añadir una Clave de Sol al pentagrama superior y una Clave de Fa al inferior, podemos ver la relación que existe entre ambos pentagramas.</text>
+		<gotoAndStop label="grand4" />
+		<text>Observa como las dos claves son "unidas" por la nota Do (en color rojo).</text>
+		<text>Esta nota Do es comúnmente llamada "Do Central" pues corresponde a la línea media del Pentagrama Pianístico y a la tecla blanca situada justo en medio del teclado de un piano o sintetizador.</text>
+	</section>
+
+</lesson>

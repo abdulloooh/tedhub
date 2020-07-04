@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="predominantsText">Undirforhljómar</var>
+	<var name="dominantsText">Forhljómar</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Algengar hljómatengingar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<text>Þó mikill fjöldi hljómaferla sé mögulegur fylgja þau algengustu svipuðu mynstri.</text>
+		<gotoAndPlay label="major" />
+		<text>Í dúr tóntegundum stefna flest hljómaferli á <b>I</b> (frumhljóminn).</text>
+		<gotoAndStop label="major2" />
+		<text>Til einföldunar má segja að hljómfærslan snúist um áhrifamestu leiðina að þessu marki.</text>
+		<gotoAndPlay label="major3" />
+		<text>Aðalendir (<b>V - I</b>) eða (<b>viiº - I</b>) er skýrasta leiðin að <b>I</b> hljómnum.</text>
+		<gotoAndStop label="major4" />
+		<text>Næst eru það fimmundartengsl.</text>
+		<gotoAndPlay label="major5" />
+		<text>Skýrasta leiðin að <b>V</b> eru fimmundartengsl frá <b>ii</b>. Skýrasta leiðin að <b>viiº</b> eru fimmundartengsl frá <b>IV</b>.</text>
+		<gotoAndStop label="major6" />
+		<text>Skýrasta leiðin að <b>IV</b> eru fimmundartengsl frá <b>I</b>. Við skulum hins vegar ekki endurtaka <b>I</b> þar sem þessi hljómur er þegar í hljómaröðinni.</text>
+		<gotoAndPlay label="major7" />
+		<text>Fimmundartengsl frá <b>vi</b> skilar okkur til <b>ii</b>,</text>
+		<gotoAndPlay label="major8" />
+		<text>og önnur slík frá <b>iii</b> leiða til <b>vi</b>.</text>
+		<gotoAndPlay label="major9" />
+		<text>Skýrasta leiðin að <b>iii</b> eru fimmundartengsl frá <b>viiº</b>, en viiº er þegar í hljómfærslunni.</text>
+		<gotoAndPlay label="major10" />
+		<text>Loks, þar sem <b>I</b> er grunnhljómur tóntegundarinnar má fara frá þeim hljómi til hvaða annars hljóms sem er.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="labels" />
+		<text>Tenging hljómanna er nú fullgerð og vert að skoða nokkur hugtök.</text>
+		<text>Fortónn, eins og fram er komið, er 5. sæti tónstigans. Forhljómur (<b>V</b>) er byggður á fortóni.</text>
+		<text>Þar sem <b>viiº</b> virkar líkt og <b>V</b> (sem leysist í <b>I</b>), skoðast þessi hljómur sem forhljómur.</text>
+		<gotoAndStop label="labels2" />
+		<text><b>V</b> og <b>viiº</b> eru því <b>forhljómar</b> hér.</text>
+		<gotoAndStop label="labels3" />
+		<text>Þar sem <b>ii</b> og <b>IV</b> koma á undan <b>V</b> og <b>viiº</b>, eru þeir nefndir <b>undirforhljómar</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="example" />
+		<text>Setjum nú saman hljómaröð með því að nota ofangreint skema.  Við byrjum á <b>I</b>.</text>
+		<gotoAndPlay label="example2" />
+		<text>Við getum valið hvaða hljóm sem er næst; við skulum velja <b>vi</b>.</text>
+		<gotoAndStop label="example3" />
+		<text>Nú getum við valið annað hvort <b>ii</b> eða <b>IV</b>.</text>
+		<gotoAndPlay label="example4" />
+		<text>Veljum <b>IV</b>.</text>
+		<gotoAndPlay label="example5" />
+		<text>Þá getum við valið annað hvort <b>V</b> eða <b>viiº</b>; við veljum <b>V</b>.</text>
+		<gotoAndStop label="example6" />
+		<text><b>V</b> leiðir svo til <b>I</b>.</text>
+		<gotoAndPlay label="example7" />
+		<text>Röðin hljómar þá svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Skemað fyrir moll er svipað ef frá er talið eitt atriði.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Áhrifamesta leiðin að <b>III</b> er ekki <b>viiº</b>, heldur fimmundartengsl frá <b>VII</b>.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Fimmundartengsl frá <b>iv</b> til <b>VII</b> loka skemanu.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>Auðvitað þarf ekki að fylgja uppskriftum sem þessum út í hörgul. Tónhöfundur notar það hljómaferli sem hentar eða er áhrifaríkast hverju sinni.</text>
+	</section>
+	
+</lesson>

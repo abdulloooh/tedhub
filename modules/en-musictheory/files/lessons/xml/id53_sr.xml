@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="stepText">п. покрет</var>
+	<var name="skipText">скок</var>
+	<var name="passingToneText">Прол.</var>
+	<var name="accentedPassingToneText">Нагл. прол.</var>
+	<var name="neighboringToneText">Скр.</var>
+	<var name="accentedNeighboringToneText">Нагл. скр.</var>
+	<var name="escapeToneText">Одск. скр.</var>
+	<var name="appoggiaturaText">Предудар</var>
+	<var name="anticipationText">Претход.</var>
+	<var name="retardationText">Узл. задрж.</var>
+	<var name="suspensionText">Сил. задрж.</var>
+	<var name="changingToneText">Нап. скр.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Ванхармонски тонови</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Ванхармонски тонови</b> (или <b>ванакордски тонови</b>) су тонови који не припадају одређеном акорду.</text>
+		<gotoAndPlay label="example" />
+		<text>У горњем примеру, тон <b>f</b> је ванхармонски тон јер не припада тоновима <b>I</b> акорда (који садржи тонове <b>c</b>, <b>e</b>, <b>g</b>).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="step" />
+		<text>Пре него што почнемо да обрађујемо ванхармонске тонове, морамо се упознати са две важне ствари.</text>
+		<gotoAndPlay label="step2" />
+		<text><b>Поступни покрет</b> је једнак интервалу генеричке секунде.</text>
+		<gotoAndPlay label="skip" />
+		<text><b>Скок</b> је једнак интервалу генеричке терце или већи.</text>
+		<gotoAndStop label="skip2" />
+		<text>Сада можемо да почнемо са учењем ванхармонских тонова.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="passing_tone" />
+		<text><b>Пролазница</b> се креће поступним покретом и наставља поступно у истом правцу.</text>
+		<gotoAndPlay label="passing_tone2" />
+		<text>Ако се пролазница нађе на наглашеном делу такта (наглашеном откуцају), зове се <b>наглашена пролазница</b>.</text>
+		<gotoAndPlay label="passing_tone3" />
+		<text>Послушајте дате примере.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="neighboring_tone" />
+		<text><b>Скретница</b> се креће поступним покретом а затим поступно враћа на првобитну ноту.</text>
+		<gotoAndPlay label="neighboring_tone2" />
+		<text>Ако се скретница појави на наглашеном откуцају, зове се <b>наглашена скретница</b>.</text>
+		<gotoAndPlay label="neighboring_tone3" />
+		<text>Послушајте дате примере.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="escape_tone" />
+		<text><b>Одскочна скретница</b> се креће поступним покретом а затим наставља скоком у супротном правцу.</text>
+		<gotoAndStop label="escape_tone2" />
+		<text>Одскочна скретница није наглашена.  Јавља се само на ненаглашеном откуцају или између два откуцаја.</text>
+		<gotoAndPlay label="escape_tone3" />
+		<text>Послушајте дати пример.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="appoggiatura" />
+		<text><b>Предудар</b> је потпуна супротност.  Креће се скоком а затим поступно враћа у супротном правцу од почетног.</text>
+		<gotoAndStop label="appoggiatura2" />
+		<text>Исто тако, предудар је наглашен.  Јавља се на наглашеном откуцају.</text>
+		<gotoAndPlay label="appoggiatura3" />
+		<text>Послушајте дати пример.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="anticipation" />
+		<text><b>Претходница</b> се креће поступним покретом и затим остаје ту где се нашла.  То је заправо нота следећег акорда одсвирана раније.</text>
+		<gotoAndStop label="anticipation2" />
+		<text>Претходница није наглашена.</text>
+		<gotoAndPlay label="anticipation3" />
+		<text>Послушајте дате примере.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="retardation_suspension" />
+		<text>Следећа два ванхармонска тона су супротност претходнице.  Они продужују ноту првог акорда.</text>
+		<gotoAndPlay label="retardation_suspension2" />
+		<text><b>Узлазна задржица</b> задржава једну исту ноту а затим се креће поступним покретом навише.</text>
+		<gotoAndPlay label="retardation_suspension3" />
+		<text><b>Силазна задржица</b> задржава једну исту ноту а затим се креће поступним покретом наниже.</text>
+		<gotoAndStop label="retardation_suspension4" />
+		<text>Треба истаћи да су обе задржице наглашене.</text>
+		<gotoAndPlay label="retardation_suspension5" />
+		<text>Послушајте дате примере.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="changing_tone" />
+		<text>Коначно, <b>напуштена скретница</b> представља заправо два ванхармонска тона.</text>
+		<gotoAndStop label="changing_tone2" />
+		<text>Први ванхармонски тон се креће поступним покретом а затим скаче генеричку терцу до другог ванхармонског тона.</text>
+		<gotoAndStop label="changing_tone3" />
+		<text>Други ванхармонски тон се онда разрешава поступним покретом.</text>
+		<gotoAndPlay label="changing_tone4" />
+		<text>Послушајте дате примере.</text>
+	</section>
+	
+</lesson>

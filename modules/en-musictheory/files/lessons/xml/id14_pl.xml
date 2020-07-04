@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<!--<var name="dotText">Dot</var>-->
+	<var name="dotText">kropka</var>
+	<!--<var name="tieText">Tie</var>-->
+	<var name="tieText">łuk</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<!--<title>Dots and Ties</title>-->
+	<title>Kropki i łuki</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <!-- <text><b>Augmentation dots</b> and <b>tenuto ties</b> are two types of markings used to alter a note's duration.</text>-->
+        <text><b>Kropki przedłużające</b> (z prawej strony nuty) i <b>łuki przetrzymujące</b> są dwoma rodzajami znaków używanych do zmiany czasu trwania nuty.</text> 
+        <!--<text>A dot increases duration by one half.</text>-->
+        <text>Kropka taka przedłuża czas trwania nuty o połowę.</text>
+		<gotoAndPlay label="dot2" />
+        <!--<text>Since an eighth note is half the duration of a quarter note, we will substitute it for the 1/2 symbol above.</text>-->
+        <text>Ponieważ ósemka jest połową ćwiartki, możemy nią zastąpić ułamek 1/2.</text>
+		<gotoAndStop label="dot3" />
+		<!--<text>As you can see, a dotted quarter note is equal to a quarter note plus an eighth note.</text>-->
+		<text>Jak widać, ćwiartka z kropką trwa tyle samo co ćwiartka plus ósemka.</text>
+		<gotoAndPlay label="dot4" />
+		<!--<text>A dotted quarter can also equal three eighth notes.</text>-->
+		<text>Ćwierćnuta z kropką może też równać się trzem ósemkom.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<!--<text>Ties merge multiple notes of the same pitch.  They are used to let the duration of a note travel across barriers (such as the measure line in the above example).</text>-->
+		<text>Nuty jednakowej wysokości połączone łukiem zlewają się w jedną całość. Łuki takie służą do przedłużania czasu trwania nut bez względu na bariery (jak np. kreska taktowa w przykładzie wyżej).</text>
+		<gotoAndPlay label="tie2" />
+		<!--<text>As you listen, notice how the fourth and fifth note are combined.</text>-->
+		<text>Można usłyszeć w naszym przykładzie jak nuty czwarta i piąta złączyły się w jedną całość.</text>
+		<gotoAndPlay label="tie3" />
+		<!--<text>If the measure line was not there, we could have simply written a half note for the tied quarter notes.</text>-->
+		<text>Gdyby nie kreska taktowa moglibyśmy zwyczajnie napisać półnutę, zamiast połączonych łukiem dwóch ćwiartek.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<!--<text>Use the above chart for reference to augmentation dots.</text>-->
+    	<text>Oto zestawienie punktowanych nut.</text>
+	</section>    	
+	
+</lesson>

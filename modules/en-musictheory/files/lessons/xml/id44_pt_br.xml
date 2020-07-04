@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">d</var>
+	<var name="minorText">m</var>
+	<var name="majorText">M</var>
+	<var name="augmentedText">A</var>
+	<var name="fourthText">4a.</var>
+	<var name="sixthText">6a.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Análise por algarismos romanos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Quando se analisa música, cada tríade diatônica é identificada por um <b>algarismo romano</b>.</text>
+		<gotoAndStop label="numeral_chart" />
+		<text>Quatro tipos diferentes de algarismos romanos são usados - um para cada tipo de tríade.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Vamos aplicar os algarismos romanos à Escala de Dó Maior.</text>
+		<gotoAndPlay label="major_i" />
+		<text>Como a primeira tríade é maior, seu algarismo romano é maiúsculo.</text>
+		<gotoAndPlay label="major_ii_iii" />
+		<text>A segunda e terceira tríades são menores; logo, seus algarismos romanos são minúsculos.</text>
+		<gotoAndPlay label="major_iv_v" />
+		<text>A quarta e quinta tríade são maiores; logo, seus algarismos romanos são maiúsculos.</text>
+		<gotoAndPlay label="major_vi" />
+		<text>A sexta tríade é menor, o que torna seu algarismo romano minúsculo.</text>
+		<gotoAndPlay label="major_vii" />
+		<text>Como a sétima tríade é diminuta, seu algarismo romano é minúsculo, com um pequeno círculo.</text>
+		<gotoAndPlay label="major_viii" />
+		<text>Por fim, a última tríade é uma repetição da primeira.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Agora, vamos aplicar algarismos romanos à Escala de Dó Menor Natural.</text>
+		<gotoAndPlay label="minor_i" />
+		<text>Como a primeria tríade é menor, seu algarismo romano é minúsculo.</text>
+		<gotoAndPlay label="minor_ii" />
+		<text>A segunda tríade é diminuta; logo, vamos usar um algarismo romano minúsculo com o pequeno círculo.</text>
+		<gotoAndPlay label="minor_iii" />
+		<text>Como a terceira tríade é maior, seu algarismo romano é maiúsculo.</text>
+		<gotoAndPlay label="minor_iv_v" />
+		<text>A quarta e quinta tríades são menores; logo, seus algarismos romanos são minúsculos.</text>
+`		<gotoAndPlay label="minor_vi_vii" />
+		<text>A sexta e sétima tríade são maiores; logo, seus algarismos romanos são maiúsculos.</text>
+		<gotoAndPlay label="minor_viii" />
+		<text>Novamente, a última tríade é uma repetição da primeira.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Por fim, vamos aplicar os algarismos romanos à escala Dó Menor Harmônica.</text>
+		<gotoAndPlay label="harmonic_iii" />
+		<text>Como a terceira tríade agora é aumentada, seu algarismo romano é maiúsculo, e acrescenta-se um sinal de mais.</text>
+		<gotoAndPlay label="harmonic_v" />
+		<text>A quinta tríade agora é maior - o que torna seu algarismo romano maiúsculo.</text>
+		<gotoAndPlay label="harmonic_vii" />
+		<text>A sétima tríade agora é diminuta - tornando seu algarismo romano minúsculo com um pequeno círculo.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="inversions" />
+		<text>O sistema de algarismos romanos também pode ser usado para indicar inversões.</text>
+		<gotoAndStop label="inversions2" />
+		<text>A primeira inversão é representada por um pequeno 6 depois do algarismo romano. Isso porque a fundamental está uma sexta genérica acima do baixo.</text>
+		<gotoAndStop label="inversions3" />
+		<text>A segunda inversão está representada por um pequeno 6 e um pequeno 4. Isso porque a fundamental e a terça estão a uma sexta genérica e uma quarta genérica acima do baixo.</text>
+	</section>
+
+</lesson>

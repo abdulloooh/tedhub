@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">2 m</var>
+	<var name="majorThirdText">3 W</var>
+	<var name="perfectFourthText">4 cz</var>
+	<var name="perfectFifthText">5 cz</var>
+	<var name="minorSixthText">6 m</var>
+	<var name="majorSeventhText">7 W</var>
+	<var name="minorText">Mały</var>
+	<var name="majorText">Wielki</var>
+	<var name="perfectText">Czysty</var>
+	<var name="diminishedText">Zmniejszony</var>
+	<var name="augmentedText">Zwiększony</var>
+	<var name="secondText">Sekunda</var>
+	<var name="thirdText">Tercja</var>
+	<var name="fourthText">Kwarta</var>
+	<var name="fifthText">Kwinta</var>
+	<var name="sixthText">Seksta</var>
+	<var name="seventhText">Septyma</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Przewroty interwałów</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>W muzyce słowo <b>przewrót</b> oznacza przeniesienie najniższej nuty w grupie o oktawę wyżej.</text>
+		<!-- <text>In music, the verb <b>invert</b> means to move the lowest note in a group an octave higher.</text> -->
+		<text>W tej lekcji będziemy zajmowali się przewrotami interwałów.</text>
+		<!-- <text>In this lesson, we will be inverting intervals.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Naszym pierwszym przykładem będzie interwał C do G (kwinta czysta).</text>
+		<!-- <text>For our first example, we will use the interval of C to G (a perfect fifth).</text> -->
+		<gotoAndPlay label="example_one2" />
+		<text>Aby zrobić przewrót tego interwału przenosimy najniższą nutę (C) o oktawę wyżej.</text>
+		<!-- <text>To invert this interval, move the lowest note (the C) an octave higher.</text> -->
+		<gotoAndPlay label="example_one3" />
+		<text>Otrzymaliśmy G do C, interwał będący kwartą czystą.</text>
+		<!-- <text>The result (G to C) is a perfect fourth.</text> -->
+		<gotoAndStop label="example_one4" />
+		<text>Czyste zawsze w przewrocie dają czyste. Kwarty zawsze w przewrocie dają kwinty.</text>
+		<!-- <text>Perfects will always invert to perfects.  Fourths will always invert to fifths.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Naszym następnym przykładem będzie C do E (tercja wielka).</text>
+		<!-- <text>For our next example, we will use C to E (a major third).</text> -->
+		<gotoAndPlay label="example_two2" />
+		<text>Znowu przenosimy najniższą nutę (C) o oktawę wyżej.</text>
+		<!-- <text>Again, move the lowest note (the C) an octave higher.</text> -->
+		<gotoAndPlay label="example_two3" />
+		<text>Otrzymaliśmy E do C, czyli sekstę małą.</text>
+		<!-- <text>The result (E to G) is a minor sixth.</text> -->
+		<gotoAndStop label="example_two4" />
+		<text>Wielkie zawsze dają w przewrocie małe i na odwrót - tak jak tercje i seksty. I tak tercja mała daje zawsze w przewrocie sekstę wielką.</text>
+		<!-- <text>Majors and minors will always invert to each other - as will thirds and sixths.  For example, a minor third will always invert to a major sixth.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Następnie wykonamy przewrót C do H (septyma wielka).</text>
+		<!-- <text>Next, we will invert C to B (a major seventh).</text> -->
+		<gotoAndPlay label="example_three2" />
+		<text>Jeszcze raz, przenosimy najniższą nutę o oktawę wyżej.</text>
+		<!-- <text>Yet again, move the lowest note an octave higher.</text> -->
+		<gotoAndPlay label="example_three3" />
+		<text>Otrzymaliśmy H do C, czyli sekundę małą.</text>
+		<!-- <text>The result (B to C) is a minor second.</text> -->
+		<gotoAndStop label="example_three3" />
+		<text>Sekundy i septymy przechodzą zawsze jedne w drugie przy przewrotach.</text>
+		<!-- <text>Seconds and sevenths will always invert to each other.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>Ostatnia reguła przewrotów interwałów głosi, że zwiększone i zmniejszone interwały przechodzą jedne w drugie.</text>
+		<!-- <text>The final rule of interval inversion states that augmented and diminished intervals always invert to each other.</text> -->
+		<gotoAndPlay label="example_four2" />
+		<text>Przykładowo, C do Fis (kwarta zwiększona) daje w przewrocie Fis do C (kwinta zmniejszona).</text>
+		<!-- <text>For example, C to F# (an augmented fourth), results in F# to C (a diminished fifth).</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Powyższe zestawienie służy do szybkiego znajdowania odpowiadających przewrotów interwałów.</text>
+		<!-- <text>Use the above chart to quickly invert intervals.</text> -->
+	</section>
+
+</lesson>

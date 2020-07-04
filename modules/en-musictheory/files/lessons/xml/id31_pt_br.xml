@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">Primeira</var>
+	<var name="secondText">Segunda</var>
+	<var name="thirdText">Terça</var>
+	<var name="fourthText">Quarta</var>
+	<var name="fifthText">Quinta</var>
+	<var name="sixthText">Sexta</var>
+	<var name="seventhText">Sétima</var>
+	<var name="eighthText">Oitava</var>
+	<var name="diminishedText">Diminuta</var>
+	<var name="minorText">Menor</var>
+	<var name="perfectText">Justa</var>
+	<var name="majorText">Maior</var>
+	<var name="augmentedText">Aumentada</var>
+	<var name="majorSecondText">2M</var>
+	<var name="majorThirdText">3M</var>
+	<var name="perfectFourthText">4J</var>
+	<var name="augmentedFourthText">4A</var>
+	<var name="diminishedFifthText">5d</var>
+	<var name="perfectFifthText">5J</var>
+	<var name="majorSixthText">6M</var>
+	<var name="augmentedSixthText">6A</var>
+	<var name="diminishedSeventhText">7d</var>
+	<var name="minorSeventhText">7m</var>
+	<var name="majorSeventhText">7M</var>
+	<var name="perfectEighthText">8J</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Intervalos Específicos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Intervalos específicos</b> são medidos tanto na pauta quanto em semitons no teclado.</text>
+		<gotoAndPlay label="intro" />
+		<text>Como você aprendeu na lição anterior, de Dó para Ré e de Dó para Ré bemol, temos segundas genéricas. Especificamente, entretanto, de Dó para Ré temos 1 semitom a mais do que de Dó para Ré bemol.</text>
+		<gotoAndStop label="intro2" />
+		<text>Vamos aprender alguns intervalos específicos.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text>Uma segunda maior é feita de 2 semitons.</text>
+		<gotoAndPlay label="major_second2" />
+		<text>De Dó para Ré, temos uma segunda maior: uma segunda genérica na pauta e 2 semitons no teclado.</text>
+		<gotoAndPlay label="major_second3" />
+		<text>De Mi para Fá sustenido é outro exemplo de uma segunda maior.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text>Uma <b>terça maior</b> é feita de 4 semitons.</text>
+		<gotoAndPlay label="major_third2" />
+		<text>De Dó para Mi, temos uma terça maior.</text>
+		<gotoAndPlay label="major_third3" />
+		<text>De Mi para Sol sustenido, também temos uma terça maior.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text>Uma <b>quarta perfeita</b>, ou <b>quarta justa</b>, é feita de 5 semitons.</text>
+		<gotoAndPlay label="perfect_fourth2" />
+		<text>De Dó para Fá, temos uma quarta perfeita.</text>
+		<gotoAndPlay label="perfect_fourth3" />
+		<text>De Fá para Si bemol, também temos uma quarta perfeita.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text>Uma <b>quinta perfeita</b>, ou <b>justa</b>, é feita de 7 semitons.</text>
+		<gotoAndPlay label="perfect_fifth2" />
+		<text>De Dó para Sol, temos uma quinta perfeita.</text>
+		<gotoAndPlay label="perfect_fifth3" />
+		<text>De Si para Fá sustenido, também temos uma quinta pefeita.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text>Uma <b>sexta maior</b> é feita de 9 semitons.</text>
+		<gotoAndPlay label="major_sixth2" />
+		<text>De Dó para Lá, temos uma sexta maior.</text>
+		<gotoAndPlay label="major_sixth3" />
+		<text>De Mi bemol para Dó, também temos uma sexta maior.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text>Uma <b>sétima maior</b> é feita de 11 semitons.</text>
+		<gotoAndPlay label="major_seventh2" />
+		<text>De Dó para Si, temos uma sétima maior.</text>
+		<gotoAndPlay label="major_seventh3" />
+		<text>De Ré para Dó sustenido, também temos uma sétima maior.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Por fim, uma <b>oitava perfeita</b>, ou <b>oitava justa</b>, é feita de 12 semitons.</text>
+		<gotoAndPlay label="perfect_eighth2" />
+		<text>De Dó para o Dó seguinte, temos uma oitava perfeita.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Além de intervalos maiores e perfeitos, ou justos, também existem intervalos <b>menores</b>, <b>aumentados</b>, e <b>diminutos</b>.</text>
+		<gotoAndStop label="diminished2" />
+		<text>Um intervalo diminuto tem 1 semitom a menos que um intervalo justo ou perfeito.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Como de Dó para Sol temos uma quinta justa (7 semitons), de Dó para Sol bemol teremos uma quinta diminuta (6 semitons).</text>
+		<gotoAndPlay label="diminished4" />
+		<text>De Si para Fá também forma uma quinta diminuta (já que de Si para Fá sustenido temos uma quinta justa).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Um intervalo aumentado tem 1 semitom a mais do que um intervalo perfeito.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Como de Dó para Fá temos uma quarta perfeita (5 semitons), de Dó para Fá sustenido teremos uma quarta aumentada (6 semitons).</text>
+		<gotoAndPlay label="augmented3" />
+		<text>De Fá para Si também temos uma quarta aumentada (já que de Fá até Si bemol temos uma quarta perfeita).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Os intervalos maiores também podem virar aumentados pela adição de 1 semitom.</text>
+		<gotoAndPlay label="major_augmented2" />
+		<text>Por exemplo, como de Dó para Lá temos uma sexta maior (9 semitons), de Dó para Lá sustenido temos uma sexta aumentada (10 semitons).</text>
+		<gotoAndPlay label="major_augmented3" />
+		<text>Ré bemol para Si também forma uma sexta aumentada (já que de Ré bemol para Si bemol temos uma sexta maior).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Subtrair 1 semitom de um intervalo maior não faz dele diminuto; em vez disso, ele vira menor.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Por exemplo, como de Dó para Si temos uma sétima maior (11 semitons), de Dó para Si bemol temos uma sétima menor (10 semitons).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Somente depois de subtrair outro semitom é que ele vira diminuto. Assim, de Dó para Si dobrado bemol teremos nossa sétima diminuta (9 semitons).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>O quadro acima mostra o número de semitons que cada intervalo específico contém.</text>
+	</section>
+</lesson>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Вођење гласова</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Композитори распоређују тонове акорда на разне начине, да би добили на смислу и лепоти мелодије.  То се зове <b>вођење гласова</b>.</text>
+		<gotoAndPlay label="root_position" />
+		<text>Да бисмо ово показали, узећемо F-дур (у основном положају) и водити његове гласове.</text>
+		<gotoAndPlay label="root_position2" />
+		<text>Запамтите да тонове <b>f</b>, <b>a</b>, <b>c</b> можемо поређати било којим редом, само је битно да <b>f</b> буде најнижа нота.</text>
+		<gotoAndPlay label="root_position3" />
+		<text>Послушајте дате примере.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Сада ћемо поставити F-дур у првом обртају.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Први обртај, ако се сећате, значи да је терца акорда најнижи тон.  Значи, морамо се постарати да при сваком вођењу гласова акорда, тон <b>a</b> буде најнижи.</text>
+		<gotoAndPlay label="first_inversion3" />
+		<text>Послушајте дате примере.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="second_inversion" />
+		<text>Коначно, поставићемо и други обртај F-дура.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>Поступак је и сада исти, с тим што сада морамо квинту акорда, тон <b>c</b>, постављати за најнижи тон.</text>
+		<gotoAndPlay label="second_inversion3" />
+		<text>Послушајте на крају и ове примере.</text>
+	</section>
+	
+</lesson>

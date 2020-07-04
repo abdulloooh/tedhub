@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="phraseText">Hending</var>
+	<var name="halfCadenceText">He</var>
+	<var name="authenticCadenceText">Ae</var>
+	<var name="plagalCadenceText">Ke</var>
+	<var name="deceptiveCadenceText">Ge</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hendingar og niðurlög</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Hending</b> er röð nótna sem virkar heildstæð jafnvel þó hún hljómi úr samhengi við lagið í heild.</text>
+		<gotoAndPlay label="example" />
+		<text>Notum dæmið hér að ofan til að skoða þetta.</text>
+		<gotoAndPlay label="phrase_one" />
+		<text>Hlustaðu hvernig fyrstu tveir taktarnir hljóma ófullkomnir ef þeir eru leiknir einir og sér.</text>
+		<gotoAndPlay label="phrase_one2" />
+		<text>Með takti 3 og 4 hljóma þeir hins vegar meira sem heild.</text>
+		<gotoAndPlay label="phrase_one3" />
+		<text>Þessa fjóra takta má því skilgreina sem hendingu.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="phrase_two" />
+		<text>Hlustum nú á takt 5 - 8.</text>
+		<gotoAndPlay label="phrase_two2" />
+		<text>Þeir mynda hendingu líkt og taktur 1 - 4.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadence" />
+		<text><b>Niðurlag</b> er samband tveggja hljóma í lok hendingar.</text>
+		<gotoAndPlay label="half_cadence" />
+		<text>Ef næst síðasti hljómur hendingar leiðir til <b>V</b> nefnist niðurlagið <b>hálfendir</b> (He).</text>
+		<gotoAndPlay label="half_cadence2" />
+		<text>Taktu eftir hvernig hálfendirinn hljómar.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="authentic_cadence" />
+		<text>Flestum finnst hálfendir hljóma eins og framhald vanti. Hálfendi fylgir því gjarnan <b>aðalendir</b> (Ae).</text>
+		<gotoAndPlay label="authentic_cadence2" />
+		<text>Þegar <b>V</b> eða <b>viiº</b> leiðir til <b>I</b> (eða <b>i</b>) í lok hendingar höfum við aðalendir.</text>
+		<gotoAndPlay label="authentic_cadence3" />
+		<text>Hlustum aftur á þessi tvo niðurlög.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pac" />
+		<text>Aðalendir er oft skilgreindur annað hvort sem fullkominn eða ófullkominn.</text>
+		<gotoAndPlay label="pac2" />
+		<text>Þrennt einkennir <b>fullkominn aðalendir</b>.</text>
+		<gotoAndPlay label="pac3" />
+		<text>1. Næst síðasti hljómurinn þarf að vera <b>V</b> frekar en <b>viiº</b>.</text>
+		<gotoAndPlay label="pac4" />
+		<text>2. Báðir hljómar þurfa að hljóma í rótarstöðu (grunnstöðu).</text>
+		<gotoAndPlay label="pac5" />
+		<text>3. Efsta nótan í lokahljómnum (<b>I</b> eða <b>i</b>) þarf að vera grunntónn (rót hljómsins).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="iac" />
+		<text><b>Ófullkominn aðalendir</b> uppfyllir ekki þessi skilyrði.</text>
+		<gotoAndPlay label="iac2" />
+		<text>Aðalendarnir hér að ofan eru allir ófullkomnir af ýmsum ástæðum.</text>
+		<gotoAndPlay label="iac3" />
+		<text>Í fyrsta dæminu er næst síðasti hljómurinn <b>viiº</b> í stað <b>V</b>.</text>
+		<gotoAndPlay label="iac4" />
+		<text>Í því næsta er fyrri hljómurinn ekki í grunnstöðu.</text>
+		<gotoAndPlay label="iac5" />
+		<text>Og í þriðja dæminu er efsta nóta loka hljómsins (<b>I</b>) ekki rót hljómsins.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="plagal" />
+		<text>Hér verða nefnd tvö niðurlög til viðbótar.</text>
+		<gotoAndPlay label="plagal2" />
+		<text>Ef næst síðasti hljómur hendingar er <b>IV</b> (eða <b>iv</b>) og sá síðasti <b>I</b> (eða <b>i</b>) nefnist niðurlagið <b>kirkjuendir</b> (eða plagal endir).</text>
+		<gotoAndPlay label="plagal3" />
+		<text>Hér er dæmi um kirkjuendi.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="deceptive" />
+		<text>Ef næst síðasti hljómurinn er <b>V</b> og sá síðasti <b>vi</b> (eða <b>VI</b> ef um moll er að ræða) höfum við <b>gabbendi</b>.</text>
+		<text>Gabbendir er oft notaður í stað aðalendis.</text>
+		<gotoAndPlay label="deceptive2" />
+		<text>Lítum nú aftur á dæmið sem við notuðum í upphafi. Hér hefur niðurlagi seinni hendingarinnar verið breytt úr fullkomna niðurlaginu í gabbendi.</text>
+		<gotoAndPlay label="deceptive3" />
+		<text>Dæmið hljómar þá svona. Áhrifin eru blekkjandi þar sem búist er við <b>I</b> sem lokahljómi.</text>
+	</section>
+	
+</lesson>

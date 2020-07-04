@@ -1,0 +1,89 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">C</var>
+	<var name="dText">D</var>
+	<var name="eText">E</var>
+	<var name="fText">F</var>
+	<var name="gText">G</var>
+	<var name="aText">A</var>
+	<var name="bText">H</var>
+	<var name="trebleText">Виолински кључ</var>
+	<var name="bassText">Бас кључ</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>Нотни систем, кључ и помоћне линије</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Нотни систем</b> је основа на коју се пишу ноте.</text>
+		<gotoAndPlay label="numbers" />
+		<text>Савремени нотни систем се састоји од пет линија и четири празнине између њих.</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Свака линија или празнина на нотном систему одговара белој дирки на клавиру.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text><b>Кључ</b> одређује коју ће ноту која линија односно празнина представљати.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Обично се користе два кључа: виолински и бас кључ.</text>
+		<gotoAndPlay label="treble" />
+		<text>Прво ћемо обрадити виолински кључ (који се још зове и G-кључ).</text>
+		<gotoAndStop label="treble2" />
+		<text>Линија на нотном систему око које се црта G-кључ (приказана црвеном бојом) је знана као <b>g</b>.  Било која нота која се нађе на тој линији постаје <b>g</b>.</text>
+		<gotoAndStop label="treble3" />
+		<text>Нота на празнини изнад <b>g</b> је <b>a</b>.  (Запамтите, код нас се нота изнад <b>a</b> зове "<b>h</b>", док је Енглези и Американци зову "<b>b</b>").</text>
+		<gotoAndStop label="treble4" />
+		<text>Нота на линији изнад <b>a</b> је <b>h</b>.</text>
+		<gotoAndPlay label="treble5" />
+		<text>И поступак се тако наставља.</text>
+		<gotoAndStop label="treble6" />
+		<text>Уф.  Понестало нам је места за записивање нота, шта сад?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text><b>Помоћне линије</b> ће решити наш проблем.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>Помоћна линија је мала линија која продужава нотни систем кад нам понестане места за писање.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>Када нацртамо помоћну линију, можемо наставити и записати ноту <b>a</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>Сада је на реду бас кључ (који се још зове и F-кључ).</text>
+		<gotoAndStop label="bass2" />
+		<text>Линија нотног система између две тачке F-кључа је <b>f</b>.</text>
+		<gotoAndPlay label="bass3" />
+		<text>Сада можемо попунити остатак нотног система нотама.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>Коначно, обрадићемо и <b>велики нотни систем</b>, теоретски нотни систем који се састоји од једанаест линија.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Гледајте шта се дешава када уклонимо средњу линију - добијемо два обична нотна система.</text>
+		<gotoAndPlay label="grand3" />
+		<text>Стављањем виолинског кључа на горњи и бас кључа на доњи нотни систем, можемо увидети однос између ова два нотна система.</text>
+		<gotoAndStop label="grand4" />
+		<text>Приметите како су ова два кључа "спојена" помоћу ноте <b>c</b> (приказане црвеном бојом).</text>
+		<text>Ова нота се обично зове "средње <b>c</b>" пошто одговара средњој линији великог нотног система.</text>
+	</section>
+
+</lesson>

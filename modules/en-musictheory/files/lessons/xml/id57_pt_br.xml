@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2002-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="predominantsText">Subdominantes</var>
+	<var name="dominantsText">Dominantes</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Progressões Harmônicas Comuns</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<text>Embora centenas de diferentes progressões de acordes sejam possíveis, a maioria tende a seguir um padrão.</text>
+		<gotoAndPlay label="major" />
+		<text>Numa tonalidade maior, a meta de qualquer progressão de acordes é o acorde <b>I</b>.</text>
+		<gotoAndStop label="major2" />
+		<text>O resto do padrão é baseado em torno das maneiras mais fortes de se chegar a esse acorde.</text>
+		<gotoAndPlay label="major3" />
+		<text>Uma cadência autêntica (<b>V -&gt; I</b>) ou (<b>viiº -&gt; I</b>) é a maneira mais forte de se aproximar de um acorde <b>I</b>.</text>
+		<gotoAndStop label="major4" />
+		<text>Agora, vamos usar progressões em círculo.</text>
+		<gotoAndPlay label="major5" />
+		<text>A maneira mais forte de se aproximar de um <b>V</b> é uma progressão em círculo a partir do <b>ii</b>.  A maneira mais forte de se aproximar de <b>viiº</b> é uma progressão em círculo a partir de <b>IV</b>.</text>
+		<gotoAndStop label="major6" />
+		<text>A maneira mais forte de se aproximar de <b>IV</b> é uma progressão em círculo a partir de <b>I</b>; entretanto, como <b>I</b> já está no esquema, não vamos repeti-lo.</text>
+		<gotoAndPlay label="major7" />
+		<text>Uma progressão em círculo a partir de <b>vi</b> nos leva para <b>ii</b>.</text>
+		<gotoAndPlay label="major8" />
+		<text>Uma progressão em círculo a partir de <b>iii</b> nos leva a <b>vi</b>.</text>
+		<gotoAndPlay label="major9" />
+		<text>A maneira mais forte de se chegar num <b>iii</b> é uma progressão em círculo a partir de <b>viiº</b>, que já está no esquema.</text>
+		<gotoAndPlay label="major10" />
+		<text>Por fim, como <b>I</b> é o principal acorde da escala, ele pode ir para qualquer outro acorde.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="labels" />
+		<text>Agora que o esquema está completo, há alguns termos que precisamos aprender.</text>
+		<text>Recorde que o termo "dominante" significa o quinto grau da escala.  Como o acorde <b>V</b> é formado sobre a dominante, ele é um acorde dominante.</text>
+		<text>Como o <b>viiº</b> funciona como o <b>V</b> (ao ir para <b>I</b>), ele também pode ser rotulado de dominante.</text>
+		<gotoAndStop label="labels2" />
+		<text>Logo, o <b>V</b> e o <b>viiº</b> são <b>dominantes</b>.</text>
+		<gotoAndStop label="labels3" />
+		<text>Como o <b>ii</b> e o <b>IV</b> estão antes do <b>V</b> e do <b>viiº</b>, eles são geralmente chamados de <b>subdominantes</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="example" />
+		<text>Vamos praticar uma progressão de acordes usando esse esquema.  Começaremos com o <b>I</b>.</text>
+		<gotoAndPlay label="example2" />
+		<text>Depois, podemos escolher qualquer acorde.  Vamos para o <b>vi</b>.</text>
+		<gotoAndStop label="example3" />
+		<text>Agora, podemos escolher ou o <b>ii</b> ou o <b>IV</b>.</text>
+		<gotoAndPlay label="example4" />
+		<text>Vamos pegar o <b>IV</b>.</text>
+		<gotoAndPlay label="example5" />
+		<text>Agora, podemos escolher ou o <b>V</b> ou o <b>viiº</b>.  Eu vou escolher o <b>V</b>.</text>
+		<gotoAndStop label="example6" />
+		<text>Por fim, o <b>V</b> nos devolve ao <b>I</b>.</text>
+		<gotoAndPlay label="example7" />
+		<text>Ouça a progressão acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>O esquema de progressão de acordes para escalas menores é muito similar ao esquema das escalas maiores.  Há somente uma diferença importante.</text>
+		<gotoAndPlay label="minor2" />
+		<text>A maneira mais forte de se chegar ao <b>III</b> não é com o <b>viiº</b>.  Em vez disso, é uma progressão em círculo a partir do <b>VII</b>.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Uma progressão em círculo a partir do <b>iv</b> até o <b>VII</b> completa o esquema.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>Deve ser observado que esses esquemas não precisam ser seguidos estritamente. Se uma progressão não está presente, um compositor não é proibido de usá-la.</text>
+	</section>
+	
+</lesson>

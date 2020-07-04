@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">d</var>
+	<var name="minorText">m</var>
+	<var name="majorText">M</var>
+	<var name="augmentedText">A</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tríades Diatônicas</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Todas as escalas maiores e menores têm sete tríades especiais, chamadas de <b>tríades diatônicas</b>, que são formadas a partir das notas dessas escalas.</text>
+		<text>Para descobrirmos as tríades diatônicas, precisamos usar um processo de três etapas.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major_intro" />
+		<text>Primeiro, construa a escala. Vamos usar a escala Dó Maior como nosso primeiro exemplo.</text>
+		<gotoAndPlay label="major_intro2" />
+		<text>Depois, sobreponha duas terças genéricas sobre cada nota.</text>
+		<gotoAndStop label="major_intro3" />
+		<text>Por fim, analise as tríades resultantes.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>A primeira tríade contém Dó, Mi e Sol - uma terça maior e uma quinta justa.  Logo, a tríade é maior.</text>
+		<gotoAndStop label="major_ii" />
+		<text>A segunda tríade contém Ré, Fá e Lá - uma terça menor e uma quinta justa.  Logo, ela é menor.</text>
+		<gotoAndStop label="major_iii" />
+		<text>A terceira tríade contém Mi, Sol e Si - uma terça menor e uma quinta justa.  Logo, ela também é menor.</text>
+		<gotoAndStop label="major_iv" />
+		<text>A quarta tríade contém Fá, Lá e Dó - uma terça maior e uma quinta justa.  Logo, ela é maior.</text>
+		<gotoAndStop label="major_v" />
+		<text>A quinta tríade contém Sol, Si e Ré - uma terça maior e uma quinta justa.  Logo, ela também é maior.</text>
+		<gotoAndStop label="major_vi" />
+		<text>A sexta tríade contém Lá, Dó e Mi - uma terça menor e uma quinta justa.  Logo, ela é menor.</text>
+		<gotoAndStop label="major_vii" />
+		<text>A sétima tríade contém Si, Ré e Fá - uma terça menor e uma quinta diminuta.  Logo, ela é diminuta.</text>
+		<gotoAndStop label="major_viii" />
+		<text>A oitava tríade é uma repetição da primeira (Dó, Mi e Sol), e portanto é maior.</text>
+		<gotoAndStop label="major_recap" />
+		<text>A primeira tríade de uma escala maior sempre vai ser maior, a segunda e a terceira tríades sempre vão ser menores, etc.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_intro" />
+		<text>Agora, vamos revelar as tríades diatônicas da escala Dó Menor Natural.</text>
+		<gotoAndPlay label="minor_intro2" />
+		<text>Primeiro, constrói-se a escala.  Observe que estamos usando uma armadura de clave em vez de colocar os acidentes em cada nota.</text>
+		<gotoAndPlay label="minor_intro3" />
+		<text>De novo, duas terças genéricas são sobrepostas acima de cada nota.</text>
+		<gotoAndStop label="minor_intro4" />
+		<text>Por fim, vamos analisar as tríades resultantes.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_i" />
+		<text>A primeira tríade contém Dó, Mi bemol e Sol - uma terça menor e uma quinta justa.  Logo, a tríade é menor.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>A segunda tríade contém Ré, Fá e Lá bemol - uma terça menor e uma quinta diminuta.  Logo, ela é diminuta.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>A terceira tríade contém Mi bemol, Sol e Si bemol - uma terça maior e uma quinta justa.  Logo, ela é maior.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>A quarta tríade contém Fá, Lá bemol e Dó - uma terça menor e uma quinta justa.  Logo, ela é menor.</text>
+		<gotoAndStop label="minor_v" />
+		<text>A quinta tríade contém Sol, Si bemol e Ré - uma terça menor e uma quinta justa.  Logo, ela também é menor.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>A sexta tríade contém Lá bemol, Dó e Mi bemol - uma terça maior e uma quinta justa.  Logo, ela é maior.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>A sétima tríade contém Si bemol, Ré e Fá - uma terça maior e uma quinta justa.  Logo, ela também é maior.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>A oitava tríade é uma repetição da primeira (Dó, Mi bemol e Sol), e portanto é menor.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="harmonic_intro" />
+		<text>Por fim, vamos discutir as tríades diatônicas da escala menor harmônica.</text>
+		<gotoAndPlay label="harmonic_intro2" />
+		<text>Para converter a menor natural na menor harmônica, a sétima nota é elevada em um semitom.  Logo, cada Si bemol (a sétima nota da escala Dó Menor) é elevada para Si.</text>
+		<gotoAndStop label="harmonic_intro3" />
+		<text>Como o terceiro, quinto e sétimo acordes foram alterados, eles precisam ser reanalisados.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic_iii" />
+		<text>A terceira tríade contém agora Mi bemol, Sol e Si - uma terça maior e uma quinta aumentada.  Logo, ela é aumentada.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>A quinta tríade contém agora Sol, Si e Ré - uma terça maior e uma quinta justa.  Logo, ela é maior.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Por fim, a sétima tríade contém agora Si, Ré e Fá - uma terça menor e uma quinta diminuta. Logo, ela é diminuta.</text>
+	</section>
+
+</lesson>

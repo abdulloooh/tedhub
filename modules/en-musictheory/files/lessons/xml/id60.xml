@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorThirdText">m3</var>
+	<var name="majorSixthText">M6</var>
+	<var name="diminishedFifthText">d5</var>
+	<var name="augmentedFourthText">A4</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Triads in First Inversion</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>In the previous lessons, we learned how to construct, identify, and analyze first inversion triads.  One question still remains: <i>when exactly do we use them?</i></text>
+		<text>One use of first inversion is to smooth out the bass line.</text>
+		<gotoAndPlay label="bass" />
+		<text>Look at the above example.  Notice how the bass line changes direction during the second <b>V</b> chord.</text>
+		<gotoAndPlay label="bass2" />
+		<text>By placing this chord in first inversion, the bass line becomes smoother.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="repeat" />
+		<text>We can also use first inversion when repeating a chord.</text>
+		<gotoAndPlay label="repeat2" />
+		<text>Look at the above example.  The first two chords are exact duplicates of each other.  A composer may feel that this passage needs more movement.</text>
+		<gotoAndPlay label="repeat3" />
+		<text>Instead of altering the top voices, the chord could simply be placed in first inversion.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>The diminished triad presents the final use for first inversion.</text>
+		<text>Early composers did not like using augmented or diminished intervals.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Notice that a root position diminished triad contains a diminished fifth.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>The second inversion of the same triad contains an augmented fourth.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Only the first inversion contains no augmented nor diminished intervals.</text>
+		<gotoAndPlay label="diminished5" />
+		<text>Because of this, diminished triads are usually found in first inversion.</text>
+		<gotoAndStop label="diminished6" />
+		<text>Root position diminished triads are occasionally used.  Second inversion diminished triads, however, are almost never found.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>It should be noted that the examples presented in this lesson are not strict rules.  Sometimes, first inversion is used simply because a composer likes its sound.</text>
+	</section>	
+</lesson>

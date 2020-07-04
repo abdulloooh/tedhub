@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">основни тон</var>
+	<var name="thirdText">терца</var>
+	<var name="fifthText">квинта</var>
+	<var name="bassText">бас</var>
+	<var name="rootPositionText">основни положај</var>
+	<var name="firstInversionText">први обртај</var>
+	<var name="secondInversionText">други обртај</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Обртаји трозвука</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Попут интервала, и трозвуци се могу обртати померањем најниже ноте за октаву више.  Та најнижа нота, која се зове <b>басов тон</b>, (или само <b>бас</b>), одређује име обртаја.</text>
+		<gotoAndPlay label="root_position" />
+		<text>У горњем примеру, основни тон акорда се налази у басу.  То се зове <b>основни положај</b> акорда.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Сада ћемо направити обртај акорда.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Приметите да се у басу сада налази терца.  Ово се зове <b>први обртај</b> (или секстакорд) .</text>
+		<gotoAndPlay label="second_inversion" />
+		<text>Хајде још једном да обрнемо акорд.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>Сада је квинта најнижа нота акорда.  То се зове <b>други обртај</b> (или квартсекстакорд).</text>
+		<gotoAndPlay label="root_position_again" />
+		<text>Ако бисмо по трећи пут обрнули акорд, добили бисмо основни положај (од кога смо и пошли).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Горња табела приказује сва три положаја трозвука.</text>
+	</section>
+
+</lesson>

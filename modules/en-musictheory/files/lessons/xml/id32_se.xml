@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="augmentedSecondText">x</var>
+	<var name="augmentedFourthText">x</var>
+	<var name="diminishedFifthText">x</var>
+	<var name="minorThirdText">x</var>
+	<var name="diminishedSeventhText">x</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Skriva intervall</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>När man ska skriva specifika intervall i ett notsystem, är det vanligt att man förväxlar intervall som består av lika många halvtonssteg.</text>
+		<gotoAndPlay label="wrong" />
+		<text>Till exempel så kan man av misstag skriva C till F# (en överstigande kvart) istället för C till Gb (en förminskad kvint).</text>
+		<gotoAndStop label="wrong2" />
+		<text>Även om båda intervallerna låter exakt likadant och även ser lika ut på klaviaturen, är det första en kvart och det andra en kvint.</text>
+		<text>Som tur är finns det en enkel trestegsmetod som minskar risken för misstag av det här slaget.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Vi skriver en liten ters från C i noter.</text>		
+		<gotoAndPlay label="example_one2" />
+		<text>Skriv först grundintervallet på notsystemet. I det här fallet en ters.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Räkna därefter ut antalet halva tonsteg på klaviaturen. Eftersom en stor ters är 4 halva tonsteg, blir vår lilla ters 3 halva tonsteg.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Skriv slutligen in eventuella förtecken.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Som nästa exempel använder vi oss av en förminskad septima från F.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Skriv först in grundseptiman på notsystemet.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Räkna därefter ut antalet halva tonsteg på klaviaturen (eftersom en stor septima är 11 halvtonssteg och en liten septima är 10, blir vår förminskade septima 9).</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Skriv slutligen in eventuella förtecken.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Som sista exempel ska vi skriva en förminskad kvint från B.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Skriv först in grundkvinten på notsystemet.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Räkna därefter ut antalet halva tonsteg på klaviaturen (eftersom en ren kvint består av 7 halvtonssteg, har vår förminskade kvint 6).</text>
+		<gotoAndStop label="example_three4" />
+		<text>Skriv slutligen in eventuella förtecken. I det här exemplet behövs inga förtecken.</text>
+	</section>
+
+</lesson>

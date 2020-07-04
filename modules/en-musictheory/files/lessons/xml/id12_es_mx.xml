@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Fragmentos y Compases</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">Tres</var>
+	<var name="fourText">Cuatro</var>
+	<var name="sixText">Seis</var>
+	<var name="halfText">Blancas (1/2 de Redonda c/u)</var>
+	<var name="quarterText">Negras (1/4 de Redonda c/u)</var>
+	<var name="eighthText">Corcheas (1/8 de Redonda c/u)</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Las líneas negras verticales llamadas <b>líneas divisorias</b> seccionan el pentagrama en <b>fragmentos musicales</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>El pentagrama superior ha sido dividido en dos fragmentos.</text>
+		<gotoAndPlay label="timesig" />
+		<text>Los <b>indicadores de compás</b> definen la cantidad y el tipo de notas que cada fragmento contiene. En español, las "líneas divisorias" y los "fragmentos musicales" cambian su nombre por "barras de compás" y por "compases" respectivamente, cuando escribimos el indicador de compás en el pentagrama.</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>En el ejemplo anterior, el primer compás tiene un indicador de 4/4 y el segundo uno de 3/4.</text>
+		<gotoAndPlay label="4/4" />
+		<text>El primer compás (4/4) contiene cuatro notas negras.</text>
+		<gotoAndPlay label="3/4" />
+		<text>El segundo compás (3/4) contiene tres notas negras.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Ahora, estudiaremos compases con valores distintos a la nota negra.</text>
+		<gotoAndPlay label="6/8" />
+		<text>El compás de 6/8 contiene seis corcheas.</text>
+		<gotoAndPlay label="3/2" />
+		<text>Y, para finalizar, veremos que el compás de 3/2 contiene tres notas blancas.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>La presente tabla muestra todos los compases estudiados en esta lección.</text>
+	</section>
+	
+</lesson>

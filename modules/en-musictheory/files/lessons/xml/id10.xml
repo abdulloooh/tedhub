@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">C</var>
+	<var name="dText">D</var>
+	<var name="eText">E</var>
+	<var name="fText">F</var>
+	<var name="gText">G</var>
+	<var name="aText">A</var>
+	<var name="bText">B</var>
+	<var name="trebleText">Treble Clef</var>
+	<var name="bassText">Bass Clef</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>The Staff, Clefs, and Ledger Lines</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>The <b>staff</b> is the foundation upon which notes are drawn.</text>
+		<gotoAndPlay label="numbers" />
+		<text>The modern staff is comprised of five lines and four spaces.</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Every line or space on the staff represents a white key on the keyboard.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text><b>Clefs</b> assign individual notes to certain lines or spaces.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Two clefs are normally used: The Treble and Bass clefs.</text>
+		<gotoAndPlay label="treble" />
+		<text>The first clef we will discuss is the Treble Clef (also called the G Clef).</text>
+		<gotoAndStop label="treble2" />
+		<text>The staff line which the clef wraps around (shown above in red) is known as G.  Any note placed on this line becomes G.</text>
+		<gotoAndStop label="treble3" />
+		<text>The note on the space above G is A.  (Remember, there is not an "H" note).</text>
+		<gotoAndStop label="treble4" />
+		<text>The note on the line above A is B.</text>
+		<gotoAndPlay label="treble5" />
+		<text>This process continues.</text>
+		<gotoAndStop label="treble6" />
+		<text>Uh-oh.  We just ran out of room to place notes, what happens now?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text><b>Ledger Lines</b> will solve our dilemma.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>A ledger line is a small line that extends the staff when we run out of room.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>With the ledger line drawn, we can place the A.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>Next on the agenda is the Bass Clef (also called the F Clef).</text>
+		<gotoAndStop label="bass2" />
+		<text>The staff line in between the two dots of the clef is F.</text>
+		<gotoAndPlay label="bass3" />
+		<text>We can now fill the rest of the staff with notes.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>Next, we will discuss the <b>Grand Staff</b>, a theoretical staff consisting of eleven lines.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Watch what happens when we eliminate the middle line - we end up with two regular staffs.</text>
+		<gotoAndPlay label="grand3" />
+		<text>By adding a Treble Clef to the top staff and a Bass Clef to the bottom staff, we can see the relationship between the two staffs.</text>
+		<gotoAndStop label="grand4" />
+		<text>Notice how the two clefs are "joined" by the C (shown in red).</text>
+		<text>This C is commonly called "middle C" since it corresponds to the middle staff line on the Grand Staff.</text>
+	</section>
+
+</lesson>

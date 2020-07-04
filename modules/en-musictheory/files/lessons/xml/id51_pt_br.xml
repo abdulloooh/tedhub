@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Abertura de Acordes</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Os compositores geralmente arranjam as notas de um acorde de diversas maneiras, para variar sua sonoridade.  Esse processo é chamado <b>abertura</b>, ou <b>voicing</b> do acorde.</text>
+		<gotoAndPlay label="root_position" />
+		<text>Para demonstrar isso, vamos fazer aberturas de um acorde Fá Maior.</text>
+		<gotoAndPlay label="root_position2" />
+		<text>Note que podemos arranjar as notas em qualquer ordem, desde que Fá, Lá e Dó sejam usados e o Fá seja a nota mais grave.</text>
+		<gotoAndPlay label="root_position3" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Agora, vamos fazer aberturas de uma tríade maior de Fá em sua primeira inversão.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Por definição, um acorde está na primeira inversão quando a terça é a nota mais grave.  Assim, precisamos lembrar que cada uma de nossas aberturas use Lá no baixo.</text>
+		<gotoAndPlay label="first_inversion3" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="second_inversion" />
+		<text>Por fim, vamos fazer aberturas de uma tríade maior de Fá na segunda inversão.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>O processo é o mesmo; entrentanto, precisamos ter certeza que a quinta (o Dó) seja usada como a nota mais grave.</text>
+		<gotoAndPlay label="second_inversion3" />
+		<text>Ouça os últimos exemplos.</text>
+	</section>
+	
+</lesson>

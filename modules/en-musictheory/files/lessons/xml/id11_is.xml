@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Fáni</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Lengdargildi</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Tíminn sem nóta hljómar nefnist <b>lengdargildi</b> nótunnar. Lengdargildið ræðst af útliti nótunnar.</text>
+		<gotoAndPlay label="whole" />
+		<text>Heilnótan er lengst.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>Hálfnóta er helmingi styttri en heilnóta.</text>
+		<gotoAndPlay label="half2" />
+		<text>Tvær hálfnótur er því jafn langar og ein heilnóta.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text>Fjórðungsnóta er fjórðungur af lengd heilnótu.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Fjórar fjórðungsnótur hljóma þannig jafn lengi og ein heilnóta og tvær fjórðungsnótur jafnt og hálfnóta.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Nótur sem eru styttri en fjórðungsnótur hafa fána. Hver fáni helmingar lengd nótunnar.</text>
+		<gotoAndPlay label="eighth" />
+		<text>Áttungsnóta hefur einn fána og er þess vegna helmingi styttri en fjórðungsnóta.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>Sextándapartsnóta hefur tvo fána og er því helmingi styttri en áttungsnóta.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Þó stundum séu notaðar nótur með þremur eða fleiri fánum er slíkt fremur sjaldgæft.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Myndin sýnir tengsl þeirra fimm nótnagilda sem rædd hafa verið.</text>
+	</section>
+
+</lesson>

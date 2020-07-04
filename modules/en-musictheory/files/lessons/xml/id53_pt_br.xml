@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="stepText">Passo</var>
+	<var name="skipText">Salto</var>
+	<var name="passingToneText">NP</var>
+	<var name="accentedPassingToneText">&gt;NP</var>
+	<var name="neighboringToneText">NV</var>
+	<var name="accentedNeighboringToneText">&gt;NV</var>
+	<var name="escapeToneText">NE</var>
+	<var name="appoggiaturaText">Ap.</var>
+	<var name="anticipationText">Ant.</var>
+	<var name="retardationText">Ret.</var>
+	<var name="suspensionText">Sus.</var>
+	<var name="changingToneText">NM</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Notas Estranhas à Harmonia</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Notas estranhas</b> à harmonia são notas que não pertencem a um determinado acorde.</text>
+		<gotoAndPlay label="example" />
+		<text>No exemplo acima, o Fá é uma nota estranha porque ele não se encaixa no acorde do grau <b>I</b> (que contém Dó, Mi e Sol).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="step" />
+		<text>Antes que possamos discutir os diferentes tipos de notas estranhas, dois termos precisam ser definidos.</text>
+		<gotoAndPlay label="step2" />
+		<text>Um <b>passo</b> é igual a um intervalo de uma segunda genérica.</text>
+		<gotoAndPlay label="skip" />
+		<text>Um <b>salto</b> é igual a um intervalo de uma terça genérica ou maior.</text>
+		<gotoAndStop label="skip2" />
+		<text>Agora podemos ir em frente e aprender as várias notas estranhas.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="passing_tone" />
+		<text>Uma <b>nota de passagem</b> (NP) caminha um passo e depois continua noutro passo na mesma direção.</text>
+		<gotoAndPlay label="passing_tone2" />
+		<text>Se uma nota de passagem ocorre no segundo acorde (em vez de no meio de dois acordes), ela é chamada de <b>nota de passagem acentuada</b> (&gt;NP).</text>
+		<gotoAndPlay label="passing_tone3" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="neighboring_tone" />
+		<text>Uma <b>nota vizinha</b> (NV) caminha um passo e depois volta um passo para a nota original.</text>
+		<gotoAndPlay label="neighboring_tone2" />
+		<text>Se ela acontece no segundo acorde, é chamada de <b>nota vizinha acentuada</b> (&gt;NT).</text>
+		<gotoAndPlay label="neighboring_tone3" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="escape_tone" />
+		<text>Uma <b>nota de escape</b> (NE) caminha um passo e depois dá um salto na direção oposta.</text>
+		<gotoAndStop label="escape_tone2" />
+		<text>Notas de escape não são acentuadas.  Elas acontecem entre dois acordes.</text>
+		<gotoAndPlay label="escape_tone3" />
+		<text>Ouça o exemplo acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="appoggiatura" />
+		<text>Uma <b>apojatura</b> (Ap.) é o exato oposto.  Ela dá um salto e depois um passo na direção oposta.</text>
+		<gotoAndStop label="appoggiatura2" />
+		<text>Além disso, as apojaturas são acentuadas.  Elas ocorrem no segundo acorde.</text>
+		<gotoAndPlay label="appoggiatura3" />
+		<text>Ouça o exemplo acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="anticipation" />
+		<text>Uma <b>antecipação</b> (Ant.) caminha um passo e depois continua onde está.  Ela é basicamente uma nota do segundo acorde tocada antecipadamente.</text>
+		<gotoAndStop label="anticipation2" />
+		<text>As antecipações não são acentuadas.</text>
+		<gotoAndPlay label="anticipation3" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="retardation_suspension" />
+		<text>As duas notas estranhas seguintes são o oposto de uma antecipação.  Elas sustentam uma nota do primeiro acorde.</text>
+		<gotoAndPlay label="retardation_suspension2" />
+		<text>Um <b>retardamento</b> (Ret.) mantém uma nota como está e então dá um passo para cima.</text>
+		<gotoAndPlay label="retardation_suspension3" />
+		<text>Uma <b>suspensão</b> (Sus.) mantém uma nota como está e depois dá um passo para baixo.</text>
+		<gotoAndStop label="retardation_suspension4" />
+		<text>Deve-se observar que tanto o retardamento quanto a suspensão são notas estranhas acentuadas.</text>
+		<gotoAndPlay label="retardation_suspension5" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="changing_tone" />
+		<text>Por fim, uma <b>nota mutante</b> (NM) é na verdade duas notas estranhas.</text>
+		<gotoAndStop label="changing_tone2" />
+		<text>Uma primeira nota estranha caminha um passo e depois salta uma terça genérica para a segunda nota estranha.</text>
+		<gotoAndStop label="changing_tone3" />
+		<text>A segunda nota estranha então se resolve num passo.</text>
+		<gotoAndPlay label="changing_tone4" />
+		<text>Ouça o exemplo acima.</text>
+	</section>
+	
+</lesson>

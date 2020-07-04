@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Grundton</var>
+	<var name="thirdText">Ters</var>
+	<var name="fifthText">Kvint</var>
+	<var name="bassText">Baston</var>
+	<var name="rootPositionText">Grundläge</var>
+	<var name="firstInversionText">Tersläge</var>
+	<var name="secondInversionText">Kvintläge</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Treklanger i omvändning</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>På samma sätt som med intervall kan treklanger omvändas genom att man flyttar den lägsta tonen i treklangen en oktav upp. Den lägsta tonen i treklangen, vilken kallas för <b>baston</b>, avgör vilken beteckning omvändningen får.</text>
+		<gotoAndPlay label="root_position" />
+		<text>I ovanstående exempel är det ackordets grundton som är baston. Detta kallas därför för en treklang i <b>grundläge</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Nu gör vi en omvändning av ackordet.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Lägg märke till att ackordets ters nu är baston. Detta kallas för <b>tersläge eller första omvändningen</b>.</text>
+		<gotoAndPlay label="second_inversion" />
+		<text>Vi gör ännu en omvändning av ackordet.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>Nu är kvinten lägsta tonen i ackordet. Detta kallas för <b>kvintläge eller andra omvändningen</b>.</text>
+		<gotoAndPlay label="root_position_again" />
+		<text>Om vi gör ännu en omvändning av ackordet kommer vi tillbaka till grundläget igen.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Ovan visas alla de tre möjliga lägena för treklanger.</text>
+	</section>
+
+</lesson>

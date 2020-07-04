@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Трајање пауза</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text><b>Паузе</b> одређују који део такта се не свира.</text>
+		<gotoAndPlay label="notes" />
+		<text>Свака пауза траје исто колико и њој одговарајућа нота.</text>
+		<gotoAndStop label="notes2" />
+		<text>На пример четвртина паузе и четвртина ноте имају исто трајање.  Док за ноту треба одсвирати тон, за паузу се не свира ништа.</text>
+	</section>
+			
+	<section>
+		<gotoAndPlay label="example" />
+		<text>Да бисмо ово показали, испунићемо такт од 4/4 са четвртинама ноте.</text>
+		<gotoAndPlay label="example2" />
+		<text>Послушајте овај пример.</text>
+		<gotoAndPlay label="example3" />
+		<text>Сада ћемо заменити другу четвртину са паузом.</text>
+		<gotoAndPlay label="example4" />
+		<text>Приметите да се на другом откуцају ништа не свира.</text>
+	</section>	
+
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Горња слика приказује односе пауза, упоредите их са трајањем нота.</text>
+	</section>		
+
+</lesson>

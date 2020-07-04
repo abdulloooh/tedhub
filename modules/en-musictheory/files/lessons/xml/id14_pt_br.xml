@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">Ponto</var>
+	<var name="tieText">Ligadura</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Pontos e Ligaduras</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text><b>Pontos de aumento</b> e <b>ligaduras de prolongamento</b> são dois tipos de marcações usadas para alterar o valor de uma nota.</text>
+        <gotoAndStop label="dot" />
+        <text>Um ponto aumenta o valor da nota em sua metade.</text>
+		<gotoAndPlay label="dot2" />
+        <text>Como uma colcheia tem a metade do valor de uma semínima, usaremos uma colcheia no lugar da fração 1/2 acima.</text>
+		<gotoAndStop label="dot3" />
+		<text>Como você pode ver, uma semínima pontuada equivale a uma semínima mais uma colcheia.</text>
+		<gotoAndPlay label="dot4" />
+		<text>Uma semínima pontuada também equivale a três colcheias.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="tie" />
+		<text>As ligaduras de prolongamento unem várias notas da mesma altura.  Elas são usadas para permitir que a duração da nota se estenda além das barreiras (como a barra de compasso no exemplo acima).</text>
+		<gotoAndPlay label="tie2" />
+		<text>Ao escutar, observe como a quarta e a quinta notas são combinadas.</text>
+		<gotoAndPlay label="tie3" />
+		<text>Se a barra de compasso não estivesse lá, podíamos ter simplesmente escrito uma mínima em vez das duas semínimas ligadas.</text>
+	</section>
+
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>Use o quadro acima como referência para pontos de aumento.</text>
+	</section>
+
+</lesson>

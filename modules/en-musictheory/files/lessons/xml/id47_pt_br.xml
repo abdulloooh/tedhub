@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="bassText">Baixo</var>
+	<var name="rootText">Fundamental</var>
+	<var name="thirdText">Terça</var>
+	<var name="fifthText">Quinta</var>
+	<var name="seventhText">Sétima</var>
+	<var name="secondAbbrText">2a.</var>
+	<var name="thirdAbbrText">3a.</var>
+	<var name="fourthAbbrText">4a.</var>
+	<var name="fifthAbbrText">5a.</var>
+	<var name="sixthAbbrText">6a.</var>
+	<var name="seventhAbbrText">7a.</var>
+	<var name="rootPositionText">Posição Fundamental:</var>
+	<var name="firstInversionText">Primeira Inversão:</var>
+	<var name="secondInversionText">Segunda Inversão:</var>
+	<var name="thirdInversionText">Terceira Inversão:</var>
+	<var name="numbersText">7, 6, 5, 4, 3, 2</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Inversão de Acordes de Sétima</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Do mesmo modo que as tríades, os acordes de sétima podem ser invertidos movendo-se a nota mais grave uma oitava acima.</text>
+		<gotoAndPlay label="first" />
+		<text>A primeira inversão é como a da tríade - a terça vira a nota mais grave.</text>
+		<gotoAndPlay label="second" />
+		<text>A segunda inversão também é como a da tríade - a quinta vira a nota mais grave.</text>
+		<gotoAndPlay label="third" />
+		<text>Os acordes de sétima também podem formar uma terceira inversão, na qual a sétima passa a ser a nota mais grave.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="roman" />
+		<text>Como você já aprendeu, um acorde de sétima na posição fundamental é identificado por um algarismo romano com um 7.</text>
+		<gotoAndStop label="roman2" />
+		<text>A primeira inversão de um acorde de sétima é identificada por um algarismo romano com um 6 e um 5.</text>
+		<gotoAndStop label="roman3" />
+		<text>A segunda inversão de um acorde de sétima é identificada por um algarismo romano com um 4 e um 3.</text>
+		<gotoAndStop label="roman4" />
+		<text>Por fim, um algarismo romano com um 2 identifica a terceira inversão de um acorde de sétima.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pattern" />
+		<text>Vamos arranjar os algarismos romanos de um jeito diferente. Notou alguma coisa especial?</text>
+		<gotoAndStop label="pattern2" />
+		<text>Os números da inversão estão em ordem númerica, de 7 a 2.</text>
+		<gotoAndStop label="pattern3" />
+		<text>Você pode usar essa seqüência para memorizar facilmente os símbolos das inversões de acordes de sétima.</text>
+	</section>
+
+</lesson>

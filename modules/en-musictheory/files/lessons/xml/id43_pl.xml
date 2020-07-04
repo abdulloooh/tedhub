@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">zm</var>
+	<var name="minorText">m</var>
+	<var name="majorText">M</var>
+	<var name="augmentedText">Zw</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Trójdźwięki diatoniczne</title>
+	<!-- <title>Trójdźwięki diatoniczne</title> -->
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Każda gama durowa i molowa składa się z siedmiu właściwych sobie trójdźwięków, tzw. <b>trójdźwięków diatonicznych</b>, które są utworzone z nut danej gamy.</text>
+		<!-- <text>Every major and minor scale has seven special triads, called <b>diatonic triads</b>, which are formed  naturall from that scale's notes.</text> -->
+		<text>Analiza trójdźwięków diatonicznych przebiega trójfazowo.</text>
+		<!-- <text>To discover the diatonic triads, a three step process must be used.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major_intro" />
+		<text>Pierwsza faza: zapisujemy gamę. Pierwszym naszym przykładem niech będzie gama C-dur.</text>
+		<!-- <text>First, construct the scale.  We will be using the C major scale for our first example.</text> -->
+		<gotoAndPlay label="major_intro2" />
+		<text>Druga faza: nad każdą nutą wpisujemy na pięciolinii dwie podstawowe tercje.</text>
+		<!-- <text>Next, stack two generic thirds on top of each note.</text> -->
+		<gotoAndStop label="major_intro3" />
+		<text>Trzecia faza: analizujemy powstałe trójdźwięki.</text>
+		<!-- <text>Finally, analyze the resulting triads.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Pierwszy trójdźwięk C, E i G składa się z tercji wielkiej i kwinty czystej. Jest więc trójdźwiękiem majorowym.</text>
+		<!-- <text>The first triad is C, E, and G - a major third and a perfect fifth.  Therefore, the triad is major.</text> -->
+		<gotoAndStop label="major_ii" />
+		<text>Drugi trójdźwięk D, F i A składa się z tercji małej i kwinty czystej. Jest więc trójdźwiękiem minorowym.</text>
+		<!-- <text>The second triad is D, F, and A - a minor third and a perfect fifth.  Therefore, it is minor.</text> -->
+		<gotoAndStop label="major_iii" />
+		<text>Trzeci trójdźwięk E, G i H składa się z tercji małej i kwinty czystej. Jest więc także minorowy.</text>
+		<!-- <text>The third triad is E, G, and B - a minor third and a perfect fifth.  Therefore, it is also minor.</text> -->
+		<gotoAndStop label="major_iv" />
+		<text>Czwarty trójdźwięk F, A i C - tercja wielka i kwinta czysta - trójdźwięk majorowy.</text>
+		<!-- <text>The fourth triad is F, A, and C - a major third and a perfect fifth.  Therefore, it is major.</text> -->
+		<gotoAndStop label="major_v" />
+		<text>Piąty trójdźwięk G, H i D - tercja wielka i kwinta czysta - trójdźwięk majorowy.</text>
+		<!-- <text>The fifth triad is G, B, and D - a major third and a perfect fifth.  Therefore, it is also major.</text> -->
+		<gotoAndStop label="major_vi" />
+		<text>Szósty trójdźwięk A, C i E - tercja mała i kwinta czysta - trójdźwięk minorowy.</text>
+		<!-- <text>The sixth triad is A, C, and E - a minor third and a perfect fifth.  Therefore, it is minor.</text> -->
+		<gotoAndStop label="major_vii" />
+		<text>Siódmy trójdźwięk H, D i F - tercja mała i kwinta zmniejszona - zatem trójdźwięk jest zmniejszony.</text>
+		<!-- <text>The seventh triad is B, D, and F - a minor third and a diminished fifth.  Therefore, it is diminished.</text> -->
+		<gotoAndStop label="major_viii" />
+		<text>Ósmy trójdźwięk jest powtórzeniem pierwszego (C, E i G), czyli jest durowy.</text>
+		<!-- <text>The eighth triad is a repetition of the first (C, E, and G), making it major.</text> -->
+		<gotoAndStop label="major_recap" />
+		<text>W gamie majorowej pierwszy trójdźwięk jest zawsze majorowy, drugi i trzeci są minorowe itd.</text>
+		<!-- <text>The first triad of a major scale will always be major, the second and third triads will always be minor, etc.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_intro" />
+		<text>Następnie zanalizujemy trójdźwięki diatoniczne gamy c-moll naturalnej.</text>
+		<!-- <text>Next, we will uncover the diatonic triads of the C Natural Minor scale.</text> -->
+		<gotoAndPlay label="minor_intro2" />
+		<text>Najpierw zbudujemy gamę. Zapisujemy znaki przykluczowe zamiast plasować je przy nutach.</text>
+		<!-- <text>First, the scale is constructed.  Notice that we are using a key signature rather than placing the accidentals by each note.</text> -->
+		<gotoAndPlay label="minor_intro3" />
+		<text>Znowu ustawiamy nad każdą nutą po dwie podstawowe tercje.</text>
+		<!-- <text>Again, two generic thirds are stacked on each note.</text> -->
+		<gotoAndStop label="minor_intro4" />
+		<text>I na zakończenie analizujemy powstałe trójdźwięki.</text>
+		<!-- <text>Finally, let's analyze the resulting triads.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_i" />
+		<text>Pierwszy trójdźwięk C, Es i G składa się z tercji małej i kwinty czystej. Jest więc trójdźwiękiem minorowym.</text>
+		<!-- <text>The first triad is C, Eb, and G - a major third and a perfect fifth.  Therefore, the triad is minor.</text> -->
+		<gotoAndStop label="minor_ii" />
+		<text>Drugi trójdźwięk D, F i As - tercja mała i kwinta zmniejszona. Zatem trójdźwięk jest zmniejszony.</text>
+		<!-- <text>The second triad is D, F, and Ab - a minor third and a perfect fifth.  Therefore, it is diminished.</text> -->
+		<gotoAndStop label="minor_iii" />
+		<text>Trzeci trójdźwięk Es, G i B - tercja wielka i kwinta czysta. Trójdźwięk jest durowy.</text>
+		<!-- <text>The third triad is Eb, G, and Bb - a minor third and a perfect fifth.  Therefore, it is major.</text> -->
+		<gotoAndStop label="minor_iv" />
+		<text>Czwarty trójdźwięk F, As i C - tercja mała i kwinta czysta. Zatem trójdźwięk jest molowy.</text>
+		<!-- <text>The fourth triad is F, Ab, and C - a major third and a perfect fifth.  Therefore, it is also major.</text> -->
+		<gotoAndStop label="minor_v" />
+		<text>Piąty trójdźwięk G, B i D - tercja mała i kwinta czysta. Trójdźwiek jest też molowy.</text>
+		<!-- <text>The fifth triad is G, Bb, and D - a major third and a perfect fifth.  Therefore, it is minor.</text> -->
+		<gotoAndStop label="minor_vi" />
+		<text>Szósty trójdźwięk As, C i Es - tercja wielka i kwinta czysta. Trójdźwięk jest durowy.</text>
+		<!-- <text>The sixth triad is Ab, C, and Eb - a minor third and a perfect fifth.  Therefore, it is major.</text> -->
+		<gotoAndStop label="minor_vii" />
+		<text>Siódmy trójdźwiek B, D i F - tercja wielka i kwinta czysta. Trójdźwięk jest też durowy.</text>
+		<!-- <text>The seventh triad is Bb, D, and F - a minor third and a diminished fifth.  Therefore, it is also major.</text> -->
+		<gotoAndStop label="minor_viii" />
+		<text>Trójdźwięk ósmy jest powtórzeniem pierwszego (C, Es i G), a więc molowy.</text>
+		<!-- <text>The eighth triad is a repetition of the first (C, Eb, and G), making it minor.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="harmonic_intro" />
+		<text>Na zakończenie zanalizujemy trójdźwięki diatoniczne w minorze harmonicznym.</text>
+		<!-- <text>Finally, we will discuss the diatonic triads of harmonic minor.</text> -->
+		<gotoAndPlay label="harmonic_intro2" />
+		<text>Aby przekształcić minor naturalny w minor harmoniczny podwyższamy siódmy stopień gamy o pół tonu. Zatem wszystkie B (siódmy dźwięk gamy c-moll) podwyższone są na H.</text>
+		<!-- <text>To convert natural minor to harmonic minor, the seventh tone is raised a half step.  Therefore, each Bb (the seventh tone of C minor) is raised to a B.</text> -->
+		<gotoAndStop label="harmonic_intro3" />
+		<text>Ponieważ akordy trzeci, piąty i siódmy zostały chromatycznie zmienione musimy je zanalizować na nowo.</text>
+		<!-- <text>Since the third, fifth, and seventh chords have been altered, they need to be reanalyzed.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Trzeci trójdźwięk Es, G i H - tercja wielka i kwinta zwiększona - jest teraz trójdźwiękiem zwiększonym.</text>
+		<!-- <text>The third triad is now Eb, G, and B - a major third and an augmented fifth.  Therefore, it is augmented.</text> -->
+		<gotoAndStop label="harmonic_v" />
+		<text>Piątym trójdźwiękiem jest teraz G, H i D - tercja wielka i kwinta czysta, a więc trójdźwięk durowy.</text>
+		<!-- <text>The fifth triad is now G, B, and D - a major third and a perfect fifth.  Therefore, it is major.</text> -->
+		<gotoAndStop label="harmonic_vii" />
+		<text>I ostatni, siódmy trójdźwięk H, D i F - tercja mała i kwinta zmniejszona - jest trójdźwiękiem zmniejszonym.</text>
+		<!-- <text>Finally, the seventh triad is now B, D, and F - a minor third and a diminished fifth.  Therefore, it is diminished.</text> -->
+	</section>
+
+</lesson>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="majorSeventhText">вд7</var>
+	<var name="minorSeventhText">мм7</var>
+	<var name="dominantSeventhText">дом7</var>
+	<var name="fullyDiminishedSeventhText">у7</var>
+	<var name="halfDiminishedSeventhText">пу7</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Лествични септакорди</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Као што постоје лествични трозвуци, тако постоје и <b>лествични четворозвуци (септакорди)</b> за сваку дурску и молску лествицу.</text>
+		<text>У следећем примеру ћемо наћи лествичне септакорде C-дура.</text>
+		<gotoAndPlay label="major" />
+		<text>Прво запишемо лествичне трозвуке.</text>
+		<gotoAndPlay label="major2" />
+		<text>Потом сваком трозвуку додамо генеричку терцу.</text>
+		<gotoAndStop label="major3" />
+		<text>Коначно испитамо које септакорде смо добили.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Први акорд се састоји од дурског трозвука и велике септиме.  То је велики дурски септакорд.</text>
+		<gotoAndStop label="major_ii" />
+		<text>Други акорд се састоји од молског трозвука и мале септиме.  То је мали молски септакорд.</text>
+		<gotoAndStop label="major_iii" />
+		<text>Трећи акорд се састоји од молског трозвука и мале септмиме.  Такође мали молски септакорд.</text>
+		<gotoAndStop label="major_iv" />
+		<text>Четврти акорд се састоји од дурског трозвука и велике септиме.  Велики дурски септакорд.</text>
+		<gotoAndStop label="major_v" />
+		<text>Пети акорд се састоји од дурског трозвука и мале септиме.  Тако настаје доминантни септакорд.</text>
+		<gotoAndStop label="major_vi" />
+		<text>Шести акорд се састоји од молског трозвука и мале септиме.  То је мали молски септакорд.</text>
+		<gotoAndStop label="major_vii" />
+		<text>Седми акорд се састоји од умањеног трозвука и мале септиме.  То је полуумањени септакорд.</text>
+		<gotoAndStop label="major_viii" />
+		<text>И на крају, задњи акорд је исти као и први.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Сада ћемо наћи лествичне четворозвуке природног c-мола.</text>
+		<gotoAndStop label="minor_i" />
+		<text>Први акорд се састоји од молског трозвука и мале септиме.  То је мали молски септакорд.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>Други акорд се састоји од умањеног трозвука и мале септиме.  То је полуумањени септакорд.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>Трећи акорд се састоји од великог трозвука и велике септиме.  То је велики дурски септакорд.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>Четврти акорд се састоји од молског трозвука и мале септиме.  То је мали молски септакорд.</text>
+		<gotoAndStop label="minor_v" />
+		<text>Пети акорд се састоји од молског трозвука и мале септиме.  То је такође мали молски септакорд.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>Шести акорд се састоји од дурског трозвука и велике септиме.  То је велики дурски септакорд.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>Седми акорд се састоји од дурског трозвука и мале септиме.  То је доминантни септакорд.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>Као и пре, задњи акорд је исти као први.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>На крају ћемо погледати лествичне трозвуке хармонског c-мола.</text>
+		<gotoAndStop label="harmonic_i" />
+		<text>Како први акорд садржи молски трозвук и велику септиму, он не спада у 5 најчешћих које смо обрадили (то је уствари велики молски септакорд).</text>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Трећи акорд садржи прекомерни трозвук и велику септиму, и такође не спада у 5 најчешћих (то је прекомерни септакорд).  Ова два акорда се ретко користе.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>Пети акорд садржи дурски трозвук и малу септиму.  То је доминантни септакорд.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Коначно, седми акорд садржи умањени трозвук и умањену септиму.  То је умањени септакорд.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="analysis" />
+		<text>Сада ћемо размотрити симболе за бележење лествичних септакорада при анализирању.</text>
+		<gotoAndPlay label="analysis2" />
+		<text>Присетите се симбола за лествичне трозвуке хармонског мола.</text>
+		<gotoAndPlay label="analysis3" />
+		<text>Само додамо малу седмицу у горњем десном углу сваког римског броја.</text>
+		<gotoAndPlay label="analysis4" />
+		<text>Ако је септакорд полуумањени, онда се повуче коса црта кроз кружић.</text>
+	</section>
+
+</lesson>

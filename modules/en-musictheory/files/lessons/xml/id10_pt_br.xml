@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">Dó</var>
+	<var name="dText">Ré</var>
+	<var name="eText">Mi</var>
+	<var name="fText">Fá</var>
+	<var name="gText">Sol</var>
+	<var name="aText">Lá</var>
+	<var name="bText">Si</var>
+	<var name="trebleText">Clave de Sol</var>
+	<var name="bassText">Clave de Fá</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>Pauta, Claves e Linhas Suplementares</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>pauta musical</b>, ou <b>pentagrama</b>, é a base sobre a qual as notas são grafadas.</text>
+		<gotoAndPlay label="numbers" />
+		<text>A pauta moderna é composta de cinco linhas e quatro espaços.</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Cada linha ou espaço na pauta representa uma tecla branca do piano.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text>As <b>claves</b> atribuem notas específicas a linhas e espaços determinados.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Duas claves são usadas normalmente: A Clave de Sol e a Clave de Fá.</text>
+		<gotoAndPlay label="treble" />
+		<text>A primeira clave que vamos discutir é a Clave de Sol.</text>
+		<gotoAndStop label="treble2" />
+		<text>A linha da pauta em torno da qual começa o desenho do símbolo da clave (mostrada acima em vermelho) representa a nota Sol.  Qualquer nota colocada nesta linha torna-se um Sol.</text>
+		<gotoAndStop label="treble3" />
+		<text>A nota no espaço acima do Sol é o Lá.</text>
+		<gotoAndStop label="treble4" />
+		<text>A nota sobre a linha acima do Lá é o Si.</text>
+		<gotoAndPlay label="treble5" />
+		<text>Este processo continua.</text>
+		<gotoAndStop label="treble6" />
+		<text>Acabamos de esgotar o espaço para colocar notas, e agora?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text>As <b>Linhas Suplementares</b> vão resolver nosso problema.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>Uma linha suplementar é uma pequena linha que amplia a pauta quando o espaço para notas acaba.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>Com a linha suplementar desenhada, podemos colocar o Lá.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>Nosso próximo item é a Clave de Fá.</text>
+		<gotoAndStop label="bass2" />
+		<text>A linha da pauta entre os dois pontos da clave é a linha do Fá.</text>
+		<gotoAndPlay label="bass3" />
+		<text>Podemos agora preencher o resto da pauta com notas.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>Agora, vamos falar do <b>sistema de 11 linhas</b>, uma pauta teórica também chamada de endecagrama.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Observe o que acontece quando eliminamos a linha do meio - ficamos com duas pautas normais.</text>
+		<gotoAndPlay label="grand3" />
+		<text>Ao adicionar uma Clave de Sol à pauta superior e uma Clave de Fá à pauta inferior, podemos ver a relação entre as duas pautas.</text>
+		<gotoAndStop label="grand4" />
+		<text>Observe como as duas claves são "unidas" pelo Dó (mostrado em vermelho).</text>
+		<text>Esse Dó é chamado de "Dó central", já que ele corresponde à linha do meio entre as pautas da Clave de Sol e da Clave de Fá
+		</text>
+	</section>
+
+</lesson>

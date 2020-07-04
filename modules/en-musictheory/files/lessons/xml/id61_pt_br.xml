@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2002-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tríades em Segunda Inversão</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Embora as tríades em posição fundamental e primeira inversão possam ser usadas livremente, a segunda inversão geralmente ocorre somente em três situações.</text>
+		<gotoAndStop label="passing" />
+		<text>Como a primeira inversão, a segunda inversão pode ser usada para suavizar uma linha do baixo.</text>
+		<gotoAndPlay label="passing2" />
+		<text>Veja o exemplo acima - note o movimento da linha do baixo.</text>
+		<gotoAndPlay label="passing3" />
+		<text>Ao colocar o acorde <b>V</b> em segunda inversão, a linha do baixo move-se um tom e fica suave.</text>
+		<gotoAndStop label="passing4" />
+		<text>Quando usada dessa maneira, uma tríade em segunda inversão é chamada de <b>acorde de sexta e quarta de passagem</b>.</text>
+		<gotoAndPlay label="passing5" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pedal" />
+		<text>A segunda inversão também pode ser usada para aplanar a linha do baixo.</text>
+		<gotoAndPlay label="pedal2" />
+		<text>Veja o exemplo acima - note como a linha do baixo salta para o Fá e depois volta ao Dó.</text>
+		<gotoAndPlay label="pedal3" />
+		<text>Ao colocar o acorde <b>IV</b> em segunda inversão, todo esse movimento da linha do baixo é eliminado.</text>	
+		<gotoAndStop label="pedal4" />
+		<text>Quando usada dessa maneira, uma tríade em segunda inversão é chamada de <b>acorde de sexta e quarta pedal</b>.</text>	
+		<gotoAndPlay label="pedal5" />
+		<text>Ouça os exemplos acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadential" />
+		<text>O <b>acorde de sexta e quarta cadencial</b> é o último e o uso mais notável da segunda inversão.</text>
+		<gotoAndPlay label="cadential2" />
+		<text>Nesta forma, uma tríade em segunda inversão precede um acorde <b>V</b> numa cadência.  Geralmente, a cadência vai soar mais forte devido à presença do de sexta e quarta cadencial.</text>
+		<gotoAndPlay label="cadential3" />
+		<text>Ouça o exemplo acima.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="chart" />
+		<text>No esquema de progressão de acordes, o de sexta e quarta cadencial ocorre entre um subdominante e um dominante.</text>
+	</section>
+	
+</lesson>

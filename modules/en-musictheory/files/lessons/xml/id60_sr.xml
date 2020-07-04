@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorThirdText">м3</var>
+	<var name="majorSixthText">в6</var>
+	<var name="diminishedFifthText">у5</var>
+	<var name="augmentedFourthText">п4</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Трозвуци у првом обртају</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>У претходним лекцијама смо научили како да направимо, препознамо и анализирамо први обртај трозвука.  Остало је још да видимо: <b>кад га користимо?</b></text>
+		<text>Једна од употреба првог обртаја је да уједначи басову линију.</text>
+		<gotoAndPlay label="bass" />
+		<text>Погледајмо горњи пример.  Приметите како се басов тон креће (наниже) у другом доминантном акорду.</text>
+		<gotoAndPlay label="bass2" />
+		<text>Ако тај акорд ставимо у први обртај, басова линија је уједначенија.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="repeat" />
+		<text>Први обртај се такође користи код понављања акорада.</text>
+		<gotoAndPlay label="repeat2" />
+		<text>Погледајте горњи пример.  Прва два акорда су потпуно иста.  Неки композитори би можда хтели више покрета и мењали их.</text>
+		<gotoAndPlay label="repeat3" />
+		<text>Уместо да мењају горње тонове, могу акорд једноставно ставити у први обртај.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>Коначно, први обртај трозвука се користи и код умањених трозвука.</text>
+		<text>У почетку композитори нису волели да користе прекомерне и умањене интервале.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Приметите да основни положај умањеног трозвука садржи умањену квинту.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Други обртај умањеног трозвука садржи прекомерну кварту.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Само у првом обртају нема ни умањених ни прекомерних интервала.</text>
+		<gotoAndPlay label="diminished5" />
+		<text>Због тога се умањени трозвуци најчешће користе у првом обртају.</text>
+		<gotoAndStop label="diminished6" />
+		<text>Први обртај умањеног трозвука се користи само понекад, међутим, други обртај скоро никад.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="ending" />
+		<text>Правила изложена у овој лекцији нису изричита.  Понекад композитори користе први обртај јер им се свиђа како звучи.</text>
+	</section>	
+</lesson>

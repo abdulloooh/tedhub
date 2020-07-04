@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Такт, ознака такта</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">три</var>
+	<var name="fourText">четири</var>
+	<var name="sixText">шест</var>
+	<var name="halfText">половине (1/2) ноте</var>
+	<var name="quarterText">четвртине (1/4) ноте</var>
+	<var name="eighthText">осмина (1/8) ноте</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Усправне линије зване <b>тактне линије</b> деле нотни систем на <b>тактове</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>Нотни систем приказан горе подељен је на два такта.</text>
+		<gotoAndPlay label="timesig" />
+		<text><b>Ознака такта</b> одређује број и врсту нота који ће сваки такт садржавати.</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>У горњем примеру, први такт је 4/4, а други 3/4.</text>
+		<gotoAndPlay label="4/4" />
+		<text>Први такт (4/4) садржи четири четвртине ноте.</text>
+		<gotoAndPlay label="3/4" />
+		<text>Други такт (3/4) садржи три четвртине ноте.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Сада ћемо обрадити тактове који се не заснивају на четвртинама.</text>
+		<gotoAndPlay label="6/8" />
+		<text>Такт 6/8 садржи шест осмина ноте.</text>
+		<gotoAndPlay label="3/2" />
+		<text>Коначно, такт 3/2 садржи три половине ноте.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>На горњој слици су примери свих обрађених тактова.</text>
+	</section>
+	
+</lesson>

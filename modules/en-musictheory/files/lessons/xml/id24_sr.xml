@@ -1,0 +1,65 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">тоника</var>
+	<var name="supertonicText">супертоника</var>
+	<var name="mediantText">медијанта</var>
+	<var name="subdominantText">субдоминанта</var>
+	<var name="dominantText">доминанта</var>
+	<var name="submediantText">субмедијанта</var>
+	<var name="leadingToneText">вођица</var>
+	<var name="subtonicText">субтоника</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Предзнаци тоналитета</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Предзнаци тоналитета</b> (предзнаци при кључу) се стављају на почетак нотног система да означе који је тоналитет у питању, а састоје се од свих предзнака који су могу наћи у лествици.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>Да би ово показали, узећемо предзнак тоналитета c-мола, који има три снизилице.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Уместо да пишемо снизилицу испред сваке ноте <b>e</b>, <b>a</b> и <b>h</b>, просто запишемо три снизилице као предзнак тоналитета на почетку нотног система.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>За наш следећи пример узећемо A-дур, који има три повисилице.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>И опет додамо предзнак тоналитета на почетак нотног система, уместо да испред сваке ноте <b>c</b>, <b>f</b> и <b>g</b> пишемо повисилице.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Као што сте можда приметили, повисилице се записују тачно утврђеним редом.</text>
+		<gotoAndStop label="sharps2" />
+		<text>Прво <b>fis</b>, затим <b>cis</b>, па <b>gis</b>.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Онда <b>dis</b>, <b>ais</b>, <b>eis</b> и коначно <b>his</b>.</text>
+		<gotoAndStop label="sharps4" />
+		<text>Редослед записивања повисилца можете запамтити помоћу ове реченице: "<b>F</b>ather <b>C</b>harles <b>G</b>oes <b>D</b>own <b>A</b>nd <b>E</b>nds <b>B</b>attle".</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Полазећи од <b>b</b>, редослед записивања снизилица је потпуно супротан.</text>
+		<gotoAndPlay label="flats2" />
+		<text>После <b>b</b> долазе <b>es</b>, <b>as</b>, <b>des</b>, <b>ges</b>, <b>ces</b> и коначно <b>fes</b>.</text>
+		<gotoAndStop label="flats3" />
+		<text>Ред записивања снизилица можете запамтити помоћу исте реченице прочитане уназад: "<b>B</b>attle <b>E</b>nds <b>A</b>nd <b>D</b>own <b>G</b>oes <b>C</b>harles' <b>F</b>ather".</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tonic</var>
+	<var name="supertonicText">Supertonic</var>
+	<var name="mediantText">Mediant</var>
+	<var name="subdominantText">Subdominant</var>
+	<var name="dominantText">Dominant</var>
+	<var name="submediantText">Submediant</var>
+	<var name="leadingToneText">Leading tone</var>
+	<var name="subtonicText">Subtonic</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Fasta förtecken</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Fasta förtecken</b> är samtliga förtecken för en viss tonart inskrivna i början av notsystemet.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>För att demonstrera detta ska vi använda oss av tonarten c-moll, som har tre b-tecken.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Istället för att skriva ett b-tecken framför varje E, A och B som används, kan man skriva fasta förtecken för tonarten i första takten av varje notsystem.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>I nästa exempel ska vi använda oss av A-dur, som har tre korstecken.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>Än en gång, fasta förtecken kan användas istället för tillfälliga vid varje C, F och G.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Som du kanske lagt märke till, så är förtecknen skrivna i en viss ordning som fasta förtecken.</text>
+		<gotoAndStop label="sharps2" />
+		<text>Först kommer F#, därefter C# och sedan G#.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Därefter följer D#, A#, E#, och slutligen B#.</text>
+		<gotoAndStop label="sharps4" />
+		<text>Du kan lättare komma ihåg den här ordningen för fasta korstecken genom att lära dig följande ramsa: "<b>F</b>röken <b>C</b>ecilia <b>G</b>år <b>D</b>är <b>A</b>lldeles <b>E</b>nsam <b>B</b>ara"</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>Med början hos Bb, är ordningen man skriver de fasta b-tecknen den rakt motsatta.</text>
+		<gotoAndPlay label="flats2" />
+		<text>Efter Bb kommer Eb, Ab, Db, Gb, Cb och slutligen Fb.</text>
+		<gotoAndStop label="flats3" />
+		<text>Även denna ordning kan enkelt memoreras med hjälp av samma ramsa baklänges: "<b>B</b>ara <b>E</b>nsam <b>A</b>lldeles <b>D</b>är <b>G</b>år <b>C</b>ecilia <b>F</b>röken"</text>
+	</section>
+
+</lesson>

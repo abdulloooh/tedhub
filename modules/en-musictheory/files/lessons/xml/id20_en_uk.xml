@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">Double</var>
+	<var name="doubleFlatTwoText">flat</var>
+	<var name="flatText">Flat</var>
+	<var name="naturalText">Natural</var>
+	<var name="sharpText">Sharp</var>
+	<var name="doubleSharpOneText">Double</var>
+	<var name="doubleSharpTwoText">sharp</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Whole Tones, Semitones and Accidentals</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>semitone</b> is the distance from one key on the keyboard to the next adjacent key.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Since they are next to each other, Key 1 to Key 2 would be an example of a semitone.</text>
+		<gotoAndStop label="half_step2" />
+		<text>A semitone is not always from a white key to a black key.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>In this example, both Key 1 and Key 2 are still adjacent to each other.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text>A <b>whole tone</b> is the same distance as two semitones.</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>Key 1 to Key 3 is a whole tone. (The first semitone is from 1 to 2, the second from 2 to 3)</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text>An <b>accidental</b> is a sign used to raise or lower the pitch of a note.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>The first accidentals that we will discuss are the <b>flat</b> and the <b>sharp</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>The flat lowers a note by a semitone while the sharp raises a note by a semitone.</text>
+		<gotoAndStop label="accidentals4" />
+		<text>When typing, you can use a <b>#</b> to represent a sharp and a <b>b</b> to represent a flat.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<text>Let's examine the black key in between C and D.</text>
+		<gotoAndStop label="example2" />
+		<text>This key could be called C# since it is a semitone above C.</text>
+		<gotoAndStop label="example3" />
+		<text>It could also be called Db since it is a semitone below D.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Another example would be E and F.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>E could also be called Fb since it is a semitone below F.</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>Likewise, F could be called E#.</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>Whenever a certain pitch has multiple names, it is called <b>enharmonic spelling.</b></text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>The next accidentals we will discuss are the <b>double flat</b> and the <b>double sharp</b>.</text>
+		<gotoAndStop label="double2" />
+		<text>While flats and sharps alter a note by a semitone, the double flat and double sharp alter a note by a whole tone.</text>
+		<gotoAndStop label="double3" />
+		<text>When typing, you can use a <b>x</b> to represent a double sharp and a <b>bb</b> to represent a double flat.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>For example, both D and Ebb have the same pitch since you can reach D by going a whole tone (or two semitones) down from E.</text>
+		<gotoAndPlay label="double_example2" />
+		<text>D also sounds the same as Cx since it is a whole tone above C.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Finally, a <b>natural</b> cancels out any accidental and returns a note to its original white key.</text>
+		<gotoAndStop label="natural2" />
+		<text>We will learn more about naturals in an upcoming lesson.</text>
+	</section>
+	
+</lesson>

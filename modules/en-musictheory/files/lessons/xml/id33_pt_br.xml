@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Claudio Brandt (tradução)/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">2m</var>
+	<var name="majorThirdText">3M</var>
+	<var name="perfectFourthText">4J</var>
+	<var name="perfectFifthText">5J</var>
+	<var name="minorSixthText">6m</var>
+	<var name="majorSeventhText">7M</var>
+	<var name="minorText">Menor</var>
+	<var name="majorText">Maior</var>
+	<var name="perfectText">Justa</var>
+	<var name="diminishedText">Diminuta</var>
+	<var name="augmentedText">Aumentada</var>
+	<var name="secondText">Segunda</var>
+	<var name="thirdText">Terça</var>
+	<var name="fourthText">Quarta</var>
+	<var name="fifthText">Quinta</var>
+	<var name="sixthText">Sexta</var>
+	<var name="seventhText">Sétima</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Inversão de Intervalos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Na música, o verbo <b>inverter</b> significa mudar a nota mais grave de um grupo uma oitava acima.</text>
+		<text>Nesta lição, vamos inverter intervalos.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Como nosso primeiro exemplo, vamos usar o intervalo de Dó a Sol (uma quinta justa).</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Para inverter este intervalo, mude a nota mais grave (o Dó) uma oitava acima.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>O resultado (Sol a Dó) é uma quarta justa.</text>
+		<gotoAndStop label="example_one4" />
+		<text>Os intervalos justos, ou perfeitos, quando invertidos, sempre continuam justos.  As quintas, quando invertidas, sempre viram quartas.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Como nosso próximo exemplo, usaremos de Dó a Mi (uma terça maior).</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Novamente, mude a nota mais grave (o Dó) uma oitava acima.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>O resultado (Mi para Dó) é uma sexta menor.</text>
+		<gotoAndStop label="example_two4" />
+		<text>Intervalos maiores, quando invertidos, viram menores, e vice-versa - o mesmo acontece entre terças e sextas. Por exemplo, uma terça menor vai sempre virar, na inversão, uma sexta maior.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Agora, vamos invertir Dó a Si (uma sétima maior).</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Mais uma vez, mude a nota mais baixa uma oitava acima</text>
+		<gotoAndPlay label="example_three3" />
+		<text>O resultado (Si para Dó) é uma segunda menor.</text>
+		<gotoAndStop label="example_three3" />
+		<text>As segundas sempre viram sétimas, e vice-versa.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>A regra final da inversão de intervalos declara que os intervalos aumentados viram diminutos, e vice-versa.</text>
+		<gotoAndPlay label="example_four2" />
+		<text>Por exemplo, de Dó para Fá sustenido (uma quarta aumentada), vira Fá sustenido para Dó (uma quinta diminuta).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Use o quadro acima para rapidamente inverter os intervalos.</text>
+	</section>
+
+</lesson>

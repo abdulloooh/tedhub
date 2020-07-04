@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Rót</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fifthText">Fimmund</var>
+	<var name="bassText">Bassi</var>
+	<var name="rootPositionText">Grunnstaða</var>
+	<var name="firstInversionText">Fyrstu hljómhvörf</var>
+	<var name="secondInversionText">Önnur hljómhvörf</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómhvörf</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Hljóma má hverfa líkt og tónbil. Raunar má raða hljómtónum nánast að vild. Neðsta nótan, sem við nefnum <b>bassa</b>, segir hins vegar til um nafn hljómhvarfsins (hljómstöðuna).</text>
+		<gotoAndPlay label="root_position" />
+		<text>Í dæminu hér fyrir ofan er rót hljómsins (bassinn) neðsta. Hljómurinn er því í <b>rótarstöðu</b> eða <b>grunnstöðu</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Nú skulum við hverfa hljóminn.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Nú er 3und hljómsins í bassa (neðsta nótan) og hljómurinn er því í <b>fyrstu hljómhvörfum</b>; kallast sexundarhljómur.</text>
+		<gotoAndPlay label="second_inversion" />
+		<text>Ef við hverfum hljóminn aftur...</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>er 5undin í bassa. Hljómurinn er þá í <b>öðrum hljómhvörfum</b> og kallast fersexundarhljómur.</text>
+		<gotoAndPlay label="root_position_again" />
+		<text>Ef neðsta nótan er enn færð upp um 8und er hljómurinn aftur í rótarstöðu.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Hér eru þær hljómstöður sem farið var yfir.</text>
+	</section>
+
+</lesson>

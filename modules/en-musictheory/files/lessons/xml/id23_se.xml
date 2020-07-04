@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tonic</var>
+	<var name="supertonicText">Supertonic</var>
+	<var name="mediantText">Mediant</var>
+	<var name="subdominantText">Subdominant</var>
+	<var name="dominantText">Dominant</var>
+	<var name="submediantText">Submediant</var>
+	<var name="leadingToneText">Leading tone</var>
+	<var name="subtonicText">Subtonic</var>
+	<var name="hText">1/2</var>
+	<var name="wText">1</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Skalsteg</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<text>Enligt engelsk musikterminologi har varje skalsteg ett speciellt namn (på svenska har endast första och sjunde skalsteget en speciell beteckning, i övrigt används beteckningarna andra skalsteget, tredje skalsteget etc).</text>
+		<gotoAndStop label="tonic" />
+    	<text>Första tonen i skalan kallas <b> the tonic (på svenska: grundton)</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<text>Tonen på femte skalsteget kallas <b>the dominant</b>.</text>
+		<gotoAndPlay label="subdominant" />
+    	<text>Fjärde tonen i skalan kallas <b>the subdominant</b> (i betydelsen underdominant).</text>
+		<gotoAndPlay label="mediant" />
+    	<text>Eftersom tredje tonen i skalan finns <i>mitt emellan</i> the tonic (grundtonen) och the dominant kallas den för <b>the mediant</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<text>Av samma orsak kallas tonen på sjätte skalsteget för <b>the submediant</b> eftersom den är mitt emellan övre grundtonen och the <i>sub</i>dominant.</text>
+		<gotoAndPlay label="supertonic" />
+    	<text>Andra tonen i skalan kallas för <b>the supertonic</b>.  <i>Super</i> är latin för "över".</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<text>Medan namnen för de sex första skalstegen är lika för båda dur- och mollskalor, gäller detta inte för sjunde skalsteget.</text>
+		<gotoAndStop label="seventh2" />
+		<text>Om sjunde skalsteget är en halvton under grundtonen, kallas den för <b>leading tone (på svenska: inledningston)</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<text>Lyssna på C-durskalan och lägg märke till hur den sjunde tonen i skalan <i>leder</i> till grundtonen (the tonic).</text>
+		<gotoAndStop label="seventh4" />
+		<text>Inledningston förekommer också i harmoniska och melodiska mollskalor.</text>
+		<gotoAndPlay label="seventh5" />
+		<text>I ren mollskala finns sjunde tonen i skalan ett helt tonsteg under grundtonen (the tonic). Den kallas då för <b>subtonic</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<text>Lyssna på den rena c-mollskalan och lägg märke till att den sjunde tonen inte på samma sätt som en inledningston leder till grundtonen.</text>
+	</section>
+
+</lesson>

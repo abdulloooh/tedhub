@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="stepText">krok</var>
+	<!-- <var name="stepText">Step</var>-->
+	<var name="skipText">skok</var>
+	<!-- <var name="skipText">Skip</var>-->
+	<var name="passingToneAbbrText">PD</var>
+	<!-- <var name="passingToneAbbrText">PT</var>-->
+	<var name="accentedPassingToneAbbrText">&gt;PD</var>
+	<!-- <var name="accentedPassingToneAbbrText">&gt;PT</var>-->
+	<var name="neighboringToneText">SD</var>
+	<!-- <var name="neighboringToneText">NT</var>-->
+	<var name="accentedNeighboringToneText">&gt;SD</var>
+	<!-- <var name="accentedNeighboringToneText">&gt;NT</var>-->
+	<var name="escapeToneText">OD</var>
+	<!-- <var name="escapeToneText">ET</var>-->
+	<var name="appoggiaturaText">App.</var>
+	<!-- <var name="appoggiaturaText">App.</var>-->
+	<var name="anticipationText">Ant.</var>
+	<!-- <var name="anticipationText">Ant.</var>-->
+	<var name="retardationText">Op.</var>
+	<!-- <var name="retardationText">Ret.</var>-->
+	<var name="suspensionText">Zaw.</var>
+	<!-- <var name="suspensionText">Sus.</var>-->
+	<var name="changingToneText">ZD</var>
+	<!-- <var name="changingToneText">CT</var>-->
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Dźwięki obce</title>
+	<!-- <title>Nonharmonic Tones</title>-->
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Dźwięki obce</b> (albo <b>nieakordowe</b>) to dźwięki nie należące do danego akordu.</text>
+		<!-- <text><b>Nonharmonic tones</b> (or <b>non-chord tones</b>) are notes that do not belong in a certain chord.</text>-->
+		<gotoAndPlay label="example" />
+		<text>W powyźszym przykładzie F jest dźwiękiem obcym, ponieważ nie mieści się w akordzie <b>I</b> (który składa się z C, E i G).</text>
+		<!-- <text>In the above example, the F is a nonharmonic tone because it does not fit into the <b>I</b> chord (which contains C, E, and G).</text>-->
+	</section>
+	
+	<section>
+		<gotoAndStop label="step" />
+		<text>Zanim omówimy różnorakie typy dźwięków obcych musimy zdefiniować dwa pojęcia.</text>
+		<!-- <text>Before we can discuss the different types of nonharmonic tones, two terms must be defined.</text>-->
+		<gotoAndPlay label="step2" />
+		<text><b>Krok</b> odpowiada sekundzie podstawowej.</text>
+		<!-- <text>A <b>step</b> is equal to an interval of a generic second.</text>-->
+		
+		<gotoAndPlay label="skip" />
+		<text><b>Skok</b> jest podstawową tercją lub większym interwałem.</text>
+		<!-- <text>A <b>skip</b> is equal to an interval of a generic third or more.</text>-->
+		<gotoAndStop label="skip2" />
+		<text>Teraz możemy przystąpić już do omawiania poszczególnych dźwięków obcych. (Przypis tłum.: Terminologia amerykańska jest nieco odmienna od polskiej. Różnice będą krótko sygnalizowane w poszczególnych przypadkach.)</text>
+		<!-- <text>Now we can proceed to learn the various nonharmonic tones.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="passing_tone" />
+		<text><b>Przejściowy dźwięk</b> (PD) porusza się o krok między dwoma akordami wyjściowym i docelowym, w tym samym kierunku.</text>
+		<!-- <text>A <b>passing tone</b> (PT) is approached by step and then continues by step in the same direction.</text>-->
+		<gotoAndPlay label="passing_tone2" />
+		<text>Dżwięk taki w docelowym akordzie (a nie jak wyżej między dwoma akordami) nazywany jest <b>akcentowanym dźwiękiem przejściowym</b> (&gt;PD). (Przypis tłum.: wg polskiej terminologii opóźnienie nieprzygotowane, gdyż wszystkie dżwięki obce akcentowane są opóźnieniami)</text>
+		<!-- <text>If a passing tone occurs with the second chord (instead of in the middle of the two chords), it is called an <b>accented passing tone</b> (&gt;PT).</text>-->
+		<gotoAndPlay label="passing_tone3" />
+		<text>Posłuchajmy powyższych przykładów.</text>
+		<!-- <text>Listen to the above examples.</text>-->
+		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="neighboring_tone" />
+		<text><b>Sąsiedni dźwięk</b> (SD) wychyla się o krok i wraca na pierwotną nutę.</text>
+		<!-- <text>A <b>neighboring tone</b> (NT) is approached by step and then returns by step to the original note.</text>-->
+		<gotoAndPlay label="neighboring_tone2" />
+		<text>Jeśli przypada na następny akord, nazywa się <b>akcentowanym dźwiękiem sasiednim</b> (&gt;SD). (Przypis tłum.: W polskiej terminologii jedynie opóźnienia są akcentowane)</text>
+		<!-- <text>If it occurs with the second chord, it is called an <b>accented neighboring tone</b> (&gt;NT).</text>-->
+		<gotoAndPlay label="neighboring_tone3" />
+		<text>Posłuchajmy powyższych przykładów.</text>
+		<!-- <text>Listen to the above examples.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="escape_tone" />
+		<text><b>Oderwany dźwięk</b> (OD) zbliża się o krok a następnie skacze w przeciwnym kierunku. (Przyp. tłum.: W polskiej teorii skacze w dowolnym kierunku.)</text>
+		<!-- <text>An <b>escape tone</b> (ET) is approached by step and then skips in the opposite direction.</text>-->
+		<gotoAndStop label="escape_tone2" />
+		<text>Dźwięk oderwany jest nieakcentowany i występuje między dwoma akordami.</text>
+		<!-- <text>Escape tones are not accented.  They occur in between the two chords.</text>-->
+		<gotoAndPlay label="escape_tone3" />
+		<text>Posłuchajmy powyższego przykładu.</text>
+		<!-- <text>Listen to the above example.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="appoggiatura" />
+		<text><b>Appoggiatura</b> (App.) jest dokładnym tego przeciwieństwem. Najpierw skok a potem krok w przeciwnym kierunku. (Przypis tłum.: W polskiej nomenklaturze appoggiatura może być rodzajem opóźnienia)</text>
+		<!-- <text>An <b>appoggiatura</b> (App.) is the exact opposite.  It is approached by skip and then steps in the opposite direction.</text>-->
+		<gotoAndStop label="appoggiatura2" />
+		<text>Appoggiatura jest więc akcentowana. Przypada na drugi akord.</text>
+		<!-- <text>Also, appoggiaturas are accented.  They will occur with the second chord.</text>-->
+		<gotoAndPlay label="appoggiatura3" />
+		<text>Posłuchajmy powyższego przykładu.</text>
+		<!-- <text>Listen to the above example.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="anticipation" />
+		<text><b>Antycypacja</b> (Ant.) jest przybliżeniem o krok i następnie powtórzeniem tego samego dźwięku. Jest to zasadniczo nuta drugiego akordu zagrana z wyprzedzeniem.</text>
+		<!-- <text>An <b>anticipation</b> (Ant.) is approached by step and then remains the same.  It is basically a note of the second chord played early.</text>-->
+		<gotoAndStop label="anticipation2" />
+		<text>Antycypacja jest nieakcentowana.</text>
+		<!-- <text>Anticipations are unaccented.</text>-->
+		<gotoAndPlay label="anticipation3" />
+		<text>Posłuchajmy powyższych przykładów.</text>
+		<!-- <text>Listen to the above examples.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndStop label="retardation_suspension" />
+		<text>Następne dwa dźwięki obce są przeciwieństwem antycypacji. Zachowują one nutę z poprzedniego akordu.</text>
+		<!-- <text>The next two nonharmonic tones are the opposite of an anticipation.  They sustain a note from the first chord.</text>-->
+		<gotoAndPlay label="retardation_suspension2" />
+		<text><b>Opóźnienie</b> (Op.) to powtórzenie nuty z poprzedniego akordu i krok w górę.</text>
+		<!-- <text>A <b>retardation</b> (Ret.) keeps a note the same and then steps upward.</text>-->
+		<gotoAndPlay label="retardation_suspension3" />
+		<text><b>Zawieszenie</b> (Zaw.) to powtórzenie nuty i krok w dół.</text>
+		<!-- <text>A <b>suspension</b> (Sus.) keeps a note the same and then steps downward.</text>-->
+		<gotoAndStop label="retardation_suspension4" />
+		<text>Należy pamiętać, że zarówno opóżnienie jak i zawieszenie są akcentowanymi dźwiękami obcymi. (Przypis tłum.: W terminologii polskiej zawieszenie jest więc rodzajem opóźnienia.)</text>
+		<!-- <text>It should be noted that both the retardation and the suspension are accented nonharmonic tones.</text>-->
+		<gotoAndPlay label="retardation_suspension5" />
+		<text>Posłuchajmy powyższych przykładów.</text>
+		<!-- <text>Listen to the above examples.</text>-->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="changing_tone" />
+		<text>W końcu, <b>zamienny dźwięk</b> (ZD) jest w rzeczywistości dwoma dźwiękami obcymi.</text>
+		<!-- <text>Finally, a <b>changing tone</b> (CT) is actually two nonharmonic tones.</text>-->
+		<gotoAndStop label="changing_tone2" />
+		<text>Pierwszy dźwięk obcy posuwa się o krok i następnie skacze o podstawową tercję na drugi obcy dźwięk.</text>
+		<!-- <text>The first nonharmonic tone is approached by step and then jumps a generic third to the second nonharmonic tone.</text>-->
+		<gotoAndStop label="changing_tone3" />
+		<text>Drugi dźwięk obcy rozwiązuje się o krok.</text>
+		<!-- <text>The second nonharmonic tone then resolves by step.</text>-->
+		<gotoAndPlay label="changing_tone4" />
+		<text>Posłuchajmy.</text>
+		<!-- <text>Listen to the above examples.</text>-->
+	</section>
+	
+</lesson>

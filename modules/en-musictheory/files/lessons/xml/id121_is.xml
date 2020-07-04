@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Notkun Napólíhljómsins</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Í kennslueiningunni um Napólíhljóminn hér á undan lærðir þú að mynda Napólíhljóm. Nú er að skoða hvernig nota má þennan hljóm.</text>
+		<gotoAndPlay label="first_inversion" />
+		<text>Þó nota megi rótarstöðu og 2. hljómhvörf Napólíhljóms þá eru 1. hljómhvörf venjulega notuð.</text>
+		<gotoAndStop label="first_inversion2" />
+		<text>Hljómurinn í þessari stöðu er vanalega nefndur <b>Napólí sexundarhljómur</b>, eða bara Napólí sexund.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="bass_notes" />
+		<text>Athugaðu að neðsta nóta Napólí sexundarhljóms er 4und tóntegundarinnar, sem einnig er neðsta nóta <b>iiº</b> (eða <b>ii</b>) í 1. hljómhvörfum, eða <b>iv</b> (eða <b>IV</b>) í rótarstöðu.</text>
+		<gotoAndPlay label="chart" />
+		<text>Af þessari ástæðu er hljómurinn oft notaður sem staðgengill fyrir þessa hljóma og virkar þá aðallega sem undirforhljómur.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Lítum á dæmið hér fyrir ofan til að skýra þetta.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Skiptum nú 3. hljómnum út (minnkað annað sæti í 1 hljómhvörfum) og setjum í staðin Napólí sexund.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Þá hljómar dæmið svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Skoðum næst þetta dæmi.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Ef við setjum Napólí sexund í stað <b>IV</b>,</text>
+		<gotoAndPlay label="example_two3" />
+		<text>hljómar dæmið svona.</text>
+	</section>
+		
+</lesson>

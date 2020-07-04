@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">1/2</var>
+	<var name="wText">1</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Durskalan</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>En <b>skala</b> är ett urval av tonerna inom en oktav. Den första skalan vi ska diskutera är <b>durskalan</b>.</text>
+		<gotoAndStop label="formula" />
+		<text>Durskalan är konstruerad utifrån ovanstående tonstegsmönster. Siffran 1 står här för heltonsteg och 1/2 för halva tonsteg.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<text>Vi konstruerar en C-durskala. Utgångstonen är C.</text>
+		<gotoAndStop label="c_major2" />
+		<text>Från C är det ett helt tonsteg till D.</text>
+		<gotoAndStop label="c_major3" />
+		<text>Från D är det ytterligare en helton till E.</text>
+		<gotoAndStop label="c_major4" />
+		<text>Därefter tar vi oss ett halvt tonsteg upp till F.</text>
+		<gotoAndStop label="c_major5" />
+		<text>Från F, är det återigen en helton till G.</text>
+		<gotoAndStop label="c_major6" />
+		<text>Ytterligare ett helt tonsteg till A.</text>
+		<gotoAndStop label="c_major7" />
+		<text>Det sista heltonssteget i skalan tar oss till B.</text>
+		<gotoAndStop label="c_major8" />
+		<text>Slutligen leder det sista halva tonsteget oss tillbaka till utgångstonen C.</text>
+		<gotoAndPlay label="c_major9" />
+		<text>Lyssna på den fullständiga C-durskalan.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<text>Nu konstruerar vi Eb-durskalan. Utgångstonen är Eb (ess).</text>
+		<gotoAndPlay label="eb_major2" />
+		<text>Lägg märke till att det halva tonsteget upp från G leder till Ab (ass), inte till A.</text>
+		<gotoAndStop label="eb_major3" />
+		<text>Heltonen från Ab för oss till Bb (bess).</text>
+		<gotoAndStop label="eb_major4" />
+		<text>Nästa heltonssteg leder till C.</text>
+		<gotoAndPlay label="eb_major5" />
+		<text>Slutligen leder halvtonen upp från D tillbaka till utgångstonen Eb.</text>
+		<gotoAndStop label="eb_major6" />
+		<text>Lägg märke till att Eb-dur har tre b-förtecken (De båda Eb:n räknas endast en gång).</text>
+		<gotoAndPlay label="eb_major7" />
+		<text>Lyssna på den kompletta Eb-durskalan.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<text>Den sista skalan vi ska gå igenom är D-durskalan.</text>
+		<gotoAndPlay label="d_major2" />
+		<text>Från E tar en helton oss upp till F# (fiss).</text>
+		<gotoAndStop label="d_major3" />
+		<text>Det halva tonsteget leder till G.</text>
+		<gotoAndPlay label="d_major4" />
+		<text>Från B, är det ett helt tonsteg till tonen C# (ciss).</text>
+		<gotoAndStop label="d_major5" />
+		<text>Slutligen, det halva tonsteget leder tillbaka till tonen D.</text>
+		<gotoAndStop label="d_major6" />
+		<text>Lägg märke till att D-dur har två korsförtecken.</text>
+		<gotoAndPlay label="d_major7" />
+		<text>Lyssna på den fullständiga D-durskalan.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<text>Man kan konstruera vilken durskala som helst. Börja på valfri ton och använd den här formeln.</text>
+	</section>	
+</lesson>

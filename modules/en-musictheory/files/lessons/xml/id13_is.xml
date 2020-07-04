@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Lengdargildi þagna</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text><b>Þagnarmerki</b> eru notuð til að sýna þagnir innan taktsins.</text>
+		<gotoAndPlay label="notes" />
+		<text>Hver þögn samsvarar lengdargildi tiltekinnar nótu.</text>
+		<gotoAndStop label="notes2" />
+		<text>Fjórðungsþögn og fjórðungsnóta hafa til að mynda sama lengdargildi (jafna lengd). Nótan stendur fyrir tón (eða hljóð), þagnarmerkið fyrir þögn.</text>
+	</section>
+			
+	<section>
+		<gotoAndPlay label="example" />
+		<text>Til glöggvunar skulum við fylla einn 4/4 takt með fjórðungsnótum.</text>
+		<gotoAndPlay label="example2" />
+		<text>Takturinn hljómar svona.</text>
+		<gotoAndPlay label="example3" />
+		<text>Nú setjum við fjórðungs þögn í stað nótunnar á öðru slagi.</text>
+		<gotoAndPlay label="example4" />
+		<text>Í stað nótu er nú þögn á 2. slagi taktsins.</text>
+	</section>	
+
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Notaðu þessa mynd til að minna þig á lengdargildi þagna.</text>
+	</section>		
+
+</lesson>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Fundamental</var>
+	<var name="thirdText">Terça</var>
+	<var name="fifthText">Quinta</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Formando Acordes Napolitanos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Um <b>acorde napolitano</b> é simplesmente uma tríade maior que é formada sobre uma nota especial.</text>
+		<text>Essa nota é o segundo grau (a supertônica) rebaixado de uma escala maior ou menor.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Vamos formar o acorde napolitano para Dó Menor.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Primeiro, descubra o segundo grau da escala. Em Dó Menor, é o Ré.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Agora, vamos rebaixá-lo para Ré bemol.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Por fim, forme uma tríade maior.  Isso resulta em Ré bemol, Fá e Lá bemol.</text>
+		<gotoAndStop label="example_one5" />
+		<text>Logo, o acorde de Ré bemol maior é o napolitado de Dó Menor.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Agora, vamos tentar formar o napolitano de Mi Menor.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Novamente, precisamos achar o segundo grau da escala.  Em Mi Menor, ele é o Fá sustenido.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Agora, rebaixe-o para Fá natural.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Por fim, forme uma tríade maior. Isso resulta em Fá, Lá e Dó.</text>
+		<gotoAndStop label="example_two5" />
+		<text>Logo, o acorde maior de Fá é o napolitano de Mi Menor.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Como nosso exemplo final, vamos formar o napolitano de Lá bemol Maior.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Neste tom, o segundo grau da escala é o Si bemol.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Agora, rebaixe-o para Si dobrado bemol.</text>
+		<gotoAndPlay label="example_three4" />
+		<text>Por fim, forme uma tríade maior.  Isso resulta em Si dobrado bemol, Ré bemol e Fá bemol.</text>
+		<gotoAndPlay label="example_three5" />
+		<text>Logo, o acorde maior de Si dobrado bemol é o napolitano de Lá bemol Maior.</text>
+	</section>
+	
+</lesson>

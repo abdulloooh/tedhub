@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Vertaling door Rob Kap</translation> -->
+	<translation>Vertaling: Rob Kap</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Grondligging</var>
+	<var name="thirdText">Derde</var>
+	<var name="fifthText">Vijfde</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Opbouw van Napels accoorden</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Een <b>Napels accoord</b> is eenvoudig een majeur drieklank die gebaseerd is op een speciale toon.</text>
+		<text>Deze toon is de verlaagde tweede trap (de supertoon) van een majeur of mineur toonladder.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Laten we het Napels accoord maken voor C mineur.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Neem eerst de tweede trap op de toonladder. In C Mineur is dat de D.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Vervolgens verlagen we deze naar Db.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Tot slot, maak een majeur drieklank. Dit resulteert in Db, F, en Ab.</text>
+		<gotoAndStop label="example_one5" />
+		<text>Dus, een Db majeur accoord is het Napels accoord van C mineur.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Laten we vervolgens proberen het Napels accoord voor E mineur te maken.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Opnieuw nemen we de tweede trap op de toonladder.  In E Mineur, is dit F#.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Verlaag deze nu naar F.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Tot slot, maak een majeur drieklank.  Dit resulteert in F, A, en C.</text>
+		<gotoAndStop label="example_two5" />
+		<text>Dus is een F majeur accoord het Napels accoord van E mineur.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Voor ons laatste voorbeeld zullen we het Napels accoord voor Ab majeur maken.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Bij deze toonladder is de tweede trap Bb.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Verlaag deze vervolgens naar Bbb.</text>
+		<gotoAndPlay label="example_three4" />
+		<text>Maak tot slot een majeur drieklank.  Dit resulteert in Bbb, Db, en Fb.</text>
+		<gotoAndPlay label="example_three5" />
+		<text>Dus, een Bbb majeur accoord is het Napels accoord van Ab Majeur.</text>
+	</section>
+	
+</lesson>

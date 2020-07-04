@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Colchete</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Valores das Notas</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A duração de tempo que uma nota é tocada, em proporção às demais, é definida pelo <b>valor</b>, que é indicado pelo desenho da nota.</text>
+		<gotoAndPlay label="whole" />
+		<text>A <b>semibreve</b> é a nota que tem o maior valor na música moderna.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>A <b>mínima</b> tem a metade do valor de uma semibreve.</text>
+		<gotoAndPlay label="half2" />
+		<text>Ou seja, duas mínimas ocupam a mesma quantidade de tempo que uma semibreve.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text>A <b>semínima</b> tem um quarto do valor da semibreve.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Ou seja, quatro semínimas preenchem a mesma duração de tempo que uma semibreve.  E duas semínimas têm a mesma duração de uma mínima.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Notas com valores menores que a semínima contêm <b>colchetes</b>.  Cada colchete reduz à metade o valor da nota.</text>
+		<gotoAndPlay label="eighth" />
+		<text>Uma <b>colcheia</b> tem um colchete; portanto, ela tem a metade do valor de uma semínima.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>Uma <b>semicolcheia</b> tem dois colchetes, o que reduz o valor novamente pela metade.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Embora seja possível tocar notas com três ou mais colchetes, elas são pouco usadas.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>O quadro acima mostra a relação entre todos os cinco tipos de notas discutidos nesta lição.</text>
+	</section>
+
+</lesson>

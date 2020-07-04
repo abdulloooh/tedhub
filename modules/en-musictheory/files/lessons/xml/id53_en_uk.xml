@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="stepText">Step</var>
+	<var name="skipText">leap</var>
+	<var name="passingToneAbbrText">PN</var>
+	<var name="accentedPassingToneAbbrText">&gt;PN</var>
+	<var name="neighboringToneText">AN</var>
+	<var name="accentedNeighboringToneText">&gt;AN</var>
+	<var name="escapeToneText">E</var>
+	<var name="appoggiaturaText">App.</var>
+	<var name="anticipationText">Ant.</var>
+	<var name="retardationText">Ret.</var>
+	<var name="suspensionText">Sus.</var>
+	<var name="changingToneText">CN</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Nonharmonic Notes</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Nonharmonic notes</b> (or <b>non-chord notes</b>) are notes that do not belong in a certain chord.</text>
+		<gotoAndPlay label="example" />
+		<text>In the above example, the F is a nonharmonic note because it does not fit into the <b>I</b> chord (which contains C, E, and G).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="step" />
+		<text>Before we can discuss the different types of nonharmonic notes, two terms must be defined.</text>
+		<gotoAndPlay label="step2" />
+		<text>A <b>step</b> is equal to an interval of a generic second.</text>
+		<gotoAndPlay label="skip" />
+		<text>A <b>leap</b> is equal to an interval of a generic third or more.</text>
+		<gotoAndStop label="skip2" />
+		<text>Now we can proceed to learn the various nonharmonic tones.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="passing_tone" />
+		<text>A <b>passing note</b> (PN) is approached by step and then continues by step in the same direction.</text>
+		<gotoAndPlay label="passing_tone2" />
+		<text>If a passing note occurs with the second chord (instead of in the middle of the two chords), it is called an <b>accented passing note</b> (&gt;PN).</text>
+		<gotoAndPlay label="passing_tone3" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="neighboring_tone" />
+		<text>A <b>auxiliary note</b> (AN) is approached by step and then returns by step to the original note.</text>
+		<gotoAndPlay label="neighboring_tone2" />
+		<text>If it occurs with the second chord, it is called an <b>accented auxiliary note</b> (&gt;NT).</text>
+		<gotoAndPlay label="neighboring_tone3" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="escape_tone" />
+		<text>An <b>echappé</b> (E) is approached by step and then leaps in the opposite direction.</text>
+		<gotoAndStop label="escape_tone2" />
+		<text>Echappé's are not accented.  They occur in between the two chords.</text>
+		<gotoAndPlay label="escape_tone3" />
+		<text>Listen to the above example.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="appoggiatura" />
+		<text>An <b>appoggiatura</b> (App.) is the exact opposite.  It is approached by leap and then steps in the opposite direction.</text>
+		<gotoAndStop label="appoggiatura2" />
+		<text>Also, appoggiaturas are accented.  They will occur with the second chord.</text>
+		<gotoAndPlay label="appoggiatura3" />
+		<text>Listen to the above example.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="anticipation" />
+		<text>An <b>anticipation</b> (Ant.) is approached by step and then remains the same.  It is basically a note of the second chord played early.</text>
+		<gotoAndStop label="anticipation2" />
+		<text>Anticipations are unaccented.</text>
+		<gotoAndPlay label="anticipation3" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="retardation_suspension" />
+		<text>The next two nonharmonic tones are the opposite of an anticipation.  They sustain a note from the first chord.</text>
+		<gotoAndPlay label="retardation_suspension2" />
+		<text>A <b>retardation</b> (Ret.) keeps a note the same and then steps upward.</text>
+		<gotoAndPlay label="retardation_suspension3" />
+		<text>A <b>suspension</b> (Sus.) keeps a note the same and then steps downward.</text>
+		<gotoAndStop label="retardation_suspension4" />
+		<text>It should be noted that both the retardation and the suspension are accented nonharmonic tones.</text>
+		<gotoAndPlay label="retardation_suspension5" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="changing_tone" />
+		<text>Finally, a <b>changing note</b> (CN) is actually two nonharmonic tones.</text>
+		<gotoAndStop label="changing_tone2" />
+		<text>The first nonharmonic note is approached by step and then jumps a generic third to the second nonharmonic tone.</text>
+		<gotoAndStop label="changing_tone3" />
+		<text>The second nonharmonic note then resolves by step.</text>
+		<gotoAndPlay label="changing_tone4" />
+		<text>Listen to the above examples.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Грађење наполитанских акорада</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Наполитански акорд</b> је дурски трозвук изведен на посебној ноти.</text>
+		<text>Та нота је умањени други ступањ (супертоника) дурске или молске лествице.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Хајде да направимо наполитански акорд у c-молу.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Прво треба да нађемо други ступањ.  У c-мол лествици, то је <b>d</b>.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Сада други ступањ хроматски снизимо у <b>des</b>.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>И коначно направимо дурски трозвук.  Добијамо <b>des</b>, <b>f</b>, <b>as</b>.</text>
+		<gotoAndStop label="example_one5" />
+		<text>Дакле, Des-дур је наполитански акорд c-мола.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Сада ћемо направити наполитански акорд у e-молу.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Опет прво утврдимо други ступањ лествице.  У e-молу то је <b>fis</b>.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Сада га хроматски снизимо у <b>f</b>.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>И коначно изградимо дурски трозвук.  Добијамо <b>f</b>, <b>a</b>, <b>c</b>.</text>
+		<gotoAndStop label="example_two5" />
+		<text>То значи да је F-дур наполитански акорд e-мола.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>У задњем примеру направићемо наполитански акорд у As-дуру.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>У овом тоналитету, други ступањ је <b>b</b>.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Хроматски га снижавамо у <b>heses</b>.</text>
+		<gotoAndPlay label="example_three4" />
+		<text>И коначно градимо дурски трозвук.  Добијамо <b>heses</b>, <b>des</b>, <b>fes</b>.</text>
+		<gotoAndPlay label="example_three5" />
+		<text>Значи, Heses-дур је наполитански акорд As-дура.</text>
+	</section>
+	
+</lesson>

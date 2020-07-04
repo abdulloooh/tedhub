@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">m2</var>
+	<var name="majorThirdText">M3</var>
+	<var name="perfectFourthText">P4</var>
+	<var name="perfectFifthText">P5</var>
+	<var name="minorSixthText">m6</var>
+	<var name="majorSeventhText">M7</var>
+	<var name="minorText">Minor</var>
+	<var name="majorText">Major</var>
+	<var name="perfectText">Perfect</var>
+	<var name="diminishedText">Diminished</var>
+	<var name="augmentedText">Augmented</var>
+	<var name="secondText">Second</var>
+	<var name="thirdText">Third</var>
+	<var name="fourthText">Fourth</var>
+	<var name="fifthText">Fifth</var>
+	<var name="sixthText">Sixth</var>
+	<var name="seventhText">Seventh</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Interval Inversion</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>In music, the verb <b>invert</b> means to move the lowest note in a group an octave higher.</text>
+		<text>In this lesson, we will be inverting intervals.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>For our first example, we will use the interval of C to G (a perfect fifth).</text>
+		<gotoAndPlay label="example_one2" />
+		<text>To invert this interval, move the lowest note (the C) an octave higher.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>The result (G to C) is a perfect fourth.</text>
+		<gotoAndStop label="example_one4" />
+		<text>Perfects will always invert to perfects.  Fourths will always invert to fifths.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>For our next example, we will use C to E (a major third).</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Again, move the lowest note (the C) an octave higher.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>The result (E to C) is a minor sixth.</text>
+		<gotoAndStop label="example_two4" />
+		<text>Majors and minors will always invert to each other - as will thirds and sixths.  For example, a minor third will always invert to a major sixth.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Next, we will invert C to B (a major seventh).</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Yet again, move the lowest note an octave higher</text>
+		<gotoAndPlay label="example_three3" />
+		<text>The result (B to C) is a minor second.</text>
+		<gotoAndStop label="example_three3" />
+		<text>Seconds and sevenths will always invert to each other.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>The final rule of interval inversion states that augmented and diminished intervals always invert to each other.</text>
+		<gotoAndPlay label="example_four2" />
+		<text>For example, C to F# (an augmented fourth), results in F# to C (a diminished fifth).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Use the above chart to quickly invert intervals.</text>
+	</section>
+
+</lesson>

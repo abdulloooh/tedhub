@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">основни тон</var>
+	<var name="thirdText">терца</var>
+	<var name="fifthText">квинта</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Увод у акорде</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Акорд</b> је скуп од најмање три или више тонова.</text>
+		<text>Акорди се граде над једним тоном, који се зове <b>основни тон</b>.</text>
+		<gotoAndStop label="triad" />
+		<text>У овој лекцији ћемо обрадити <b>трозвуке</b>.  Трозвуци се састоје од основног тона, терце и квинте.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major" />
+		<text>Почећемо са са <b>дурским трозвуком</b> (C-дуром).  Гради се од од <i>велике</i> терце и квинте основног тона.</text>
+		<gotoAndPlay label="major2" />
+		<text>Прво запишемо основни тон (у овом случају <b>c</b>), генеричку терцу и генеричку квинту на нотни систем.</text>
+		<gotoAndPlay label="major3" />
+		<text>Затим ћемо изградити акорд на клавиру.  Пошто нам треба велика терца, пењемо се 4 полустепена од основног тона.</text>
+		<gotoAndPlay label="major4" />
+		<text>Сад нам треба чиста квинта.  Идемо назад до основног тона и избројимо 7 полустепени од њега.</text>
+		<gotoAndStop label="major5" />
+		<text>Приметите да се у овом акорду не користе црне дирке, што значи да нам не требају предзнаци на нотном систему.</text>
+		<gotoAndPlay label="major6" />
+		<text>Послушајте C-дур.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Следећи на реду је <b>молски трозвук</b>.  Он се гради од <i>мале</i> терце и чисте квинте основног тона.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Хајде да направимо c-мол.  Записаћемо основни тон и генеричке интервале.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Затим потражимо малу терцу на клавиру (3 полустепена).</text>
+		<gotoAndPlay label="minor4" />
+		<text>Затим потражимо чисту квинту.</text>
+		<gotoAndPlay label="minor5" />
+		<text>И коначно запишемо предзнаке.  Као што видите, c-мол се састоји од тонова <b>c</b>, <b>es</b>, <b>g</b>.</text>
+		<gotoAndPlay label="minor6" />
+		<text>Послушајте c-мол.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text><b>Прекомерни трозвук</b> се састоји од велике терце и <i>прекомерне</i> квинте.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>При тражењу интервала на клавиру, запамтите да прекомерна квинта има 8 полустепени.</text>
+		<gotoAndPlay label="augmented3" />
+		<text>Након записивања предзнака, видимо да C-прекомерни трозвук садржи тонове <b>c</b>, <b>e</b>, <b>gis</b>.</text>
+		<gotoAndPlay label="augmented4" />
+		<text>Послушајте C-прекомерни  трозвук.</text>
+		<gotoAndStop label="augmented5" />
+		<text>Приметите да је једина разлика између прекомерног и дурског трозвука повишена квинта.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Последњи трозвук који ћемо обрадити је <b>умањени трозвук</b>.  Састоји се од мале терце и <i>умањене</i> квинте.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>При тражењу интервала на клавиру, запамтите да умањена квинта има 6 полустепени.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>После записивања предзнака, видимо да c-умањени трозвук садржи тонове <b>c</b>, <b>es</b>, <b>ges</b>.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Послушајте c-умањени трозвук.</text>
+		<gotoAndStop label="diminished5" />
+		<text>Приметите да је једина разлика између умањеног и молског трозвука умањена квинта.</text>
+	</section>
+
+</lesson>

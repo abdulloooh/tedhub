@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cText">Do</var>
+	<var name="dText">Ré</var>
+	<var name="eText">Mi</var>
+	<var name="fText">Fa</var>
+	<var name="gText">Sol</var>
+	<var name="aText">La</var>
+	<var name="bText">Si</var>
+	<var name="trebleText">Clef de Sol</var>
+	<var name="bassText">Clef de Fa</var>
+
+	<!-- Translate all text between <title> and </title> -->   
+	<title>La Portée, les Clefs et les Lignes supplémentaires</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>La <b>portée</b> est la base sur laquelle nous allons écrire les notes.</text>
+		<gotoAndPlay label="numbers" />
+		<text>La portée moderne comporte cinq lignes et quatre interlignes.</text>
+		<gotoAndPlay label="keyboard" />
+		<text>Chaque ligne ou interligne correspond à une touche blanche du clavier.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="clefs" />
+		<text><b>Les Clefs</b> attribuent à chaque note une place sur une ligne ou dans une interligne.</text>
+		<gotoAndStop label="clefs2" />
+		<text>Les deux clefs les plus utilisées sont: la clef de Sol et la clef de Fa.</text>
+		<gotoAndPlay label="treble" />
+		<text>La première clef dont nous allons parler est la clef de Sol.</text>
+		<gotoAndStop label="treble2" />
+		<text>La ligne autour de laquelle s'enroule la clef de Sol (en rouge) représente la hauteur de la note Sol. Chaque note plaçée sur cette ligne s'appellera Sol.</text>
+		<gotoAndStop label="treble3" />
+		<text>La note qui se trouve dans l'interligne au dessus du Sol est la note La.</text>
+		<gotoAndStop label="treble4" />
+		<text>La note sur la ligne au dessus du La est la note Si.</text>
+		<gotoAndPlay label="treble5" />
+		<text>Et ainsi de suite, on continue à monter la gamme...</text>
+		<gotoAndStop label="treble6" />
+		<text>Oups! Voici qu'il ne reste plus de place pour mettre des notes, que va-t-il donc se passer?</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="ledger" />
+		<text><b>Les lignes supplémentaires</b> vont résoudre notre problème.</text>
+		<gotoAndPlay label="ledger2" />
+		<text>Une ligne supplémentaire est une petite ligne qui permet d'étendre la portée au dessus ou en dessous.</text>
+		<gotoAndPlay label="ledger3" />
+		<text>Sur cette ligne supplémentaire nous pouvons maintenant placer la note La.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="bass" />
+		<text>Voici maintenant la clef de Fa.</text>
+		<gotoAndStop label="bass2" />
+		<text>La ligne de la portée qui se trouve entre les deux points représente la note Fa.</text>
+		<gotoAndPlay label="bass3" />
+		<text>Nous remplissons ensuite le reste de la portée avec des notes.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="grand" />
+		<text>Maintenant nous allons parler de <b>la grande portée</b>, une portée théorique constituée de onze lignes.</text>
+		<gotoAndPlay label="grand2" />
+		<text>Regardez ce qui se passe lorsque nous éliminons la ligne du milieu. Nous avons maintenant deux portées normales.</text>
+		<gotoAndPlay label="grand3" />
+		<text>Lorsque l'on ajoute une clef de Sol sur la portée du haut et une clef de Fa sur la portée du bas, nous voyons la relation qui existe entre ces deux portées.</text>
+		<gotoAndStop label="grand4" />
+		<text>Remarquez comment les deux portées se rejoignent au milieu au niveau du Do.</text>
+		<text>Ce Do est habituellement appellé le Do du "milieu" ou Do "serrure" car il se trouve près de la serrure du piano.</text>
+	</section>
+
+</lesson>

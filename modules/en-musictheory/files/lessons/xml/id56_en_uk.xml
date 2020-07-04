@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="majorText">Major</var>
+	<var name="minorText">Minor</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Circle Progressions</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Root motion</b> is the movement from one chord's root to another chord's root.</text>
+		<gotoAndPlay label="example_one" />
+		<text>To demonstrate root motion, we will use a <b>I</b> and a <b>vi</b> chord in C Major.</text>
+		<gotoAndStop label="example_one2" />
+		<text>The root of the <b>I</b> chord (a C major triad) is C.</text>
+		<gotoAndStop label="example_one3" />
+		<text>The root of the <b>vi</b> chord (an A minor triad) is A.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Therefore, the root motion between <b>I</b> and <b>vi</b> (C to A) is <i>down a third</i>.</text>
+		<gotoAndPlay label="example_one5" />
+		<text>Due to interval inversion, the root motion could also be classified as <i>up a sixth.</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Let's try another example: a <b>IV</b> chord in first inversion going to <b>V</b>.</text>
+		<gotoAndStop label="example_two2" />
+		<text>The root of the first chord (an F major triad) is F.  Since the chord is inverted, the root is not the lowest note.</text>
+		<gotoAndStop label="example_two3" />
+		<text>The root of the second chord (a G major triad) is G.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Therefore, the root motion of these two chords is <i>up a second</i> or <i>down a seventh</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="circle" />
+		<text>A <b>circle progression</b> occurs whenever root motion is equal to <i>up a fourth</i> or <i>down a fifth</i>.</text>
+		<gotoAndPlay label="circle2" />
+		<text>Both <b>I -> IV</b> and <b>ii -> V</b> are circle progressions.</text>
+		<gotoAndPlay label="circle3" />
+		<text><b>iii -> vi</b> and <b>IV -> viiº in first inversion</b> are also circle progressions.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Let's work out all possible circle progressions for a major scale.</text>
+		<gotoAndPlay label="major2" />
+		<text><b>I</b> progresses to <b>IV</b>, which progresses to <b>viiº</b>.</text>
+		<gotoAndPlay label="major3" />
+		<text><b>viiº</b> progresses to <b>iii</b> and then to <b>vi</b>.</text>
+		<gotoAndPlay label="major4" />
+		<text><b>vi</b> progresses to <b>ii</b>, <b>V</b>, and finally <b>I</b>.</text>
+		<gotoAndPlay label="major5" />
+		<text>Listen to the above example.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Next, we will work out all possible circle progressions for a minor scale.</text>
+		<gotoAndPlay label="minor2" />
+		<text><b>i</b> progresses to <b>iv</b> and then to <b>VII</b> (not <b>viiº</b>).</text>
+		<gotoAndPlay label="minor3" />
+		<text><b>VII</b> progresses to <b>III</b> and then <b>VI</b>.</text>
+		<gotoAndPlay label="minor4" />
+		<text><b>VI</b> progresses to <b>iiº</b>, <b>V</b> (not <b>v</b>), and finally <b>i</b>.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Listen to the above example.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>The above chart displays the circle progressions for both major and minor scales.</text>
+	</section>
+	
+</lesson>

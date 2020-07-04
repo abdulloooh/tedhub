@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="minusOneText">-1</var>
+	<var name="zeroText">0</var>
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="fourText">4</var>
+	<var name="fiveText">5</var>
+	<var name="sixText">6</var>
+	<var name="sevenText">7</var>
+	<var name="eightText">8</var>
+	<var name="nineText">9</var>
+	<var name="tenText">10</var>
+	<var name="elevenText">11</var>
+	<var name="twelveText">12</var>
+	<var name="thirteenText">13</var>
+	<var name="firstText">Prim</var>
+	<var name="secondText">Sekund</var>
+	<var name="thirdText">Ters</var>
+	<var name="fourthText">Kvart</var>
+	<var name="fifthText">Kvint</var>
+	<var name="sixthText">Sext</var>
+	<var name="seventhText">Septima</var>
+	<var name="eighthText">Oktav</var>
+	<var name="diminishedText">Förminskad</var>
+	<var name="minorText">Liten</var>
+	<var name="perfectText">Ren</var>
+	<var name="majorText">Stor</var>
+	<var name="augmentedText">Överstigande</var>
+	<var name="majorSecondText">S2</var>
+	<var name="majorThirdText">S3</var>
+	<var name="perfectFourthText">R4</var>
+	<var name="augmentedFourthText">Ö4</var>
+	<var name="diminishedFifthText">F5</var>
+	<var name="perfectFifthText">R5</var>
+	<var name="majorSixthText">S6</var>
+	<var name="augmentedSixthText">Ö6</var>
+	<var name="diminishedSeventhText">F7</var>
+	<var name="minorSeventhText">L7</var>
+	<var name="majorSeventhText">S7</var>
+	<var name="perfectEighthText">R8</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Intervall II</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Mer exakt beskrivna intervall</b> avläses både i notsystemet och som halvtonssteg på ett klaviatur.</text>
+		<gotoAndPlay label="intro" />
+		<text>Som du lärde dig i förra lektionen, är både C till D och C till Db sekunder. Mer exakt är dock C till D en halvton större intervall än C till Db.</text>
+		<gotoAndStop label="intro2" />
+		<text>Vi ska här lära oss några vanliga intervall.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="major_second" />
+		<text>En stor sekund utgörs av två halvtonssteg.</text>
+		<gotoAndPlay label="major_second2" />
+		<text>C till D är en stor sekund eftersom det är en sekund avläst på notsystemet och två halva tonsteg på klaviaturen.</text>
+		<gotoAndPlay label="major_second3" />
+		<text>E till F# är ett annat exempel på en stor sekund.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_third" />
+		<text>En <b>stor ters</b> utgörs av fyra halvtonssteg.</text>
+		<gotoAndPlay label="major_third2" />
+		<text>C till E är en stor ters.</text>
+		<gotoAndPlay label="major_third3" />
+		<text>E till G# är också en stor ters.</text>
+	</section>
+		
+	<section>
+		<gotoAndStop label="perfect_fourth" />
+		<text>En <b>ren kvart</b> består av fem halva tonsteg.</text>
+		<gotoAndPlay label="perfect_fourth2" />
+		<text>C till F är en ren kvart.</text>
+		<gotoAndPlay label="perfect_fourth3" />
+		<text>F till Bb är också en ren kvart.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="perfect_fifth" />
+		<text>En <b>ren kvint</b> består av sju halva tonsteg.</text>
+		<gotoAndPlay label="perfect_fifth2" />
+		<text>C till G är en ren kvint.</text>
+		<gotoAndPlay label="perfect_fifth3" />
+		<text>B till F# är också en ren kvint.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_sixth" />
+		<text>En <b>stor sext</b> består av nio halvtonssteg.</text>
+		<gotoAndPlay label="major_sixth2" />
+		<text>C till A är en stor sext.</text>
+		<gotoAndPlay label="major_sixth3" />
+		<text>Eb till C är också en stor sext.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_seventh" />
+		<text>En <b>stor septima</b> består av elva halvtonssteg.</text>
+		<gotoAndPlay label="major_seventh2" />
+		<text>C till B är en stor septima.</text>
+		<gotoAndPlay label="major_seventh3" />
+		<text>D till C# är också en stor septima.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="perfect_eighth" />
+		<text>Slutligen, en <b>ren oktav</b> består av tolv halva tonsteg.</text>
+		<gotoAndPlay label="perfect_eighth2" />
+		<text>C till C är en ren oktav.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Utöver stora och rena intervall finns det också <b>små (liten)</b>, <b>överstigande</b>, och <b>förminskade</b> intervall.</text>
+		<gotoAndStop label="diminished2" />
+		<text>Ett förminskat intervall är ett halvt tonsteg mindre jämfört med motsvarande rena intervall.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Eftersom C till G är en ren kvint (7 halva tonsteg), är C till Gb en förminskad kvint (6 halva tonsteg).</text>
+		<gotoAndPlay label="diminished4" />
+		<text>B till F är också en förminskad kvint (eftersom B till F# är en ren kvint).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Ett överstigande intervall har ett halvt tonsteg mer jämfört med motsvarande rena intervall.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Eftersom C till F är en ren kvart (5 halva tonsteg), blir C till F# en överstigande kvart (6 halva tonsteg).</text>
+		<gotoAndPlay label="augmented3" />
+		<text>F till B är också en överstigande kvart (eftersom F till Bb är en ren kvart).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_augmented" />
+		<text>Stora intervall kan också bli överstigande genom att man lägger till ett halvt tonsteg.</text>
+		<gotoAndPlay label="major_augmented2" />
+		<text>Eftersom C till A är en stor sext (9 halvtonssteg), är C till A# en överstigande sext (10 halva tonsteg).</text>
+		<gotoAndPlay label="major_augmented3" />
+		<text>Db till B är också en överstigande sext (eftersom Db till Bb är en stor sext).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Om man minskar ett stort intervall med ett halvt tonsteg så blir det inte förminskat; istället blir det litet.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Ett exempel: eftersom C till B är en stor septima (11 halvtonssteg), blir C till Bb en liten septima (10 halva tonsteg).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Endast om man minskar intervallet med ytterligare ett halvt tonsteg blir det förminskat. Med andra ord, C till Bbb är en förminskad septima (9 halva tonsteg).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Ovanstående tabell visar antalet halvtonssteg som varje specifikt intervall består av.</text>
+	</section>
+</lesson>

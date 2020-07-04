@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<!--<var name="hText">h</var>-->
+	<var name="hText">p</var>
+	<!--<var name="wText">W</var>-->
+	<var name="wText">C</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<!--<title>The Major Scale</title>-->
+	<title>Gama majorowa (durowa)</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<!--<text>A <b>scale</b> is a selection of certain notes within an octave.  The first scale that we will discuss is the <b>major scale</b>.</text>-->
+		<text><b>Gama</b> jest to wybór nut w obrębie oktawy. Omówimy najpierw <b>gamę majorową</b>.</text>
+		<gotoAndStop label="formula" />
+		<!--<text>The major scale is constructed with the above formula.  W's represent whole steps and h's represent half steps.</text>-->
+		<text>Gama majorowa jest zbudowana według powyższej formuły. C przedstawia cały ton a p przedstawia półton.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<!--<text>Let's build a C Major Scale.  Our starting note will be C.</text>-->
+		<text>Zbudujmy gamę C-dur. Zaczynamy więc od C.</text>
+		<gotoAndStop label="c_major2" />
+		<!--<text>From the C, we will take a whole step to D.</text>-->
+		<text>Od C posuniemy się o cały ton do D.</text>
+		<gotoAndStop label="c_major3" />
+		<!--<text>From the D, we will take another whole step to E.</text>-->
+		<text>Od D, drugi cały ton do E.</text>
+		<gotoAndStop label="c_major4" />
+		<!--<text>Next, we will go up a half step to F.</text>-->
+		<text>Następnie posuniemy się w górę o pół tonu do F.</text>
+		<gotoAndStop label="c_major5" />
+		<!--<text>From F, a whole step will take us to G.</text>-->
+		<text>Od F, cały ton zaprowadzi nas do G.</text>
+		<gotoAndStop label="c_major6" />
+		<!--<text>Next is another whole step to A.</text>-->
+		<text>Znowu cały ton do A.</text>
+		<gotoAndStop label="c_major7" />
+		<!--<text>The last whole step takes us to B.</text>-->
+		<text>Ostatni cały ton zaprowadzi nas do H.</text>
+		
+		<gotoAndStop label="c_major8" />
+		<!--<text>Finally, the half step returns us to C.</text>-->
+		<text>W końcu pół tonu i powracamy do C.</text>
+		<gotoAndPlay label="c_major9" />
+		<!--<text>Listen to the completed C Major Scale.</text>-->
+		<text>Posłuchajmy jak brzmi gotowa gama C-dur.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<!--<text>Next, we will build the Eb Major Scale.  Our starting note will be Eb.</text>-->
+		<text>Następnie zbudujemy gamę Es-dur. Zaczynamy więc od nuty Es.</text>
+		<gotoAndPlay label="eb_major2" />
+		<!--<text>Notice that the half step from G takes us to Ab, not A.</text>-->
+		<text>Zauważmy, że pół tonu od G nie prowadzi do A lecz do As.</text>
+		<gotoAndStop label="eb_major3" />
+		<!--<text>The whole step from Ab takes us to Bb.</text>-->
+		<text>Cały ton od As prowadzi do B.</text>
+		<gotoAndStop label="eb_major4" />
+		<!--<text>The next whole step takes us to C.</text>-->
+		<text>Następny cały ton do C.</text>
+		<gotoAndPlay label="eb_major5" />
+		<!--<text>Finally, the half step from D returns us to Eb.</text>-->
+		<text>W końcu, półton od D przyprowadza nas do Es.</text>
+		<gotoAndStop label="eb_major6" />
+		<!--<text>Notice that Eb Major has three flats (Both Eb's only count once).</text>-->
+		<text>Zauważmy, że Es-dur ma trzy bemole (oba Es liczy się tylko jeden raz).</text>
+		<gotoAndPlay label="eb_major7" />
+		<!--<text>Listen to the completed Eb Major Scale.</text>-->
+		<text>Posłuchajmy teraz gamy Es-dur.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<!--<text>For our final scale, we will build the D Major Scale.</text>-->
+		<text>Naszą ostatnią gamą, którą zbudujemy, będzie gama D-dur.</text>
+		<gotoAndPlay label="d_major2" />
+		<!--<text>From the E, the whole step takes us to F#.</text>-->
+		<text>Od E cały ton przeniesie nas do Fis.</text>
+		<gotoAndStop label="d_major3" />
+		<!--<text>The half step takes us to G.</text>-->
+		<text>Następny półton do G.</text>
+		<gotoAndPlay label="d_major4" />
+		<!--<text>From the B, the whole step takes us to C#.</text>-->
+		<text>Od H, cały ton doprowadzi nas do Cis.</text>
+		<gotoAndStop label="d_major5" />
+		<!--<text>Finally, the half step returns us to D.</text>-->
+		<text>Jeszcze ostatni półton i kończymy na D.</text>
+		<gotoAndStop label="d_major6" />
+		<!--<text>Notice that A Major has three sharps.</text>-->
+		<text>Zauważmy, że D-dur ma dwa krzyżyki.</text>
+		<gotoAndPlay label="d_major7" />
+		<!--<text>Listen to the completed A Major Scale.</text>-->
+		<text>Posłuchajmy teraz jak brzmi cała gama D-dur.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<!--<text>It is possible to build any major scale - just start on the first note and follow the formula.</text>-->
+		<text>Można zbudować każdą gamę durową. Wystarczy zacząć od pierwszej nuty i budować według schematu.</text>
+	</section>	
+</lesson>

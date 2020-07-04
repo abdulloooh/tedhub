@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Grundton</var>
+	<var name="thirdText">Ters</var>
+	<var name="fifthText">Kvint</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Introduktion till ackord</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Ett <b>ackord</b> är en kombination av tre eller flera toner.</text>
+		<text>Ackord baseras på en av dessa toner, vilken kallas ackordets <b>grundton</b>.</text>
+		<gotoAndStop label="triad" />
+		<text>I den här lektionen ska vi gå igenom <b>treklanger</b>.  Treklanger består av grundton, ters och kvint.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major" />
+		<text>Vi börjar med en C-<b>durtreklang</b> (kallas också för ett <b>durackord</b>).  Den skapas med en stor ters samt en ren kvint räknat från ackordets grundton.</text>
+		<gotoAndPlay label="major2" />
+		<text>Skriv först in treklangens grundton (i det här fallet C), en ters och en kvint i notsystemet.</text>
+		<gotoAndPlay label="major3" />
+		<text>I nästa steg räknar vi ut ackordet på klaviaturen. Eftersom vi ska ha en stor ters räknar vi fyra halva tonsteg upp från grundtonen.</text>
+		<gotoAndPlay label="major4" />
+		<text>Därefter lägger vi till en ren kvint. Utgå från grundtonen och räkna sju halva tonsteg uppåt.</text>
+		<gotoAndStop label="major5" />
+		<text>Lägg märke till att vi inte behöver använda några förtecken, eftersom ackordet inte innehåller några "svarta tangenter".</text>
+		<gotoAndPlay label="major6" />
+		<text>Lyssna på den fullständiga C-durtreklangen.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>Nästa treklang vi ska lära oss är <b>molltreklangen</b>.  Den konstrueras med en <i>liten</i> ters samt en ren kvint räknat från grundtonen.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Vi bygger en c-molltreklang. Skriv in grundtonen och grundintervallen.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Räkna därefter ut den lilla tersen på klaviaturen (3 halva tonsteg).</text>
+		<gotoAndPlay label="minor4" />
+		<text>Räkna dig därefter fram till den rena kvinten.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Lägg slutligen till förtecknen. Som du kan se så består c-molltreklangen av tonerna C, Eb och G.</text>
+		<gotoAndPlay label="minor6" />
+		<text>Lyssna på den fullständiga c-molltreklangen.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>Den <b>överstigande treklangen</b> består av en stor ters och en <i>överstigande</i> kvint.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>När du räknar ut den här treklangen på klaviaturen, kom i håg att en överstigande kvint består av 8 halvtonssteg.</text>
+		<gotoAndPlay label="augmented3" />
+		<text>När du lagt till förtecknen kan du se att den överstigande treklangen från C består av tonerna C, E och G#.</text>
+		<gotoAndPlay label="augmented4" />
+		<text>Lyssna på den fullständiga överstigande treklangen från C.</text>
+		<gotoAndStop label="augmented5" />
+		<text>Lägg märke till att den enda skillnaden mellan en överstigande treklang och en durtreklang är den höjda kvinten.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>Den sista typen av treklang vi ska lära oss är den <b>förminskade treklangen</b>.  Den består av en liten ters och en <i>förminskad</i> kvint.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>När du räknar ut den här treklangen på klaviaturen, kom ihåg att en förminskad kvint består av 6 halva tonsteg.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>När du lagt till förtecknen, kan du se att en förminskad treklang från C består av tonerna C, Eb och Gb.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Lyssna på den kompletta förminskade treklangen med grundtonen C.</text>
+		<gotoAndStop label="diminished5" />
+		<text>Lägg märke till att den enda skillnaden mellan en förminskad treklang och en molltreklang är den sänkta kvinten.</text>
+	</section>
+
+</lesson>

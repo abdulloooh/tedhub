@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Rót</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fifthText">Fimmund</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Napólíhljómurinn</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Napólíhljómur</b> er dúr þríhljómur sem byggður er á sérstakri nótu.</text>
+		<text>Þessi nóta er lækkaður yfirfrumtónn (lækkað annað sæti) dúr eða moll tónstigans.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Napólíhljómur í c moll lítur þá svona út.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Annað sætið í c moll er nótan D.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Við lækkum þessa nótu...</text>
+		<gotoAndPlay label="example_one4" />
+		<text>og myndum dúr þríhljóm: Des - F - As.</text>
+		<gotoAndStop label="example_one5" />
+		<text>Napólíhljómur í C moll er því Des dúr þríhljómur.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Gerum næst Napólíhljóm í e moll.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Fís er annað sæti tónstigans,</text>
+		<gotoAndPlay label="example_two3" />
+		<text>sem lækka þarf í F.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Dúr þríhljómur byggður á þessari nótu er: F - A - C.</text>
+		<gotoAndStop label="example_two5" />
+		<text>F dúr þríhljómur er því Napólíhljómur í e moll.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Að síðustu skulum við mynda Napólíhljóm í As dúr.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>B er annað sæti tóntegundarinnar.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Lækkað annað sæti er Bes (tvílækkað H).</text>
+		<gotoAndPlay label="example_three4" />
+		<text>Þríhljómur á þessari nótu er: Bes - Db - Fb.</text>
+		<gotoAndPlay label="example_three5" />
+		<text>Bes dúr þríhljómur er því Napólíhljómur í As dúr.</text>
+	</section>
+	
+</lesson> 

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">dim.</var>
+	<var name="minorText">moll</var>
+	<var name="majorText">Dúr</var>
+	<var name="augmentedText">Aug.</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Sætisnúmer þríhljóma</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Þegar tónlist er hljómgreind eru hljómar gjarnan merktir með <b>rómverskum tölum</b> til að tákna sætisnúmer hljómsins í tónstiganum.</text>
+		<gotoAndStop label="numeral_chart" />
+		<text>Fjórar gerðir af þessum merkingum eru notaðar - ein fyrir hverja hljómagerð.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Lítum fyrst á hvernig heimahljómar í C dúr eru merktir á þennan hátt.</text>
+		<gotoAndPlay label="major_i" />
+		<text>Þar sem fyrsti hljómurinn er dúr hljómur er hann merktur með hástaf.</text>
+		<gotoAndPlay label="major_ii_iii" />
+		<text>Næstu tveir hljómar eru moll þríhljómar og því merktir með lágstaf.</text>
+		<gotoAndPlay label="major_iv_v" />
+		<text>Fjórði og fimmti hljómur eru dúr og því merktir með hástaf.</text>
+		<gotoAndPlay label="major_vi" />
+		<text>Sjötti hljómurinn er moll og fær lágstaf.</text>
+		<gotoAndPlay label="major_vii" />
+		<text>Þar sem sjöundi hljómurinn er minnkaður er hann merktur með lágstaf auk lítils hrings (gráðumerkis).</text>
+		<gotoAndPlay label="major_viii" />
+		<text>Áttundi hljómurinn er svo eins og sá fyrsti.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Næst skulum við greina heimahljóma í hreinum moll.</text>
+		<gotoAndPlay label="minor_i" />
+		<text>Fyrsti hljómurinn er moll og fær því lágstaf.</text>
+		<gotoAndPlay label="minor_ii" />
+		<text>Annar hljómurinn er minnkaður og því merktur með lágstaf og hring.</text>
+		<gotoAndPlay label="minor_iii" />
+		<text>Þriðji hljómurinn er dúr.</text>
+		<gotoAndPlay label="minor_iv_v" />
+		<text>Fjórði og fimmti eru moll hljómar.</text>
+`		<gotoAndPlay label="minor_vi_vii" />
+		<text>Sjötti og sjöundi eru dúr hljómar.</text>
+		<gotoAndPlay label="minor_viii" />
+		<text>Og sá áttundi er moll eins og sá fyrsti.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Loks merkjum við hljóma hljómhæfa mollsins.</text>
+		<gotoAndPlay label="harmonic_iii" />
+		<text>Þar sem þriðji hljómurinn er nú stækkaður fær hann hástaf og plús-merki.</text>
+		<gotoAndPlay label="harmonic_v" />
+		<text>Fimmti hljómurinn er nú dúr og fær því hástaf.</text>
+		<gotoAndPlay label="harmonic_vii" />
+		<text>Og loks er sjöundi hljómurinn nú minnkaður, fær lágstaf og hring.</text>
+	</section>
+	
+	<section> 
+		<gotoAndPlay label="inversions" />
+		<text>Rómverskar merkingar af þessu tagi eru líka notaðar til að merkja hljómhvörf.</text>
+		<gotoAndStop label="inversions2" />
+		<text>Fyrstu hljómhvörf er táknað með tölustafnum 6 á eftir rómversku merkingunni sem þýðir að rótin er nú 6und fyrir ofan bassatóninn.</text>
+		<gotoAndStop label="inversions3" />
+		<text>Önnur hljómhvörf er táknað með 6 og 4 - merkir að rótin er 6und fyrir ofan bassann og þríundin 4und fyrir ofan bassann.</text>
+	</section>
+
+</lesson>

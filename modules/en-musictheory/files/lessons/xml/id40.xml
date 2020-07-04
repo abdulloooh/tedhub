@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Root</var>
+	<var name="thirdText">Third</var>
+	<var name="fifthText">Fifth</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Introduction to Chords</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>chord</b> is a combination of three or more notes.</text>
+		<text>Chords are built off of a single note, called the <b>root</b>.</text>
+		<gotoAndStop label="triad" />
+		<text>In this lesson, we will be discussing <b>triads</b>.  They are created with a root, third, and fifth.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major" />
+		<text>Let's start with a C <b>major triad</b> (Also called a <b>major chord</b>).  It is built with a major third and a perfect fifth from the root.</text>
+		<gotoAndPlay label="major2" />
+		<text>First, write the root (in this case, C), generic third, and generic fifth on the staff.</text>
+		<gotoAndPlay label="major3" />
+		<text>Next, we will work out the chord on the keyboard.  Since we need a major third, let's go up four half steps from the root.</text>
+		<gotoAndPlay label="major4" />
+		<text>Now we need a perfect fifth.  Go back to the root and count up seven half steps.</text>
+		<gotoAndStop label="major5" />
+		<text>Notice that since the chord contains no black keys, we do not need to write any accidentals on the staff.</text>
+		<gotoAndPlay label="major6" />
+		<text>Listen to the complete C major triad.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>The next triad that we will discuss is the <b>minor triad</b>.  It is created with a <i>minor</i> third and a perfect fifth from the root.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Let's build a C minor triad.  Write down the root and generic intervals.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Next, work out the minor third on the keyboard (3 half steps).</text>
+		<gotoAndPlay label="minor4" />
+		<text>Now, work out the perfect fifth.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Finally, transfer the accidentals over.  As you can see, the C minor chord is comprised of C, Eb, and G.</text>
+		<gotoAndPlay label="minor6" />
+		<text>Listen to the complete C minor triad.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>The <b>augmented triad</b> is built with a major third and an <i>augmented</i> fifth.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>When working out this triad on the keyboard, remember that an augmented fifth is 8 half steps.</text>
+		<gotoAndPlay label="augmented3" />
+		<text>After transferring the accidentals, you can see that the C augmented triad contains C, E, and G#</text>
+		<gotoAndPlay label="augmented4" />
+		<text>Listen to the complete C augmented triad.</text>
+		<gotoAndStop label="augmented5" />
+		<text>Notice that the only difference between an augmented triad and a major triad is the raised fifth.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>The last triad we will discuss is the <b>diminished triad</b>.  It is built with a minor third and a <i>diminished</i> fifth.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>When working out this triad on the keyboard, remember that a diminished fifth is 6 half steps.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>After transferring the accidentals, you can see that the C diminished triad contains C, Eb, and Gb</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Listen to the complete C diminished triad.</text>
+		<gotoAndStop label="diminished5" />
+		<text>Notice that the only difference between a diminished triad and a minor triad is the lowered fifth.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Fersexundarhljómar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Þó notkun þríhljóma í grunnstöðu og í 1. hlómhvörfum sé takmarkalítil eru fersexundarhljómar (þríhljómar í 2. hlómhvörfum) yfirleitt aðeins notaðir við þrennar aðstæður.</text>
+		<gotoAndStop label="passing" />
+		<text>Í fyrsta lagi til að auka möguleika í gerð bassalínunnar.</text>
+		<gotoAndPlay label="passing2" />
+		<text>Líttu t.d. á bassalínunni í þessu dæmi.</text>
+		<gotoAndPlay label="passing3" />
+		<text>Með því að hafa <b>V</b> (forhljóminn) fersexundarhljóm rís bassalínan í skrefagangi.</text>
+		<gotoAndStop label="passing4" />
+		<text>Fersexundarhljómurinn er hér <b>tengihljómur</b>.</text>
+		<gotoAndPlay label="passing5" />
+		<text>Hlustaðu.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pedal" />
+		<text>Í öðru lagi er fersexundarhljómur notaður til að styrkja bassalínuna.</text>
+		<gotoAndPlay label="pedal2" />
+		<text>Bassinn í dæminu stekkur í F og síðan til baka í C.</text>
+		<gotoAndPlay label="pedal3" />
+		<text>Engin hreyfing er hins vegar í bassanum ef <b>IV</b> (undirforhljómurinn) er fersexundarhljómur.</text>	
+		<gotoAndStop label="pedal4" />
+		<text>Fersexundarhljómurinn er hér <b>skiptihljómur</b>.</text>
+		<gotoAndPlay label="pedal5" />
+		<text>Dæmið hljómar svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadential" />
+		<text>Í þriðja lagi höfum við fersexundarhljóm í (<b>niðurlagi</b>).</text>
+		<gotoAndPlay label="cadential2" />
+		<text>Fersexundarhljómurinn kemur þá á undan <b>V</b> í niðurlaginu og gerir aðalendinn sterkari, undirstrikar hann ef svo má segja.</text>
+		<gotoAndPlay label="cadential3" />
+		<text>Hér er dæmi.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="chart" />
+		<text>Í hljómfærslutöflunni sem við gerðum kemur fersexundarhljómur í niðurlagi á milli undirforhljóms og forhljóms.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">м2</var>
+	<var name="majorThirdText">в3</var>
+	<var name="perfectFourthText">ч4</var>
+	<var name="perfectFifthText">ч5</var>
+	<var name="minorSixthText">м6</var>
+	<var name="majorSeventhText">в7</var>
+	<var name="minorText">мала</var>
+	<var name="majorText">велика</var>
+	<var name="perfectText">чиста</var>
+	<var name="diminishedText">умањена</var>
+	<var name="augmentedText">прекомерна</var>
+	<var name="secondText">секунда</var>
+	<var name="thirdText">терца</var>
+	<var name="fourthText">кварта</var>
+	<var name="fifthText">квинта</var>
+	<var name="sixthText">секста</var>
+	<var name="seventhText">септима</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Обртаји интервала</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>У музици израз <b>обртај (обрнути)</b> значи померити најнижу ноту у групи једну октаву више.</text>
+		<text>У овој лекцији ћемо обртати интервале.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>За први пример, узећемо интервал <b>c</b> - <b>g</b> (чисту квинту).</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Да бисмо обрнули овај интервал, померићемо његову најнижу ноту (<b>c</b>) једну октаву више.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Резултат (<b>g</b> - <b>c</b>) је чиста кварта.</text>
+		<gotoAndStop label="example_one4" />
+		<text>Чисти интервал увек остаје чисти у обртају.  Кварта у обртају увек даје квинту.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>За следећи пример узимамо <b>c</b> - <b>e</b> (велику терцу).</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Поново пребацујемо најнижу ноту (<b>c</b>) једну октаву више.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Резултат (<b>e</b> - <b>g</b>) је мала секста.</text>
+		<gotoAndStop label="example_two4" />
+		<text>Велики интервал увек даје мали и обрнуто - исто као и терца и секста.  На пример мала терца увек постаје велика секста.</text>	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Сада ћемо обрнути <b>c</b> - <b>h</b> (велику септиму).</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Као и пре померамо најнижу ноту за октаву више.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Резултат (<b>h</b> - <b>c</b>) је мала секунда.</text>
+		<gotoAndStop label="example_three3" />
+		<text>Секунда у обртају увек даје септиму и обрнуто.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>Задње правило за обртаје је да прекомерни интервал увек даје умањени.</text>
+		<gotoAndPlay label="example_four2" />
+		<text>На пример, <b>c</b> - <b>fis</b> (прекомерна кварта), постаје <b>fis</b> - <b>c</b> (умањена квинта).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Користите горњу слику да бисте лакше нашли обртај интервала.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<!--<title>Rest Duration</title>-->
+	<title>Czas trwania pauzy</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<!--<text><b>Rests</b> are used to show periods of silence in a measure.</text> -->
+		<text><b>Pauzy</b> służą do notowania ciszy w takcie.</text>
+		<gotoAndPlay label="notes" />
+		<!--<text>Each type of rest shares a duration with a certain type of note.</text>-->
+		<text>Każdy rodzaj pauzy ma taki sam czas trwania jak odpowiadający jej rodzaj nuty.</text>   
+		<gotoAndStop label="notes2" />
+		<!--<text>For example, both a quarter rest and a quarter note occupy the same amount of time.  While the note would make a sound, the rest is silent.</text>-->
+		<text>Przykładowo, zarówno pauza ćwierćnutowa jak i ćwierćnuta trwają tyle samo czasu, z tą różnicą, że nuta brzmi a pauza jest ciszą.</text>
+	</section>
+			
+	<section>
+		<gotoAndPlay label="example" />
+		<!--<text>To demonstrate this, we will fill a measure of 4/4 time with quarter notes.</text>-->
+		<text>Aby się o tym przekonać, wypełnijmy ćwierćnutami takt na 4/4.</text> 
+		<gotoAndPlay label="example2" />
+		<!--<text>Listen to the above example.</text>-->
+		<text>Posłuchajmy jak brzmi powyższy przykład.</text>
+		<gotoAndPlay label="example3" />
+		<!--<text>Next, we will replace the second quarter note with a quarter rest.<text>-->
+		<text>Teraz zastąpimy drugą ćwierćnutę pauzą ćwierćnutową.</text>
+		<gotoAndPlay label="example4" />
+		<!--<text>Notice how the second beat is now silent.</text>-->
+		<text>Usłyszmy ciszę na drugiej części taktu.</text>
+	</section>	
+
+	<section>
+		<gotoAndStop label="chart" />
+		<!--<text>Use this chart for reference to rest duration.</text>-->
+		<text>Oto wykres ilustrujący czas trwania pauz.</text>
+	</section>		
+
+</lesson>

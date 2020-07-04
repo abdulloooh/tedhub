@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cSharpMinorText">cis</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Анализа #3</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>У овом примеру анализираћемо тактове 48-50 Бетовенове "<b>Месечеве сонате</b>" (Опус 27, број 2, став 1).</text>
+		<gotoAndStop label="key" />
+		<text>Пошто почињемо из средине дела, даћу вам савет у ком је тоналитету: у cis-молу.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="group_one" />
+		<text>Прва половина 48. такта садржи: <b>gis</b>, <b>his</b>, <b>dis</b>, <b>fis</b> : Gis-доминантни септакорд.  А пошто је <b>his</b> најнижа нота, то је први обртај.</text>
+		<gotoAndPlay label="group_two" />
+		<text>Друга половина 48. такта садржи тонове: <b>cis</b>, <b>e</b>, <b>gis</b> : cis-мол.</text>
+		<gotoAndPlay label="group_three" />
+		<text>Прва половина 49. такта садржи тонове: <b>d</b>, <b>fis</b>, <b>a</b> : D-дур у првом обртају.  То је наполитански секстакорд cis-мола.</text>
+		<gotoAndPlay label="group_four" />
+		<text>Друга половина 49. такта садржи: <b>gis</b>, <b>his</b>, <b>fis</b> : Gis-доминантни септакорд са изостављеном квинтом.</text>
+		<gotoAndPlay label="group_five" />
+		<text>Прва половина 50. такта садржи: <b>cis</b>, <b>e</b>, <b>gis</b> : још један cis-мол.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Послушајте дати одломак дела.</text>
+	</section>
+	
+</lesson>

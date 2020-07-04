@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Fundamental</var>
+	<var name="thirdText">Terça</var>
+	<var name="fifthText">Quinta</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Introdução aos Acordes</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Um <b>acorde</b> é uma combinação de três ou mais notas.</text>
+		<text>Os acordes são construídos a partir de uma nota única, chamada <b>fundamental</b>.</text>
+		<gotoAndStop label="triad" />
+		<text>Nesta lição, estaremos discutindo <b>tríades</b>.  Elas são criadas com uma fundamental, uma terça e uma quinta.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major" />
+		<text>Vamos começar com uma <b>tríade maior</b> (também chamada de <b>acorde maior</b>) de Dó.  Ela é feita com uma terça maior e uma quinta justa a partir da fundamental.</text>
+		<gotoAndPlay label="major2" />
+		<text>Primeiro, escreva a fundamental (neste caso, Dó), a terça genérica, e a quinta genérica na pauta.</text>
+		<gotoAndPlay label="major3" />
+		<text>Agora, vamos trabalhar o acorde no teclado. Como precisamos de uma terça maior, vamos subir quatro semitons a partir da fundamental.</text>
+		<gotoAndPlay label="major4" />
+		<text>Agora precisamos de uma quinta justa.  Volte à fundamental e conte sete semitons.</text>
+		<gotoAndStop label="major5" />
+		<text>Observe que, como o acorde não contém teclas pretas, não precisamos escrever nenhum acidente na pauta.</text>
+		<gotoAndPlay label="major6" />
+		<text>Ouça a tríade maior de Dó completa.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor" />
+		<text>A próxima tríade que discutiremos é a <b>tríade menor</b>.  Ela é criada com uma terça <i>menor</i> e uma quinta justa a partir da fundamental.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Vamos fazer uma tríade menor de Dó. Escreva a fundamental e os intervalos genéricos.</text>
+		<gotoAndPlay label="minor3" />
+		<text>A seguir, calcule a terça menor no teclado (3 semitons).</text>
+		<gotoAndPlay label="minor4" />
+		<text>Agora, calcule a quinta justa.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Por fim, transcreva os acidentes para a pauta.  Como pode ver, o acorde de Dó menor é composto de Dó, Mi bemol e Sol.</text>
+		<gotoAndPlay label="minor6" />
+		<text>Ouça a tríade menor de Dó completa.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>A <b>tríade aumentada</b> é feita com uma terça maior e uma quinta <i>aumentada</i>.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Quando estiver formando esta tríade no teclado, lembre-se que uma quinta aumentada tem 8 semitons.</text>
+		<gotoAndPlay label="augmented3" />
+		<text>Depois de transcrever os acidentes para a pauta, você pode ver que a tríade aumentada de Dó contém Dó, Mi e Sol sustenido.</text>
+		<gotoAndPlay label="augmented4" />
+		<text>Ouça a tríade aumentada de Dó completa.</text>
+		<gotoAndStop label="augmented5" />
+		<text>Observe que a única diferença entre a tríade aumentada e a tríade maior é a quinta elevada.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>A última tríade que discutiremos é a <b>tríade diminuta</b>. Ela é feita com uma terça menor e uma quinta <i>diminuta</i>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Quando estiver formando esta tríade no teclado, lembre-se que uma quinta diminuta tem 6 semitons.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Depois de transcrever os acidentes para a pauta, você pode ver que a tríade diminuta de Dó contém Dó, Mi bemol e Sol bemol.</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Ouça a tríade diminuta de Dó completa.</text>
+		<gotoAndStop label="diminished5" />
+		<text>Observe que a única diferença entre uma tríade diminuta e uma tríade menor é a quinta rebaixada.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <title> and </title> -->	 
+	<title>Compasso Alternado</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>Um <b>compasso alternado</b> é um compasso que junta tempos simples e compostos.</text>
+		<gotoAndStop label="odd1" />
+		<text>O primeiro compasso alternado que discutiremos é o compasso 5/8. Ele contém um tempo simples e um composto.</text>
+		<gotoAndStop label="odd2" />
+		<text>A ordem dos tempos unidos para formar um compasso alternado não importa. Se o tempo composto vem primeiro, ainda assim esse compasso alternado é chamado um compasso 5/8.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd3" />
+		<text>A seguir, discutiremos compassos alternados que unem três unidades de tempo.</text>
+		<gotoAndStop label="odd4" />
+		<text>O compasso 7/8 contém dois tempos simples e um tempo composto.</text>
+		<gotoAndStop label="odd5" />
+		<text>Aqui, novamente, a ordem dos tempos não importa.</text>
+		<gotoAndStop label="odd6" />
+		<text>O tempo composto pode até ser colocado entre dois tempos simples.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd7" />
+		<text>O compasso 8/8 contém dois tempos compostos e um tempo simples.</text>
+		<gotoAndStop label="odd8" />
+		<text>Às vezes, as pessoas confundem o 8/8 com o 4/4, já que ambos podem conter 8 colcheias.</text>
+		<gotoAndStop label="odd9" />
+		<text>Observe porém que o 4/4 divide-se em quatro tempos de duas colcheias (quaternário simples), enquanto o 8/8 divide-se em três tempos alternados.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd10" />
+		<text>Nossos dois últimos compassos alternados contêm um total de quatro tempos.</text>
+		<gotoAndStop label="odd11" />
+		<text>O 10/8 tem dois tempos compostos e dois tempos simples.</text>
+		<gotoAndStop label="odd12" />
+		<text>O 11/8 tem três tempos compostos e um tempo simples.</text>
+	</section>
+
+</lesson>

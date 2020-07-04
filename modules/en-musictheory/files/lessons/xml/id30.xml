@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1st</var>
+	<var name="secondText">2nd</var>
+	<var name="thirdText">3rd</var>
+	<var name="fourthText">4th</var>
+	<var name="fifthText">5th</var>
+	<var name="sixthText">6th</var>
+	<var name="seventhText">7th</var>
+	<var name="eighthText">8th</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Generic Intervals</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>An <b>interval</b> measures the distance between two notes.</text>
+		<text>We will first discuss <b>generic intervals</b>, which can be measured on the staff.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="first" />
+		<text>When two notes occupy the same line or space, they are a <b>first</b> (or a <b>prime</b>) apart.</text>
+		<gotoAndStop label="first2" />
+		<text>C to C is an example of a first.</text>
+		<gotoAndStop label="first3" />
+		<text>C to C# and C to Cb are also firsts.</text>
+	</section>
+	
+	<section>	
+		<gotoAndPlay label="second" />
+		<text>When two notes are askewed to each other, they are a <b>second</b> apart.</text>
+		<gotoAndStop label="second2" />
+		<text>C to D is an example of a second.</text>
+		<gotoAndStop label="second3" />
+		<text>C to D#, Cb to D, and Cb to D# are also seconds.</text>
+	</section>
+	
+	<section>		
+		<gotoAndPlay label="third" />
+		<text>When two notes are stacked tightly together, they are a <b>third</b> apart.</text>
+		<gotoAndStop label="third2" />
+		<text>C to E is an example of a third.</text>
+		<gotoAndStop label="third3" />
+		<text>E to G and F to A are also thirds.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="further" />
+		<text>As the notes become further apart, their interval type increases.</text>
+		<gotoAndStop label="fourth" />
+		<text>C to F is a <b>fourth</b>.</text>
+		<gotoAndStop label="fifth" />
+		<text>C to G is a <b>fifth</b>.</text>
+		<gotoAndStop label="sixth" />
+		<text>C to A is a <b>sixth</b>.</text>
+		<gotoAndStop label="seventh" />
+		<text>C to B is a <b>seventh</b>.</text>
+		<gotoAndStop label="eighth" />
+		<text>C to C is an <b>eighth</b> (or <b>octave</b>).</text>
+	</section>
+
+</lesson>

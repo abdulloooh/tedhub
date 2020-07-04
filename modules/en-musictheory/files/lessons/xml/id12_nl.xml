@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- UNICODE UTF-8 -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Vertaling: Barbara Touburg</translation> -->
+	<translation>Vertaling: Barbara Touburg</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Maten en maatsoorten</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">Drie</var>
+	<var name="fourText">Vier</var>
+	<var name="sixText">Zes</var>
+	<var name="halfText">Halve (1/2) noten</var>
+	<var name="quarterText">Kwart(1/4)noten</var>
+	<var name="eighthText">Achtste (1/8) noten</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Verticale zwarte lijnen verdelen de notenbalk in <b>maten</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>Bovenstaande balk is verdeeld in twee maten.</text>
+		<gotoAndPlay label="timesig" />
+		<text><b>Maatsoorten</b> bepalen hoeveel en welke soort noten elke maat bevat.</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>In bovenstaand voorbeeld staat de eerste maat in vierkwartsmaat (4/4) en de tweede in driekwartsmaat (3/4).</text>
+		<gotoAndPlay label="4/4" />
+		<text>De eerste maat (4/4) bevat vier kwartnoten.</text>
+		<gotoAndPlay label="3/4" />
+		<text>De tweede maat (3/4) bevat twee kwartnoten.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Nu bespreken we maatsoorten die niet op kwartnoten gebaseerd zijn.</text>
+		<gotoAndPlay label="6/8" />
+		<text>Zes-achtste maat (6/8) bevat zes achtste noten.</text>
+		<gotoAndPlay label="3/2" />
+		<text>Tot slot bevat drie-tweede maat drie halve noten.Finally, 3/2 time contains three half notes.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Bovenstaand schema toont de maatsoorten die in deze les besproken zijn.</text>
+	</section>
+	
+</lesson>

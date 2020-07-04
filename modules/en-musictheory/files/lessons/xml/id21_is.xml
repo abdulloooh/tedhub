@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">L</var>
+	<var name="wText">S</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Dúr tónstiginn</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Tónstigi</b> samanstendur af tilteknum nótum úr áttundinni. Fyrst skulum við skoða <b>dúr tónstigann</b>.</text>
+		<gotoAndStop label="formula" />
+		<text>Dúr tónstiginn byggir á ofangreindri reglu - S táknar stóra 2und og L táknar litla 2und.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<text>Byggjum nú C dúr tónstiga. Upphafsnótan er C.</text>
+		<gotoAndStop label="c_major2" />
+		<text>Næsta nóta er D, heiltón (stórri 2und) fyrir ofan C.</text>
+		<gotoAndStop label="c_major3" />
+		<text>Þá kemur E, heiltón fyrir ofan D.</text>
+		<gotoAndStop label="c_major4" />
+		<text>F, lítilli 2und (hálftón) fyrir ofan E.</text>
+		<gotoAndStop label="c_major5" />
+		<text>Næst kemur G, heiltón ofar.</text>
+		<gotoAndStop label="c_major6" />
+		<text>Þá A, annar heiltónn upp.</text>
+		<gotoAndStop label="c_major7" />
+		<text>Síðan H.</text>
+		<gotoAndStop label="c_major8" />
+		<text>Og loks C, hálftón upp frá H.</text>
+		<gotoAndPlay label="c_major9" />
+		<text>C dúr tónstigi hljómar svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<text>Næst skulum við byggja Es dúr tónstiga. Við byrjum á Es.</text>
+		<gotoAndPlay label="eb_major2" />
+		<text>Athugaðu að lítil 2und upp frá G gefur As, ekki A.</text>
+		<gotoAndStop label="eb_major3" />
+		<text>Stór 2und upp frá As gefur B (lækkað H).</text>
+		<gotoAndStop label="eb_major4" />
+		<text>Önnur stór 2und gefur C.</text>
+		<gotoAndPlay label="eb_major5" />
+		<text>Og loks er Es, lítilli 2und fyrir ofan D.</text>
+		<gotoAndStop label="eb_major6" />
+		<text>Samkvæmt þessu þarf Es dúr þrjú lækkunarmerki (Bé-ið á Es er aðeins talið einu sinn).</text>
+		<gotoAndPlay label="eb_major7" />
+		<text>Es dúr hljómar svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<text>Loks skulum við byggja D dúr tónstiga.</text>
+		<gotoAndPlay label="d_major2" />
+		<text>Heiltónn upp frá E er Fís.</text>
+		<gotoAndStop label="d_major3" />
+		<text>Hálftónn upp frá Fís er G.</text>
+		<gotoAndPlay label="d_major4" />
+		<text>Heiltónn upp frá H er Cís.</text>
+		<gotoAndStop label="d_major5" />
+		<text>Og hálftón þaðan er D.</text>
+		<gotoAndStop label="d_major6" />
+		<text>D dúr hefur þannig tvö hækkunarmerki</text>
+		<gotoAndPlay label="d_major7" />
+		<text>og hljómar svona.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<text>Með því að fylgja þessari reglu um tónbilin má byggja dúr tónstiga upp frá hvaða tóni sem er.</text>
+		<text>Einnig má hugsa sér dúr tónstigann sem tvo eins fjórtónunga (tetrachord) aðskilda af heiltón. Í C dúr eru þessir fjórtónungar C - D - E - F og G - A - H - C.</text>
+	</section>	
+</lesson>

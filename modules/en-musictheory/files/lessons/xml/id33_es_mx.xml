@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">2m</var>
+	<var name="majorThirdText">3M</var>
+	<var name="perfectFourthText">4J</var>
+	<var name="perfectFifthText">5J</var>
+	<var name="minorSixthText">6m</var>
+	<var name="majorSeventhText">7M</var>
+	<var name="minorText">Menor</var>
+	<var name="majorText">Mayor</var>
+	<var name="perfectText">Justa</var>
+	<var name="diminishedText">Disminuida</var>
+	<var name="augmentedText">Aumentada</var>
+	<var name="secondText">Segunda</var>
+	<var name="thirdText">Tercera</var>
+	<var name="fourthText">Cuarta</var>
+	<var name="fifthText">Quinta</var>
+	<var name="sixthText">Sexta</var>
+	<var name="seventhText">Séptima</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title> Inversión de Intervalos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>En música, el verbo <b>invertir</b> significa mover la nota más baja o grave de un grupo una octava hacia arriba.</text>
+		<text>En esta lección, invertiremos intervalos.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Para nuestro primer ejemplo, usaremos el intervalo de Do a Sol (Quinta Justa).</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Para invertir este intervalo, mueve la nota más baja (Do), una octava hacia arriba.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>El resultado (Sol a Do) es una Cuarta Justa.</text>
+		<gotoAndStop label="example_one4" />
+		<text>Los intervalos Justos siempre se invertiran por Justos.  Las Cuartas siempre se invertiran por Quintas.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Para el siguiente ejemplo, usaremos el intervalo de Do a Mi (Tercera Mayor).</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Nuevamente, mueve una octava hacia arriba a la nota más baja (Do).</text>
+		<gotoAndPlay label="example_two3" />
+		<text>El resultado (Mi a Sol) es una Sexta menor.</text>
+		<gotoAndStop label="example_two4" />
+		<text>Los intervalos Mayores y menores siempre se invertiran entre sí - al igual que las Terceras y Sextas.  Por ejemplo, una Tercera menor siempre se invertirá a Sexta Mayor.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>A continuación, invertiremos el intervalo de Do a Si (Séptima Mayor).</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Una vez más, mueve la nota más baja una octava hacia arriba.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>El resultado (Si a Do) es una Segunda menor.</text>
+		<gotoAndStop label="example_three3" />
+		<text>Las Segundas y Séptimas siempre se invertirán entre sí.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>La regla final de la inversión de intervalos nos indica que los intervalos aumentados y disminuidos siempre se invertirán entre sí.</text>
+		<gotoAndPlay label="example_four2" />
+		<text>Por ejemplo, el intervalo de Do a Fa Sostenido (Cuarta Aumentada), resulta en Fa Sostenido a Do (Quinta Disminuida).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Usa la presente tabla para invertir intervalos rápidamente.</text>
+	</section>
+
+</lesson>

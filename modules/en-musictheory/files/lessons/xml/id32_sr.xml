@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="augmentedSecondText">x</var>
+	<var name="augmentedFourthText">x</var>
+	<var name="diminishedFifthText">x</var>
+	<var name="minorThirdText">x</var>
+	<var name="diminishedSeventhText">x</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Записивање интервала</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>При записивању интервала је лако помешати два са истим бројем полустепени.</text>
+		<gotoAndPlay label="wrong" />
+		<text>На пример, неко може погрешити и записати <b>c</b> - <b>fis</b> (прекомерну кварту) уместо <b>c</b> - <b>ges</b> (умањену квинту).</text>
+		<gotoAndStop label="wrong2" />
+		<text>Иако оба интервала изгледају и звуче исто на клавиру, један је кварта а други је квинта.</text>
+		<text>Срећом, постоји једноставан поступак од 3 корака да се смањи ризик од погрешног записивања.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Хајде да запишемо малу терцу од <b>c</b>.</text>		
+		<gotoAndPlay label="example_one2" />
+		<text>Прво запишемо генерички интервал на нотном систему.  У нашем случају пишемо генеричку терцу.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Затим утврдимо број полустепени на клавиру.  Како велика терца има 4 полустепена, мала терца која нам треба ће имати 3 полустепена.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Коначно забележимо предзнаке ако је потребно.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>За следећи пример узећемо умањену септиму од <b>f</b>.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Прво запишемо генеричку септиму на нотном систему.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Затим утврдимо број полустепени траженог интервала на клавиру (како велика септима има 11 полустепени а мала септима 10, наша умањена септима ће имати 9).</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Коначно запишемо одговарајући предзнак испред ноте.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>За задњи пример узећемо умањену квинту од <b>h</b>.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Прво запишемо генеричку квинту на нотном систему.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Затим утврдимо број полустепени нашем интервала на клавиру (чиста квинта има 7 полустепени, тако да ће умањена имати 6).</text>
+		<gotoAndStop label="example_three4" />
+		<text>И на крају запишемо потребне предзнаке.  У овом примеру није потребан никакав предзнак.</text>
+	</section>
+
+</lesson>

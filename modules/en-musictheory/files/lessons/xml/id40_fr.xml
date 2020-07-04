@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Fondamentale</var>
+	<var name="thirdText">Tierce</var>
+	<var name="fifthText">Quinte</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Introduction aux Accords</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Un <b>accord</b> est la combinaison de trois notes ou plus.</text>
+		<text>Il est construit à partir d'une seule note qui est la <b>fondamentale</b> de l'accord.</text>
+		<gotoAndStop label="triad" />
+		<text>Dans cette leçon nous allons parler des <b>triades</b>. Ce sont des accords de trois sons comprenant une note fondamentale, une tierce et une quinte.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major" />
+		<text>Commençons par une <b>triade de Do Majeur</b> (on peut l'appeller aussi l'<b>accord de Do Majeur</b>). Cet accord est construit à partir de la note fondamentale, d'une tierce majeure et d'une quinte juste.</text>
+		<gotoAndPlay label="major2" />
+		<text>Tout d'abord, nous allons écrire sur la portée la note fondamentale (dans ce cas la note Do), puis une tierce et une quinte.</text>
+		<gotoAndPlay label="major3" />
+		<text>Nous allons ensuite nous aider du clavier pour construire l'accord. Comme il faut une tierce Majeure, nous allons monter de 4 demi-tons à partir de la note fondamentale.</text>
+		<gotoAndPlay label="major4" />
+		<text>Maintenant nous avons besoin d'une quinte juste. Nous retournons donc à la note fondamentale et nous comptons 7 demi-tons pour obtenir la quinte juste.</text>
+		<gotoAndStop label="major5" />
+		<text>Vous remarquerez que dans cet accord, aucune note n'est placée sur une touche noire, donc nous n'avons pas à rajouter d'altérations.</text>
+		<gotoAndPlay label="major6" />
+		<text>Ecoutons l'accord de Do Majeur au complet.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="minor" />
+		<text>La prochaine triade dont nous allons parler est la <b>triade mineure</b>. Cet accord est créé à partir de la note fondamentale avec une tierce <i>mineure</i> et une quinte juste.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Pour construire une triade de Do mineur, nous écrivons la note fondamentale, puis une tierce et une quinte.</text>
+		<gotoAndPlay label="minor3" />
+		<text>Maintenant,  nous allons trouver la tierce mineure en nous aidant du clavier (3 demi-tons).</text>
+		<gotoAndPlay label="minor4" />
+		<text>Puis, la quinte juste (7 demi-tons).</text>
+		<gotoAndPlay label="minor5" />
+		<text>Pour finir, n'oublions pas de marquer les altérations devant les notes. Comme vous pouvez le voir, l'accord de Do mineur est formé des notes: Do, Mib, Sol.</text>
+		<gotoAndPlay label="minor6" />
+		<text>Ecoutons l'accord de Do mineur au complet.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="augmented" />
+		<text>La <b>triade augmentée</b> est construite à partir d'une tierce majeure et d'une quinte <i>augmentée</i>.</text>
+		<gotoAndPlay label="augmented2" />
+		<text>Quand vous vous aidez du clavier pour construire votre triade, souvenez-vous que la quinte augmentée est constituée de 8 demi-tons.</text>
+		<gotoAndPlay label="augmented3" />
+		<text>Après avoir rajouté les altérations, vous pouvez voir que les notes de cet accord de Do Majeur augmenté sont: Do, Mi, Sol#.</text>
+		<gotoAndPlay label="augmented4" />
+		<text>Ecoutons la triade augmentée de Do.</text>
+		<gotoAndStop label="augmented5" />
+		<text>Remarquez bien que la seule différence qui existe entre une triade augmentée et une triade majeure est, la quinte augmentée.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="diminished" />
+		<text>La dernière triade dont nous allons parler est la <b>triade diminuée</b>. Cet accord est construit à partir d'une tierce mineure et d'une quinte <i>diminuée</i>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Lorsque vous construisez votre triade à partir du clavier, rappellez-vous qu'une quinte diminuée est constituée de 6 demi-tons.</text>
+		<gotoAndPlay label="diminished3" />
+		<text>Après avoir rajouté les altérations, vous pouvez voir que les notes de la triade diminuée de Do sont: Do, Mib, Solb</text>
+		<gotoAndPlay label="diminished4" />
+		<text>Ecoutons l'accord complet de la triade diminuée.</text>
+		<gotoAndStop label="diminished5" />
+		<text>Remarquez que la seule différence qu'il y a entre une triade diminuée et une triade mineure est la quinte diminuée.</text>
+	</section>
+
+</lesson>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1a</var>
+	<var name="secondText">2a</var>
+	<var name="thirdText">3a</var>
+	<var name="fourthText">4a</var>
+	<var name="fifthText">5a</var>
+	<var name="sixthText">6a</var>
+	<var name="seventhText">7a</var>
+	<var name="eighthText">8a</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Intervalos Genéricos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Un <b>intervalo</b> mide la distancia entre dos notas.</text>
+		<text>Primero veremos <b>los  intervalos genéricos</b>, los cuales pueden ser medidos en el pentagrama.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="first" />
+		<text>Cuando dos notas ocupan la misma línea o espacio, la distancia entre ellos es un intervalo de <b>primera</b>.</text>
+		<gotoAndStop label="first2" />
+		<text>De Do a Do tenemos un ejemplo de intervalo de primera.</text>
+		<gotoAndStop label="first3" />
+		<text>De Do a Do Sostenido y de Do a Do Bemol también existe un intervalo genérico de primera.</text>
+	</section>
+	
+	<section>	
+		<gotoAndPlay label="second" />
+		<text>Cuando dos notas se encuentran en posición oblicua, están a un intervalo de <b>segunda</b> de la otra.</text>
+		<gotoAndStop label="second2" />
+		<text>De Do a Re hay un intervalo de segunda.</text>
+		<gotoAndStop label="second3" />
+		<text>De Do a Re Sostenido, de Do Bemol a Re y de Do Bemol a Re Sostenido también existe un intervalo genérico de segunda.</text>
+	</section>
+	
+	<section>		
+		<gotoAndPlay label="third" />
+		<text>Cuando dos notas están superpuestas entre si, se encuentran a un intervalo de <b>tercera</b> de distancia.</text>
+		<gotoAndStop label="third2" />
+		<text>De Do a Mi hay un intervalo de tercera.</text>
+		<gotoAndStop label="third3" />
+		<text>De Mi a Sol y de Fa a La también existe un intevalo genérico de tercera.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="further" />
+		<text>A medida que las notas se separan, su tipo intervalo aumenta.</text>
+		<gotoAndStop label="fourth" />
+		<text>De Do a Fa hay una <b>cuarta</b>.</text>
+		<gotoAndStop label="fifth" />
+		<text>De Do a Sol una <b>quinta</b>.</text>
+		<gotoAndStop label="sixth" />
+		<text>De Do a La una <b>sexta</b>.</text>
+		<gotoAndStop label="seventh" />
+		<text>De Do a Si una <b>séptima</b>.</text>
+		<gotoAndStop label="eighth" />
+		<text>De Do a Do una <b>octava</b>.</text>
+	</section>
+
+</lesson>

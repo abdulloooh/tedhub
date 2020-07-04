@@ -1,0 +1,96 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Прости и сложени метар</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Свака врста такта припада одређеном <b>метру</b>.</text>
+		<text>Називи <b>дводелни</b>, <b>троделни</b> и <b>четвороделни</b> се односе на број откуцаја у такту.</text>
+		<text>Назив <b>прости</b> значи да се сваки откуцај може поделити на две ноте.</text>
+	</section>
+	
+	<section>	
+		<gotoAndStop label="simple_duple" />
+		<text>На пример, такт 2/4 се назива <b>прост дводелни</b>.</text>
+		<gotoAndStop label="simple_duple2" />
+		<text>"Дводелни" значи да има два откуцаја у такту.</text>
+		<gotoAndStop label="simple_duple3" />
+		<text>"Прост" значи да се сваки откуцај може поделити на две мање ноте.</text>
+		<gotoAndStop label="simple_duple4" />
+		<text>Тактови 2/2 и 2/8 су такође дводелни.</text>
+	</section>	 
+		
+	<section>
+		<gotoAndStop label="simple_triple" />
+		<text>Такт 3/4 се назива <b>прост троделни</b>.</text>
+		<gotoAndStop label="simple_triple2" />
+		<text>"Троделни" значи да има три откуцаја у такту.</text>
+		<gotoAndStop label="simple_triple3" />
+		<text>Као и у прошлом примеру, "прост" је јер се сваки откуцај може поделити на две мање ноте.</text>
+		<gotoAndStop label="simple_triple4" />
+		<text>Тактови 3/2 и 3/8 су такође прости троделни.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="simple_quadruple" />
+		<text>Такт 4/4 се назива <b>прост четвороделни</b> јер има четири откуцаја и сваки се може поделити на две ноте.</text>
+		<gotoAndStop label="simple_quadruple2" />
+		<text>Тактови 4/2 и 4/8 су такође прости четвороделни.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="top_number" />
+		<text>Приметите да ће сви тактови који су прости имати број  2, 3 или 4 за горњи број у ознаци такта.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound" />
+		<text>У простом метру откуцаји се деле на две ноте, док се у сложеном метру откуцаји деле на три ноте.</text>
+		<gotoAndStop label="compound2" />
+		<text>Да би ово објаснили, узећемо такт 6/8.</text>
+		<gotoAndStop label="compound3" />
+		<text>Приметите да се шест нота које такт има могу груписати на два откуцаја (<b>сложени дводелни</b>) или на три откуцаја (<b>прост троделни</b>).</text>
+		<gotoAndStop label="compound4" />
+		<text>Пошто други пример као прост троделни припада такту 3/4, такт 6/8 је сложени дводелни.</text>
+		<gotoAndStop label="compound5" />
+		<text>Приметите да је сваки откуцај у такту 6/8 једна четвртина ноте са тачком.  Заправо, сви сложени метрови ће садржати ноте са тачком.</text>
+		<gotoAndStop label="compound6" />
+		<text>Било који такт са горњим бројем 6 у ознаци такта је сложени дводелни.  Од набројаних тактова, 6/8 и 6/4 се најчешће користе.</text>
+	</section>
+
+	<section>
+		<gotoAndSop label="compound_triple" />
+		<text>Такт 9/8 се назива<b> сложени троделни</b>.</text>
+		<gotoAndStop label="compound_triple2" />
+		<text>Он има три откуцаја (три четвртине са тачком) и стога је троделан.</text>
+		<gotoAndStop label="compound_triple3" />
+		<text>Пошто се сваки откуцај дели на три ноте, метар је сложен.</text>
+		<gotoAndStop label="compound_triple4" />
+		<text>Било који такт са бројем 9 у горњем делу ознаке такта је сложени троделни.  Иако се такт 9/8 најчешће користи, понекад су у употреби и тактови 9/2, 9/4 и 9/16.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound_quadruple" />
+		<text>Коначно, такт 12/8 се назива <b>сложени четвороделни</b>.</text>
+		<gotoAndStop label="compound_quadruple2" />
+		<text>Има четири откуцаја, стога је четвороделни.</text>
+		<gotoAndStop label="compound_quadruple3" />
+		<text>А како се сваки откуцај дели на три ноте, метар је сложен.</text>
+		<gotoAndStop label="compound_quadruple4" />
+		<text>Било који такт са бројем 12 у горњем делу ознаке такта је сложени четвороделни.  Од набројаних тактова, најкоришћенији су 12/8 и 12/16.</text>
+	</section>
+</lesson>

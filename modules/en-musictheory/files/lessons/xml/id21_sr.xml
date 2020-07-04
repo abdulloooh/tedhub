@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">½</var>
+	<var name="wText">1</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Дурска лествица</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Лествица</b> је скуп одређених тонова у оквиру октаве.  Прво ћемо обрадити <b>дурску лествицу</b>.</text>
+		<gotoAndStop label="formula" />
+		<text>Дурска лествица се гради по овом обрасцу: 1 значи цео степен, а ½ пола степена.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<text>Хајде сад да направимо C-дур лествицу.  Полазимо од ноте <b>c</b>.</text>
+		<gotoAndStop label="c_major2" />
+		<text>Цео степен од <b>c</b> води нас до тона <b>d</b>.</text>
+		<gotoAndStop label="c_major3" />
+		<text>Од <b>d</b> идемо још један цео степен до <b>e</b>.</text>
+		<gotoAndStop label="c_major4" />
+		<text>Затим идемо пола степена до <b>f</b>.</text>
+		<gotoAndStop label="c_major5" />
+		<text>Од <b>f</b> идемо цео степен навише до <b>g</b>.</text>
+		<gotoAndStop label="c_major6" />
+		<text>Затим још један цео степен до <b>a</b>.</text>
+		<gotoAndStop label="c_major7" />
+		<text>Задњи цео степен доводи нас до <b>h</b>.</text>
+		<gotoAndStop label="c_major8" />
+		<text>И коначно, са још једним полустепеном смо се вратили на тон <b>c</b>.</text>
+		<gotoAndPlay label="c_major9" />
+		<text>Послушајте C-дур лествицу коју смо направили.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<text>Сада ћемо извести Es-дур лествицу.  Полазимо од ноте <b>es</b>.</text>
+		<gotoAndPlay label="eb_major2" />
+		<text>Приметите да је полустепен од <b>g</b> - <b>as</b>, а не <b>a</b>.</text>
+		<gotoAndStop label="eb_major3" />
+		<text>Цео степен од <b>as</b> доводи нас до <b>b</b>.</text>
+		<gotoAndStop label="eb_major4" />
+		<text>Следећи цео степен и стигли смо до <b>c</b>.</text>
+		<gotoAndPlay label="eb_major5" />
+		<text>Коначно, полустепен од <b>d</b> враћа нас на <b>es</b>.</text>
+		<gotoAndStop label="eb_major6" />
+		<text>Приметите да Es-дур има 3 снизилице (две на истој ноти <b>es</b> се рачунају као само једна).</text>
+		<gotoAndPlay label="eb_major7" />
+		<text>Послушајте Es-дур лествицу.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<text>Задња лествица коју ћемо градити је D-дур.</text>
+		<gotoAndPlay label="d_major2" />
+		<text>Од <b>e</b> цео степен нас доводи до <b>fis</b>.</text>
+		<gotoAndStop label="d_major3" />
+		<text>Полустепен до <b>g</b>.</text>
+		<gotoAndPlay label="d_major4" />
+		<text>Цео степен од <b>h</b> и стижемо до <b>cis</b>.</text>
+		<gotoAndStop label="d_major5" />
+		<text>Коначно, полустепен нас враћа на основни тон <b>d</b>.</text>
+		<gotoAndStop label="d_major6" />
+		<text>Приметите да D-дур има две повисилице.</text>
+		<gotoAndPlay label="d_major7" />
+		<text>Послушајте D-дур лествицу.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<text>И тако се може направити дурска лествица на било ком тону - само следите образац за грађење дурске лествице.</text>
+	</section>	
+</lesson>

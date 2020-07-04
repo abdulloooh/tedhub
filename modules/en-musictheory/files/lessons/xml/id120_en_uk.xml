@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Root</var>
+	<var name="thirdText">Third</var>
+	<var name="fifthText">Fifth</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Building Neapolitan Chords</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>A <b>Neapolitan chord</b> is simply a major triad that is built on a special note.</text>
+		<text>This note is the lowered second degree (the supertonic) of a major or minor scale.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Let's build the Neapolitan for C Minor.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>First, figure out the second scale degree.  In C Minor, this is D.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Next, we will lower it to Db.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Finally, build a major triad.  This results in Db, F, and Ab.</text>
+		<gotoAndStop label="example_one5" />
+		<text>Thus, a Db major chord is the Neapolitan of C Minor.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Next, let's try building the Neapolitan for E Minor.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Again, we need to figure out the second scale degree.  In E Minor, this is F#.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Now, lower it to F natural.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Finally, build a major triad.  This results in F, A, and C.</text>
+		<gotoAndStop label="example_two5" />
+		<text>Thus, an F major chord is the Neapolitan of E Minor.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>For our final example, we will construct the Neapolitan for Ab Major.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>In this key, the second scale degree is Bb.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Next, lower it to Bbb.</text>
+		<gotoAndPlay label="example_three4" />
+		<text>Finally, build a major triad.  This results in Bbb, Db, and Fb.</text>
+		<gotoAndPlay label="example_three5" />
+		<text>Thus, a Bbb major chord is the Neapolitan of Ab Major.</text>
+	</section>
+	
+</lesson>

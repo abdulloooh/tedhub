@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<!--<var name="flagText">Flag</var> -->
+    <var name="flagText">chorągiewka</var>
+	<!-- Translate all text between <title> and </title> -->
+	<!--<title>Note Duration</title>-->
+	<title>Czas trwania nuty</title>
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<!--<text>The length of time that a note is played is called its <b>note duration</b>, which is determined by the type of note.</text>-->
+		<text>Długość czasu, w którym brzmi grana nuta, nazywa się <b>czasem trwania nuty</b>, w zależności od rodzaju nuty.</text> 
+		<gotoAndPlay label="whole" />
+		<!--<text>The whole note has the longest note duration in modern music.</text>-->
+		<text>Cała nuta ma najdłuższy czas trwania we współczesnej muzyce.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<!--<text>The half note has half the duration of a whole note.</text>-->
+		<text>Półnuta ma czas trwania o połowę krótszy niż cała nuta.</text> 
+		<gotoAndPlay label="half2" />
+		<!--<text>Two half notes occupy the same amount of time as one whole note.</text>-->
+		<text>Dwie półnuty trwają tyle samo czasu co jedna cała nuta.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<!--<text>The quarter note is a fourth (or a quarter) of a whole note.</text>-->
+		<text>Ćwierćnuta jest czwartą częścią (lub ćwiercią) całej nuty.</text>
+		<gotoAndPlay label="quarter2" />
+		<!--<text>Four quarter notes occupy the same amount of time as one whole note.  Two quarter notes equal the duration of a half note.</text>-->
+		<text>Cztery ćwierćnuty trwają tyle samo czasu co jedna cała nuta. Dwie ćwierćnuty mają czas trwania równy półnucie.</text> 
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<!--<text>Notes smaller in duration than a quarter note have flags.  Each flag halves the value of a note.</text>-->
+		<text>Nuty o czasie trwania krótszym od ćwierćnuty mają chorągiewki. Każda chorągiewka skraca o połowę wartość nuty.</text>
+		<gotoAndPlay label="eighth" />
+		<!--<text>An eighth note has one flag; therefore, it is half the value of a quarter note.</text>-->
+		<text>Ósemka ma jedną chorągiewkę; zatem jest ona połową wartości ćwierćnuty.</text> 
+		<gotoAndPlay label="sixteenth" />
+		<!--<text>A sixteenth note has two flags, halving the value again.</text>-->
+		<text>Szesnastka ma dwie chorągiewki, gdyż jest połową ósemki.</text>  
+		<gotoAndStop label="3ormore" />
+		<!--<text>Although it is possible to have notes with three or more flags, they are seldomly used.</text>-->
+		<text>Chociaż jest to możliwe, nuty z trzema lub większą ilością chorągiewek są rzadko używane.</text>
+		
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<!--<text>The above chart displays the relationship of all five note types discussed in this lesson.</text>-->
+		<text>Powyższy wykres pokazuje zależności między omówionymi w naszej lekcji pięcioma wartościami nutowymi.</text>
+	</section>
+
+</lesson>

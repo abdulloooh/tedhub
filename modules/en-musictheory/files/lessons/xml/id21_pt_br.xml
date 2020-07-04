@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">s</var>
+	<var name="wText">T</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>A Escala Maior</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Uma <b>escala</b> é uma seleção de certas notas dentro de uma oitava.  A primeira escala que discutiremos é a <b>escala maior</b>.</text>
+		<gotoAndStop label="formula" />
+		<text>A escala maior é construída com a fórmula acima.  Cada "T" representa um tom, e cada "s", um semitom.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<text>Vamos construir a escala maior de Dó, mais conhecida como Escala de Dó Maior. Nossa nota inicial será o Dó.</text>
+		<gotoAndStop label="c_major2" />
+		<text>A partir do Dó, subiremos o intervalo de um tom até o Ré.</text>
+		<gotoAndStop label="c_major3" />
+		<text>Do Ré, subiremos outro tom até o Mi.</text>
+		<gotoAndStop label="c_major4" />
+		<text>Agora, subiremos um semitom até o Fá.</text>
+		<gotoAndStop label="c_major5" />
+		<text>Do Fá, um tom nos levará ao Sol.</text>
+		<gotoAndStop label="c_major6" />
+		<text>A seguir, um outro tom nos leva ao Lá.</text>
+		<gotoAndStop label="c_major7" />
+		<text>O último tom inteiro nos leva ao Si.</text>
+		<gotoAndStop label="c_major8" />
+		<text>E, por fim, um semitom nos devolve ao Dó.</text>
+		<gotoAndPlay label="c_major9" />
+		<text>Ouça a Escala de Dó Maior completa.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<text>Agora, vamos montar a Escala de Mi Bemol Maior. Nossa nota de partida será o Mi bemol.</text>
+		<gotoAndPlay label="eb_major2" />
+		<text>Observe que o intervalo de um semitom a partir do Sol nos leva ao Lá bemol, e não ao Lá.</text>
+		<gotoAndStop label="eb_major3" />
+		<text>De Lá bemol, um tom nos leva ao Si bemol.</text>
+		<gotoAndStop label="eb_major4" />
+		<text>O próximo intervalo de um tom nos leva ao Dó.</text>
+		<gotoAndPlay label="eb_major5" />
+		<text>E por fim o semitom a partir de Ré nos devolve ao Mi bemol.</text>
+		<gotoAndStop label="eb_major6" />
+		<text>Observe que a Escala de Mi Bemol Maior tem três bemóis (Os dois Mi bemóis só contam uma vez).</text>
+		<gotoAndPlay label="eb_major7" />
+		<text>Ouça a Escala de Mi Bemol Maior completa.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<text>Como nossa escala final, montaremos a Escala de Ré Maior.</text>
+		<gotoAndPlay label="d_major2" />
+		<text>A partir do Mi, um tom nos leva ao Fá sustenido.</text>
+		<gotoAndStop label="d_major3" />
+		<text>Um semitom nos leva ao Sol.</text>
+		<gotoAndPlay label="d_major4" />
+		<text>A partir do Si, o intervalo de um tom nos leva ao Dó sustenido.</text>
+		<gotoAndStop label="d_major5" />
+		<text>E, por fim, um intervalo de um semitom nos devolve ao Ré.</text>
+		<gotoAndStop label="d_major6" />
+		<text>Observe que a Escala de Ré Maior tem dois sustenidos.</text>
+		<gotoAndPlay label="d_major7" />
+		<text>Ouça agora a Escala de Ré Maior completa.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<text>É possível montar qualquer escala maior - é só começar na nota inicial e seguir a fórmula.</text>
+	</section>
+</lesson>

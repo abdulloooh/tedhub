@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Pauser</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>En <b>paus</b> används för att indikera avsnitt med tystnad i en takt.</text>
+		<gotoAndPlay label="notes" />
+		<text>Varje typ av paus motsvaras av ett notvärde.</text>
+		<gotoAndStop label="notes2" />
+		<text>Exempelvis så har en fjärdedelspaus och en fjärdedelsnot samma tidsvärde.  Medan noten står för ett ljud av något slag, indikerar pausen tystnad.</text>
+	</section>
+			
+	<section>
+		<gotoAndPlay label="example" />
+		<text>För att demonstrera detta fyller vi en takt i 4/4-takt med fjärdedelsnoter.</text>
+		<gotoAndPlay label="example2" />
+		<text>Lyssna på ovanstående exempel.</text>
+		<gotoAndPlay label="example3" />
+		<text>Nu byter vi ut den andra fjärddelsnoten mot en fjärdedelspaus.</text>
+		<gotoAndPlay label="example4" />
+		<text>Lägg märke till att andra taktslaget nu är tyst.</text>
+	</section>	
+
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Använd den här översikten för att lära dig pausernas tidsvärden.</text>
+	</section>		
+
+</lesson>

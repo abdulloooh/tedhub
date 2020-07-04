@@ -1,0 +1,12 @@
+@font-face {
+    font-family: my_font;
+    src: url(../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+  }
+
+
+body {
+    background-color: rgb(204, 204, 204, 0.2);
+    font-family: my_font !important;
+    font-size: 100%;
+    margin-top: 20px;
+}

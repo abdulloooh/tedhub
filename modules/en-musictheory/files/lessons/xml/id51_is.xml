@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómsetning</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Tónskáld skipa hljómnótum á mismunandi vegu, m.a. til að ná fram fjölbreytni. Það hvernig hljómar eru skrifaðir er nefnt <b>hljómsetning</b>.</text>
+		<gotoAndPlay label="root_position" />
+		<text>Til að skýra þetta skulum við hljómsetja F dúr þríhljóm í grunnstöðu á nokkra mismunandi vegu.</text>
+		<gotoAndPlay label="root_position2" />
+		<text>Taktu eftir að F er ávalt neðsta nótan (bassinn); annars má nota hljómnóturnar (F - A - C) nánast í hvaða röð sem er.</text>
+		<gotoAndPlay label="root_position3" />
+		<text>Hljómsetningin hljómar svona.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Lítum næst á F dúr þríhljóm í fyrstu hljómhvörfum.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Hljómur er í fyrstu hljómhvörfum þegar 3undin (hér nótan A) er í bassa (neðsta nótan).</text>
+		<gotoAndPlay label="first_inversion3" />
+		<text>Þessi hljómsetning hljómar svona.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="second_inversion" />
+		<text>Loks hljómsetjum við F dúr þríhljóm í öðrum hljómhvörfum.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>Líkt og í fyrri dæmum geta hljómtónarnir verið í næstum hvaða röð sem er nema hvað 5undin (hér C) verður að vera neðsta nótan (2. hljómhvörf).</text>
+		<gotoAndPlay label="second_inversion3" />
+		<text>Hljómsetningin hljómar þá svona.</text>
+	</section>
+	
+</lesson>

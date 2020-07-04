@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Writing Intervals</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>When writing intervals on the staff, it is common to confuse intervals with the same number of half steps.</text>
+		<gotoAndPlay label="wrong" />
+		<text>For example, one may accidentally write C to F# (an augmented fourth) instead of C to Gb (a diminished fifth).</text>
+		<gotoAndStop label="wrong2" />
+		<text>Although both intervals sound the same and look identical on the keyboard, one is a fourth and the other is a fifth.</text>
+		<text>Fortunately, an easy three-step process exists to reduce the risk of this mistake.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Let's write a minor third from C.</text>		
+		<gotoAndPlay label="example_one2" />
+		<text>First, write the generic interval on the staff.  In our case, we would write a generic third.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Next, figure out the number of half steps on the keyboard.  Since a major third is 4 half steps, our minor third will be 3 half steps.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Finally, transfer over any accidentals.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>For our next example, let's try a diminished seventh from F.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>First, write the generic seventh on the staff.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Next, figure out the half steps on the keyboard (Since a major seventh is 11 half steps and a minor seventh is 10, our diminished seventh will be 9).</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Finally, transfer over any accidentals.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>For our final example, we will try a diminished fifth from B.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>First, write the generic fifth on the staff.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Next, figure out the half steps on the keyboard (Since a perfect fifth is 7 half steps, our diminished fifth will be 6).</text>
+		<gotoAndStop label="example_three4" />
+		<text>Finally, transfer over any accidentals.  In this example, no accidental is needed.</text>
+	</section>
+
+</lesson>

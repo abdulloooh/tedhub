@@ -1,0 +1,148 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minusText">-</var>
+	<var name="plusText">+</var>
+	<var name="equalsText">=</var>
+	<var name="minusSevenText">-7</var>
+	<var name="minusSixText">-6</var>
+	<var name="minusFiveText">-5</var>
+	<var name="minusFourText">-4</var>
+	<var name="minusThreeText">-3</var>
+	<var name="minusTwoText">-2</var>
+	<var name="minusOneText">-1</var>
+	<var name="ZeroText">0</var>
+	<var name="OneText">1</var>
+	<var name="TwoText">2</var>
+	<var name="ThreeText">3</var>
+	<var name="FourText">4</var>
+	<var name="FiveText">5</var>
+	<var name="SixText">6</var>
+	<var name="SevenText">7</var>
+	<var name="EightText">8</var>
+	<var name="cFlatMajorText">Ces</var>
+	<var name="cMajorText">C</var>
+	<var name="cSharpMajorText">Cis</var>
+	<var name="cMinorText">c</var>
+	<var name="dMajorText">D</var>
+	<var name="dMinorText">d</var>
+	<var name="eFlatMajorText">Es</var>
+	<var name="eMajorText">E</var>
+	<var name="fMajorText">F</var>
+	<var name="fSharpMajorText">Fis</var>
+	<var name="fMinorText">f</var>
+	<var name="gMajorText">G</var>
+	<var name="gSharpMajorText">Gis</var>
+	<var name="gSharpMinorText">gis</var>
+	<var name="aMajorText">A</var>
+	<var name="bMajorText">H</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Израчунавање предзнака тоналитета</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Постоји 30 различитих предзнака тоналитета (предзнака при кључу) (15 за дурске лествице и 15 за молске).  Већина студената музике мора да запамти свих 30.</text>
+		<text>Срећом, коришћењем <b>метода за израчунавање предзнака тоналитета</b>, довољно је запамтити 7.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="number_line" />
+		<text>У овом поступку израчунавања, сваком тоналитету је додељен број, зависно од броја и врсте предзнака.  Повисилице су представљене позитивним бројем, снизилице негативним.</text>
+				
+		<gotoAndStop label="c_major" />
+		<text>У C-дур тоналитету нема предзнака, стога је његов број 0.</text>
+		<gotoAndStop label="d_major" />
+		<text>D-дур има две повисилице, зато је његов број 2.</text>
+		<gotoAndStop label="e_major" />
+		<text>E-дур има четири повисилице, његов број је 4.</text>
+		<gotoAndStop label="f_major" />
+		<text>F-дур има једну снизилицу, његов број је -1.  (Запамтите: снизилице су представљене негативним бројем)</text>
+		<gotoAndStop label="g_major" />
+		<text>G-дур има једну повисилицу.  Његов број је 1.</text>
+		<gotoAndStop label="a_major" />
+		<text>A-дур има три повисилице и број 3.</text>
+		<gotoAndStop label="b_major" />
+		<text>Коначно, H-дур има пет повисилица, број 5.</text>
+		<text>Ових седам бројева морате запамтити да бисмо могли наставити.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="seven" />
+		<text>Сада, упоредимо Ces, C и Cis-дур.</text>
+		<gotoAndStop label="seven2" />
+		<text>Ако пођемо од C-дура и одузмемо 7, добијемо Ces-дур.</text>
+		<text>Ако пођемо од C-дура и додамо 7, добијемо Cis-дур.</text>
+		<text>Помоћу ова два бројна односа можемо израчунати било који тоналитет који не знамо.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="eb_major" />
+		<text>Хајде да израчунамо Es-дур.  Прво пођемо од E-дура, чији број је 4.</text>
+		<gotoAndStop label="eb_major2" />
+		<text>Да бисмо добили Es-дур, одузећемо 7.</text>
+		<gotoAndPlay label="eb_major3" />
+		<text>Резултат је -3, значи Es-дур има 3 снизилице.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="fs_major" />
+		<text>Сада да пробамо Fis-дур.  Узмемо F-дур, чији број је -1.</text>
+		<gotoAndStop label="fs_major2" />
+		<text>Да бисмо га пребацили у Fis-дур, додамо 7.</text>
+		<gotoAndPlay label="fs_major3" />
+		<text>Резултат је 6 и зато Fis-дур има 6 повисилица.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="three" />
+		<text>Сада су на реду молске лествице.  Упоредићемо C-дур и c-мол.</text>
+		<gotoAndStop label="three2" />
+		<text>Да бисмо од дурске лествице добили паралелну молску, треба само одузети 3.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="d_minor" />
+		<text>Хајде да израчунамо d-мол.  Полазимо од D-дура, чији број је 2.</text>
+		<gotoAndStop label="d_minor2" />
+		<text>Сада само одузмемо 3.</text>
+		<gotoAndPlay label="d_minor3" />
+		<text>Резултат је -1.  Значи, d-мол  има једну снизилицу.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="f_minor" />
+		<text>Сада да пробамо са f-молом.  Полазимо од F-дура, чији број је -1.</text>
+		<gotoAndStop label="f_minor2" />
+		<text>Одузмемо 3.</text>
+		<gotoAndPlay label="f_minor3" />
+		<text>Резултат је -4.  Значи f-мол има 4 снизилице.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="gs_minor" />
+		<text>Понеки тоналитети захтевају двоструку прераду.  На пример, узећемо gis-мол.</text>
+		<gotoAndStop label="gs_minor2" />
+		<text>Полазимо од G-дура, чији број је 1.</text>
+		<gotoAndStop label="gs_minor3" />
+		<text>Сада додамо 7 да бисмо добили Gis-дур.</text>
+		<gotoAndStop label="gs_minor4" />
+		<text>Коначно, одузмемо 3 и добијамо gis-мол.</text>
+		<gotoAndPlay label="gs_minor5" />
+		<text>Резултат је 5.  Дакле, gis-мол има 5 повисилица.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,104 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">двострука</var>
+	<var name="doubleFlatTwoText">снизилица</var>
+	<var name="flatText">снизилица</var>
+	<var name="naturalText">разрешилица</var>
+	<var name="sharpText">повисилица</var>
+	<var name="doubleSharpOneText">двострука</var>
+	<var name="doubleSharpTwoText">повисилица</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Цео степен, полустепен и предзнаци</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Полустепен</b> је размак између две суседне дирке на клавиру.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Ово је пример за полустепен, будући да су дирке 1 и 2 једна до друге.</text>
+		<gotoAndStop label="half_step2" />
+		<text>Полустепен се не налази увек између беле и црне дирке.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>У овом примеру, дирке 1 и 2 су опет удаљене један полустепен, међутим сада је полустепен између две беле дирке.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text><b>Цео степен</b> је размак од два полустепена.</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>Диркe 1 и 3 су удаљене један цео степен. Први полустепен је између дирки 1 и 2, а други између 2 и 3.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text><b>Предзнаци</b> се користе за повишавање или снижавање ноте.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>Прво ћемо обрадити <b>снизилицу</b> и <b>повисилицу</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>Снилизица снижава ноту за један полустепен, а повисилица је повисује за један полустепен.</text>
+		<gotoAndStop label="accidentals4" />
+		<text>Када куцате текст, можете користити знак <b>#</b> уместо повисилице и знак <b>b</b> уместо снизилице.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<text>Сада ћемо размотрити црну дирку између <b>c</b> и <b>d</b>.</text>
+		<gotoAndStop label="example2" />
+		<text>Ова дирка се може звати <b>cis</b> јер се налази један полустепен изнад <b>c</b>.</text>
+		<gotoAndStop label="example3" />
+		<text>Исто тако се може звати <b>des</b> јер се налази један полустепен испод <b>d</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Други пример били би тонови <b>e</b> и <b>f</b>.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>Тон <b>e</b> може да се зове <b>fes</b> јер је један полустепен испод <b>f</b>.</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>Исто тако <b>f</b> може да се зове <b>eis</b>.</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>Кад год се један тон може именовати на више начина, то се зове <b>енхармонска замена.</b></text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>Сада ћемо обрадити <b>двоструку снизилицу</b> и <b>двоструку повисилицу</b>.</text>
+		<gotoAndStop label="double2" />
+		<text>Док снизилица и повисилица мењају ноту за један полустепен, двострука снизилица и повисилица је мењају за један цео степен.</text>
+		<gotoAndStop label="double3" />
+		<text>При куцању можете користити знак <b>x</b> уместо двоструке повисилице, односно знак <b>bb</b> уместо двоструке снизилице.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>На пример, <b>d</b> и <b>eses</b> представљају тон исте висине будући да тон <b>d</b> можете добити спуштајући тон <b>e</b> за један цео степен (или два полустепена).</text>
+		<gotoAndPlay label="double_example2" />
+		<text><b>d</b> може још да се запише као <b>cisis</b> јер се налази цео степен изнад <b>c</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Коначно, <b>разрешилица</b> поништава било који од предзнака и враћа ноту на њену праву вредност на белој дирци.</text>
+		<gotoAndStop label="natural2" />
+		<text>Више о разрешилицама научићете у следећој лекцији.</text>
+	</section>
+	
+</lesson>

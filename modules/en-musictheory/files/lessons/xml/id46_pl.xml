@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="majorSeventhText">M7</var>
+	<var name="minorSeventhText">m7</var>
+	<var name="dominantSeventhText">D7</var>
+	<var name="fullyDiminishedSeventhText">zmn7</var>
+	<var name="halfDiminishedSeventhText">pzm7</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Gamowłaściwe (diatoniczne) akordy septymowe </title>
+	<!-- <title>Diatonic Seventh Chords</title> -->	
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Oprócz trójdźwięków diatonicznych, każda gama majorowa i minorowa zawiera siedem <b>diatonicznych akordów septymowych</b>.</text>
+		<!-- <text>In addition to diatonic triads, every major and minor scale has seven <b>diatonic seventh chords</b>.</text> -->
+		<text>W kolejnym przykładzie będziemy odnajdywać diatoniczne akordy septymowe w gamie C-dur.</text>
+		<!-- <text>In the next example, we will find the diatonic seventh chords of the C Major Scale.</text> -->
+		<gotoAndPlay label="major" />
+		<text>Zaczynamy od trójdźwięków diatonicznych.</text>
+		<!-- <text>First, start with the diatonic triads.</text> -->
+		<gotoAndPlay label="major2" />
+		<text>Następnie nad każdym trójdźwiękiem wpisujemy podstawową tercję.</text>
+		<!-- <text>Next, stack a generic third on top of each triad.</text> -->
+		<gotoAndStop label="major3" />
+		<text>Teraz analizujemy powstałe akordy septymowe.</text>
+		<!-- <text>Finally, analyze the resulting seventh chords.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Pierwszy akord jest trójdźwiękiem durowym z dodaną septymą wielką. Jest to więc akord majorowy septymowy.</text>
+		<!-- <text>The first chord is a major triad and a major seventh.  Therefore, it is a major seventh chord.</text> -->
+		<gotoAndStop label="major_ii" />
+		<text>Drugi akord jest trójdźwiękiem minorowym z dodaną septymą małą. Jest więc akordem minorowym septymowym.</text>
+		<!-- <text>The second chord is a minor triad and a minor seventh.  Therefore, it is a minor seventh chord.</text> -->
+		<gotoAndStop label="major_iii" />
+		<text>Trzeci akord jest trójdźwiękiem minorowym z dodaną septymą małą. Jest więc również akordem minorowym septymowym.</text>
+		<!-- <text>The third chord is a minor triad and a minor seventh.  Therefore, it is also a minor seventh chord.</text> -->
+		<gotoAndStop label="major_iv" />
+		<text>Czwarty akord jest trójdźwiękiem majorowym z dodaną septymą wielką. Jest to więc akord majorowy septymowy.</text>
+		<!-- <text>The fourth chord is a major triad and a major seventh.  Therefore, it is a major seventh chord.</text> -->
+		<gotoAndStop label="major_v" />
+		<text>Piąty akord jest majorowym trójdźwiękiem z dodaną septymą małą. Akord taki nazywamy dominantą septymową.</text>
+		<!-- <text>The fifth chord is a major triad and a minor seventh.  This combination makes it a dominant seventh chord.</text> -->
+		<gotoAndStop label="major_vi" />
+		<text>Szósty akord jest minorowym trójdźwiękiem plus mała septyma. Jest to więc minorowy akord septymowy.</text>
+		<!-- <text>The sixth chord is a minor triad and a minor seventh.  Therefore, it is a minor seventh chord.</text> -->
+		<gotoAndStop label="major_vii" />
+		<text>Akord numer siedem jest trójdźwiękiem zmniejszonym z dodaną septymą małą. Nazwijmy ten akord półzmniejszonym akordem septymowym.</text>
+		<!-- <text>Chord number seven is a diminished triad and a minor seventh.  Therefore, it is a half-diminished seventh chord.</text> -->
+		<gotoAndStop label="major_viii" />
+		<text>Ostatni akord jest identyczny z pierwszym.</text>
+		<!-- <text>Finally, the last chord is the same as the first.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Następnie zanalizujemy gamowłaściwe akordy septymowe w gamie c-moll naturalnej.</text>
+		<!-- <text>Next, we will analyze the diatonic seventh chords of the C natural minor scale.</text> -->
+		<gotoAndStop label="minor_i" />
+		<text>Pierwszy akord jest trójdźwiękiem minorowym plus septyma mała. Jest to więc minorowy akord septymowy.</text>
+		<!-- <text>The first chord is a minor triad and a minor seventh.  Therefore, it is a minor seventh chord.</text> -->
+		<gotoAndStop label="minor_ii" />
+		<text>Drugi akord jest trójdźwiękiem zmniejszonym plus septyma mała.  Jest to więc półzmniejszony akord septymowy.</text>
+		<!-- <text>The second chord is a diminished triad and a minor seventh.  Therefore, it is a half-diminished seventh chord.</text> -->
+		<gotoAndStop label="minor_iii" />
+		<text>Trzeci akord jest trójdźwiękiem durowym plus septyma wielka. Jest to więc akord majorowy septymowy.</text>
+		<!-- <text>The third chord is a major triad and a major seventh.  Therefore, it is a major seventh chord.</text> -->
+		<gotoAndStop label="minor_iv" />
+		<text>Czwarty akord jest trójdźwiękiem minorowym plus septyma mała. Jest to więc minorowy akord septymowy.</text>
+		<!-- <text>The fourth chord is a minor triad and a minor seventh.  Therefore, it is a minor seventh chord.</text> -->
+		<gotoAndStop label="minor_v" />
+		<text>Piąty akord jest trójdźwiękiem minorowym plus septyma mała. Jest to więc również akord minorowy septymowy.</text>
+		<!-- <text>The fifth chord is a minor triad and a minor seventh.  Therefore, it is also a minor seventh chord.</text> -->
+		<gotoAndStop label="minor_vi" />
+		<text>Szósty akord jest trójdźwiękiem majorowym plus septyma wielka. Jest to więc majorowy akord septymowy.</text>
+		<!-- <text>The sixth chord is a major triad and a major seventh.  Therefore, it is a major seventh chord.</text> -->
+		<gotoAndStop label="minor_vii" />
+		<text>Akord numer siedem jest trójdźwiękiem majorowym plus septyma mała. Jest to więc dominantowy akord septymowy.</text>
+		<!-- <text>Chord number seven is a major triad and a minor seventh.  Therefore, it is a dominant seventh chord.</text> -->
+		<gotoAndStop label="minor_viii" />
+		<text>I znowu ostatni akord jest taki sam jak pierwszy.</text>
+		<!-- <text>Again, the last chord is the same as the first.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Na zakończenie zanalizujemy akordy diatoniczne septymowe w gamie harmonicznej c-moll.</text>
+		<!-- <text>Finally, we will analyze the diatonic seventh chords of the C harmonic minor scale.</text> -->
+		<gotoAndStop label="harmonic_i" />
+		<text>Ponieważ pierwszy akord składa się z trójdźwięku minorowego plus septyma wielka, jest więc różny od akordów septymowych, które poznaliśmy do tej pory.</text>
+		<!-- <text>Since the first chord contains a minor triad and major seventh, it doesn't fit any of the seventh chords that we have learned.</text> -->
+		<gotoAndStop label="harmonic_iii" />
+		<text>Także trzeci akord, który zaczyna się trójdźwiękiem zwiększonym nie pasuje do naszego zbioru. Oba te akordy są rzadko używane.</text>
+		<!-- <text>Since the third chord contains an augmented triad, it also doesn't fit.  These two chords are rarely used.</text> -->
+		<gotoAndStop label="harmonic_v" />
+		<text>Piąty akord zawiera teraz trójdźwięk durowy i septymę małą. Jest więc dominantą septymową.</text>
+		<!-- <text>The fifth chord now contains a major triad and a minor seventh.  Therefore, it is a dominant seventh chord.</text> -->
+		<gotoAndStop label="harmonic_vii" />
+		<text>I wreszcie akord numer siedem składa się z trójdźwięku zmniejszonego oraz septymy zmniejszonej. Jest więc akordem zmniejszonym septymowym.</text>
+		<!-- <text>Finally, chord number seven contains a diminished triad and a diminished seventh.  Therefore, it is a diminished seventh chord.</text> -->
+	</section>
+
+	<section>
+		<gotoAndStop label="analysis" />
+		<text>Zajmiemy się teraz zapisem omówionych diatonicznych akordów septymowych według metody cyfrowania rzymskiego.</text>
+		<!-- <text>We will now discuss the analysis symbols for diatonic seventh chords.</text> -->
+		<gotoAndPlay label="analysis2" />
+		<text>Przypomnijmy najpierw symbole trójdźwięków diatonicznych w minorze harmonicznym.</text>
+		<!-- <text>Recall the symbols for the harmonic minor diatonic triads.</text> -->
+		<gotoAndPlay label="analysis3" />
+		<text>Teraz po prostu dopisujemy malutką siódemkę z prawej górnej strony przy każdej rzymskiej cyfrze.</text>
+		<!-- <text>We simply add a small seven to the top right corner of each roman numeral.</text> -->
+		<gotoAndPlay label="analysis4" />
+		<text>Jeśli akord septymowy jest półzmniejszony, kółeczko będzie przekreślone.</text>
+		<!-- <text>If the seventh chord is half diminished, a slash is placed through the circle.</text> -->
+	</section>
+
+</lesson>

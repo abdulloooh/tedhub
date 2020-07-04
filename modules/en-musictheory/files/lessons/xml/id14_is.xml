@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">Punktur</var>
+	<var name="tieText">Tengibogi</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Lengdar nótur og tengibogar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text><b>Lengipunktar</b> og <b>tengibogar</b> eru tvær aðferðir til að breyta lengdargildi nótna.</text>
+        <gotoAndStop label="dot" />
+        <text>Punktur lengir nótu um 50% (1/2 gildi nótunnar sem hann stendur við).</text>
+		<gotoAndPlay label="dot2" />
+        <text>Áttungsnóta kemur þannig í stað 1/2 táknsins hér fyrir ofan.</text>
+		<gotoAndStop label="dot3" />
+		<text>Nú sérðu að punkteruð fjórðungsnóta jafngildir fjórðungsnótu plús áttungsnótu.</text>
+		<gotoAndPlay label="dot4" />
+		<text>Punkteruð fjórðungsnóta jafngildir líka þremur áttungsnótum.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<text>Tengibogi sameinar tvær eða fleiri nótur sem eru í sömu tónhæð. Tengibogar eru stundum notaðir til að lengja nótur yfir hindranir (eins og t.d. taktstrikið í dæminu hér fyrir ofan).</text>
+		<gotoAndPlay label="tie2" />
+		<text>Taktu eftir hvernig tengiboginn sameinar fjórðu og fimmtu nótuna í eina.</text>
+		<gotoAndPlay label="tie3" />
+		<text>Ef taktstrikið hefði ekki verið þarna hefði einfaldlega mátt skrifa hálfnótu í stað þess að binda fjórðu og fimmtu nótuna með tengiboga.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>Notaðu myndina til að minna þig á lengdargildi punkteraðra nótna.</text>
+	</section>    	
+	
+</lesson>

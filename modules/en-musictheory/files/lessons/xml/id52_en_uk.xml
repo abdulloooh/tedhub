@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "Eighth Note:" followed by an eighth note -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- Eighth Note: ♪ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="EbText">Eb</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Analysis #1</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Analyzing the notes and chords of a song is a major part of music theory.</text>
+		<gotoAndPlay label="song" />
+		<text>In this analysis, we will be looking at the first four bars of <i>O Canada!</i>, the national anthem of Canada.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>The first step in analysis is to determine the key.  Since the key signature contains three flats, we have two possibilities: Eb major or C minor.</text>
+		<gotoAndStop label="measure_one" />
+		<text>The first chord contains an Eb, Bb, Eb, and G - an Eb major triad.  Since this is <b>I</b> in Eb Major, we are most likely in that key.</text>
+		<gotoAndStop label="measure_one2" />
+		<text>The second chord contains a D, Bb, F, and Bb - a Bb major triad.  This is <b>V</b> in Eb Major.  Since the third is the lowest note, the triad is in first inversion.</text>
+		<gotoAndStop label="measure_one3" />
+		<text>Since the third chord is the same as the previous one, we do not have to repeat the analysis symbol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_two" />
+		<text>The first chord of the second bar contains a C, G, C, and Eb - a C minor triad.  Thus, it is <b>vi</b>.</text>
+		<gotoAndStop label="measure_two2" />
+		<text>The second chord contains a Bb, Bb, D, and F - another Bb major triad.  This time, it is in root position.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_three" />
+		<text>The first chord of the third bar contains an Eb, Bb, Eb, and G - an Eb major triad.  Thus, it is another <b>I</b> chord.</text>
+		<gotoAndStop label="measure_three2" />
+		<text>The second chord contains a C, Ab, Eb, and Ab - an Ab major triad in first inversion.</text>
+		<gotoAndStop label="measure_three3" />
+		<text>The third chord contains a G, G, Eb, and Bb - an Eb major triad in first inversion.</text>
+		<gotoAndStop label="measure_three4" />
+		<text>The fourth chord contains an Ab, C, Eb, and C - another Ab major triad.  Notice that it is now in root position.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_four" />
+		<text>The final bar contains a Bb, Bb, D, and F - a Bb major triad.  Thus, we end with a <b>V</b>.</text>
+		<gotoAndPlay label="listen" />
+		<text>Listen to the above bars of <i>O Canada!</i>.</text>
+	</section>
+	
+</lesson>

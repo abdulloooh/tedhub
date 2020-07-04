@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="stepText">Skref</var>
+	<var name="skipText">Stökk</var>
+	<var name="passingToneAbbrText">TT</var>
+	<var name="accentedPassingToneAbbrText">ÁTT</var>
+	<var name="neighboringToneText">ST</var>
+	<var name="accentedNeighboringToneText">ÁST</var>
+	<var name="escapeToneText">ST</var>
+	<var name="appoggiaturaText">App.</var>
+	<var name="anticipationText">HB</var>
+	<var name="retardationText">BT</var>
+	<var name="suspensionText">Sus.</var>
+	<var name="changingToneText">TST</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Spennur</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Spennur</b> eru tónar sem ekki tilheyra þeim hljómi sem þeir eru í eða standa við.</text>
+		<gotoAndPlay label="example" />
+		<text>Í dæminu hér fyrir ofan er F-ið spenna (spennutónn) vegna þess að hann er ekki hluti <b>I</b> hljómsins (C - E - G).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="step" />
+		<text>Áður en lengra er haldið er rétt að skýra tvö hugtök: skref og stökk.</text>
+		<gotoAndPlay label="step2" />
+		<text><b>Skref</b> er stór eða lítil 2und, upp eða niður, innan tóntegundarinnar.</text>
+		<gotoAndPlay label="skip" />
+		<text><b>Stökk</b> jafngildir 3und upp eða niður innan tóntegundarinnar.</text>
+		<gotoAndStop label="skip2" />
+		<text>Snúum okkur nú aftur að spennutónum.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="passing_tone" />
+		<text><b>Tengitónn</b> er eins konar millitónn milli tveggja hljómtóna (skrefi frá hvorum hljómtóni).</text>
+		<gotoAndPlay label="passing_tone2" />
+		<text>Ef tengitónn kemur fyrir í seinni hljómnum, en ekki á milli hljómanna nefnist hann <b>áherslutengitónn</b> (ÁTT).</text>
+		<gotoAndPlay label="passing_tone3" />
+		<text>Dæmin hljóma svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="neighboring_tone" />
+		<text><b>Skiptitónn</b> (ST) gengur úr hljómtóni (skref) en hreyfist síðan aftur í hljómtón.</text>
+		<gotoAndPlay label="neighboring_tone2" />
+		<text>Ef skiptitónn kemur fyrir í seinni hljómnum, en ekki á milli hljómanna nefnist hann <b>áhersluskiptitónn</b> (ÁST).</text>
+		<gotoAndPlay label="neighboring_tone3" />
+		<text>Dæmið hljómar svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="escape_tone" />
+		<text><b>Stökktónn</b> (ST), nefndur „escape tone“ á ensku, gengur skref úr hljómtóni en stekkur síðan í gagnstæða stefnu og er þá hljómtónn í nýjum hljómi.</text>
+		<gotoAndStop label="escape_tone2" />
+		<text>Þessi tegund stökktóns er áherslulaus og kemur fyrir milli tveggja hljóma.</text>
+		<gotoAndPlay label="escape_tone3" />
+		<text>Hér er dæmi.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="appoggiatura" />
+		<text>Önnur tegund stökktóns, nefndur „appoggiatura“ (App.) á ensku. Hér er stokkið í tóninn en síðan gengið í hljómtón, skref í gagnstæða átt.</text>
+		<gotoAndStop label="appoggiatura2" />
+		<text>Hér er spennutónninn áherslutónn og kemur fyrir í seinni hljómnum.</text>
+		<gotoAndPlay label="appoggiatura3" />
+		<text>Hlustaðu.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="anticipation" />
+		<text><b>Hljómboði</b> verður til með skrefagangi úr fyrri hljómnum; tónninn reynist síðan hljómtónn í þeim hljómi sem á eftir kemur.</text>
+		<gotoAndStop label="anticipation2" />
+		<text>Hljómboði er áherslulaus.</text>
+		<gotoAndPlay label="anticipation3" />
+		<text>Hlustaðu.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="retardation_suspension" />
+		<text>Biðtónar eru andstæða undirbúningstóns. þeir tilheyra í raun hljómnum á undan.</text>
+		<gotoAndPlay label="retardation_suspension2" />
+		<text>Ein gerð <b>biðtóns</b>, „retardation“ á ensku (Ret.), hangir yfir í nýjan hljóm en gengur svo skref upp og verður þá hljómtónn.</text>
+		<gotoAndPlay label="retardation_suspension3" />
+		<text>Hin gerðin, <b>Sus</b>. („suspension“ á ensku), hangir yfir í nýjan hljóm en gengur svo skref niður.</text>
+		<gotoAndStop label="retardation_suspension4" />
+		<text>Báðir þessir tónar eru áherslutónar,</text>
+		<gotoAndPlay label="retardation_suspension5" />
+		<text>og hljóma svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="changing_tone" />
+		<text>Loks nefnum við <b>tvöfaldan stökktón</b> (TST) sem í raun er tveir spennutónar.</text>
+		<gotoAndStop label="changing_tone2" />
+		<text>Gengið er skrefagang í fyrri tónninn en síðan stokkið 3und í þann seinni.</text>
+		<gotoAndStop label="changing_tone3" />
+		<text>Seinni tónninn leysist síðan í hljómtón með skrefagangi.</text>
+		<gotoAndPlay label="changing_tone4" />
+		<text>Þetta hljómar svona.</text>
+	</section>
+	
+</lesson>

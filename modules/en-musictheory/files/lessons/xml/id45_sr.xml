@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">основни тон</var>
+	<var name="thirdText">терца</var>
+	<var name="fifthText">квинта</var>
+	
+	<var name="diminishedSeventhText">у7</var>
+	<var name="minorSeventhText">м7</var>
+	<var name="majorSeventhText">в7</var>
+
+	<var name="MajorTriadText">дурски трозвук</var>
+	<var name="MinorTriadText">молски трозвук</var>
+	<var name="DiminishedTriadText">умањени трозвук</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Септакорди</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Септакорд</b> се гради од трозвука и септиме основног тона.</text>
+		<text>Најчешће се користе 5 врста септакорада које ћемо обрадити.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="dominant" />
+		<text>Када се дурском трозвуку дода мала септима, добија се <b>доминантни септакорд</b> или <b>мали дурски септакорд</b>.</text>
+		<gotoAndPlay label="dominant2" />
+		<text>Послушајте C-доминантни септакорд.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Када се дурском трозвуку дода велика септима, добија се <b>велики дурски септакорд</b>.</text>
+		<gotoAndPlay label="major2" />
+		<text>Послушајте како он звучи.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Када се молском трозвуку дода мала септима, добија се <b>мали молски септакорд</b>.</text>
+		<gotoAndPlay label="minor2" />
+		<text>Послушајте како звучи c-мали молски септакорд.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>Када се умањеном трозвуку дода умањена септима добија се <b>умањени септакорд</b>.  Још се зове и <b>двоструко умањени септакорд</b>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Послушајте како звучи c-умањени септакорд.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="half_diminished" />
+		<text>Коначно, када се умањеном трозвуку дода мала септима, добија се <b>полуумањени септакорд</b>.</text>
+		<gotoAndPlay label="half_diminished2" />
+		<text>Послушајте како звучи c-полуумањени септакорд.</text>
+	</section>
+
+</lesson>

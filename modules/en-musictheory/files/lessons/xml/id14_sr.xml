@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">тачка</var>
+	<var name="tieText">лигатура</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Тачка и лигатура</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text><b>Тачка</b> (после ноте) и <b>лигатура</b> су две ознаке које се користе за продужење трајања ноте.</text>
+        <gotoAndStop label="dot" />
+        <text>Тачка продужава дужину ноте за пола.</text>
+		<gotoAndPlay label="dot2" />
+        <text>Пошто је осмина ноте пола од четвртине, уместо знака 1/2 ћемо записати знак за осмину.</text>
+		<gotoAndStop label="dot3" />
+		<text>Као што видите, четвртина са тачком има укупну дужину од једне четвртине плус једна осмина.</text>
+		<gotoAndPlay label="dot4" />
+		<text>Четвртина са тачком може се рачунати и као три осмине.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<text>Лигатура спаја ноте исте висине.  Она се користи за спајање две или више нота које би се иначе морале писати одвојено (као на пример две четвртине које се због тактне линије морају одвојити а уствари су једна нота).</text>
+		<gotoAndPlay label="tie2" />
+		<text>Послушајте и приметите да су четврта и пета нота спојене.</text>
+		<gotoAndPlay label="tie3" />
+		<text>Да ту не стоји тактна линија, могли бисмо просто ставити половину уместо две повезане четвртине.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>У горњој табели дат је преглед трајања нота са тачком.</text>
+	</section>    	
+	
+</lesson>

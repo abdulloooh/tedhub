@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+   
+	<!-- Translate all text between <title> and </title> -->
+	<title>Bars and Time Signature</title>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="threeText">Three</var>
+	<var name="fourText">Four</var>
+	<var name="sixText">Six</var>
+	<var name="halfText">Minim notes</var>
+	<var name="quarterText">Crotchet notes</var>
+	<var name="eighthText">Quaver notes</var>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Vertical black lines called <b>bar lines</b> divide the staff into <b>bars</b>.</text>
+		<gotoAndPlay label="bar" />
+		<text>The above staff has been split into two bars.</text>
+		<gotoAndPlay label="timesig" />
+		<text><b>Time signatures</b> define the amount and type of notes that each bar contains.</text>
+	</section>
+			
+	<section>
+		<gotoAndStop label="timesig2" />
+		<text>In the above example, the first bar is in 4/4 time and the second bar is in 3/4 time.</text>
+		<gotoAndPlay label="4/4" />
+		<text>The first bar (4/4) contains four crotchet notes.</text>
+		<gotoAndPlay label="3/4" />
+		<text>The second bar (3/4) contains three crotchet notes.</text>
+	</section>	
+
+	<section>
+		<gotoAndPlay label="timesig3" />
+		<text>Next, we will discuss non-crotchet note time signatures.</text>
+		<gotoAndPlay label="6/8" />
+		<text>6/8 time contains six quaver notes.</text>
+		<gotoAndPlay label="3/2" />
+		<text>Finally, 3/2 time contains three minims.</text>
+	</section>		
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>The above chart displays all time signatures discussed in this lesson.</text>
+	</section>
+	
+</lesson>

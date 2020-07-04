@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Stämföring</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Kompositörer placerar ofta tonerna i ett ackord på olika sätt för att variera klangen. Detta kallas för <b>stämföring</b>.</text>
+		<gotoAndPlay label="root_position" />
+		<text>För att visa hur detta kan gå till ska vi lägga ett F-durackord på olika sätt.</text>
+		<gotoAndPlay label="root_position2" />
+		<text>Lägg märke till att vi kan placera tonerna i ackordet på vilket sätt som helst, så länge som vi använder tonerna F, A och C och F är den lägsta tonen i ackordet.</text>
+		<gotoAndPlay label="root_position3" />
+		<text>Lyssna på de här exemplen.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first_inversion" />
+		<text>Nu ska vi lägga ett F-durackord i tersläge.</text>
+		<gotoAndPlay label="first_inversion2" />
+		<text>Tersläge, eller första omvändningen, innebär att ackordets ters är den lägsta tonen i ackordet. Tonen A ska därför alltid vara lägsta ton i våra exempel här.</text>
+		<gotoAndPlay label="first_inversion3" />
+		<text>Lyssna på ovanstående exempel.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="second_inversion" />
+		<text>Slutligen ska vi lägga ett F-durackord i kvintläge.</text>
+		<gotoAndPlay label="second_inversion2" />
+		<text>Vi gör likadant som tidigare, men vi måste se till att kvinten i ackordet (C) är den lägsta tonen i varje läggning.</text>
+		<gotoAndPlay label="second_inversion3" />
+		<text>Lyssna på de här sista exemplen.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Localisation by Max Perryment</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="FText">F</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Analysis #2</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>In this analysis, we will be looking at the first few bars of <i>Auld Lang Syne</i>, a traditional Scottish ballad.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>First, we must determine the key.  Since the key signature contains one flat, we have two possibilities: F major or D minor.</text>
+		<gotoAndPlay label="key2" />
+		<text>The first chord contains an F, A, and C - an F major triad.  Since this is <b>I</b> in F Major, we are most likely in that key.</text>	
+		<gotoAndStop label="measure_two" />
+		<text>The next bar contains only F's, A's, and C's - F major triads.  Thus, all four chords are <b>I</b>.  Since we would be repeating an analysis symbol, there is no need to write it again.</text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="measure_three" />
+		<text>The first chord of the next bar contains C, C, E, and G - a C major triad.  Thus, it is a <b>V</b> chord.</text>
+		<gotoAndPlay label="measure_three2" />
+		<text>The second chord contains a C, C, D, and F - which is just plain weird.  Let's skip it for now.</text>
+		<gotoAndPlay label="measure_three3" />
+		<text>The third chord is a duplicate of the first.</text>
+		<gotoAndPlay label="measure_three4" />
+		<text>The fourth chord contains a C, Bb, E, and A.  Again, this doesn't fit nicely into a triad.  We will skip this one too.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="measure_four" />
+		<text>The next bar contains only F's, A's, and C's.  Again, all four chords are <b>I</b> chords.</text>
+		<gotoAndPlay label="measure_five" />
+		<text>The final bar contains a Bb, Bb, F, and D - a Bb major triad.  Thus, it is a <b>IV</b> chord.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="skipped" />
+		<text>Let's go back and analyze the sections that we skipped.</text>
+		<gotoAndPlay label="first_skipped" />
+		<text>If we consider nonharmonic notes, the first skipped section can be analyze as containing two auxiliary notes.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="second_skipped" />
+		<text>Before proceeding to the second section, there is one piece of information that you should know:</text>
+		<text>When voicing a seventh chord, composers sometimes leave out the fifth.</text>
+		<text>Armed with this knowledge, let's reexamine the mystery chord.</text>
+		<gotoAndPlay label="second_skipped2" />
+		<text>The bottom three notes are the root, third, and seventh of a C dominant seventh chord.  Only the G (the fifth) is missing.</text>
+		<gotoAndStop label="second_skipped3" />
+		<text>The A can now be analyzed as a nonharmonic note.  Since it it approached by step and then leaps, it is an echappé.</text>
+		<gotoAndStop label="second_skipped4" />
+		<text>This analysis is reinforced by the fact that <b>V</b> chords commonly resolve to <b>I</b>.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Listen to the above bars of <i>Auld Lang Syne</i>.</text>	
+	</section>
+	
+</lesson>

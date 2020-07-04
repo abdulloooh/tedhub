@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tônica</var>
+	<var name="supertonicText">Supertônica</var>
+	<var name="mediantText">Mediante</var>
+	<var name="subdominantText">Subdominante</var>
+	<var name="dominantText">Dominante</var>
+	<var name="submediantText">Submediante</var>
+	<var name="leadingToneText">Sensível</var>
+	<var name="subtonicText">Subtônica</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Armaduras</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Uma <b>armadura</b> é uma coleção de todos os acidentes encontrados numa escala.</text>
+		<gotoAndPlay label="c_minor" />
+		<text>Para demonstrar isso, usaremos o tom Dó Menor, que tem três bemóis.</text>
+		<gotoAndPlay label="c_minor2" />
+		<text>Em vez de escrever um bemol ao lado de cada nota Mi, Lá e Si, uma armadura pode simplesmente ser acrescentada ao início da pauta.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="a_major" />
+		<text>Para nosso próximo exemplo, usaremos Lá Maior, que tem três sustenidos.</text>
+		<gotoAndPlay label="a_major2" />
+		<text>Aqui também uma armadura pode ser usada em vez de se escrever um sustenido ao lado de cada Dó, Fá e Sol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="sharps" />
+		<text>Como você pode ter notado, os sustenidos são arranjados numa ordem especial.</text>
+		<gotoAndStop label="sharps2" />
+		<text>O Fá sustenido vem primeiro, seguido pelo Dó sustenido e depois pelo Sol sustenido.</text>
+		<gotoAndPlay label="sharps3" />
+		<text>Depois vem o Ré sustenido, Lá sustenido, Mi sustenido, e por fim o Si sustenido.</text>
+		<gotoAndStop label="sharps4" />
+<!-- 		<text>Você pode usar esta ordem memorizando o seguinte ditado: "<b>Fá</b>bio <b>Dó</b>ra e <b>Sol</b> <b>Ré</b>zam <b>Lá</b> na <b>Mi</b>ssa <b>Si</b>m"</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="flats" />
+		<text>A começar pelo Si bemol, a ordem dos bemóis é o exato oposto.</text>
+		<gotoAndPlay label="flats2" />
+		<text>Depois vem Mi bemol, Lá bemol, Ré bemol, Sol bemol, Dó bemol e, por fim, Fá bemol.</text>
+		<gotoAndStop label="flats3" />
+<!-- 		<text>Esta ordem pode ser lembrada com outro ditado: "<b>Si</b> der <b>Mi</b>co <b>Lá</b> vou <b>Ré</b>to <b>Sol</b>etrar <b>Dó</b>ceis <b>Fá</b>cas"</text> -->
+	</section>
+
+</lesson>

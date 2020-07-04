@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="majorText">Dúr</var>
+	<var name="minorText">moll</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Fimmundartengsl</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Í samböndum tveggja hljóma er hreyfing rótarinnar (grunntóns hljómsins) nefnd <b>rótarhreyfing</b>.</text>
+		<gotoAndPlay label="example_one" />
+		<text>Til dæmis þegar farið er frá <b>I</b> til <b>vi</b> í C dúr eins og hér er sýnt.</text>
+		<gotoAndStop label="example_one2" />
+		<text>Rót fyrri hljómsins er C,</text>
+		<gotoAndStop label="example_one3" />
+		<text>og rót þess síðari er A.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Rótarhreyfingin milli <b>I</b> og <b>vi</b> (frá C til A) er því <i>fallandi 3und</i>.</text>
+		<gotoAndPlay label="example_one5" />
+		<text>Einnig mætti skilgreina þessa hreyfingu sem <i>rísandi 6und</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Tökum annað dæmi: frá <b>IV</b>, í fyrstu hljómhvörfum, til <b>V</b>.</text>
+		<gotoAndStop label="example_two2" />
+		<text>Fyrri hljómurinn er F dúr og rótin því F. Þar sem hljómurinn er í 1. hljómhvörfum er 3undin í bassa, ekki rótin.</text>
+		<gotoAndStop label="example_two3" />
+		<text>Rót seinni hljómsins er G.</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Rótarhreyfing milli þessara hljóma er því <i>rísandi 2und</i> eða <i>fallandi 7und</i>.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="circle" />
+		<text><b>Fimmundartengsl</b> er það nefnt þegar rótin hreyfist <i>ferund upp</i> eða <i>fimmund niður</i>.</text>
+		<gotoAndPlay label="circle2" />
+		<text><b>I - IV</b> og <b>ii - V</b> eru hljómfærslur af þessu tagi.</text>
+		<gotoAndPlay label="circle3" />
+		<text><b>iii - vi</b> og <b>IV - viiº í 1. hljómhvörfum</b> eru það líka.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Finnum nú öll fimmundartengsl innan dúr tónstigans.</text>
+		<gotoAndPlay label="major2" />
+		<text><b>I</b> gengur til <b>IV</b>, sem gengur til <b>viiº</b>.</text>
+		<gotoAndPlay label="major3" />
+		<text><b>viiº</b> gengur til <b>iii</b> og síðan til <b>vi</b>.</text>
+		<gotoAndPlay label="major4" />
+		<text><b>vi</b> til <b>ii</b>, <b>V</b>, og loks til <b>I</b>.</text>
+		<gotoAndPlay label="major5" />
+		<text>Þessar hljómfærslur hljóma þá svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Í moll eru samsvarandi hljómfærslur svona.</text>
+		<gotoAndPlay label="minor2" />
+		<text><b>i</b> gengur til <b>IV</b> sem aftur gengur til <b>VII</b> (athugaðu, ekki <b>viiº</b>).</text>
+		<gotoAndPlay label="minor3" />
+		<text>Á eftir <b>VII</b> kemur <b>III</b>, þvínæst <b>VI</b>,</text>
+		<gotoAndPlay label="minor4" />
+		<text><b>VI</b>,<b>iiº</b>, <b>V</b> (ekki <b>v</b>), og loks <b>i</b>.</text>
+		<gotoAndPlay label="minor5" />
+		<text>Í moll hljómar þetta svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Svona líta þessi hljómaferli þá út í dúr og moll.</text>
+	</section>
+	
+</lesson>

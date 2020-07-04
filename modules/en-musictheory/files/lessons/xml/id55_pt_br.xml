@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© Cláudio Brandt (tradução)</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="phraseText">Frase</var>
+	<var name="halfCadenceText">MC</var>
+	<var name="authenticCadenceText">CA</var>
+	<var name="plagalCadenceText">CP</var>
+	<var name="deceptiveCadenceText">CD</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Frases e Cadências</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Uma <b>frase</b> é uma série de notas que soam completas mesmo quando separadas da melodia principal.</text>
+		<gotoAndPlay label="example" />
+		<text>Vamos usar o exemplo musical acima para demonstrar as frases.</text>
+		<gotoAndPlay label="phrase_one" />
+		<text>Ouça os primeiros dois compassos, note como eles soam incompletos.</text>
+		<gotoAndPlay label="phrase_one2" />
+		<text>Agora ouça os primeiros quatro compassos, que soam mais completos.</text>
+		<gotoAndPlay label="phrase_one3" />
+		<text>Esses compassos podem ser considerados uma frase.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="phrase_two" />
+		<text>Ouça do quinto ao oitavo compasso.</text>
+		<gotoAndPlay label="phrase_two2" />
+		<text>Devido à sua completude, eles também formam uma frase.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadence" />
+		<text>Uma <b>cadência</b> é uma progressão de dois acordes que ocorre no fim de uma frase.</text>
+		<gotoAndPlay label="half_cadence" />
+		<text>Se uma frase termina com qualquer acorde indo para o grau <b>V</b>, acontece uma <b>meia cadência (MC)</b>.</text>
+		<gotoAndPlay label="half_cadence2" />
+		<text>Ouça novamente os primeiros quatro compassos e observe a sonoridade da meia cadência.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="authentic_cadence" />
+		<text>A maioria das pessoas percebe uma meia cadência como soando incompleta.  Por causa disso, os compositores geralmente continuam as meias cadências com uma frase que termina numa <b>cadência autêntica (CA)</b>.</text>
+		<gotoAndPlay label="authentic_cadence2" />
+		<text>Uma cadência autêntica ocorre quando uma frase termina com um grau <b>V</b> ou <b>viiº</b>, indo para <b>I</b> (ou <b>i</b> se menor).</text>
+		<gotoAndPlay label="authentic_cadence3" />
+		<text>Ouça o exemplo acima, observando o som das duas cadências.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pac" />
+		<text>Cadências autênticas são geralmente classificadas como perfeitas ou imperfeitas.</text>
+		<gotoAndPlay label="pac2" />
+		<text>Para ser considerada uma <b>cadência autêntica perfeita (CAP)</b>, a cadência precisa obedecer três exigências.</text>
+		<gotoAndPlay label="pac3" />
+		<text>Primeiro, o grau <b>V</b> precisa ser usado em vez do <b>viiº</b>.</text>
+		<gotoAndPlay label="pac4" />
+		<text>Segundo, ambos os acordes precisam estar na posição fundamental.</text>
+		<gotoAndPlay label="pac5" />
+		<text>Por fim, a nota mais aguda do acorde <b>I</b> (ou <b>i</b>) precisa ser a tônica da escala.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="iac" />
+		<text>Uma <b>cadência autêntica imperfeita (CAI)</b> não atende todos esses requisitos.</text>
+		<gotoAndPlay label="iac2" />
+		<text>As cadências autênticas acima são imperfeitas por diferentes motivos.</text>
+		<gotoAndPlay label="iac3" />
+		<text>No primeiro exemplo, um <b>viiº</b> é usado no lugar de um <b>V</b>.</text>
+		<gotoAndPlay label="iac4" />
+		<text>No segundo exemplo, um dos acordes não está na posição fundamental.</text>
+		<gotoAndPlay label="iac5" />
+		<text>No terceiro exemplo, a nota mais aguda do acorde <b>I</b> não é a tônica da escala.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="plagal" />
+		<text>Além de meias cadências e cadências autênticas, existem outros dois tipos.</text>
+		<gotoAndPlay label="plagal2" />
+		<text>Se uma frase termina com <b>IV</b> (ou <b>iv</b>) indo para <b>I</b> (ou <b>i</b>), ocorre uma <b>cadência plagal (CP)</b>.</text>
+		<gotoAndPlay label="plagal3" />
+		<text>Ouça o exemplo acima, observe o som da cadência plagal.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="deceptive" />
+		<text>Se uma frase termina com <b>V</b> indo para <b>vi</b> (ou <b>VI</b> na tonalidade menor), uma <b>cadência deceptiva (CD)</b> ou <b>enganosa</b> acontece.</text>
+		<text>Cadências deceptivas são geralmente usadas no lugar de uma cadência autêntica.</text>
+		<gotoAndPlay label="deceptive2" />
+		<text>Reveja o exemplo musical usado no começo desta lição.  Note que nós substituímos a cadência autêntica no fim da segunda frase por uma cadência deceptiva.</text>
+		<gotoAndPlay label="deceptive3" />
+		<text>Ouça o exemplo modificado.  Note como a cadência "decepctiona" (já que se espera ouvir um <b>I</b>).</text>
+	</section>
+
+</lesson>

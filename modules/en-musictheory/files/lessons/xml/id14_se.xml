@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="dotText">Punkt</var>
+	<var name="tieText">Bindebåge</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Punkteringar och överbindningar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+        <gotoAndStop label="start" />
+        <text><b>Punkter</b> och <b>bindebågar</b> är två typer av symboler som används för att ändra en nots tidsvärde.</text>
+        <gotoAndStop label="dot" />
+        <text>En punkt förlänger en not med halva dess tidsvärde.</text>
+		<gotoAndPlay label="dot2" />
+        <text>Eftersom en åttondelsnot har hälften så långt tidsvärde som en fjärdedelsnot, byter vi ut beteckningen 1/2 mot en åttondelsnot ovan.</text>
+		<gotoAndStop label="dot3" />
+		<text>Som du ser är en punkterad fjärdedelsnot lika med en fjärdelsnot plus en åttondelsnot.</text>
+		<gotoAndPlay label="dot4" />
+		<text>En punkterad fjärdedel är också detsamma som tre åttondelar.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="tie" />
+		<text>Bindebågar binder samman noter med samma tonhöjd. När man vill förlänga ett notvärde i slutet av en takt över ett taktstreck in i nästa takt, används bindebågar istället för punkteringar.</text>
+		<gotoAndPlay label="tie2" />
+		<text>Lägg märke till att fjärde och femte tonen (noten) har förenats när du lyssnar på det här exemplet.</text>
+		<gotoAndPlay label="tie3" />
+		<text>Om inte taktstrecket hade funnits där, kunde vi enklare ha noterat dom två sammanbundna fjärdedelsnoterna med en halvnot.</text>
+	</section>
+    
+    <section>
+    	<gotoAndStop label="chart" />
+    	<text>Använd figuren ovan som referens när det gäller punkteringar.</text>
+	</section>    	
+	
+</lesson>

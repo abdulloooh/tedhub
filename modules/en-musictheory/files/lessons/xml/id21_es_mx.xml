@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">s</var>
+	<var name="wText">T</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Escalas Mayores</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Una <b>escala</b> es una selección de ciertas notas dentro de una octava.  La primera escala que abordaremos es la <b>escala mayor</b>.</text>
+		<gotoAndStop label="formula" />
+		<text>La escala mayor está construida con esta fórmula.  Las T representan un tono y las s un semitono.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<text>Construyamos una Escala de Do Mayor.  Nuestra nota de partida será la nota Do.</text>
+		<gotoAndStop label="c_major2" />
+		<text>A partir de Do, subiremos un tono hasta Re.</text>
+		<gotoAndStop label="c_major3" />
+		<text>Desde Re, subiremos otro tono hasta llegar a Mi.</text>
+		<gotoAndStop label="c_major4" />
+		<text>A continuación, subiremos un semitono para alcanzar la nota Fa.</text>
+		<gotoAndStop label="c_major5" />
+		<text>Desde Fa, un tono más nos hara llegar a Sol.</text>
+		<gotoAndStop label="c_major6" />
+		<text>Luego un tono más para estar en La.</text>
+		<gotoAndStop label="c_major7" />
+		<text>El último tono para arribar a Si.</text>
+		<gotoAndStop label="c_major8" />
+		<text>Y finalmente, un semitono nos hace regresar a Do.</text>
+		<gotoAndPlay label="c_major9" />
+		<text>Escucha la Escala de Do Mayor ya terminada.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<text>Ahora, construiremos las Escala de Mi Bemol Mayor.  Nuestro punto de partida será la nota Mi Bemol.</text>
+		<gotoAndPlay label="eb_major2" />
+		<text>Observa que al subir un semitono desde Sol llegamos a La Bemol y no a La.</text>
+		<gotoAndStop label="eb_major3" />
+		<text>Subiendo un tono desde La Bemol llegamos a Si Bemol.</text>
+		<gotoAndStop label="eb_major4" />
+		<text>El tono siguiente nos lleva a Do.</text>
+		<gotoAndPlay label="eb_major5" />
+		<text>Finalmente, subir un semitono desde Re nos regresa a Mi Bemol.</text>
+		<gotoAndStop label="eb_major6" />
+		<text>Observa que Mi Bemol Mayor tiene tres bemoles (Los dos bemoles de Mi sólo cuentan como uno).</text>
+		<gotoAndPlay label="eb_major7" />
+		<text>Escucha la Escala de Mi Bemol Mayor completa.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<text>Para finalizar, construiremos la Escala de Re Mayor.</text>
+		<gotoAndPlay label="d_major2" />
+		<text>Desde Mi, un tono más nos lleva a Fa Sostenido.</text>
+		<gotoAndStop label="d_major3" />
+		<text>El semitono siguiente nos hace llegar a Sol.</text>
+		<gotoAndPlay label="d_major4" />
+		<text>Al continuar desde Si, un tono nos lleva a Do Sostenido.</text>
+		<gotoAndStop label="d_major5" />
+		<text>Y para terminar, el último semitono nos devuelve a Re.</text>
+		<gotoAndStop label="d_major6" />
+		<text>Observa que Re Mayor tiene dos sostenidos.</text>
+		<gotoAndPlay label="d_major7" />
+		<text>Escucha la Escala de Re Mayor terminada.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<text>Es posible constuir cualquier escala mayor - sólo comienza por la primer nota y usa la fórmula.</text>
+	</section>	
+</lesson>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Translated by Andrés Corro</translation>
+
+	<!-- Translate all text between <title> and </title> -->	 
+	<title>Compases Irregulares</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->	
+	<section>
+		<gotoAndStop label="start" />
+		<text>Un <b>compás irregular</b> es aquel que contiene tanto tiempos simples como compuestos.</text>
+		<gotoAndStop label="odd1" />
+		<text>El primer compás irregular que estudiaremos es el de 5/8.  Contiene un tiempo simple y uno compuesto.</text>
+		<gotoAndStop label="odd2" />
+		<text>El orden de los tiempos no es relevante.  Si el tiempo compuesto está antes del simple, el compás sigue siendo de 5/8.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd3" />
+		<text>A continuación, abordaremos los compases irregulares de tres tiempos.</text>
+		<gotoAndStop label="odd4" />
+		<text>El compás de 7/8 tiene dos tiempos simples y uno compuesto.</text>
+		<gotoAndStop label="odd5" />
+		<text>Nuevamente, el orden de los tiempos no es de gran importancia.</text>
+		<gotoAndStop label="odd6" />
+		<text>El tiempo compuesto puede estar colocado incluso entre dos tiempos simples.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="odd7" />
+		<text>El compás de 8/8 contiene dos tiempos compuestos y uno simple.</text>
+		<gotoAndStop label="odd8" />
+		<text>En ocasiones, la gente confunde el compás de 8/8 con el de 4/4, pues ambos tienen 8 corcheas.</text>
+		<gotoAndStop label="odd9" />
+		<text>Observa que el compás de 4/4 divide el fragmento en cuatro tiempos de dos corcheas cada uno (cuaternario simple), mientras que el compás de 8/8 lo divide en tres tiempos irregulares.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="odd10" />
+		<text>Nuestros dos últimos compases irregulares tienen un total de cuatro tiempos.</text>
+		<gotoAndStop label="odd11" />
+		<text>El compás de 10/8 tiene dos tiempos compuestos y dos simples.</text>
+		<gotoAndStop label="odd12" />
+		<text>El compás de 11/8 tiene tres tiempos compuestos y uno simple.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,125 @@
+F<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<!--<title>Simple and Compound Meter</title>-->
+	<title>Metrum proste i złożone</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<!--<text>Each time signature can be classified into a certain <b>meter</b>.</text>-->
+		<text>Każde oznaczenie taktowe może być zaklasyfikowane jako określony rodzaj <b>metrum</b>.</text>
+		<!--<text>The terms <b>duple</b>, <b>triple</b>, and <b>quadruple</b> refer to the number of beats in a measure.</text>-->
+		<text>Określenia <b>dwudzielny</b>, <b>trójdzielny</b> i <b>czterodzielny</b> mówią nam ile mamy jednostek metrycznych w takcie.</text>
+		<!--<text>The term <b>simple</b> means that each of these beats can be broken into two notes.</text>-->
+		<text>Określenie <b>prosty</b> oznacza, że każda z tych jednostek metrycznych może zostać podzielona na dwie nuty.</text>    
+	</section>
+	
+	<section>	
+		<gotoAndStop label="simple_duple" />
+		<!--<text>For example, 2/4 time is classified as <b>simple duple</b>.</text>-->
+		<text>Na przykład, takt na 2/4 jest taktem <b>prostym dwudzielnym</b>.</text> 
+		<gotoAndStop label="simple_duple2" />
+		<!--<text>"Duple" refers to the two beats per measure.</text>-->
+		<text>„Dwudzielny" odnosi się do dwóch jednostek metrycznych w takcie.</text> 
+		<gotoAndStop label="simple_duple3" />
+		<!--<text>"Simple" states that each of these beats can be divided into two notes.</text>-->
+		<text>„Prosty" znaczy, że każda z tych jednostek metrycznych może dzielić się na dwie nuty.</text>
+		<gotoAndStop label="simple_duple4" />
+		<!--<text>2/2 and 2/8 are also simple duple.</text>-->
+		<text>2/2 i 2/8 są też proste dwudzielne.</text>
+		
+	</section>	 
+		
+	<section>
+		<gotoAndStop label="simple_triple" />
+		<!--<text>3/4 time is classified as <b>simple triple</b>.</text>-->
+		<text>Takt na 3/4 jest <b>prosty trójdzielny</b>.</text>
+		<gotoAndStop label="simple_triple2" />
+		<!--<text>"Triple" refers to the three beats per measure.</text>-->
+		<text>„Trójdzielny" wskazuje na trzy jednostki metryczne w takcie.</text>
+		<gotoAndStop label="simple_triple3" />
+		<!--<text>Again, "simple" states that each of these beats can be divided into two notes.</text>-->
+		<text>I znowu, „prosty" mówi nam, że każda z tych jednostek metrycznych dzielić się może na dwie nuty.</text>
+		<gotoAndStop label="simple_triple4" />
+		<!--<text>3/2 and 3/8 are also simple triple.</text>-->
+		<text>3/2 and 3/8 są też proste trójdzielne.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="simple_quadruple" />
+		<!--<text>4/4 time is classified as simple quadruple due to its four beats which can be divided into two notes.</text>-->
+		<text>Takt na 4/4 jest prosty i czterodzielny, gdyż każda z czterech jednostek metrycznych dzieli się na dwie nuty.</text>
+		<gotoAndStop label="simple_quadruple2" />
+		<!--<text>4/2 and 4/8 are also simple quadruple.</text>-->
+		<text>4/2 i 4/8 są także proste czterodzielne.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="top_number" />
+		<!--<text>Notice that a time signature in simple meter will always have a 2, 3, or 4 for the top number.</text>-->
+		<text>Zauważmy, że oznaczenia taktowe prostego metrum zawsze mają 2, 3 lub 4 jako górną liczbę.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound" />
+		<!--<text>While beats in simple meter are divided into two notes, beats in compound meter are divided into three.</text>-->
+		<text>Jednostki metryczne w prostym metrum dzielą się na dwie nuty, w złożonym na trzy.</text>
+		<gotoAndStop label="compound2" />
+		<!--<text>To demonstrate this, we will examine 6/8 time.</text>-->
+		<text>Aby to pokazać zanalizujemy takt na 6/8.</text>
+		<gotoAndStop label="compound3" />
+		<!--<text>Notice that the six eighth notes can either be divided into two beats (<b>compound duple</b>) or three beats (<b>simple triple</b>).</text>-->
+		<text>Zobaczmy, że sześć ósemek można podzielić albo na dwie jednostki metryczne (<b>złożone dwudzielne</b>), albo na trzy jednostki metryczne (<b>proste trójdzielne</b>).</text>
+		<gotoAndStop label="compound4" />
+		<!--<text>Since the simple triple pattern already belongs to 3/4 time, 6/8 is compound duple.</text>-->
+		<text>Prosty trójdzielny wzór metryczny na 3/4, w układzie na 6/8 przekształca się w złożony dwudzielny.</text>
+		<gotoAndStop label="compound5" />
+		<!--<text>Notice that each beat in 6/8 is a dotted quarter note.  In fact, all compound meters will have some dotted note as its beat.</text>-->
+		<text>Zwróćmy uwagę, że każda jednostka metryczna na 6/8 jest punktowaną ćwierćnutą. Faktycznie, każde złożone metrum będzie miało jakąś punktowaną nutę jako jednostkę metryczną.</text>
+		<!--<text>Any time signature with a 6 on top is compound duple.  Of the above time signatures, 6/8 and 6/4 are the most commonly used.</text>-->
+		<text>Każde oznaczenie taktowe z 6 na górze oznacza metrum złożone dwudzielne. Z powyższych oznaczeń taktowych, 6/8 i 6/4 są najczęściej używane.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound_triple" />
+		<!--<text>9/8 time is classified as <b>compound triple</b>.</text>-->
+		<text>Takt na 9/8 jest <b>złożony trójdzielny</b>.</text>
+		<gotoAndStop label="compound_triple2" />
+		<!--<text>There are three beats (three dotted quarter notes), thus making the meter triple.</text>-->
+		<text>Mamy tu trzy jednostki metryczne (trzy punktowane ćwierćnuty), które tworzą metrum trójdzielne.</text>
+		<gotoAndStop label="compound_triple3" />
+		<!--<text>Since each beat is comprised of three notes, the meter is compound.</text>-->
+		<text>A ponieważ każda jednostka metryczna dzieli się na trzy nuty, metrum jest złożone.</text>
+		<gotoAndStop label="compound_triple4" />
+		<!--<text>Any time signature with a 9 on top is compound triple.  Although 9/8 is the most common; 9/2, 9/4, and 9/16 can also be used.</text>-->
+		<text>Oznaczenie taktowe z 9 na górze określa zawsze metrum złożone trójdzielne. Chociaż 9/8 jest spotykane najczęściej, 9/2, 9/4 i 9/16 mogą także być stosowane.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound_quadruple" />
+		<!--<text>Finally, 12/8 time is classified as <b>compound quadruple</b>.</text>-->
+		<text>I wreszcie, takt 12/8 jest <b>złożony czterodzielny</b>.</text>      
+		<gotoAndStop label="compound_quadruple2" />
+		<!--<text>There are four beats, thus making the meter quadruple.</text>-->
+		<text>Mamy tu cztery jednostki metryczne, które tworzą metrum czterodzielne.</text>
+		<gotoAndStop label="compound_quadruple3" />
+		<!--<text>Since each beat is comprised of three notes, the meter is compound.</text>-->
+		<text>Ponieważ każda jednostka metryczna utworzona jest z trzech nut, metrum jest złożone.</text>
+		<gotoAndStop label="compound_quadruple4" />
+		<!--<text>Any time signature with a 12 on top is compound quadruple.  Of the above time signatures, 12/8 and 12/16 are the most commonly used.</text>-->
+		<text>Każde oznaczenie taktowe z 12 na górze jest złożone czterodzielne. Wśród powyższych oznakowań metrycznych, 12/8 i 12/16 są najpowszechniej stosowane.</text>
+	</section>
+</lesson>

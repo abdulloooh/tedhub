@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="FText">F</var>
+	<var name="neighboringToneText">Скр.</var>
+	<var name="escapeToneText">Одск. скр.</var>
+
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Анализа #2</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>У овом примеру анализе обрадићемо првих неколико тактова шкотске народне песме "<b>Стари дани</b>".</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>Прво морамо утврдити у ком је тоналитету.  Пошто предзнак тоналитета има једну снизилицу, то може бити или F-дур или d-мол.</text>
+		<gotoAndPlay label="key2" />
+		<text>Први акорд садржи <b>f</b>, <b>a</b>, <b>c</b> : F-дур.  А како то је тонични акорд F-дура, највероватније смо у том тоналитету.</text>	
+		<gotoAndStop label="measure_two" />
+		<text>Следећи такт садржи исте тонове, тј. <b>f</b>, <b>a</b>, <b>c</b> : опет F-дур.  То значи да су сва 4 акорда тонични.  Римски број не пишемо поново, да га не бисмо понављали.</text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="measure_three" />
+		<text>Први акорд следећег такта садржи тонове <b>c</b>, <b>c</b>, <b>e</b>, <b>g</b> : C-дур.  Значи, то је доминантни акорд.</text>
+		<gotoAndPlay label="measure_three2" />
+		<text>Други такт садржи тонове <b>c</b>, <b>c</b>, <b>d</b>, <b>f</b> : врло чудно.  За сад ћемо га прескочити.</text>
+		<gotoAndPlay label="measure_three3" />
+		<text>Трећи акорд је исти као и први у овом такту.</text>
+		<gotoAndPlay label="measure_three4" />
+		<text>Четврти акорд садржи тонове <b>c</b>, <b>b</b>, <b>e</b>, <b>a</b>.  Ни ови тонови се не уклапају у било који трозвук.  И њега ћемо за сад прескочити.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="measure_four" />
+		<text>Следећи такт садржи само тонове <b>f</b>, <b>a</b>, <b>c</b>.  Поново су сва четири акорда тонична.</text>
+		<gotoAndPlay label="measure_five" />
+		<text>Задњи такт садржи тонове <b>b</b>, <b>b</b>, <b>f</b>, <b>d</b> : B-дур.  Значи, то је субдоминантни акорд.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="skipped" />
+		<text>Хајде сад да се вратимо на она два акорда што смо прескочили.</text>
+		<gotoAndPlay label="first_skipped" />
+		<text>Ако узмемо у обзир ванакордске тонове, за први акорд који смо прескочили можемо рећи да садржи две скретнице.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="second_skipped" />
+		<text>Пре него што пређемо на други прескочени акорд, требате да знате једну ствар:</text>
+		<text>При вођењу гласова, композитори често изоставе квинту.</text>
+		<text>Наоружани овим знањем, хајде да испитамо тајанствени акорд.</text>
+		<gotoAndPlay label="second_skipped2" />
+		<text>Три доња тона су основни, терца и септима C-доминантног септакорда.  Само тон <b>g</b> (квинта) недостаје.</text>
+		<gotoAndStop label="second_skipped3" />
+		<text>Тон A можемо тумачити као ванакордски тон.  Пошто се креће поступним покретом и затим наставља скоком, то је одскочна скретница.</text>
+		<gotoAndStop label="second_skipped4" />
+		<text>Ова анализа је поткрепљена чињеницом да се доминантни акорди често разрешавају у тоничне.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Послушајте како звучи део песме "<b>Стари дани</b>" који смо обрадили.</text>	
+	</section>
+	
+</lesson>

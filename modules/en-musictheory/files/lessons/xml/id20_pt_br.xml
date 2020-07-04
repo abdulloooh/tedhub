@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2000-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">Dobrado</var>
+	<var name="doubleFlatTwoText">bemol</var>
+	<var name="flatText">Bemol</var>
+	<var name="naturalText">Bequadro</var>
+	<var name="sharpText">Sustenido</var>
+	<var name="doubleSharpOneText">Dobrado</var>
+	<var name="doubleSharpTwoText">sustenido</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tom, Semitom e Alterações</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Um <b>semitom</b> ou <b>meio-tom</b> é a distância de uma tecla no piano a uma tecla adjacente.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Como ocorre entre teclas adjacentes, o intervalo da Tecla 1 para Tecla 2 é um exemplo de um semitom.</text>
+		<gotoAndStop label="half_step2" />
+		<text>Um semitom nem sempre é de uma tecla branca para uma tecla preta.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>Neste exemplo, a Tecla 1 e a Tecla 2 também são adjacentes.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text>Um <b>tom</b> é a mesma distância que dois semitons.</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>Da Tecla 1 para Tecla 3 há um tom. (O primeiro semitom é da 1 à 2, o segundo, da 2 à 3)</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text>Uma <b>alteração</b> ou <b>acidente</b> é um sinal usado para elevar ou abaixar a altura de uma nota.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>Os primeiros acidentes que discutiremos são os <b>bemóis</b> e os <b>sustenidos</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>O bemol abaixa a nota em um semitom, enquanto o sustenido eleva a nota em um semitom.</text>
+		<gotoAndStop label="accidentals4" />
+		<text>Ao digitar, você pode usar o sinal <b>#</b> para representar um sustenido e um <b>b</b> para representar um bemol.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="example" />
+		<text>Vamos examinar a tecla preta entre o Dó e o Ré.</text>
+		<gotoAndStop label="example2" />
+		<text>Esta tecla pode ser chamada Dó sustenido já que está um semitom acima do Dó.</text>
+		<gotoAndStop label="example3" />
+		<text>Ela pode também ser chamada Ré bemol, já que está um semitom abaixo do Ré.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Outro exemplo seria entre Mi e Fá.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>O Mi pode também ser chamado Fá bemol, já que está um semitom abaixo do Fá.</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>Do mesmo modo, o Fá pode ser chamado Mi sustenido.</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>Toda vez que uma determinada nota tiver vários nomes, isso é chamado <b>enarmonia</b>.</text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>Os próximos acidentes que discutiremos são o <b>dobrado bemol</b>, ou <b>bemol duplo</b>, e o <b>dobrado sustenido</b>, ou <b>sustenido duplo</b>.</text>
+		<gotoAndStop label="double2" />
+		<text>Enquanto bemóis e sustenidos alteram uma nota em um semitom, o dobrado bemol e o dobrado sustenido alteram a nota em um tom.</text>
+		<gotoAndStop label="double3" />
+		<text>Ao digitar, você pode usar um <b>x</b> para representar um dobrado sustenido e um <b>bb</b> para representar um dobrado bemol.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>Por exemplo, tanto Ré quanto Mi dobrado bemol têm a mesma altura, já que você pode chegar ao Ré descendo um tom (ou dois semitons) a partir do Mi.</text>
+		<gotoAndPlay label="double_example2" />
+		<text>O Ré também soa o mesmo que um Dó dobrado sustenido, já que está um tom acima do Dó.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Por fim, um <b>bequadro</b> cancela qualquer alteração e devolve a nota à sua altura original.</text>
+		<gotoAndStop label="natural2" />
+		<text>Aprenderemos mais sobre bequadros numa próxima lição.</text>
+	</section>
+	
+</lesson>

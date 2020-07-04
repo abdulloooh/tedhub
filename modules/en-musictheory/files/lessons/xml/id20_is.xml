@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">Tví-</var>
+	<var name="doubleFlatTwoText">bé</var>
+	<var name="flatText">Lækkunarmerki</var>
+	<var name="naturalTwoText">Afturköllunarmerki</var>
+	<var name="sharpText">Hækkunarmerki</var>
+	<var name="doubleSharpOneText">Tví-</var>
+	<var name="doubleSharpTwoText">hækkun</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Heiltónn, hálftónn og formerki</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Hálftónn</b> (lítil tvíund) er bilið milli tveggja tóna sem liggja hlið við hlið á hljómborði.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Þar sem tónarnir liggja við hlið hvors annars eru þeir dæmi um hálftónsbil (litla 2und).</text>
+		<gotoAndStop label="half_step2" />
+		<text>Lítil 2und er ekki endilega milli hvítrar nótu og svartrar.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>Þessar nótur liggja t.d. saman hlið við hlið.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text><b>Heiltónn</b> (stór 2und) samanstendur af tveimur hálftónum (tveimur litlum tvíundum).</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>Nóta 1 og nóta 3 mynda heiltón (tónn 1 og 2 mynda litla 2und og tónn 2 og 3 mynda annan hálftón).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text><b>Formerki</b> eru notuð til að hækka eða lækka tónhæð nótna.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>Lítum fyrst á <b>bé</b> og <b>kross</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>Bé <b>lækkar</b> nótu um hálftón (litla 2und) en kross <b>hækkar</b> nótu um hálftón.</text>
+		<gotoAndStop label="accidentals4" />
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<text>Skoðum svörtu nótuna milli C og D.</text>
+		<gotoAndStop label="example2" />
+		<text>Þessa nótu má rita sem Cís (hækkað C) þar sem hún er hálftón fyrir ofan C.</text>
+		<gotoAndStop label="example3" />
+		<text>Nótuna má líka skrifa sem Des (lækkað D) þar sem hún liggur hálftón fyrir neðan D.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Annað dæmi er E og F.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>E mætti líka rita sem Fes (lækkað F) þar sem milli nótnanna er hálftónn (lítil 2und).</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>Á sama hátt mætti rita F sem Eís (hækkað E).</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>Þegar rita má sömu nótu á fleiri en einn veg eru nóturnar sagðar <b>samhljóða.</b></text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>Næstu formerki sem við skoðum eru <b>tvíbé</b> (tvílækkun) og <b>tvíkross</b> (tvíhækkun).</text>
+		<gotoAndStop label="double2" />
+		<text>Lækkunar- og hækkunarmerki breyta tónhæð tóns um hálftón (litla tvíund); tvíbé og tvíkross breyta tónhæð hins vegar um heiltón (stóra 2und).</text>
+		<gotoAndStop label="double3" />
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>D og Eses (tvílækkað E) eru samhljóða tónar þar sem tvíbé lækkar E um heiltón (tvo hálftóna).</text>
+		<gotoAndPlay label="double_example2" />
+		<text>Á sama hátt hljómar Císís (tvíhækkað C) eins og D.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Loks er <b>afturköllunarmerki</b> formerki sem ógildir það formerki sem kann að vera á nótunni sem það stendur við.</text>
+		<gotoAndStop label="natural2" />
+		<text>Við lærum meira um afturköllunarmerki síðar.</text>
+	</section>
+	
+</lesson>

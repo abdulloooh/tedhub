@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cSharpMinorText">c#</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Hljómgreining 3</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>Nú hljómgreinum við takta 48-50 úr Tunglskinssónötu Beethovens (Opus 27, Nr. 2, 1. þáttur).</text>
+		<gotoAndStop label="key" />
+		<text>Tóntegundin er cís moll.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="group_one" />
+		<text>Fyrri helmingur takts 48 er Gís forsjöundarhljómur (Gís - Hís - Dís - Fís). Þar sem Hís er í bassa er hljómurinn í 1. hljómhvörfum.</text>
+		<gotoAndPlay label="group_two" />
+		<text>Seinni hluti taktsins er cís moll þríhljómur (Cís - E - Gís).</text>
+		<gotoAndPlay label="group_three" />
+		<text>Fyrri hluti næsta takts er D dúr sexundarhljómur (D - Fís - A). Þetta er Napólí sexundarhljómur í cís moll.</text>
+		<gotoAndPlay label="group_four" />
+		<text>Seinni hluti taktsins er Gís forsjöundarhljómur án 5undar (Gís - Hís - Fís).</text>
+		<gotoAndPlay label="group_five" />
+		<text>Fyrsti hluti næsta takts er svo annar cís moll þríhljómur (Cís - E - Gís).</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Dæmið hljómar svona.</text>
+	</section>
+	
+</lesson>

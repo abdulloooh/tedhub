@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">у</var>
+	<var name="minorText">м</var>
+	<var name="majorText">д</var>
+	<var name="augmentedText">п</var>
+	<var name="fourthText">кварта</var>
+	<var name="sixthText">секста</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Обележавање римским бројевима</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Када анализирамо музику, сваки лествични трозвук обележавамо одговарајућим <b>римским бројем</b>.</text>
+		<gotoAndStop label="numeral_chart" />
+		<text>Постоје 4 врсте римских бројева - по један за сваку врсту трозвука.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Хајде да видимо којим бројевима се обележавају трозвуци C-дура.</text>
+		<gotoAndPlay label="major_i" />
+		<text>Пошто је први трозвук дурски (друкчије звани <b>велики</b>), обележавамо га великим римским бројем.</text>
+		<gotoAndPlay label="major_ii_iii" />
+		<text>Други и трећи трозвук су молски (друкчије звани <b>мали</b>), па их обележавамо малим римским бројем.</text>
+		<gotoAndPlay label="major_iv_v" />
+		<text>Четврти и пети трозвук су дурски, њих обележевамо великим римским бројем.</text>
+		<gotoAndPlay label="major_vi" />
+		<text>Шести трозвук је молски, он се пише малим римским бројем.</text>
+		<gotoAndPlay label="major_vii" />
+		<text>Седми трозвук је умањени, а означава се малим римским бројем са додатим кружићем.</text>
+		<gotoAndPlay label="major_viii" />
+		<text>Коначно, задњи трозвук је први поновљен.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Сада да видимо како се обележавају трозвуци природног c-мола.</text>
+		<gotoAndPlay label="minor_i" />
+		<text>Први трозвук је молски, дакле мали римски број.</text>
+		<gotoAndPlay label="minor_ii" />
+		<text>Други трозвук је умањени, он се пише малим римским бројем са додатим кружићем.</text>
+		<gotoAndPlay label="minor_iii" />
+		<text>Трећи трозвук је дурски, значи велики римски број.</text>
+		<gotoAndPlay label="minor_iv_v" />
+		<text>Четврти и пети трозвук су молски, значи мали римски број.</text>
+`		<gotoAndPlay label="minor_vi_vii" />
+		<text>Шести и седми трозвук су дурски, значи велики римски број.</text>
+		<gotoAndPlay label="minor_viii" />
+		<text>Задњи трозвук је увек понављање првог.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>На крају ћемо обрадити обележавање за хармонски c-мол.</text>
+		<gotoAndPlay label="harmonic_iii" />
+		<text>Пошто је трећи трозвук прекомерни, пише се великим римским бројем и додаје му се знак плус.</text>
+		<gotoAndPlay label="harmonic_v" />
+		<text>Пети трозвук је дурски - и због тога се пише великим бројем.</text>
+		<gotoAndPlay label="harmonic_vii" />
+		<text>Седми трозвук је умањен - он се обележава малим римским бројем са додатим кружићем.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="inversions" />
+		<text>Обртаји трозвука се такође могу обележавати римским бројевима.</text>
+		<gotoAndStop label="inversions2" />
+		<text>Први обртај се бележи тако што се римском броју с десне стране дода мали број 6 (што се чита секстакорд).  Ставља се број 6 зато што је основни тон генеричка секста над басом (најдубљим тоном).</text>
+		<gotoAndStop label="inversions3" />
+		<text>Други обртај се обележава додавањем малих бројева 6 и 4 римском броју (што се чита квартсекстакорд).  Ти бројеви означавају да су основни тон и терца удаљени генеричку кварту и сексту од најдубљег тона трозвука.</text>
+	</section>
+
+</lesson>

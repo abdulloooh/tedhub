@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "Eighth Note:" followed by an eighth note -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- Eighth Note: ♪ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="EbText">Es</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Анализа #1</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Мелодијска и хармонска анализа једне песме је важан део музичке теорије.</text>
+		<gotoAndPlay label="song" />
+		<text>У овом примеру, анализираћемо прва четири такта канадске химне "<b>О Канадо!</b>".</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>Први корак у анализи је утврдити тоналитет.  Предзнак тоналитета има три снизилице, па имамо две могућности: Es-дур или c-мол.</text>
+		<gotoAndStop label="measure_one" />
+		<text>Први акорд садржи тонове <b>es</b>, <b>b</b>, <b>es</b>, <b>g</b> : Es-дур.  Пошто је то акорд <b>I</b> ступња у Es-дур, највероватније је да смо у том тоналитету.</text>
+		<gotoAndStop label="measure_one2" />
+		<text>Други акорд садржи тонове <b>d</b>, <b>b</b>, <b>f</b>, <b>b</b> : B-дур.  То је доминантни акорд Es-дура.  Пошто је терца најнижа нота, ово је први обртај.</text>
+		<gotoAndStop label="measure_one3" />
+		<text>Трећи акорд је исти као и претходни, тако да при писању не понављамо његов симбол.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_two" />
+		<text>Први акорд у другом такту садржи тонове <b>c</b>, <b>g</b>, <b>c</b>, <b>es</b> : c-мол.  Значи, то је акорд <b>vi</b> ступња.</text>
+		<gotoAndStop label="measure_two2" />
+		<text>Други акорд садржи тонове <b>b</b>, <b>b</b>, <b>d</b>, <b>f</b> : још један B-дур.  Овог пута је у основном положају.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_three" />
+		<text>Први акорд трећег такта садржи <b>es</b>, <b>b</b>, <b>es</b>, <b>g</b> : Es-дур.  Стога је то још један тонични акорд.</text>
+		<gotoAndStop label="measure_three2" />
+		<text>Други акорд садржи <b>c</b>, <b>as</b>, <b>es</b>, <b>as</b> : As-дур у првом обртају.</text>
+		<gotoAndStop label="measure_three3" />
+		<text>Трећи акорд садржи <b>g</b>, <b>g</b>, <b>es</b>, <b>b</b> : Es-дур у првом обртају.</text>
+		<gotoAndStop label="measure_three4" />
+		<text>Четврти акорд садржи <b>as</b>, <b>c</b>, <b>es</b>, <b>c</b> : још један As-дур.  Приметите да се сада налази у основном положају.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_four" />
+		<text>Задњи такт садржи <b>b</b>, <b>b</b>, <b>d</b>, <b>f</b> : B-дур.  Дакле, ово је доминантни акорд.</text>
+		<gotoAndPlay label="listen" />
+		<text>Послушајте како звучи канадска химна <b>"О Канадо!"</b>.</text>
+	</section>
+	
+</lesson>

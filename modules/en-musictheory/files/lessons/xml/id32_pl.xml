@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="augmentedSecondText">x</var>
+	<var name="augmentedFourthText">x</var>
+	<var name="diminishedFifthText">x</var>
+	<var name="minorThirdText">x</var>
+	<var name="diminishedSeventhText">x</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Pisanie interwałów</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Kiedy zapisujemy interwały na pięciolinii, jest czasem ryzyko pomylenia dwóch interwałów o tej samej ilości półtonów.</text>
+		<!-- <text>When writing intervals on the staff, it is common to confuse intervals with the same number of half steps.</text> -->
+		<gotoAndPlay label="wrong" />
+		<text>Przykładowo, przez pomyłkę napiszemy C do Fis (kwarta zwiększona) zamiast C do Ges (kwinta zmniejszona).</text>
+		<!-- <text>For example, one may accidentally write C to F# (an augmented fourth) instead of C to Gb (a diminished fifth).</text> -->
+		<gotoAndStop label="wrong2" />
+		<text>Oba te interwały zarówno brzmią jak i wyglądają identycznie na klawiaturze, lecz jeden jest kwartą, a drugi kwintą.</text>
+		<!-- <text>Although both intervals sound the same and look identical on the keyboard, one is a fourth and the other is a fifth.</text> -->
+		<text>Na szczęście istnieje prosty trzystopniowy sposób zmniejszający ryzyko popełnienia tego błędu.</text>
+		<!-- <text>Fortuately, an easy three-step process exists to reduce the risk of this mistake.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Napiszmy tercję małą od C.</text>
+		<!-- <text>Let's write a minor third from C.</text> -->		
+		<gotoAndPlay label="example_one2" />
+		<text>Najpierw piszemy podstawowy interwał na pięciolinii; w naszym przypadku podstawową tercję.</text>
+		<!-- <text>First, write the generic interval on the staff.  In our case, we would write a generic third.</text> -->
+		<gotoAndPlay label="example_one3" />
+		<text>Następnie, na klawiaturze odznaczamy sobie ilość półtonów. Ponieważ tercja wielka ma 4 półtony, tercja mała składa się z 3 półtonów.</text>
+		<!-- <text>Next, figure out the number of half steps on the keyboard.  Since a major third is 4 half steps, our minor third will be 3 half steps.</text> -->
+		<gotoAndPlay label="example_one4" />
+		<text>Pozostaje przeniesienie ewentualnych znaków chromatycznych.</text>
+		<!-- <text>Finally, transfer over any accidentals.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Naszym następnym przykładem będzie septyma zmniejszona od F.</text>
+		<!-- <text>For our next example, let's try a diminished seventh from F.</text>  -->
+		<gotoAndPlay label="example_two2" />
+		<text>Najpierw piszemy na pięciolinii podstawową septymę.</text>
+		<!-- <text>First, write the generic seventh on the staff.</text> -->
+		<gotoAndPlay label="example_two3" />
+		<text>Następnie, na klawiaturze odliczamy sobie półtony (ponieważ septyma wielka ma 11 półtonów, mała 10, to zmniejszona będzie się składała z 9 półtonów).</text>
+		<!-- <text>Next, figure out the half steps on the keyboard (Since a major seventh is 11 half steps and a minor seventh is 10, our diminished seventh will be 9).</text> -->
+		<gotoAndPlay label="example_two4" />
+		<text>Pozostaje przeniesienie ewentualnych znaków chromatycznych.</text>
+		<!-- <text>Finally, transfer over any accidentals.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Naszym ostatnim przykładem będzie zmniejszona kwinta od H.</text>
+		<!-- <text>For our final example, we will try a diminished fifth from B.</text> -->
+		<gotoAndPlay label="example_three2" />
+		<text>Zaczynamy od zapisania podstawej kwinty na pięciolinii.</text>
+		<!-- text>First, write the generic fifth on the staff.</text> -->
+		<gotoAndPlay label="example_three3" />
+		<text>Następnie, na klawiaturze odznaczamy sobie półtony (ponieważ kwinta czysta ma 7 półtonów, nasza zmniejszona będzie się składała z 6).</text>
+		<!-- <text>Next, figure out the half steps on the keyboard (Since a perfect fifth is 7 half steps, our diminished fifth will be 6).</text> -->
+		<gotoAndStop label="example_three4" />
+		<text>Pozostaje przeniesienie ewentualnych znaków chromatycznych. W tym przypadku żaden znak nie jest potrzebny.</text>
+		<!-- <text>Finally, transfer over any accidentals.  In this example, no accidental is needed.</text> -->
+	</section>
+
+</lesson>

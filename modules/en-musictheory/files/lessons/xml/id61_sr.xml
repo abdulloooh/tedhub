@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2002-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Трозвуци у другом обртају</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Док се основни положај и први обртај трозвука користе потпуно слободно, други обртај се користи углавном само у три случаја.</text>
+		<gotoAndStop label="passing" />
+		<text>Други обртај се (као и први) користи за уједначавање басове линије.</text>
+		<gotoAndPlay label="passing2" />
+		<text>Погледајте горњи пример - приметите како се креће басов тон.</text>
+		<gotoAndPlay label="passing3" />
+		<text>Ако доминантни акорд ставимо у други обртај, басова линија постаје уједначенија.</text>
+		<gotoAndStop label="passing4" />
+		<text>Кад се употребљавају у ову сврху, трозвуци у другом обртају се зову <b>пролазни квартсекстакорди</b>.</text>
+		<gotoAndPlay label="passing5" />
+		<text>Послушајте ове примере.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="pedal" />
+		<text>Други обртај се такође користи за изравнавање басове линије.</text>
+		<gotoAndPlay label="pedal2" />
+		<text>Погледајте горњи пример - приметите како бас скаче у <b>f</b> и онда се враћа у <b>c</b>.</text>
+		<gotoAndPlay label="pedal3" />
+		<text>Ако субдоминантни акорд ставимо у други обртај, више нема скакања басовог тона.</text>
+		<gotoAndStop label="pedal4" />
+		<text>Када се употреби у ову сврху, трозвук у другом обртају се зове <b>педал(ни) квартсекстакорд</b>.</text>	
+		<gotoAndPlay label="pedal5" />
+		<text>Послушајте ове примере.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadential" />
+		<text>Коначно, трећа и најважнија употреба другог обртаја је <b>каденцирајући квартсекстакорд</b>.</text>
+		<gotoAndPlay label="cadential2" />
+		<text>У овом облику, трозвук у другом обртају претходи доминантном акорду у каденци.  Често ће каденца звучати упечатљивије због присутне кварте и сексте.</text>
+		<gotoAndPlay label="cadential3" />
+		<text>Послушајте овај пример.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="chart" />
+		<text>У обрасцу за хармонски ток, каденцирајући квартсекстакорд се налази између акорада субдоминантне и доминантне функције.</text>
+	</section>
+	
+</lesson>

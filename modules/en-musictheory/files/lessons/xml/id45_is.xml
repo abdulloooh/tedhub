@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="rootText">Rót</var>
+	<var name="thirdText">Þríund</var>
+	<var name="fifthText">Fimmund</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Sjöundarhljómar</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Sjöundarhljómur</b> er þríhljómur að viðbættri 7und.</text>
+		<text>Fimm gerðir sjöundarhljóma eru algengar.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="dominant" />
+		<text>Dúr þríhljómur að viðbættri lítilli sjöund nefnist <b>forsjöundarhljómur</b>.</text>
+		<gotoAndPlay label="dominant2" />
+		<text>C forsjöundarhljómur hljómar svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Dúr þríhljómur að viðbættir stórri sjöund nefnist <b>dúrsjöundarhljómur</b>.</text>
+		<gotoAndPlay label="major2" />
+		<text>Hann hljómar svona.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Þegar moll þríhljómur fær litla sjöund er útkoman <b>mollsjöundarhljómur</b>,</text>
+		<gotoAndPlay label="minor2" />
+		<text>sem hljómur er svona.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="diminished" />
+		<text>Þegar minnkaður þríhljómur fær minnkaða 7und er útkoman <b>fullminnkaður sjöundarhljómur</b>, oft bara nefndur <b>minnkaður sjöundarhljómur</b>.</text>
+		<gotoAndPlay label="diminished2" />
+		<text>Minnkaður sjöundarhljómur hljómar svona.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="half_diminished" />
+		<text>Að síðustu nefnum við minnkaðan þríhljóm með lítilli sjöund. Þessi hljómur nefnist <b>hálfminnkaður sjöundarhljómur</b>,</text>
+		<gotoAndPlay label="half_diminished2" />
+		<text>og hljómar svona.</text>
+	</section>
+
+</lesson>

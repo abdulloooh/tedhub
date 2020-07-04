@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="firstText">1ª</var>
+	<var name="secondText">2ª</var>
+	<var name="thirdText">3ª</var>
+	<var name="fourthText">4ª</var>
+	<var name="fifthText">5ª</var>
+	<var name="sixthText">6ª</var>
+	<var name="seventhText">7ª</var>
+	<var name="eighthText">8ª</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Intervalos Genéricos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Um <b>intervalo</b> mede a distância entre duas notas.</text>
+		<text>Vamos primeiro discutir os <b>intervalos genéricos</b>, que podem ser calculados no pentagrama.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="first" />
+		<text>Quando duas notas ocupam a mesma linha ou espaço, elas estão a um intervalo de <b>primeira</b>, ou <b>prima</b>.</text>
+		<gotoAndStop label="first2" />
+		<text>Dó para Dó é um exemplo de primeira.</text>
+		<gotoAndStop label="first3" />
+		<text>Dó para Dó bemol e Dó para Dó sustenido também são primeiras.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="second" />
+		<text>Quando duas notas estão perpendiculares na pauta, elas estão a uma distância de uma <b>segunda</b>.</text>
+		<gotoAndStop label="second2" />
+		<text>Dó para Ré é um exemplo de uma segunda.</text>
+		<gotoAndStop label="second3" />
+		<text>Dó para Ré sustenido, Dó bemol para Ré e Dó bemol para Ré sustenido também são segundas.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="third" />
+		<text>Quando duas notas estão empilhadas juntas, elas estão a um intervalo de uma <b>terça</b>.</text>
+		<gotoAndStop label="third2" />
+		<text>Dó para Mi é um exemplo de uma terça.</text>
+		<gotoAndStop label="third3" />
+		<text>Mi para Sol e Fá pra Lá também são terças.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="further" />
+		<text>À medida que as notas ficam mais distantes, o tipo de intervalo delas aumenta.</text>
+		<gotoAndStop label="fourth" />
+		<text>Dó para Fá é uma <b>quarta</b>.</text>
+		<gotoAndStop label="fifth" />
+		<text>Dó para Sol é uma <b>quinta</b>.</text>
+		<gotoAndStop label="sixth" />
+		<text>Dó para Lá é uma <b>sexta</b>.</text>
+		<gotoAndStop label="seventh" />
+		<text>Dó para Si é uma <b>sétima</b>.</text>
+		<gotoAndStop label="eighth" />
+		<text>Dó para Dó é uma <b>oitava</b>.</text>
+	</section>
+
+</lesson>

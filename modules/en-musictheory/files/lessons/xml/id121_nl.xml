@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2004-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Vertaling van Rob Kap</translation> -->
+	<translation>Vertaling: Rob Kap</translation>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Gebruik van Napels accoorden</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>In de voorgaande lessen leerden we hoe Napels accoorden te maken.  In deze les leren we hoe ze te gebruiken.</text>
+		<gotoAndPlay label="first_inversion" />
+		<text>Alhoewel er een grondligging en een tweede omkering bestaat, wordt de eerste omkering meestal gebruikt.</text>
+		<gotoAndStop label="first_inversion2" />
+		<text>In deze omkering wordt normaal een Napels accoord over het algemeen genoemd een <b>Napels sekst</b>.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="bass_notes" />
+		<text>Merk op dat de Napels sekst bas noot hetzelfde is als de eerste omkering <b>iiº</b> (of <b>ii</b>) of een grondligging <b>iv</b> (of <b>IV</b>).</text>
+		<gotoAndPlay label="chart" />
+		<text>Daarom is het vaak een vervanging voor deze accoorden.  Vandaar dat het in principe functioneert als een predominant.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Om dit te tonen, bekijk het voorbeeld hierboven.</text>
+		<gotoAndPlay label="example_one2" />
+		<text>Laten we het geinverteerde <b>ii</b> accoord vervangen door een Napels sekst.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Luister naar het nieuwe voorbeeld.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Vervolgens, kijk en luister naar dit voorbeeld.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Deze keer zullen we <b>IV</b> vervangen door een Napels sekst.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Luister opnieuw naar het voorbeeld.</text>
+	</section>
+		
+</lesson>

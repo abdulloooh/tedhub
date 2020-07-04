@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="phraseText">fraza</var>
+	<!-- <var name="phraseText">Phrase</var> -->
+	<var name="halfCadenceText">PK</var>
+	<!-- <var name="halfCadenceText">HC</var> -->
+	<var name="authenticCadenceText">KA</var>
+	<!-- <var name="authenticCadenceText">AC</var> -->
+	<var name="plagalCadenceText">KP</var>
+	<!-- <var name="plagalCadenceText">PC</var> -->
+	<var name="deceptiveCadenceText">KZ</var>
+	<!-- <var name="deceptiveCadenceText">DC</var> -->
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Frazy i kadencje</title>
+	<!-- <title>Phrases and Cadences</title> -->
+
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text><b>Frazą</b> nazywamy pewną ilość dźwięków, które brzmią jak pełna "wypowiedź", nawet w oderwaniu od całości utworu.</text>
+		<!-- <text>A <b>phrase</b> is a series of notes that sound complete even when played apart from the main song.</text> -->
+		<gotoAndPlay label="example" />
+		<text>Powyższa melodia posłuży nam jako przykład fraz.</text>
+		<!-- <text>We will use the above musical example to demonstrate phrases.</text> -->
+		<gotoAndPlay label="phrase_one" />
+		<text>Posłuchajmy dwóch pierwszych taktów; nie brzmią one pełnie (kompletnie).</text>
+		<!-- <text>Listen to the first two measures, notice how they sound incomplete.</text> -->
+		<gotoAndPlay label="phrase_one2" />
+		<text>Teraz posłuchajmy czterech pierwszych taktów; brzmią pełniej.</text>
+		<!-- <text>Now listen to the first four measures, it now sounds more complete.</text> -->
+		<gotoAndPlay label="phrase_one3" />
+		<text>Te takty możemy już uznać za frazę.</text>
+		<!-- <text>These measures could be considered a phrase.</text> -->
+	</section>
+
+	<section>
+		<gotoAndPlay label="phrase_two" />
+		<text>Posłuchajmy dalej melodii od piątego do ósmego taktu.</text>
+		<<!-- text>Listen to the fifth through eighth measures.</text> -->
+		<gotoAndPlay label="phrase_two2" />
+		<text>Brzmią kompletnie, więc także są rodzajem frazy.</text>
+		<!-- <text>Due to their completeness, they also form a phrase.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="cadence" />
+		<text><b>Kadencja</b> to dwa następujące po sobie akordy na końcu frazy.</text>
+		<!-- <text>A <b>cadence</b> is a two-chord progression that occurs at the end of a phrase.</text> -->
+		<gotoAndPlay label="half_cadence" />
+		<text>Jeśli fraza kończy się akordem przechodzącym na <b>V</b>, mamy tzw. <b>półkadencję (PK)</b>.</text>
+		<!-- <text>If a phrase ends with any chord going to <b>V</b>, a <b>half cadence (HC)</b> occurs.</text> -->
+		<gotoAndPlay label="half_cadence2" />
+		<text>Posłuchajmy jeszcze raz pierwszych czterech taktów, które są przykładem półkadencji.</text>
+		<!-- <text>Listen again to the first four measures and notice the sound of the half cadence.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="authentic_cadence" />
+		<text>Większość słuchaczy odbiera brzmienie półkadencji jako niepełne. Dlatego kompozytorzy zazwyczaj stosują po półkadencji frazę kończącą się <b>kadencją autentyczną (KA)</b>.</text>
+		<!-- <text>Most people will hear a half cadence as sounding incomplete.  Because of this, composers usually will follow half cadences with a phrase ending in an <b>authentic cadence (AC)</b>.</text> -->
+		<gotoAndPlay label="authentic_cadence2" />
+		<text>Kadencja autentyczna występuje na końcu frazy, kiedy <b>V</b> lub <b>viiº</b> idzie na <b>I</b> (albo na <b>i</b> w minorze).</text>
+		<!-- <text>An authentic cadence occurs whenever a phrase ends with <b>V</b> or <b>viiº</b> going to <b>I</b> (or <b>i</b> if minor).</text> -->
+		<gotoAndPlay label="authentic_cadence3" />
+		<text>Posłuchajmy obu tych kadencji w powyższym przykładzie.</text>
+		<!-- <text>Listen to the above example, noting the sound of both cadences.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="pac" />
+		<text>Kadencje autentyczne często bywają dzielone na doskonałe lub niedoskonałe. (Przypis tłum.: W polskiej terminologii mogą wystąpić pewne rozbieżności np. niedoskonałe to półkadencje, doskonałe to autentyczne).</text>
+		<!-- <text>Authentic cadences are often classified as either perfect or imperfect.</text> -->
+		<gotoAndPlay label="pac2" />
+		<text><b>Doskonała kadencja autentyczna (DKA)</b>, musi spełniać trzy warunki.</text>
+		<!-- <text>To be considered a <b>perfect authentic cadence (PAC)</b>, the cadence must meet three requirements.</text> -->
+		<gotoAndPlay label="pac3" />
+		<text>Po pierwsze, należy stosować <b>V</b>, a nie <b>viiº</b>.</text>
+		<!-- <text>First, <b>V</b> must be used rather than <b>viiº</b>.</text> -->
+		<gotoAndPlay label="pac4" />
+		<text>Po drugie, oba akordy muszą być w pozycji podstawowej.</text>
+		<!-- <text>Second, both chords must be in root position.</text> -->
+		<gotoAndPlay label="pac5" />
+		<text>I po trzecie, najwyższa nuta w akordzie <b>I</b> (lub w akordzie <b>i</b>) musi być toniką w gamie.</text>
+		<!-- <text>Finally, the highest note of the <b>I</b> (or <b>i</b>) chord must be the tonic of the scale.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="iac" />
+		<text><b>Niedoskonała kadencja autentyczna (NKA)</b> nie spełnia tych warunków.</text>
+		<!-- <text>An <b>imperfect authentic cadence (IAC)</b> fails to meet these requirements.</text> -->
+		<gotoAndPlay label="iac2" />
+		<text>Powyższe kadencje autentyczne są wszystkie niedoskonałe z różnych powodów.</text>
+		<!-- <text>The above authentic cadences are all imperfect due to various reasons.</text> -->
+		<gotoAndPlay label="iac3" />
+		<text>W pierwszym przykładzie, użyto <b>viiº</b> zamiast <b>V</b>.</text>
+		<!-- <text>In the first example, a <b>viiº</b> is used instead of a <b>V</b>.</text> -->
+		<gotoAndPlay label="iac4" />
+		<text>W drugim przykładzie, jeden z akordów nie występuje w pozycji zasadniczej.</text>
+		<!-- <text>In the second example, one of the chords is not in root position.</text> -->
+		<gotoAndPlay label="iac5" />
+		<text>W trzecim przykładzie, najwyższa nuta w akordzie <b>I</b> nie jest toniką w gamie.</text>
+		<!-- <text>In the third example, the highest note of the <b>I</b> chord is not the tonic of the scale.</text> -->
+	
+	<section>
+		<gotoAndStop label="plagal" />
+		<text>Obok kadencji autentycznych i półkadencji występują dodatkowo dwie odmiany.</text>
+		<!-- <text>In addition to authentic and half cadences, two other kinds exist.</text> -->
+		<gotoAndPlay label="plagal2" />
+		<text>Jeśli fraza kończy się na <b>IV</b> (lub <b>iv</b>) przechodzącymi na <b>I</b> (lub <b>i</b>), mamy do czynienia z <b>kadencją plagalną (KP)</b>.</text>
+		<!-- <text>If a phrase ends with <b>IV</b> (or <b>iv</b>) going to <b>I</b> (or <b>i</b>), a <b>plagal cadence (PC)</b> occurs.</text> -->
+		<gotoAndPlay label="plagal3" />
+		<text>Posłuchajmy jak brzmi kadencja plagalna.</text>
+		<!-- <text>Listen to the above example, note the sound of the plagal cadence.</text> -->
+	</section>
+	
+	<section>
+		<gotoAndStop label="deceptive" />
+		<text>Jeśli fraza kończy się na akordzie <b>V</b> przechodzącym na <b>vi</b> (lub <b>VI</b> w minorze), mamy <b>kadencję zwodniczą (KZ)</b>.</text>
+		<!-- <text>If a phrase ends with <b>V</b> going to <b>vi</b> (or <b>VI</b> in minor), a <b>deceptive cadence (DC)</b> occurs.</text> -->
+		<text>Kadencja zwodnicza używana jest często zamiast kadencji autentycznej.</text>
+		<!-- <text>Deceptive cadences are often used in place of an authentic cadence.</text> -->
+		<gotoAndPlay label="deceptive2" />
+		<text>Przypomnijmy sobie przykład muzyczny użyty na początku lekcji. W tym przykładzie zamieniliśmy autentyczną kadencję na końcu drugiej frazy na zwodniczą.</text>
+		<!-- <text>Recall our the musical example used at the beginning of this lesson.  Notice that we have replaced the authentic cadence at the end of the second phrase with a deceptive cadence.</text> -->
+		<text>Posłuchajmy jak brzmi taka modyfikacja, jak "zwodzi" jej brzmienie w porównaniu do słyszanego poprzednio akordu <b>I</b>).</text>
+		<!-- <text>Listen to the modified example.  Notice how the cadence "deceives" you (since you are expecting to hear a <b>I</b>).</text> -->
+	</section>
+	
+</lesson>

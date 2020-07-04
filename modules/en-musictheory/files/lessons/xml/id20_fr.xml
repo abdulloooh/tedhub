@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="oneText">1</var>
+	<var name="twoText">2</var>
+	<var name="threeText">3</var>
+	<var name="doubleFlatOneText">Double dièse</var>
+	<var name="doubleFlatTwoText">bémol</var>
+	<var name="flatText">Bémol</var>
+	<var name="naturalText">Bécarre</var>
+	<var name="sharpText">Dièse</var>
+	<var name="doubleSharpOneText">Double</var>
+	<var name="doubleSharpTwoText">dièse</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Tons, Demi-tons et Altérations</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Un <b>demi-ton</b> correspond à l'intervalle qu'il y a entre une touche du piano et la suivante.</text>
+		<gotoAndPlay label="half_step" />
+		<text>Comme la touche 1 et la touche 2 se suivent, l'intervalle entre ces deux touches est un demi-ton.</text>
+		<gotoAndStop label="half_step2" />
+		<text>Un demi-ton ne se trouve pas toujours entre une touche blanche et une touche noire.</text>
+		<gotoAndPlay label="half_step3" />
+		<text>Dans cet exemple les touches 1 et 2 se suivent et l'intervalle est toujours un demi-ton.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="whole_step" />
+		<text>Un <b>ton</b> correspond à la distance de deux demi-tons.</text>
+		<gotoAndPlay label="whole_step2" />
+		<text>Il y a un ton entre la touche 1 et la touche 3. (Le premier demi-ton se trouve entre la touche 1 et la touche 2, le second demi-ton entre la 2 et la 3)</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="accidentals" />
+		<text>Une <b>altération</b> est un signe utilisé pour élever ou abaisser la hauteur de la note.</text>
+		<gotoAndPlay label="accidentals2" />
+		<text>Les premières altérations dont nous allons parler sont: le <b>bémol</b> et le <b>dièse</b>.</text>
+		<gotoAndStop label="accidentals3" />
+		<text>Le bémol abaisse la note d'un demi-ton pendant que le dièse élève la note d'un demi-ton.</text>
+		<gotoAndStop label="accidentals4" />
+		<text>Lorsque vous écrivez sur le clavier vous pouvez utiliser le signe <b>#</b> pour le dièse et le <b>b</b> pour le bémol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example" />
+		<text>Maintenant regardons ce qui se passe pour la touche noire qui se trouve entre Do et Ré.</text>
+		<gotoAndStop label="example2" />
+		<text>Cette touche peut être un Do# car elle se trouve un demi-ton au dessus du Do.</text>
+		<gotoAndStop label="example3" />
+		<text>Mais elle peut aussi être un Réb car elle se trouve un demi-ton au dessous du Ré.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="enharmonic" />
+		<text>Nous allons prendre un autre exemple avec Mi et Fa.</text>
+		<gotoAndStop label="enharmonic2" />
+		<text>Mi peut aussi s'appeler Fab car la touche se trouve un demi-ton au dessous du Fa.</text>
+		<gotoAndStop label="enharmonic3" />
+		<text>De même, Fa pourra s'appeller Mi#.</text>
+		<gotoAndStop label="enharmonic4" />
+		<text>Lorsqu'une note est de même hauteur mais avec un nom différent, cela s'appelle une <b>enharmonie.</b></text>		
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double" />
+		<text>Les prochaines altérations dont nous allons parler sont le <b>double bémol</b> et le <b>double dièse</b>.</text>
+		<gotoAndStop label="double2" />
+		<text>Alors que les bémols et les dièses altèrent la note d'un demi-ton, les doubles bémols et les double dièses vont altérer la note d'un ton.</text>
+		<gotoAndStop label="double3" />
+		<text>Lorsque vous écrivez sur le clavier vous pouvez utiliser le signe <b>x</b> pour représenter le double dièse et <b>bb</b> pour le double bémol.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="double_example" />
+		<text>Par exemple, les notes Ré et Mibb sont toutes les deux à la même hauteur. Le double bémol descend la note Mi d'un ton (ou de deux demi-tons).</text>
+		<gotoAndPlay label="double_example2" />
+		<text>La note Ré à le même son que la note Dox car le double dièse augmente le son de la note Do d'un ton.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="natural" />
+		<text>Pour finir, le <b>bécarre</b> annule toute altération précédente et remet la note à son état originel.</text>
+		<gotoAndStop label="natural2" />
+		<text>Nous en apprendrons plus sur les bécarres dans la leçon suivante.</text>
+	</section>
+	
+</lesson>

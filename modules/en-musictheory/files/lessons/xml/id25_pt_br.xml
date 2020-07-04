@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minusText">-</var>
+	<var name="plusText">+</var>
+	<var name="equalsText">=</var>
+	<var name="minusSevenText">-7</var>
+	<var name="minusSixText">-6</var>
+	<var name="minusFiveText">-5</var>
+	<var name="minusFourText">-4</var>
+	<var name="minusThreeText">-3</var>
+	<var name="minusTwoText">-2</var>
+	<var name="minusOneText">-1</var>
+	<var name="ZeroText">0</var>
+	<var name="OneText">1</var>
+	<var name="TwoText">2</var>
+	<var name="ThreeText">3</var>
+	<var name="FourText">4</var>
+	<var name="FiveText">5</var>
+	<var name="SixText">6</var>
+	<var name="SevenText">7</var>
+	<var name="EightText">8</var>
+	<var name="cFlatMajorText">Dó b</var>
+	<var name="cMajorText">Dó</var>
+	<var name="cSharpMajorText">Dó#</var>
+	<var name="cMinorText">dó</var>
+	<var name="dMajorText">Ré</var>
+	<var name="dMinorText">ré</var>
+	<var name="eFlatMajorText">Mi b</var>
+	<var name="eMajorText">Mi</var>
+	<var name="fMajorText">Fá</var>
+	<var name="fSharpMajorText">Fá#</var>
+	<var name="fMinorText">fá</var>
+	<var name="gMajorText">Sol</var>
+	<var name="gSharpMajorText">Sol#</var>
+	<var name="gSharpMinorText">sol#</var>
+	<var name="aMajorText">Lá</var>
+	<var name="bMajorText">Si</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Cálculo da Armadura</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Existem 30 armaduras diferentes (15 para escalas maiores e 15 para escalas menores).  Espera-se da maioria dos alunos de teoria que eles memorizem todas as 30.</text>
+		<text>Felizmente, usando o <b>método de cálculo da armadura</b>, só é preciso memorizar sete.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="number_line" />
+		<text>Neste método de cálculo, cada armadura ganha um valor numérico baseado na quantidade e no tipo dos acidentes.  Sustenidos são positivos; bemóis são negativos.</text>
+				
+		<gotoAndStop label="c_major" />
+		<text>A Escala de Dó Maior não tem acidentes; por isso, seu valor numérico é 0.</text>
+		<gotoAndStop label="d_major" />
+		<text>A Escala de Ré Maior tem dois sustenidos; por isso, seu valor numérico é 2.</text>
+		<gotoAndStop label="e_major" />
+		<text>A Escala de Mi Maior tem quatro sustenidos - um valor numérico de 4.</text>
+		<gotoAndStop label="f_major" />
+		<text>A Escala de Fá Maior tem um bemol; portanto, seu valor numérico é -1.  (Lembre-se: bemóis recebem números negativos)</text>
+		<gotoAndStop label="g_major" />
+		<text>A Escala de Sol Maior tem um sustenido.  Seu valor numérico é 1.</text>
+		<gotoAndStop label="a_major" />
+		<text>A Escala de Lá Maior tem três sustenidos - um valor numérico de 3.</text>
+		<gotoAndStop label="b_major" />
+		<text>E finalmente a Escala de Si Maior tem cinco sustenidos - o que dá a ela o valor numérico de 5.</text>
+		<text>Esses sete valores precisam ser memorizados antes que possamos ir adiante.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="seven" />
+		<text>A seguir, vamos comparar Dó Bemol, Dó, e Dó Sustenido Maior.</text>
+		<gotoAndStop label="seven2" />
+		<text>Se começamos em Dó Maior e subtraímos 7, chegamos a Dó Bemol Maior.</text>
+		<text>Se começamos em Dó Maior e adicionamos 7, chegamos a Dó Sustenido Maior.</text>
+		<text>Essas duas relações numéricas podem nos ajudar a calcular armaduras que não conhecemos.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="eb_major" />
+		<text>Vamos calcular a armadura de Mi Bemol Maior.  Primeiro, comece com Mi Maior, que tem um valor numérico de 4.</text>
+		<gotoAndStop label="eb_major2" />
+		<text>Para converter para Mi Bemol Maior, subtraia 7.</text>
+		<gotoAndPlay label="eb_major3" />
+		<text>O resultado é -3; logo, Mi Bemol Maior tem 3 bemóis.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="fs_major" />
+		<text>Vamos tentar o Fá Sustenido Maior.  Comece com o Fá Maior, que é -1.</text>
+		<gotoAndStop label="fs_major2" />
+		<text>Para converter para o Fá Sustenido Maior, adicione 7.</text>
+		<gotoAndPlay label="fs_major3" />
+		<text>O resultado é 6; logo, Fá Sustenido Maior tem 6 sustenidos.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="three" />
+		<text>A seguir, examinaremos as escalas menores.  Compare Dó Maior com Dó Menor.</text>
+		<gotoAndStop label="three2" />
+		<text>Para converter uma escala maior em sua paralela menor, simplesmente subtraia 3.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="d_minor" />
+		<text>Vamos calcular Ré Menor.  Vamos começar com Ré Maior, que é 2.</text>
+		<gotoAndStop label="d_minor2" />
+		<text>A seguir, simplesmente subtraia 3.</text>
+		<gotoAndPlay label="d_minor3" />
+		<text>O resultado é -1.  Logo, Ré Menor tem 1 bemol.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="f_minor" />
+		<text>Agora, vamos tentar Fá Menor.  Vamos começar com Fá Maior, que é -1.</text>
+		<gotoAndStop label="f_minor2" />
+		<text>A seguir, subtraia 3.</text>
+		<gotoAndPlay label="f_minor3" />
+		<text>O resultado é -4.  Logo, Fá Menor tem 4 bemóis.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="gs_minor" />
+		<text>Algumas armaduras exigem duas conversões.  Por exemplo, vamos calcular Sol Sustenido Menor.</text>
+		<gotoAndStop label="gs_minor2" />
+		<text>Comece com o Sol Maior, que tem um valor numérico de 1.</text>
+		<gotoAndStop label="gs_minor3" />
+		<text>A seguir, adicione 7 para chegar ao Sol Sustenido Maior.</text>
+		<gotoAndStop label="gs_minor4" />
+		<text>Por fim, subtraia 3 para convertê-lo a Sol Sustenido Menor.</text>
+		<gotoAndPlay label="gs_minor5" />
+		<text>O resultado é 5.  Sol Sustenido Menor tem portanto 5 sustenidos.</text>
+	</section>
+	
+</lesson>

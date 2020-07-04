@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>http://www.musictheory.net/</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">d</var>
+	<var name="minorText">m</var>
+	<var name="majorText">M</var>
+	<var name="augmentedText">A</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Roman Numeral Analysis</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>When analyzing music, each diatonic triad is identified by a <b>roman numeral</b>.</text>
+		<gotoAndStop label="numeral_chart" />
+		<text>Four different types of roman numerals exist - one for each triad type.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major" />
+		<text>Let's apply roman numerals to the C major scale.</text>
+		<gotoAndPlay label="major_i" />
+		<text>Since the first triad is major, its roman numeral is upper-case.</text>
+		<gotoAndPlay label="major_ii_iii" />
+		<text>The second and third triads are minor; therefore, their numerals are lower-case.</text>
+		<gotoAndPlay label="major_iv_v" />
+		<text>The fourth and fifth triads are major; therefore, their numerals are upper-case.</text>
+		<gotoAndPlay label="major_vi" />
+		<text>The sixth triad is minor, making its numeral lower-case.</text>
+		<gotoAndPlay label="major_vii" />
+		<text>Since the seventh triad is diminished, its roman numeral is lower-case and a little circle is added.</text>
+		<gotoAndPlay label="major_viii" />
+		<text>Finally, the last triad is a repeat of the first.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Next, we will apply roman numerals to the C natural minor scale.</text>
+		<gotoAndPlay label="minor_i" />
+		<text>Since the first triad is minor, its roman numeral is lower case.</text>
+		<gotoAndPlay label="minor_ii" />
+		<text>The second triad is diminished; thus, we will use a lower-case numeral with the little circle.</text>
+		<gotoAndPlay label="minor_iii" />
+		<text>Since the third triad is major, its numeral is upper-case.</text>
+		<gotoAndPlay label="minor_iv_v" />
+		<text>The fourth and fifth triads are minor; therefore, their numerals are lower-case.</text>
+`		<gotoAndPlay label="minor_vi_vii" />
+		<text>The sixth and seventh triads are major; therefore, their numerals are upper-case.</text>
+		<gotoAndPlay label="minor_viii" />
+		<text>Again, the last triad is a repeat of the first.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Finally, we will apply roman numerals to the C harmonic minor scale.</text>
+		<gotoAndPlay label="harmonic_iii" />
+		<text>Since the third triad is now augmented, its roman numeral is upper-case with an added plus sign.</text>
+		<gotoAndPlay label="harmonic_v" />
+		<text>The fifth triad is now major - making its numeral upper-case.</text>
+		<gotoAndPlay label="harmonic_vii" />
+		<text>The seventh triad is now diminished - making its numeral lower-case with the little circle.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="inversions" />
+		<text>The roman numeral system can also be used to indicate inversions.</text>
+		<gotoAndStop label="inversions2" />
+		<text>First inversion is represented by a small 6 after the roman numeral.  This is due to the root being a generic sixth above the bass note.</text>
+		<gotoAndStop label="inversions3" />
+		<text>Second inversion is represented with both a small 6 and 4.  This is due to the root and third being a generic sixth and fourth above the bass note.</text>
+	</section>
+
+</lesson>

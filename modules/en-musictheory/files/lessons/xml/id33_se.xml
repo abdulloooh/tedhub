@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="minorSecondText">L2</var>
+	<var name="majorThirdText">S3</var>
+	<var name="perfectFourthText">R4</var>
+	<var name="perfectFifthText">R5</var>
+	<var name="minorSixthText">L6</var>
+	<var name="majorSeventhText">S7</var>
+	<var name="minorText">Liten</var>
+	<var name="majorText">Stor</var>
+	<var name="perfectText">Ren</var>
+	<var name="diminishedText">Förminskad</var>
+	<var name="augmentedText">Överstigande</var>
+	<var name="secondText">Sekund</var>
+	<var name="thirdText">Ters</var>
+	<var name="fourthText">Kvart</var>
+	<var name="fifthText">Kvint</var>
+	<var name="sixthText">Sext</var>
+	<var name="seventhText">Septima</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Omvändning av intervall</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>I musikteorisammanhang innebär ordet <b>omvändning</b> att man flyttar den lägsta tonen i en grupp av toner en oktav upp.</text>
+		<text>I den här lektionen ska vi vända på intervall.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>I vårt första exempel ska vi använda intervallet som bildas mellan C och G (en ren kvint).</text>
+		<gotoAndPlay label="example_one2" />
+		<text>För att vända om det här intervallet, flytta den lägsta tonen (C:et) en oktav upp.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Resultatet av denna operation (G till C) blir en ren kvart.</text>
+		<gotoAndStop label="example_one4" />
+		<text>Rena intervall blir i omvändning alltid fortsatt rena. Kvarter blir i omvändning kvinter och kvinter blir kvarter.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>I nästa exempel använder vi C till E (en stor ters).</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Än en gång, flytta den lägsta tonen i intervallet (C:et) en oktav upp.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Resultatet (E till G) är en liten sext.</text>
+		<gotoAndStop label="example_two4" />
+		<text>Stora och små intervall blir i omvändning alltid små respektive stora - terser och sexter blir sexter respektive terser. Exempelvis blir en liten ters i omvändning en stor sext.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Nu ska vi vända på intervallet C till B (en stor septima).</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Än en gång, flytta den lägsta tonen i intervallet en oktav upp.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>Detta resulterar (B till C) i en liten sekund.</text>
+		<gotoAndStop label="example_three3" />
+		<text>Sekunder och septimor blir i omvändning alltid septima respektive sekund.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="example_four" />
+		<text>Den sista regeln när det gäller omvändningar av intervall säger att överstigande och förminskade intervall i omvändning alltid blir förminskade respektive överstigande.</text>
+		<gotoAndPlay label="example_four2" />
+		<text>Exempelvis så blir C till F# (en överstigande kvart) i omvändning F# till C (en förminskad kvint).</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Använd ovanstående tabell för att snabbt hitta omvändningen för ett givet intervall.</text>
+	</section>
+
+</lesson>

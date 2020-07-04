@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Превео Бојан Мијић</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="diminishedText">у</var>
+	<var name="minorText">м</var>
+	<var name="majorText">д</var>
+	<var name="augmentedText">п</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Лествични трозвуци</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>У свакој дурској и молској лествици можемо од тонова те лествице саставити 7 трозвука, карактеристичних за дату лествицу.  Такве трозвуке зовемо <b>лествични</b> (или <b>дијатонски</b>) трозвуци.</text>
+		<text>Да бисмо их направили, потребна су три корака.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="major_intro" />
+		<text>Прво направимо лествицу.  За први пример узећемо C-дур лествицу.</text>
+		<gotoAndPlay label="major_intro2" />
+		<text>Затим, над сваку ноту додамо две генеричке терце.</text>
+		<gotoAndStop label="major_intro3" />
+		<text>И коначно, анализирамо које смо трозвуке добили.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Први трозвук се састоји од тонова <b>c</b>, <b>e</b>, <b>g</b> - велике терце и чисте квинте.  Значи, то је дурски трозвук.</text>
+		<gotoAndStop label="major_ii" />
+		<text>Други трозвук је <b>d</b>, <b>f</b>, <b>a</b> - мала терца и чиста квинта.  Значи, то је мол.</text>
+		<gotoAndStop label="major_iii" />
+		<text>Трећи трозвук је <b>e</b>, <b>g</b>, <b>h</b> - мала терца и чиста квинта.  То је такође мол.</text>
+		<gotoAndStop label="major_iv" />
+		<text>Четрвти трозвук је  <b>f</b>, <b>a</b>, <b>c</b> - велика терца и чиста квинта.  То је дур.</text>
+		<gotoAndStop label="major_v" />
+		<text>Пети трозвук је <b>g</b>, <b>h</b>, <b>d</b> - велика терца и чиста квинта.  То је опет дур.</text>
+		<gotoAndStop label="major_vi" />
+		<text>Шести трозвук је <b>a</b>, <b>c</b>, <b>e</b> - мала терца и чиста квинта.  То је дакле мол.</text>
+		<gotoAndStop label="major_vii" />
+		<text>Седми трозвук је <b>h</b>, <b>d</b>, <b>f</b> - мала терца и умањена квинта.  Значи, то је умањени трозвук.</text>
+		<gotoAndStop label="major_viii" />
+		<text>Осми трозвук је понављање првог (<b>c</b>, <b>e</b>, <b>g</b>), што значи дур.</text>
+		<gotoAndStop label="major_recap" />
+		<text>Запамтите редослед трозвука у дурској лествици: 1. ступањ дур, 2. и 3. мол, 4. и 5. дур, 6. мол и 7. умањени.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_intro" />
+		<text>Сада ћемо видети који су то трозвуци у природној c-мол лествици.</text>
+		<gotoAndPlay label="minor_intro2" />
+		<text>Прво изградимо лествицу.  Приметите да користимо предзнак тоналитета уместо да испред сваке ноте пишемо предзнаке.</text>
+		<gotoAndPlay label="minor_intro3" />
+		<text>Поново додајемо две генеричке терце на сваку ноту.</text>
+		<gotoAndStop label="minor_intro4" />
+		<text>А сад да анализирамо шта смо добили.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="minor_i" />
+		<text>Први трозвук: <b>c</b>, <b>es</b>, <b>g</b> - мала терца и чиста квинта.  То је мол.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>Други трозвук: <b>d</b>, <b>f</b>, <b>as</b> - мала терца и умањена квинта.  То је умањени трозвук.</text>
+		<gotoAndStop label="minor_iii" />
+		<text>Трећи трозвук: <b>es</b>, <b>g</b>, <b>b</b> - велика терца и чиста квинта.  То је дур.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>Четврти трозвук: <b>f</b>, <b>as</b>, <b>c</b> - мала терца и чиста квинта.  То је мол.</text>
+		<gotoAndStop label="minor_v" />
+		<text>Пети трозвук: <b>g</b>, <b>b</b>, <b>d</b> - мала терца и чиста квинта.  То је мол.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>Шести трозвук: <b>as</b>, <b>c</b>, <b>es</b> - велика терца и чиста квинта.  То је дур.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>Седми трозвук: <b>b</b>, <b>d</b>, <b>f</b> - велика терца и чиста квинта.  То је дур.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>Осми трозвук је први поновљен (<b>c</b>, <b>es</b>, <b>g</b>), дакле мол.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="harmonic_intro" />
+		<text>А на самом крају обрадићемо лествичне трозвуке хармонске молске лествице.</text>
+		<gotoAndPlay label="harmonic_intro2" />
+		<text>Да бисмо од природне направили хармонску молску лествицу, седми тон мора бити повишен један полустепен.  Значи сваки тон <b>b</b> (седми ступањ c-мола) је повишен у <b>h</b>.</text>
+		<gotoAndStop label="harmonic_intro3" />
+		<text>Пошто су трећи, пети и седми трозвук због овога промењени, морамо их поново анализирати.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Трећи трозвук се састоји од <b>es</b>, <b>g</b>, <b>h</b> - велике терце и прекомерне квинте.  Значи то је прекомерни трозвук.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>Пети трозвук се састоји од <b>g</b>, <b>h</b>, <b>d</b> - велике терце и чисте квинте.  То је дур.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>И на крају, седми трозвук је <b>h</b>, <b>d</b>, <b>f</b> - мала терца и умањена квинта.  То је умањени трозвук.</text>
+	</section>
+
+</lesson>

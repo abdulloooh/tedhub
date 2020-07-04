@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "Eighth Note:" followed by an eighth note -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- Eighth Note: ♪ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2001-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© Cláudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="EbText">Mi bemol</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Análise Número 1</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Analisar as notas e acordes de uma canção é uma parte importante da teoria musical.</text>
+		<gotoAndPlay label="song" />
+		<text>Nesta análise, vamos examinar os primeiros quatro compassos de <i>O Canada!</i>, o hino nacional do Canadá.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>O primeiro passo da análise é determinar a tonalidade.  Como a armadura contém três bemóis, temos duas possibilidades: Mi Bemol Maior ou Dó Menor.</text>
+		<gotoAndStop label="measure_one" />
+		<text>O primeiro acorde contém Mi bemol, Si bemol, Mi bemol e Sol - uma tríade maior de Mi bemol.  Como ele é o grau <b>I</b> da escala de Mi Bemol Maior, estamos muito provavelmente nessa tonalidade.</text>
+		<gotoAndStop label="measure_one2" />
+		<text>O segundo acorde contém Ré, Si bemol, Fá e Si bemol - uma tríade maior de Si bemol.  Ele é um grau <b>V</b> de Mi Bemol Maior.  Como a terça é a nota mais grave, a tríade está em primeira inversão.</text>
+		<gotoAndStop label="measure_one3" />
+		<text>Como o terceiro acorde é o mesmo que o anterior, não precisamos repetir o símbolo da análise.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_two" />
+		<text>O primeiro acorde do segundo compasso contém Dó, Sol, Dó e Mi bemol - uma tríade menor de Dó.  Logo, ela é o grau <b>vi</b>.</text>
+		<gotoAndStop label="measure_two2" />
+		<text>O segundo acorde contém Si bemol, Si bemol, Ré e Fá - outra tríade maior de Si bemol. Desta vez, ele está na posição fundamental.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_three" />
+		<text>O primeiro acorde do terceiro compasso contém Mi bemol, Si bemol, Mi bemol e Sol - uma tríade maior de Mi bemol.  Logo, é outro acorde do grau <b>I</b>.</text>
+		<gotoAndStop label="measure_three2" />
+		<text>O segundo acorde contém Dó, Lá bemol, Mi bemol e Lá bemol - uma tríade maior de Lá bemol na primeira inversão.</text>
+		<gotoAndStop label="measure_three3" />
+		<text>O terceiro acorde contém Sol, Sol, Mi bemol e Si bemol - uma tríade maior de Mi bemol na primeira inversão.</text>
+		<gotoAndStop label="measure_three4" />
+		<text>O quarto acorde contém Lá bemol, Dó, Mi bemol, e Dó - outra tríade maior de Lá bemol. Note que ele está agora na posição fundamental.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_four" />
+		<text>O compasso final contém Si bemol, Si bemol, Ré e Fá - uma tríade maior de Si bemol.  Logo, encerramos com um grau <b>V</b>.</text>
+		<gotoAndPlay label="listen" />
+		<text>Ouça os compassos acima de <i>O Canada!</i>.</text>
+	</section>
+	
+</lesson>

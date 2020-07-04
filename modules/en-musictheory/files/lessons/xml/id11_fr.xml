@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2000-2004, Ricci Adams</copyright>
+	
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="flagText">Crochet</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>La Durée des Notes</title>
+	
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Le temps pendant lequel est joué une note est appellé <b> la durée de la note</b>, chaque durée de note est représentée par une figure de note différente.</text>
+		<gotoAndPlay label="whole" />
+		<text>La Ronde est la note qui a la durée la plus longue dans la notation moderne.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="half" />
+		<text>La Blanche dure la moitié d'une ronde.</text>
+		<gotoAndPlay label="half2" />
+		<text>Deux Blanches durent le même temps qu'une Ronde.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="quarter" />
+		<text>La Noire dure un quart de Ronde.</text>
+		<gotoAndPlay label="quarter2" />
+		<text>Quatre Noires durent le même temps qu'une Ronde. Deux Noires durent le même temps qu'une Blanche.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="flag" />
+		<text>Les notes qui sont plus courtes que la noire ont des crochets. Chaque crochet diminue de moitié la valeur de la note.</text>
+		<gotoAndPlay label="eighth" />
+		<text>La croche a un seul crochet, elle dure la moitié d'une noire.</text>
+		<gotoAndPlay label="sixteenth" />
+		<text>La double croche a deux crochets, la valeur de sa durée est donc encore diminuée de moitié.</text>
+		<gotoAndStop label="3ormore" />
+		<text>Bien qu'il soit possible d'avoir des notes avec trois ou quatre crochets, celles ci ne sont que rarement utilisées.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="chart" />
+		<text>Le diagramme ci-dessus montre le rapport entre les cinq figures de notes que nous avons appris dans cette leçon.</text>
+	</section>
+
+</lesson>

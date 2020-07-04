@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Przekład na polski: Anna von Zweigbergk</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<!-- <var name="tonicText">Tonic</var> -->
+	<var name="tonicText">tonika</var>
+	<!-- <var name="supertonicText">Supertonic</var> -->
+	<var name="supertonicText">supertonika</var>
+	<!-- <var name="mediantText">Mediant</var> -->
+	<var name="mediantText">medianta</var>
+	<!-- <var name="subdominantText">Subdominant</var> -->
+	<var name="subdominantText">subdominanta</var>
+	<!-- <var name="dominantText">Dominant</var> -->
+	<var name="dominantText">dominanta</var>
+	<!-- <var name="submediantText">Submediant</var> -->
+	<var name="submediantText">submedianta</var>
+	<!-- <var name="leadingToneText">Leading Tone</var> -->
+	<var name="leadingToneText">dźwięk prowadzący</var>
+	<!-- <var name="subtonicText">Subtonic</var> -->
+	<var name="subtonicText">subtonika</var>
+	<var name="hText">p</var>
+	<var name="wText">C</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Stopnie gamy (skali)</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<!-- <text>Each note of a scale has a special name, called a <b>scale degree</b>.</text> -->
+    	<text>Każda nuta gamy ma swoją specjalną nazwę określającą <b>stopień gamy</b>.</text>
+		<gotoAndStop label="tonic" />
+    	<!-- <text>The first note is called the <b>tonic</b>.</text> -->
+    	<text>Pierwsza nuta nazywa się <b>tonika (T)</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<!-- <text>The fifth note is called the <b>dominant</b>.</text> -->
+    	<text>Piąta nuta nazywa się <b>dominanta (D)</b>.</text>
+		<gotoAndPlay label="subdominant" />
+    	<!-- <text>The fourth note is called the <b>subdominant</b> (meaning lower dominant).</text> -->
+    	<text>Czwarta nuta nazywa się <b>subdominanta (S)</b> (gdyż leży pod dominantą).</text>
+		<gotoAndPlay label="mediant" />
+    	<!-- <text>Since it is in the <i>middle</i> of the tonic and dominant, the third note is called the <b>mediant</b>.</text> -->
+    	<text>Trzecia nuta, leżąca <i>w pół drogi</i> między toniką i dominantą, nazywa się <b>medianta</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<!-- <text>Likewise, the sixth note is called the <b>submediant</b> since it is in the middle of the uppper tonic and <i>sub</i>dominant.</text> -->
+		<text>Podobnie, szósta nuta nazywa się <b>submedianta</b>, gdyż leży w pół drogi między górną toniką i <i>sub</i>dominantą.</text>
+		<gotoAndPlay label="supertonic" />
+    	<!-- <text>The second note is called the <b>supertonic</b>.  <i>Super</i> is Latin for "above."</text> -->
+    	<text>Druga nuta, tzw. dźwięk prowadzący w dół, nazywana jest niekiedy <b>supertoniką</b>. <i>Super</i> znaczy po łacinie „ponad".</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<!-- <text>While the scale degrees for the first six notes are the same for both major and minor scales, the seventh one is special.</text> -->
+		<text>Pierwsze sześć stopni nazywa się tak samo w gamach durowych i molowych, ale siódmy jest odmienny.</text>
+		<gotoAndStop label="seventh2" />
+		<!-- <text>If the seventh note is a half step below the tonic, it is called a <b>leading tone</b>.</text> -->
+		<text>Jeśli bowiem siódmy stopień jest w odległości pół tonu od następującej toniki, nazywamy go <b>dźwiękiem prowadzącym w górę</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<!-- <text>Listen to the C Major Scale, notice how the seventh note wants to <i>lead</i> into the tonic.</text> -->
+		<text>Posłuchajmy gamy C-dur, zwracając uwagę jak siódmy stopień <i>ciągnie</i> w kierunku toniki.</text>
+		<gotoAndStop label="seventh4" />
+		<!-- <text>Leading tones also occur in harmonic minor and melodic minor.</text> -->
+		<text>Dźwięki prowadzące w górę występują także w minorach harmonicznym i melodycznym.</text>
+		<gotoAndPlay label="seventh5" />
+		<!-- <text>In natural minor, the seventh note is a whole step below the tonic.  In this case, the note is called a <b>subtonic</b>.</text> -->
+		<text>W minorze naturalnym, nuta siódma jest oddalona o cały ton od toniki. W tym przypadku nie ma dźwięku prowadzącego. Przez analogię z subdominantą możemy nazwać go <b>subtoniką</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<!-- <text>Listen to the C Natural Minor scale, notice how the seventh tone lacks the desire to lead into the tonic.</text> -->
+		<text>Posłuchajmy gamy naturalnej c-moll, zwracając uwagę na brak ciążenia siódmej nuty na tonikę.</text>
+	</section>
+
+</lesson>

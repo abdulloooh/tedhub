@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "Eighth Note:" followed by an eighth note -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- Eighth Note: ♪ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="EbText">Eb</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Analys #1</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Analys av de ingående tonerna och ackorden i ett musikstycke är en central del av musikteorin.</text>
+		<gotoAndPlay label="song" />
+		<text>I den här analysen ska vi gå igenom de fyra första takterna av <i>O Canada!</i>, Kanadas nationalsång.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="key" />
+		<text>Första steget i analysen är att bestämma styckets huvudtonart. Eftersom de fasta förtecknen är tre b-tecken finns det två möjligheter: Eb-dur eller c-moll.</text>
+		<gotoAndStop label="measure_one" />
+		<text>Första ackordet består av tonerna Eb, Bb och G - en Eb-durtreklang. Eftersom detta är <b>I</b> i Eb-dur är det stor sannolikhet att stycket går i den tonarten.</text>
+		<gotoAndStop label="measure_one2" />
+		<text>Andra ackordet består av tonerna D, Bb, F och Bb - en Bb-durtreklang. Detta är <b>V</b> i Eb-dur. Eftersom tersen i ackordet är den lägsta tonen är ackordet i tersläge.</text>
+		<gotoAndStop label="measure_one3" />
+		<text>Eftersom det tredje ackordet är samma som det andra är det överflödigt att skriva samma analysbeteckning en gång till.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_two" />
+		<text>Det första ackordet i den andra takten består av tonerna C, G, C och Eb - en c-molltreklang. Följaktligen ett <b>vi</b> enligt det analyssystem vi använder oss av här.</text>
+		<gotoAndStop label="measure_two2" />
+		<text>Det andra ackordet består av Bb, Bb, D och F - ännu en Bb-durtreklang. Den här gången i grundläge.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_three" />
+		<text>Första ackordet i tredje takten består av Eb, Bb, Eb och G - en Eb-durtreklang. Ytterligare ett <b>I-</b>ackord.</text>
+		<gotoAndStop label="measure_three2" />
+		<text>Andra ackordet består av C, Ab, Eb och Ab - en Ab-durtreklang i tersläge.</text>
+		<gotoAndStop label="measure_three3" />
+		<text>Tredje ackordet består av G, G, Eb och Bb - en Eb-durtreklang i tersläge.</text>
+		<gotoAndStop label="measure_three4" />
+		<text>Fjärde ackordet består av Ab, C, Eb och C - ännu en Ab-durtreklang. Lägg märke till att den nu är i grundläge.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="measure_four" />
+		<text>Den sista taktens ackord består av tonerna Bb, Bb, D och F - en Bb-durtreklang. Vi slutar alltså med ett <b>V</b>.</text>
+		<gotoAndPlay label="listen" />
+		<text>Lyssna på de fyra första takterna av <i>O Canada!</i>.</text>
+	</section>
+	
+</lesson>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Þýðing: Jón Hrólfur Sigurjónsson</translation>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>Einfaldar og samsettar takttegundir</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Flokka má hvern taktboða sem tiltekna <b>takttegund</b>.</text>
+		<text>Hugtakið <b>tvískiptur</b>, <b>þrískiptur</b>, og <b>fjórskiptur</b> vísar til fjölda taktliða (slaga) í hverjum takti.</text>
+		<text>Hugtakið <b>einfaldur</b> vísar til þess að skipta má hverju slagi í tvær jafnar nótur.</text>
+	</section>
+	
+	<section>	
+		<gotoAndStop label="simple_duple" />
+		<text>Takttegundin 2/4 er til að mynda skilgreind sem <b>einföld tvískipt</b>.</text>
+		<gotoAndStop label="simple_duple2" />
+		<text>„Tvískipt“ vísar til þess að í hverjum takti eru tvö slög.</text>
+		<gotoAndStop label="simple_duple3" />
+		<text>„Einföld“ vísar til þess að hverju slagi má skipta í tvær jafnar nótur.</text>
+		<gotoAndStop label="simple_duple4" />
+		<text>2/8 og 2/2 eru líka einfaldar tvískiptar takttegundir.</text>
+	</section>	 
+		
+	<section>
+		<gotoAndStop label="simple_triple" />
+		<text>Takttegundin 3/4 er skilgreind sem <b>einföld þrískipt</b>.</text>
+		<gotoAndStop label="simple_triple2" />
+		<text>„Þrískipt“ vísar til þess að í hverjum takti eru þrjú slög.</text>
+		<gotoAndStop label="simple_triple3" />
+		<text>Og „einföld“ merkir að hverju slagi má skipta í tvær jafnar nótur.</text>
+		<gotoAndStop label="simple_triple4" />
+		<text>3/8 og 3/2 eru líka einfaldar þrískiptar takttegundir.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="simple_quadruple" />
+		<text>4/4 er einföld fjórskipt takttegund - slögin eru fjögur og hverju þeirra má skipta í tvær jafnar nótur.</text>
+		<gotoAndStop label="simple_quadruple2" />
+		<text>Aðrar einfaldar fjórskiptar takttegundir eru t.d. 4/8 og 4/2.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="top_number" />
+		<text>Athugaðu að í einföldum takttegundum er efri tala taktboðans ávalt 2, 3 eða 4.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound" />
+		<text>Eins og áður segir má í einföldum takttegundum skipta hverju slagi í tvo jafna hluta. Í samsettum takttegundum má skipta hverju slagi í þrennt.</text>
+		<gotoAndStop label="compound2" />
+		<text>Til að sýna þetta skulum við skoða takttegundina 6/8.</text>
+		<gotoAndStop label="compound3" />
+		<text>Þú sérð að áttungsnótunum sex er annað hvort hægt að skipta í tvö slög (<b>samsettan tvískiptan takt</b>) eða þrjú slög (<b>einfaldan þrískiptan takt</b>).</text>
+		<gotoAndStop label="compound4" />
+		<text>Þar sem einfaldur þrískiptur taktur tilheyrir 3/4, er réttara að skilgreina 6/8 sem samsetta tvískipta takttegund.</text>
+		<gotoAndStop label="compound5" />
+		<text>Taktu eftir að hvert slag í 6/8 er punkteruð fjórðungsnóta. Í samsettum takttegundum er taktliðurinn alltaf punkteruð nóta.</text>
+		<gotoAndStop label="compound6" />
+		<text>Allir taktboðar sem hafa efri töluna 6 tákna samsettar tvískiptar takttegundir. 6/8 og 6/4 eru algengastar af þeim takttegundum sem hér eru sýndar.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="compound_triple" />
+		<text>9/8 er <b>samsett þrískipt takttegund</b>.</text>
+		<gotoAndStop label="compound_triple2" />
+		<text>Í hverjum takti eru þrjú slög (þrjár punkteraðar fjórðungsnótur), takttegundin er því þrískipt.</text>
+		<gotoAndStop label="compound_triple3" />
+		<text>Og, þar sem hverju slagi má skipta í þrjár jafn langar nótur er takttegundin samsett.</text>
+		<gotoAndStop label="compound_triple4" />
+		<text>Taktboðar með efri töluna 9 tákna þrískipta samsetta takttegund. Þó 9/8 sé algengust getur þú líka rekist á þrískiptar samsettar takttegundir eins og 9/2, 9/4 og 9/16.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="compound_quadruple" />
+		<text>Loks er takttegundin 12/8 skilgreind sem <b>samsett fjórskipt</b>.</text>
+		<gotoAndStop label="compound_quadruple2" />
+		<text>Fjórir taktliðir gera taktinn fjórskiptan.</text>
+		<gotoAndStop label="compound_quadruple3" />
+		<text>Hverju slagi má skipta í þrennt sem gerir takttegundina samsetta.</text>
+		<gotoAndStop label="compound_quadruple4" />
+		<text>Taktboðar sem hafa efri töluna 12 tákna samsetta fjórskipta takttegund. 12/8 og 12/16 eru algengastar.</text>
+	</section>
+</lesson>

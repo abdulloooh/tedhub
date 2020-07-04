@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="hText">d</var>
+	<var name="wText">T</var>
+
+	<!-- Translate all text between <title> and </title> -->
+	<title>La Gamme Majeure</title>
+   
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Une <b>gamme</b> est une sélection de certaines notes à l'intérieur d'une octave.  La première gamme dont nous allons parler est la <b>gamme majeure</b>.</text>
+		<gotoAndStop label="formula" />
+		<text>La gamme majeure est construite selon cette formule.  Le <b>T</b> représente le ton et le <b>d</b> représente le demi-ton.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="c_major" />
+		<text>Construisons maintenant la gamme de Do Majeur. Notre première note sera le Do.</text>
+		<gotoAndStop label="c_major2" />
+		<text>A partir du Do nous montons d'un ton et nous arrivons à Ré.</text>
+		<gotoAndStop label="c_major3" />
+		<text>Du Ré nous montons encore d'un ton et nous arrivons à Mi.</text>
+		<gotoAndStop label="c_major4" />
+		<text>Puis un demi-ton au dessus, nous arrivons à Fa.</text>
+		<gotoAndStop label="c_major5" />
+		<text>Fa plus un ton nous amène au Sol.</text>
+		<gotoAndStop label="c_major6" />
+		<text>Sol plus un ton nous amène au La.</text>
+		<gotoAndStop label="c_major7" />
+		<text>La plus un ton nous amène au Si.</text>
+		<gotoAndStop label="c_major8" />
+		<text>Et pour finir le dernier demi-ton nous ramène à la note Do.</text>
+		<gotoAndPlay label="c_major9" />
+		<text>Ecoutons la gamme de Do Majeur en entier.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="eb_major" />
+		<text>Maintenant, nous allons construire la gamme de Mib Majeur. Notre première note sera le Mib.</text>
+		<gotoAndPlay label="eb_major2" />
+		<text>Remarquez bien que le demi-ton au dessus du Sol nous amène au Lab et pas au La.</text>
+		<gotoAndStop label="eb_major3" />
+		<text>Le ton au dessus du Lab nous amène au Sib.</text>
+		<gotoAndStop label="eb_major4" />
+		<text>Le ton suivant nous amène au Do.</text>
+		<gotoAndPlay label="eb_major5" />
+		<text>Et pour finir le dernier demi-ton nous ramène à la note Mib.</text>
+		<gotoAndStop label="eb_major6" />
+		<text>Remarquez que la gamme de Mib Majeur comporte trois bémols (il y a deux Mi bémols mais ils ne sont comptés qu'une seule fois).</text>
+		<gotoAndPlay label="eb_major7" />
+		<text>Ecoutons la gamme de Mib Majeur en entier.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="d_major" />
+		<text>Pour la dernière gamme, nous allons construire la gamme de Ré Majeur.</text>
+		<gotoAndPlay label="d_major2" />
+		<text>A partir du Mi, le ton suivant nous amène au Fa#.</text>
+		<gotoAndStop label="d_major3" />
+		<text>Le demi-ton nous amène au Sol.</text>
+		<gotoAndPlay label="d_major4" />
+		<text>A partir du Si, le ton suivant nous amène au Do#.</text>
+		<gotoAndStop label="d_major5" />
+		<text>Et pour finir le dernier demi-ton nous ramène à la note Ré.</text>
+		<gotoAndStop label="d_major6" />
+		<text>Remarquez que la gamme de La Majeur comporte deux dièzes.</text>
+		<gotoAndPlay label="d_major7" />
+		<text>Ecoutons la gamme de Ré Majeur en entier.</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="formula_recap" />
+		<text>Pour construire toute gamme Majeure il suffit de commencer sur la première note et d'appliquer la formule: T, T, d, T, T, T, d.</text>
+	</section>	
+</lesson>

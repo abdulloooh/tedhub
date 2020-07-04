@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+    <copyright>Copyright © 2001-2004, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Catherine Marchand</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="tonicText">Tonique</var>
+	<var name="supertonicText">Sus-Tonique</var>
+	<var name="mediantText">Médiante</var>
+	<var name="subdominantText">Sous-Dominante</var>
+	<var name="dominantText">Dominante</var>
+	<var name="submediantText">Sus-Dominante</var>
+	<var name="leadingToneText">Sensible</var>
+	<var name="subtonicText">Sous-Tonique</var>
+	<var name="hText">d</var>
+	<var name="wText">T</var>
+
+	<!-- Translate all text between <title> and </title> -->
+    <title>Les Degrés</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+    <section>
+    	<gotoAndStop label="start" />
+    	<text>Chaque note de la gamme à un rôle bien défini et se trouve sur un emplaçement que l'on appelle un <b>degré</b>.</text>
+		<gotoAndStop label="tonic" />
+    	<text>La première note de la gamme est appellée la <b>Tonique</b>.</text>
+		<gotoAndStop label="dominant" />
+    	<text>La cinquième note est appellée la <b>Dominante</b>.</text>
+		<gotoAndPlay label="subdominant" />
+    	<text>La quatrième note est appellée la <b>Sous-Dominante</b> (car elle se trouve sous la Dominante).</text>
+		<gotoAndPlay label="mediant" />
+    	<text>La troisième note qui se trouve au <i>milieu</i> de la Tonique et de la Dominante, s'appelle la <b>Médiante</b>.</text>
+ 		<gotoAndPlay label="submediant" />
+		<text>La sixième note est appellée la <b>Sus-Dominante</b> (car elle se trouve au-dessus de la Dominante).</text>
+		<gotoAndPlay label="supertonic" />
+    	<text>La deuxième note est appelée la <b>Sus-Tonique</b> (car elle se trouve au-dessus de la Tonique)"</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="seventh" />
+		<text>Les noms des degrés de la gamme sont les mêmes pour les six premiers, que l'on soit en Majeur ou en mineur, par contre il différe pour le septième degré.</text>
+		<gotoAndStop label="seventh2" />
+		<text>Si la septième note est un demi-ton en dessous de la tonique, elle sera appellée la <b>sensible</b>.</text>
+		<gotoAndPlay label="seventh3" />
+		<text>Ecoutons la gamme de Do Majeur, remarquez comment la septième note est attirée vers la tonique.</text>
+		<gotoAndStop label="seventh4" />
+		<text>Les notes sensibles existent aussi dans les gammes mineures harmoniques et mineures mélodiques.</text>
+		<gotoAndPlay label="seventh5" />
+		<text>Dans la gamme naturelle, la septième note se trouve un ton en dessous de la tonique. Dans ce cas, la note est appellée <b>sous-tonique</b>.</text>
+		<gotoAndPlay label="seventh6" />
+		<text>Ecoutons la gamme de Do naturelle, et remarquez comment la septième note manque d'attirance vers la tonique.</text>
+	</section>
+
+</lesson>

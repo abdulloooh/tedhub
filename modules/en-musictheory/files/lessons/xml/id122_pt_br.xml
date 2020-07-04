@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Cláudio Brandt (tradução)</translation>
+	
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="cSharpMinorText">dó#</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Análise Número 3</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndPlay label="start" />
+		<text>Nesta análise, vamos examinar os compassos 48-50 da sonata Ao Luar de Beethoven (Opus 27, Número 2, Movimento 1).</text>
+		<gotoAndStop label="key" />
+		<text>Como estamos começando no meio da peça, vou dar uma dica: ela é em Dó sustenido menor.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="group_one" />
+		<text>A primeira metade do compasso 48 contém Sol sustenido, Si sustenido, Ré sustenido e Fá sustenido - um acorde de Sol sustenido de sétima da dominante.  Como o Si sustenido é a nota mais grave, o acorde está na primeira inversão.</text>
+		<gotoAndPlay label="group_two" />
+		<text>A segunda metade do compasso 48 contém Dó sustenido, Mi, Sol sustenido - uma tríade menor de Dó sustenido.</text>
+		<gotoAndPlay label="group_three" />
+		<text>A primeira metade do compasso 49 contém Ré, Fá sustenido e Lá - uma tríade maior de Ré em primeira inversão.  Esse é o acorde de sexta napolitana em Dó sustenido menor.</text>
+		<gotoAndPlay label="group_four" />
+		<text>A segunda metade do compasso 49 contém Sol sustenido, Si sustenido e Fá sustenido - um acorde de Sol sustenido de sétima da dominante sem a quinta.</text>
+		<gotoAndPlay label="group_five" />
+		<text>A primeira parte do compasso 50 contém Dó sustenido, Mi e Sol sustenido - outra tríade menor de Dó sustenido.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="listen" />
+		<text>Ouça o excerto acima.</text>
+	</section>
+	
+</lesson>

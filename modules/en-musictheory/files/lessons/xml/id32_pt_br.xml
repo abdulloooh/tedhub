@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>© 2004-2005 Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>© 2005 Claudio Brandt (tradução)</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="augmentedSecondText">x</var>
+	<var name="augmentedFourthText">x</var>
+	<var name="diminishedFifthText">x</var>
+	<var name="minorThirdText">x</var>
+	<var name="diminishedSeventhText">x</var>
+
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Notação dos Intervalos</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>Durante a notação dos intervalos na pauta, é comum confundirmos intervalos que têm o mesmo número de semitons.</text>
+		<gotoAndPlay label="wrong" />
+		<text>Por exemplo, pode-se acidentalmente escrever Dó para Fá sustenido (uma quarta aumentada) em vez de Dó para Sol bemol (uma quinta diminuta).</text>
+		<gotoAndStop label="wrong2" />
+		<text>Embora ambos os intervalos soem o mesmo e pareçam idênticos no teclado, um é uma quarta, e o outro é uma quinta.</text>
+		<text>Felizmente, existe um fácil processo em três etapas que reduz o risco desse erro.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_one" />
+		<text>Vamos escrever na pauta uma terça menor a partir do Dó.</text>		
+		<gotoAndPlay label="example_one2" />
+		<text>Primeiro, escreva o intervalo genérico na pauta. No nosso caso, vamos escrever uma terça genérica.</text>
+		<gotoAndPlay label="example_one3" />
+		<text>Depois, calcule o número de semitons no teclado.  Como uma terça maior tem 4 semitons, nossa terça menor terá 3 semitons.</text>
+		<gotoAndPlay label="example_one4" />
+		<text>Por fim, transponha para a pauta quaisquer acidentes.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_two" />
+		<text>Como nosso próximo exemplo, vamos tentar uma sétima diminuta a partir do Fá.</text>
+		<gotoAndPlay label="example_two2" />
+		<text>Primeiro, escreva o intervalo genérico no pentagrama.</text>
+		<gotoAndPlay label="example_two3" />
+		<text>Depois, calcule os semitons no teclado (Como uma sétima maior tem 11 semitons e uma sétima menor tem 10, nossa sétima diminuta vai ter 9).</text>
+		<gotoAndPlay label="example_two4" />
+		<text>Por fim, transponha quaisquer acidentes para a pauta.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="example_three" />
+		<text>Como nosso exemplo final, vamos tentar uma quinta diminuta a partir do Si.</text>
+		<gotoAndPlay label="example_three2" />
+		<text>Primeiro, escreva a quinta genérica na pauta.</text>
+		<gotoAndPlay label="example_three3" />
+		<text>A seguir, calcule os semitons no teclado (Como uma quinta perfeita tem 7 semitons, nossa quinta diminuta terá 6).</text>
+		<gotoAndStop label="example_three4" />
+		<text>Por fim, transponha quaisquer acidentes para a pauta.  Neste exemplo, nenhum acidente é necessário.</text>
+	</section>
+
+</lesson>

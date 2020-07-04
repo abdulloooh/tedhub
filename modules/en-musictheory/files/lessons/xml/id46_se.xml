@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding="utf-8" ?>
+<!-- The below text should read "UNICODE UTF-8" -->
+<!-- If it does not, please make sure that you are using a Unicode UTF-8 compatible editor -->
+<!-- ＵＮＩＣＯＤＥ ＵＴＦ-８ -->
+<lesson>
+	<!-- Please do not change the below line -->
+	<copyright>Copyright © 2001-2005, Ricci Adams</copyright>
+
+	<!-- Change the below text to read "Translation by Your Name" -->
+	<!-- Example: -->
+	<!--   <translation>Übersetzung von Ricci Adams</translation> -->
+	<translation>Översättning av Kenneth Helgesson</translation>
+
+	<!-- Translate all text between <var> and </var> -->
+	<!-- Please do not alter the "name" values -->
+	<var name="nullText">-</var>
+	<var name="majorSeventhText">maj7</var>
+	<var name="minorSeventhText">m7</var>
+	<var name="dominantSeventhText">7</var>
+	<var name="fullyDiminishedSeventhText">dim</var>
+	<var name="halfDiminishedSeventhText">m7-5</var>
+	
+	<!-- Translate all text between <title> and </title> -->		
+	<title>Skalegna septimackord</title>
+
+	<!-- Translate all text between <text> and </text> -->
+	<!-- Please do not alter the <gotoAndStop>, <gotoAndPlay>, or <section> lines -->
+	<section>
+		<gotoAndStop label="start" />
+		<text>På samma sätt som med treklanger, har varje dur- och mollskala sju <b>skalegna septimackord</b>.</text>
+		<text>I följande exempel ska vi gå igenom de skalegna septimackorden i C-dur.</text>
+		<gotoAndPlay label="major" />
+		<text>Vi börjar med de skalegna treklangerna.</text>
+		<gotoAndPlay label="major2" />
+		<text>Därefter staplar vi ytterligare en ters ovanpå varje treklang.</text>
+		<gotoAndStop label="major3" />
+		<text>Slutligen ser vi efter vilka septimackord som blivit resultatet.</text>
+	</section>
+	
+	<section>
+		<gotoAndStop label="major_i" />
+		<text>Först ackordet är en durtreklang och en stor septima. Det är därför ett majsjuackord.</text>
+		<gotoAndStop label="major_ii" />
+		<text>Andra ackordet är en molltreklang och en liten septima. Det är därigenom ett mollsjuackord.</text>
+		<gotoAndStop label="major_iii" />
+		<text>Tredje ackordet är en molltreklang och en liten septima. Det är alltså också ett mollsjuackord.</text>
+		<gotoAndStop label="major_iv" />
+		<text>Fjärde ackordet är en durtreklang och en stor septima. Det är därigenom ett majsjuackord.</text>
+		<gotoAndStop label="major_v" />
+		<text>Femte ackordet är en durtreklang och en liten septima. Denna kombination gör det till ett dominantseptimackord.</text>
+		<gotoAndStop label="major_vi" />
+		<text>Sjätte ackordet är en molltreklang och en liten septima. Ännu ett mollsjuackord.</text>
+		<gotoAndStop label="major_vii" />
+		<text>Sjunde ackordet är en förminskad treklang och en liten septima. Detta ackord kallas för ett halvförminskat septimackord eller mollsjuminusfem.</text>
+		<gotoAndStop label="major_viii" />
+		<text>Slutligen är det sista ackordet samma som det första.</text>
+	</section>
+	
+	<section>
+		<gotoAndPlay label="minor" />
+		<text>Närmast ska vi gå igenom de skalegna septimackorden som bildas av tonerna i den rena (naturliga) c-mollskalan.</text>
+		<gotoAndStop label="minor_i" />
+		<text>Det första ackordet är en molltreklang och en liten septima. Det är därigenom ett mollsjuackord.</text>
+		<gotoAndStop label="minor_ii" />
+		<text>Andra ackordet är en förminskad treklang och en liten septima. Detta känner vi igen som ett mollsjuminusfem (halvförminskat septimackord).</text>
+		<gotoAndStop label="minor_iii" />
+		<text>Tredje ackordet är en durtreklang och en stor septima. Detta är ett majsjuackord.</text>
+		<gotoAndStop label="minor_iv" />
+		<text>Det fjärde ackordet är en molltreklang och en liten septima. Detta septimackord är ett mollsjuackord.</text>
+		<gotoAndStop label="minor_v" />
+		<text>Femte ackordet är en molltreklang och en liten septima. Ännu ett mollsjuackord.</text>
+		<gotoAndStop label="minor_vi" />
+		<text>Sjätte ackordet är en durtreklang och en stor septima. Återigen ett majsjuackord.</text>
+		<gotoAndStop label="minor_vii" />
+		<text>Det sjunde ackordet är en durtreklang och en liten septima. Denna kombination är det vi kallar för ett dominantseptimackord.</text>
+		<gotoAndStop label="minor_viii" />
+		<text>Återigen, det sista ackordet är samma som det första.</text>
+	</section>
+
+	<section>
+		<gotoAndPlay label="harmonic" />
+		<text>Slutligen ska vi gå igenom de skalegna septimackord som bildas av tonerna i den harmoniska c-mollskalan.</text>
+		<gotoAndStop label="harmonic_i" />
+		<text>Eftersom det första ackordet består av en molltreklang och en stor septima, överensstämmer det inte med något av de septimackord vi lärt oss hittills.</text>
+		<gotoAndStop label="harmonic_iii" />
+		<text>Även det tredje ackordet består av en för oss okänd kombination: en överstigande treklang i kombination med en liten septima. Båda dessa ackord används mycket sällan.</text>
+		<gotoAndStop label="harmonic_v" />
+		<text>Det femte ackordet består nu av en durtreklang och en liten septima. Detta är alltså ett dominantseptimackord.</text>
+		<gotoAndStop label="harmonic_vii" />
+		<text>Slutligen består det sjunde ackordet nu av en förminskad treklang och en förminskad septima. Detta ackord är ett förminskat septimackord, vilket ofta kallas för ett dimackord (från engelskans diminished).</text>
+	</section>
+
+	<section>
+		<gotoAndStop label="analysis" />
+		<text>De analyssymboler inom stegteori som vi lärt oss kan även beskriva septimackord.</text>
+		<gotoAndPlay label="analysis2" />
+		<text>Vi repeterar symbolerna för den harmoniska mollskalans skalegna treklanger.</text>
+		<gotoAndPlay label="analysis3" />
+		<text>För att beskriva septimackorden lägger vi helt enkelt till en liten sjua till höger om varje romersk siffra.</text>
+		<gotoAndPlay label="analysis4" />
+		<text>Om septimackordet är ett mollsjuminusfem (halvförminskat), drar man ett snedstreck genom den lilla ringen.</text>
+	</section>
+
+</lesson>
