@@ -1,3 +1,58 @@
+    <!-- start from Ebx -->
+
+<!-- removed from index where div with id of rachel and gallery where div with id of tedhub -->
+
+<div id="rachel">
+    <!-- Why show IP here? Some installations have WiFi and Ethernet, and
+         maybe you're on one but need to know the other. Also helps if my.content
+         isn't working on some client devices. Also nice for when you need to ssh
+         or rsync. It's visible in the Admin panel too, but it's more convenient here. -->
+    <div id="ip">
+        <?php showip();
+        # on the RACHEL-Plus we also show a battery meter
+        # XXX abstract this and the admin one into one piece of code
+        if (is_rachelplus()) {
+            echo '
+                <script>
+                    refreshRate = 1000 * 60 * 10; // ten minutes on front page, be very conservative
+                    function getBatteryInfo() {
+                        $.ajax({
+                            url: "admin/background.php?getBatteryInfo=1",
+                            success: function(results) {
+                                //console.log(results);
+                                var vert = 0; // shows full charge (each icon down 12px)
+                                if      (results.level < 20) { vert = -48; }
+                                else if (results.level < 40) { vert = -36; }
+                                else if (results.level < 60) { vert = -24; }
+                                else if (results.level < 80) { vert = -12; }
+                                var horz = 0; // 0 shows discharging, 40px offset shows charging
+                                if (results.status == "charging" ) { horz = 40 }
+                                $("#battery").css({
+                                    background: "url(\'art/battery-level-sprite-light.png\')",
+                                    backgroundPosition: horz+"px "+vert+"px",
+                                });
+                                $("#battery").prop("title", results.level + "%");
+                            },
+                            complete: function() {
+                                setTimeout(getBatteryInfo, refreshRate);
+                            }
+                        });
+                    }
+                    $(getBatteryInfo); // onload
+                </script>
+                <br><b>Battery</b>: <div id="battery"></div><span id="perc"></span>
+            ';
+        }
+        ?>
+    </div>
+    
+</div>
+
+<!-- end from Ebx -->
+
+
+
+
  <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
