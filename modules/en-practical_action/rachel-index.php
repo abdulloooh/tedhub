@@ -43,7 +43,7 @@
 <!--Card content-->
 <div class="card-body">
   <!--Put the name of Module Here : Title-->
-  <h4 class="card-title">Practical Action"</h4>
+  <h4 class="card-title">Practical Action</h4>
   <!--Brief Description About Module Here: Text-->
   <p class="card-text">Well organized and illustrated information on a wide range of agricultural,
     environmental, and health topics.</p>

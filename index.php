@@ -104,9 +104,11 @@
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form> -->
-      <li class="nav-item admin">
+
+      
+      <!-- <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
-      </li>
+      </li> -->
     </div>
   </nav>
 </header>
@@ -220,7 +222,7 @@
         uasort($fsmods, 'bypos');
         
        
-        //re-arrange course list to bring file share to the end
+        //re-arrange course list to bring file share to the start
         $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
         unset ($fsmods['en-file_share']);
         $file_share = array("en-file_share" => $clone_file_share_sub_array);
@@ -230,9 +232,16 @@
 
         # whether or not we were able to get anything
         # from the DB, we show what we found in the filesystem
-        // die(var_dump($fsmods));
+        // die(var_dump($fsmods['W3Schools']));
 
-        $fsmods = array_slice($fsmods,1,4);
+        $fsmodsHomepage = [];
+        $homepageList = ['PhET' , 'en-kalite-ess' , 'W3Schools' , 'en-math_expression'];
+        foreach ($homepageList as $key) {
+          $fsmodsHomepage += array($key => $fsmods[$key]);
+        }
+
+        // $fsmods = array_slice($fsmods,1,4);
+        $fsmods = $fsmodsHomepage;  //change full list $fsmods to just homepage list $fsmodshomepage
         foreach (array_values($fsmods) as $mod) {
             if ($mod['hidden'] || !$mod['fragment']) { continue; }
             $dir  = $mod['dir'];

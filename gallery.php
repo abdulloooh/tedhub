@@ -92,9 +92,10 @@
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form> -->
-      <li class="nav-item admin">
+      
+      <!-- <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
-      </li>
+      </li> -->
     </div>
   </nav>
 </header>
