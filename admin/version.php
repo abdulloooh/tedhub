@@ -1,6 +1,6 @@
 <?php
-require_once("common.php");
-if (!authorized()) { exit(); }
+require_once "common.php";
+if (!authorized()) {exit();}
 $page_title = $lang['version'];
 $page_script = "";
 $page_nav = "version";
@@ -364,7 +364,7 @@ if (!isset($os)) {
 }
 
 # this works on remaining unix systems (i.e. Mac OS)
-if (!isset($os)) { $os = exec("uname -srmp"); }
+if (!isset($os)) {$os = exec("uname -srmp");}
 
 # this gets the hardware version on rpi systems
 $hardware = "";
@@ -422,15 +422,15 @@ if (!$kiwix_version) {
 
 ?>
 
-<h2>RACHEL Version Info</h2>
+<h2>Tedprimehub Version Info</h2>
 <table class="version">
 <tr><th colspan="2">System Sofware</th></tr>
 <tr><td>Hardware</td><td><?php echo $hardware ?></td></tr>
 <tr><td>OS</td><td><?php echo $os ?></td></tr>
-<tr><td>RACHEL Installer</td><td><?php echo $rachel_version ?></td></tr>
+<tr><td>Tedprimehub Installer</td><td><?php echo $rachel_version ?></td></tr>
 <tr><td>KA Lite</td><td><?php echo $kalite_version ?></tr>
 <tr><td>Kiwix</td><td><?php echo $kiwix_version ?></td></tr>
-<?php if(is_rachelplus()): ?>
+<?php if (is_rachelplus()): ?>
 <tr><td>Content Shell</td><td>
 
     <span id="cur_contentshell">v2.3.9</span>
@@ -444,22 +444,22 @@ if (!$kiwix_version) {
 </td></tr>
 <?php else: ?>
 <tr><td>Content Shell</td><td>v2.3.9pi</td></tr>
-<?php endif; ?>
-    
+<?php endif;?>
+
 <tr><th colspan="2">Module<div id='avail_something'>Module Updates Available Below</div></th></tr>
 
 <?php
-    # get module info
-    foreach (getmods_fs() as $mod) {
-        echo "
+# get module info
+foreach (getmods_fs() as $mod) {
+    echo "
             <tr><td>$mod[moddir]</td><td>
               <span id='cur_$mod[moddir]'>$mod[version]</span>
               <button style='display: none; float: right; margin-left: 20px;' id='avail_$mod[moddir]' onclick=\"modUpdate('$mod[moddir]');\"></button>
               <div class='progbar' id='prog_$mod[moddir]'><div class='progbarin' id='progin_$mod[moddir]'></div></div>
             </td></tr>
         ";
-        #echo "<div class='update_available' id='avail_$mod[moddir]'> Update Available</span></td></tr>\n";
-    }
+    #echo "<div class='update_available' id='avail_$mod[moddir]'> Update Available</span></td></tr>\n";
+}
 ?>
 
 <tr>

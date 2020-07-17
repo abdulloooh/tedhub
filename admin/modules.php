@@ -2,12 +2,12 @@
 #-------------------------------------------
 # see minimal.php for an explanation of the system
 #-------------------------------------------
-require_once("common.php");
-if (!authorized()) { exit(); }
+require_once "common.php";
+if (!authorized()) {exit();}
 
 #-------------------------------------------
 # First we take care of things that don't result in HTML
-# 
+#
 # If we've got a list of moddirs, we update the DB to
 # reflect that ordering. This all takes place as an AJAX
 # request, and the success/failure is returned via HTTP
@@ -62,7 +62,7 @@ if ($fsmods) {
                   </div>
             ";
         } else {
-           $db->exec("DROP TABLE writetest"); 
+            $db->exec("DROP TABLE writetest");
         }
     }
 
@@ -124,8 +124,8 @@ if ($fsmods) {
         # insert anything we found in the fs that wasn't in the db
         foreach (array_keys($fsmods) as $moddir) {
             if (!isset($dbmods[$moddir])) {
-                $db_moddir =   $db->escapeString($moddir);
-                $db_title  =   $db->escapeString($fsmods[$moddir]['title']);
+                $db_moddir = $db->escapeString($moddir);
+                $db_title = $db->escapeString($fsmods[$moddir]['title']);
                 $db_position = $db->escapeString($fsmods[$moddir]['position']);
                 $db->exec(
                     "INSERT into modules (moddir, title, position, hidden) " .
@@ -137,7 +137,7 @@ if ($fsmods) {
         # delete anything from the db that wasn't in the fs
         foreach (array_keys($dbmods) as $moddir) {
             if (!isset($fsmods[$moddir])) {
-                $db_moddir =   $db->escapeString($moddir);
+                $db_moddir = $db->escapeString($moddir);
                 $db->exec("DELETE FROM modules WHERE moddir = '$db_moddir'");
             }
         }
@@ -154,7 +154,8 @@ if ($fsmods) {
 }
 
 # called if the user hits the "Save" button
-function updatemods () {
+function updatemods()
+{
 
     # if we don't turn off visible errors, even caught db
     # exceptions will print to the browser (as a "200 OK"),
@@ -166,10 +167,10 @@ function updatemods () {
     try {
 
         $db = getdb();
-        if (!$db) { throw new Exception($db->lastErrorMsg); }
+        if (!$db) {throw new Exception($db->lastErrorMsg);}
 
         # figure out which modules to hide
-        $hidden= array();
+        $hidden = array();
         if (isset($_GET['hidden'])) {
             foreach (explode(",", $_GET['hidden']) as $moddir) {
                 $hidden[$moddir] = 1;
@@ -180,12 +181,12 @@ function updatemods () {
         # go to the DB and set the new order and new hidden state
         foreach (explode(",", $_GET['moddirs']) as $moddir) {
             $moddir = $db->escapeString($moddir);
-            if (isset($hidden[$moddir])) { $is_hidden = 1; } else { $is_hidden = 0; }
+            if (isset($hidden[$moddir])) {$is_hidden = 1;} else { $is_hidden = 0;}
             $rv = $db->exec(
                 "UPDATE modules SET position = '$position', hidden = '$is_hidden'" .
                 " WHERE moddir = '$moddir'"
             );
-            if (!$rv) { throw new Exception($db->lastErrorMsg()); }
+            if (!$rv) {throw new Exception($db->lastErrorMsg());}
             ++$position;
         }
 
@@ -193,7 +194,7 @@ function updatemods () {
 
         $db->exec("ROLLBACK");
         error_log($ex);
-        header("HTTP/1.1 500 Internal Server Error");    
+        header("HTTP/1.1 500 Internal Server Error");
         exit;
 
     }
@@ -203,7 +204,7 @@ function updatemods () {
     # restart kiwix so it sees what modules are visible/hidden
     kiwix_restart();
 
-    header("HTTP/1.1 200 OK");    
+    header("HTTP/1.1 200 OK");
 
 }
 
@@ -211,10 +212,7 @@ if (is_rachelplus()) {
     $checked = show_local_content_link() ? " checked" : "";
     echo "<hr style='margin: 20px 0;'>\n";
     echo "<p style='background: #ddd; padding: 10px 5px; border-radius: 5px; font-size: small;'>\n";
-    echo "<input type='checkbox' id='localcontent'$checked> Show the <b>en-local_content</b> module as <b>\"LOCAL CONTENT\"</b> link in RACHEL header</p>";
+    echo "<input type='checkbox' id='localcontent'$checked> Show the <b>en-local_content</b> module as <b>\"LOCAL CONTENT\"</b> link in Tedprimehub header</p>";
 }
-    
 
 include "foot.php";
-
-?>

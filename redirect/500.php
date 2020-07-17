@@ -1,12 +1,12 @@
 <?php
-    # for multi-lingual support
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/admin/common.php");
+# for multi-lingual support
+require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/common.php";
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang['langcode'] ?>">
 <head>
     <meta charset="utf-8">
-    <title>RACHEL</title>
+    <title>Tedprimehub</title>
     <style type="text/css">
         body {
           background:#ccc;
@@ -57,7 +57,7 @@
 
     <h3>500: Internal server error</h3>
 
-    <h2><a href="http://<?php echo $_SERVER["SERVER_ADDR"]; ?>/index.php" id="btn">RACHEL</a></h2>
+    <h2><a href="http://<?php echo $_SERVER["SERVER_ADDR"]; ?>/index.php" id="btn">Tedprimehub</a></h2>
     </div>
   </div>
 </body>

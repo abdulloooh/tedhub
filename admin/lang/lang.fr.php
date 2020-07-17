@@ -6,9 +6,9 @@
 # ALSO: THIS FILE MUST NOT HAVE ANY BLANK LINES OUTSIDE OF
 # THE PHP CODE - OR IT WILL BREAK HEADER CONTROL IN ADMIN.PHP
 #-------------------------------------------
- 
+
 $lang = array();
- 
+
 # index.php
 $lang['langcode'] = 'fr';
 $lang['home'] = 'Accueil';
@@ -86,7 +86,7 @@ $lang['missing_new_pass'] = "Nouveau mot de passe ne peut pas être vide";
 $lang['password_mismatch'] = "Nouveaux mots de passe ne correspondent pas";
 
 # for captiveportal-redirect.php
-$lang['welcome_to_rachel'] = "Bienvenue à RACHEL";
+$lang['welcome_to_rachel'] = "Bienvenue à Tedprimehub";
 $lang['worlds_best_edu_cont'] = "Meilleur contenu éducatif au monde";
 $lang['for_people_wo_int'] = "pour les personnes sans internet";
 $lang['click_here_to_start'] = "Cliquez ici pour commencer";
@@ -95,11 +95,9 @@ $lang['brought_to_you_by'] = "Présenté par";
 # for hardware.php
 $lang['wifi_control'] = "Contrôle WIFI";
 $lang['current_status'] = "Statut Actuel";
-$lang['turn_on']  = "Activer";
+$lang['turn_on'] = "Activer";
 $lang['turn_off'] = "Désactiver";
-$lang['is_on']    = "Activé";
-$lang['is_off']   = "Désactivé";
+$lang['is_on'] = "Activé";
+$lang['is_off'] = "Désactivé";
 $lang['wifi_warning'] = "ATTENTION: Si vous désactivez WIFI tout connecté via WIFI, vous serez déconnecté.<br>WIFI se rallume lorsque l'appareil est redémarré.";
 $lang['an_error_occurred'] = "Une Erreur Est Survenue";
-
-?>

@@ -84,7 +84,7 @@ $lang['missing_new_pass'] = "New password cannot be blank";
 $lang['password_mismatch'] = "New passwords do not match";
 
 # for captiveportal-redirect.php
-$lang['welcome_to_rachel'] = "Welcome to RACHEL";
+$lang['welcome_to_rachel'] = "Welcome to Tedprimehub";
 $lang['worlds_best_edu_cont'] = "The world's best educational content";
 $lang['for_people_wo_int'] = "for people without internet";
 $lang['click_here_to_start'] = "Click here to start";

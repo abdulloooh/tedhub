@@ -6,9 +6,9 @@
 # ALSO: THIS FILE MUST NOT HAVE ANY BLANK LINES OUTSIDE OF
 # THE PHP CODE - OR IT WILL BREAK HEADER CONTROL IN ADMIN.PHP
 #-------------------------------------------
- 
+
 $lang = array();
- 
+
 # for index.php
 $lang['langcode'] = 'es';
 $lang['home'] = 'Portada';
@@ -21,7 +21,7 @@ $lang['version'] = 'Versión';
 $lang['settings'] = 'Ajustes';
 $lang['months'] = array(
     'Null', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-    'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
+    'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre',
 );
 $lang['languages'] = 'Idiomas';
 
@@ -85,7 +85,7 @@ $lang['missing_new_pass'] = "La nueva contraseña no puede estar en blanco";
 $lang['password_mismatch'] = "Las nuevas contraseñas no coinciden";
 
 # for captiveportal-redirect.php
-$lang['welcome_to_rachel'] = "Bienvenido a RACHEL";
+$lang['welcome_to_rachel'] = "Bienvenido a Tedprimehub";
 $lang['worlds_best_edu_cont'] = "La mejor colección de materiales educativos del mundo";
 $lang['for_people_wo_int'] = "cuando no haya acceso a Internet";
 $lang['click_here_to_start'] = "Haz click aquí para comenzar";
@@ -94,11 +94,9 @@ $lang['brought_to_you_by'] = "Traído a usted por";
 # for hardware.php
 $lang['wifi_control'] = "Control de WIFI";
 $lang['current_status'] = "Estado Actual";
-$lang['turn_on']  = "Activar";
+$lang['turn_on'] = "Activar";
 $lang['turn_off'] = "Desactivar";
-$lang['is_on']    = "Activado";
-$lang['is_off']   = "Desactivado";
+$lang['is_on'] = "Activado";
+$lang['is_off'] = "Desactivado";
 $lang['wifi_warning'] = "ADVERTENCIA: Si apaga WIFI mientras está conectado a través de Wi-Fi, usted será desconectado.<br>WIFI se encenderá de nuevo cuando se reinicie el dispositivo.";
 $lang['an_error_occurred'] = "Ocurrió Un Error";
-
-?>

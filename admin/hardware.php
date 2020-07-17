@@ -1,6 +1,6 @@
 <?php
-require_once("common.php");
-if (!authorized()) { exit(); }
+require_once "common.php";
+if (!authorized()) {exit();}
 $page_title = $lang['hardware'];
 $page_script = "js/hardware.js";
 $page_nav = "hardware";
@@ -28,7 +28,7 @@ if (isset($_POST['shutdown'])) {
         exec("sudo sh -c 'sleep 3; /sbin/reboot;' > /dev/null 2>&1 &", $exec_out, $exec_err);
     } else if (is_rachelpi()) {
         exec("sudo reboot now", $exec_out, $exec_err);
-    }  
+    }
     if ($exec_err) {
         echo $lang['restart_failed'];
     } else {
@@ -74,11 +74,11 @@ if (is_rachelpi()) {
 
     foreach ($output as $line) {
         list($fs, $size, $used, $avail, $perc, $name) = preg_split("/\s+/", $line);
-        if (!preg_match("/^\/dev/", $fs)) { continue; }
-        if ($name == "/") { $name = "SD Card (RACHEL modules)"; }
-        array_push( $usage_rows, array(
-            "name"  => $name, "size"  => $size, "used"  => $used,
-            "avail" => $avail, "perc"  => $perc,
+        if (!preg_match("/^\/dev/", $fs)) {continue;}
+        if ($name == "/") {$name = "SD Card (RACHEL modules)";}
+        array_push($usage_rows, array(
+            "name" => $name, "size" => $size, "used" => $used,
+            "avail" => $avail, "perc" => $perc,
         ));
     }
 
@@ -94,18 +94,18 @@ if (is_rachelpi()) {
     } else {
         $partitions = array(
             "/media/preloaded" => "Admin (preloaded)",
-            "/media/uploaded"  => "Teacher (uploaded)",
-            "/media/RACHEL"    => "RACHEL (RACHEL modules)"
+            "/media/uploaded" => "Teacher (uploaded)",
+            "/media/RACHEL" => "RACHEL (RACHEL modules)",
         );
     }
 
     foreach ($output as $line) {
         list($fs, $size, $used, $avail, $perc, $name) = preg_split("/\s+/", $line);
-        if (!isset($partitions[$name])) { continue; }
+        if (!isset($partitions[$name])) {continue;}
         $name = $partitions[$name];
-        array_push( $usage_rows, array(
-            "name"  => $name, "size"  => $size, "used"  => $used,
-            "avail" => $avail, "perc"  => $perc,
+        array_push($usage_rows, array(
+            "name" => $name, "size" => $size, "used" => $used,
+            "avail" => $avail, "perc" => $perc,
         ));
     }
 
@@ -117,19 +117,19 @@ if (is_rachelpi()) {
     foreach ($output as $line) {
 
         list($fs, $size, $used, $avail, $perc, $iused, $ifree, $iusedperc) = preg_split("/\s+/", $line);
-        if (!preg_match("/^\/dev/", $fs)) { continue; }
+        if (!preg_match("/^\/dev/", $fs)) {continue;}
 
         # we have to do name this way so we capture full names with spaces
         preg_match("/\%\s+([^\%]+)$/", $line, $matches);
         $name = $matches[1];
 
-        $size  = preg_replace("/i$/", "B", $size);
-        $used  = preg_replace("/i$/", "B", $used);
+        $size = preg_replace("/i$/", "B", $size);
+        $used = preg_replace("/i$/", "B", $used);
         $avail = preg_replace("/i$/", "B", $avail);
 
-        array_push( $usage_rows, array(
-            "name"  => $name, "size"  => $size, "used"  => $used,
-            "avail" => $avail, "perc"  => $perc,
+        array_push($usage_rows, array(
+            "name" => $name, "size" => $size, "used" => $used,
+            "avail" => $avail, "perc" => $perc,
         ));
 
     }
@@ -168,7 +168,7 @@ if (is_rachelplus()) {
     echo "
         <h2>$lang[wifi_control]</h2>
         <div style='height: 24px;'>
-        <div style='float: left; height: 24px; margin-right: 10px;'>$lang[current_status]:</div> 
+        <div style='float: left; height: 24px; margin-right: 10px;'>$lang[current_status]:</div>
             <div id='wifistat' style='height: 24px;'>&nbsp;</div>
         </div>
         <div style='margin-top: 10px;'>
@@ -186,7 +186,7 @@ if (is_rachelplus()) {
 if (is_rachelpi()) {
     echo "
         <h2>$lang[system_shutdown]</h3>
-        <h3>Rachel-Pi</h3>
+        <h3>Tedprimehub-Pi</h3>
         <div style='padding: 10px; border: 1px solid red; background: #fee;'>
         <form action='hardware.php' method='post'>
         <input type='submit' name='shutdown' value='$lang[shutdown]' onclick=\"if (!confirm('$lang[confirm_shutdown]')) { return false; }\">
@@ -203,7 +203,7 @@ if (is_rachelpi()) {
     }
     echo "
         <h2>$lang[system_shutdown]</h3>
-        <h3>RACHEL-Plus</h3>
+        <h3>Tedprimehub-Plus</h3>
         $img
         $lang[rplus_safe_shutdown]
         <div style='padding: 10px; border: 1px solid red; background: #fee;'>
@@ -220,12 +220,10 @@ if (is_rachelplus()) {
         <h2>Advanced Hardware Control</h2>
         To modify advanced hardware settings (WiFi, DHCP, Firewall, etc.) please
         <a href='//$_SERVER[HTTP_HOST]:8080' target='_blank'>click here</a>
-        <p><b>Note:</b> The settings in the advanced hardware control can cause your RACHEL
+        <p><b>Note:</b> The settings in the advanced hardware control can cause your Tedprimehub
         to stop working.<br>
         Do not change unless you know what you are doing.</p>
     ";
 }
 
 include "foot.php";
-
-?>

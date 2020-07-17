@@ -1,12 +1,12 @@
 <?php
-    # for multi-lingual support
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/admin/common.php");
+# for multi-lingual support
+require_once $_SERVER['DOCUMENT_ROOT'] . "/admin/common.php";
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang['langcode'] ?>">
 <head>
     <meta charset="utf-8">
-    <title>RACHEL</title>
+    <title>Tedprimehub</title>
     <style type="text/css">
         body {
           background:#363636;
@@ -56,7 +56,7 @@
     <div id="content">
     <h1><a href="http://<?php echo $_SERVER["SERVER_ADDR"]; ?>/index.php" target="_blank"><img src="http://<?php echo $_SERVER["SERVER_ADDR"]; ?>/art/logo.png" width="117" height="146"></a></h1>
     <h3>404: That page can not be found</h3>
-    <h2><a href="http://<?php echo $_SERVER["SERVER_ADDR"]; ?>/index.php" id="btn">RACHEL</a></h2>
+    <h2><a href="http://<?php echo $_SERVER["SERVER_ADDR"]; ?>/index.php" id="btn">Tedprimehub</a></h2>
     </div>
   </div>
 </body>
