@@ -1,6 +1,6 @@
 <?php
-require_once("common.php");
-if (!authorized()) { exit(); }
+require_once "common.php";
+if (!authorized()) {exit();}
 
 #-------------------------------------------
 # send them to awstats if it's installed
@@ -27,7 +27,7 @@ Please try a different browser.<br>
 </frameset>
 </html>
 EOT;
-exit;
+    exit;
 }
 
 #-------------------------------------------
@@ -64,8 +64,8 @@ if (is_readable($alog)) {
             output_and_exit("<h1>Couldn't Read Error Log</h1>");
         }
     } else {
-        # down here is the normal case, drawing the stats 
-        output_and_exit( draw_stats() );
+        # down here is the normal case, drawing the stats
+        output_and_exit(draw_stats());
     }
 
 } else {
@@ -82,7 +82,8 @@ if (is_readable($alog)) {
 #-------------------------------------------
 # draw stats in HTML (returns a string)
 #-------------------------------------------
-function draw_stats() {
+function draw_stats()
+{
 
     global $maxlines, $alog, $elog;
 
@@ -96,7 +97,7 @@ function draw_stats() {
         $module = $_GET['module'];
         $out .= "<p>Usage Stats\n";
         $dispmod = preg_replace("/\/modules\//", "", $module);
-        
+
     } else {
         # i don't understand why i wrote this bit:
         if (file_exists("../modules")) {
@@ -113,7 +114,7 @@ function draw_stats() {
     # requests -- we filter that here and create a temporary
     # log file instead...
     if (is_rachelplus()) {
-        $tmpfile = "/media/RACHEL/filteredlog";;
+        $tmpfile = "/media/RACHEL/filteredlog";
     } else if (is_rachelpi()) {
         $tmpfile = "/var/log/apache2/access.log";
     } else {
@@ -140,17 +141,17 @@ function draw_stats() {
         $errors = 0; # array();
         $stats = array();
         $start = "";
-        foreach(preg_split("/((\r?\n)|(\r\n?))/", $content) as $line) {
+        foreach (preg_split("/((\r?\n)|(\r\n?))/", $content) as $line) {
 
             # line count and limiting
             # XXX is this needed if we're using tail()?
-            if ($maxlines && $count >= $maxlines) { break; }
+            if ($maxlines && $count >= $maxlines) {break;}
             ++$count;
 
             # we display the date range - [29/Mar/2015:06:25:15 -0700]
             preg_match("/\[(.+?) .+?\]/", $line, $date);
             if ($date) {
-                if (!$start) { $start = $date[1]; }
+                if (!$start) {$start = $date[1];}
                 $end = $date[1];
             }
 
@@ -194,7 +195,7 @@ function draw_stats() {
             $keys = array_keys($stats);
             # but not if the one thing is an html file
             if (preg_match("/(\/|\.html?|\.pdf|\.php)$/", $keys[0])) {
-                break; 
+                break;
             }
             # and not if it's too deep
             if ($nestcount > 5) {
@@ -213,13 +214,13 @@ function draw_stats() {
 
     # date & time formatting (we used to show time, but now we don't)
     $start = preg_replace("/\:.+/", " ", $start, 1);
-    $end   = preg_replace("/\:.+/", " ", $end, 1);
+    $end = preg_replace("/\:.+/", " ", $end, 1);
     #$start = preg_replace("/\:/", " ", $start, 1);
     #$end   = preg_replace("/\:/", " ", $end, 1);
     #$start = preg_replace("/\:\d\d$/", "", $start, 1);
     #$end   = preg_replace("/\:\d\d$/", "", $end, 1);
     $start = preg_replace("/\//", " ", $start);
-    $end   = preg_replace("/\//", " ", $end);
+    $end = preg_replace("/\//", " ", $end);
     $out .= "<b>$start</b> through <b>$end</b></p>\n";
 
     # tell the user the path they're in
@@ -240,7 +241,7 @@ function draw_stats() {
             $url = "$module/$mod";
             $out .= "<tr><td>$hits</td><td>$mod ";
             $out .= "<small>(<a href=\"$url\" target=\"_blank\">view</a>)</small></td></tr>\n";
-        # directories link to a drill-down
+            # directories link to a drill-down
         } else {
             $url = "stats.php?module=" . urlencode("$module/$mod");
             $out .= "<tr><td>$hits</td>";
@@ -303,7 +304,8 @@ function draw_stats() {
 #-------------------------------------------
 # smart count incrementer XXX move to common.php
 #-------------------------------------------
-function inc(&$array, $key) {
+function inc(&$array, $key)
+{
     if (isset($array[$key])) {
         ++$array[$key];
     } else {
@@ -314,7 +316,8 @@ function inc(&$array, $key) {
 #-------------------------------------------
 # smart file tail (grabbed online)
 #-------------------------------------------
-function tail($filename, $lines = 10, $buffer = 4096) {
+function tail($filename, $lines = 10, $buffer = 4096)
+{
 
     # Open the file
     $f = fopen($filename, "rb");
@@ -325,14 +328,16 @@ function tail($filename, $lines = 10, $buffer = 4096) {
     # Read it and adjust line number if necessary
     # (Otherwise the result would be wrong if file
     # doesn't end with a blank line)
-    if(fread($f, 1) != "\n") $lines -= 1;
+    if (fread($f, 1) != "\n") {
+        $lines -= 1;
+    }
 
     # Start reading
     $contents = '';
     $chunk = '';
 
     # While we would like more
-    while(ftell($f) > 0 && $lines >= 0) {
+    while (ftell($f) > 0 && $lines >= 0) {
         # Figure out how far back we should jump
         $seek = min(ftell($f), $buffer);
 
@@ -340,7 +345,7 @@ function tail($filename, $lines = 10, $buffer = 4096) {
         fseek($f, -$seek, SEEK_CUR);
 
         # Read a chunk and prepend it to our contents
-        $contents = ($chunk = fread($f, $seek)).$contents;
+        $contents = ($chunk = fread($f, $seek)) . $contents;
 
         # Jump back to where we started reading
         fseek($f, -mb_strlen($chunk, '8bit'), SEEK_CUR);
@@ -351,14 +356,14 @@ function tail($filename, $lines = 10, $buffer = 4096) {
 
     # While we have too many lines
     # (Because of buffer size we might have read too many)
-    while($lines++ < 0) {
+    while ($lines++ < 0) {
         # Find first newline and remove all text before that
         $contents = substr($contents, strpos($contents, "\n") + 1);
     }
 
     # Close file and return
-    fclose($f); 
-    return $contents; 
+    fclose($f);
+    return $contents;
 
 }
 
@@ -366,7 +371,8 @@ $page_title = $lang['stats'];
 $page_script = "";
 $page_nav = "stats";
 
-function output_and_exit($output) {
+function output_and_exit($output)
+{
     # a bit sloppy, this...
     global $lang;
     $page_title = $lang['stats'];
@@ -377,5 +383,3 @@ function output_and_exit($output) {
     include "foot.php";
     exit;
 }
-
-?>

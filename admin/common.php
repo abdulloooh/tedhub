@@ -5,7 +5,7 @@
 # detection and access to the $lang associative array
 #-------------------------------------------
 # require_once("common.php"); # require ourself? why?
-require_once("lang/lang." . getlang() . ".php");
+require_once "lang/lang." . getlang() . ".php";
 
 #-------------------------------------------
 # To avoid warnings, we specify UTC. Previously the system
@@ -18,19 +18,23 @@ date_default_timezone_set('Etc/UCT');
 # returns an associative array of modules from the
 # filesystem - does not check the database at all
 #-------------------------------------------
-function getmods_fs() {
+function getmods_fs()
+{
 
     $absModPath = getAbsModPath();
-    if (!is_dir($absModPath)) { return array(); }
+    if (!is_dir($absModPath)) {return array();}
     $relModPath = getRelModPath();
-    
+
     # first we get a list of all the modules from the filesystem
     $fsmods = array();
     $handle = opendir($absModPath);
 
     while ($moddir = readdir($handle)) {
 
-        if (preg_match("/^\./", $moddir)) continue; // skip hidden files
+        if (preg_match("/^\./", $moddir)) {
+            continue;
+        }
+        // skip hidden files
 
         if (is_dir("$absModPath/$moddir")) { // look in dirs only
 
@@ -58,36 +62,36 @@ function getmods_fs() {
                     $title = preg_replace("/<.+?>/", "", $title);
                 }
                 // if we didn't get a title, use the moddir name
-                if (!$title) { $title = $moddir; }
+                if (!$title) {$title = $moddir;}
 
                 # pull the version from the file
                 $version = "v0.0";
                 # XXX this regex should stay in sync with update_version.pl on dev...
                 preg_match("/<!--\s*version\s*=\s*(?:\"|')?([^\"'\s]+?)(?:\"|')?\s*-->/", $content, $match);
-                if (isset($match[1])) { $version = $match[1]; }
+                if (isset($match[1])) {$version = $match[1];}
 
                 # save info about this module
-                $fsmods{ $moddir } = array(
-                    'dir'      => "$relModPath/$moddir",
-                    'moddir'   => $moddir,
-                    'title'    => $title,
+                $fsmods{$moddir} = array(
+                    'dir' => "$relModPath/$moddir",
+                    'moddir' => $moddir,
+                    'title' => $title,
                     'position' => 0,
-                    'hidden'   => false,
+                    'hidden' => false,
                     'fragment' => $fragment,
-                    'version'  => $version,
+                    'version' => $version,
                 );
 
             } else {
 
                 # save info about this incomplete module
-                $fsmods{ $moddir } = array(
-                    'dir'      => "$relModPath/$moddir",
-                    'moddir'   => $moddir,
-                    'title'    => $moddir,
+                $fsmods{$moddir} = array(
+                    'dir' => "$relModPath/$moddir",
+                    'moddir' => $moddir,
+                    'title' => $moddir,
                     'position' => 0,
-                    'hidden'   => true,
+                    'hidden' => true,
                     'fragment' => false,
-                    'version'  => "",
+                    'version' => "",
                 );
             }
         }
@@ -103,7 +107,8 @@ function getmods_fs() {
 # returns an associative array of modules from the
 # database - does not check the filesystem at all
 #-------------------------------------------
-function getmods_db() {
+function getmods_db()
+{
 
     $db = getdb();
     $dbmods = array();
@@ -124,12 +129,13 @@ function getmods_db() {
 #-------------------------------------------
 # get a database handle - also init the table if needed
 #-------------------------------------------
-function getdb() {
+function getdb()
+{
 
     # we need to keep a copy so we can close it in a callback later
     global $_db;
     # and also because caching per-request is smart
-    if (isset($_db)) { return $_db; }
+    if (isset($_db)) {return $_db;}
 
     # not already connected? connect.
     try {
@@ -215,9 +221,10 @@ function getdb() {
 
 #-------------------------------------------
 # If we don't do this, dangling filehandles build up
-# and after a while we can't open any more... yikes. 
+# and after a while we can't open any more... yikes.
 #-------------------------------------------
-function cleanup() {
+function cleanup()
+{
     global $_db;
     if (isset($_db)) {
         $_db->close();
@@ -230,9 +237,10 @@ register_shutdown_function('cleanup');
 # sort by db position, then alphabetically by moddir,
 # if there's no db position put alphabetically at top
 #-------------------------------------------
-function bypos($a, $b) {
-if (!isset($a['position'])) { $a['position'] = 0; }
-    if (!isset($b['position'])) { $b['position'] = 0; }
+function bypos($a, $b)
+{
+    if (!isset($a['position'])) {$a['position'] = 0;}
+    if (!isset($b['position'])) {$b['position'] = 0;}
     if ($a['position'] == $b['position']) {
         return strcmp(strtolower($a['moddir']), strtolower($b['moddir']));
     } else {
@@ -240,7 +248,8 @@ if (!isset($a['position'])) { $a['position'] = 0; }
     }
 }
 
-function available_langs() {
+function available_langs()
+{
 
     $basedir = "lang";
     $default_lang = "en";
@@ -248,7 +257,7 @@ function available_langs() {
     # if there's no options, don't bother trying
     # -- this actually means we'll render with blanks
     # for all translated text -- fatal error?
-    if (!is_dir($basedir)) { return array( $default_lang ); }
+    if (!is_dir($basedir)) {return array($default_lang);}
 
     # first we get a list of all languages available (from the lang directory)
     $available_langs = array();
@@ -262,7 +271,7 @@ function available_langs() {
 
     # if there's one option, return it
     if (sizeof($available_langs) == 1) {
-        return array( $available_langs[0] );
+        return array($available_langs[0]);
     }
 
     return $available_langs;
@@ -272,7 +281,8 @@ function available_langs() {
 # This function returns the language preferred by the
 # browser - out of the available languages. If the browser
 # wants a language we don't have, we just return "en".
-function browser_lang() {
+function browser_lang()
+{
 
     # we want the language codes as keys, not values
     $available_langs = array_flip(available_langs());
@@ -284,32 +294,32 @@ function browser_lang() {
             strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']), $matches, PREG_SET_ORDER);
     } else {
         # bad robot (probably) -- fake it to avoid errors
-        $matches = array(array('en','en'));
+        $matches = array(array('en', 'en'));
     }
 
     #print("<h1>" . $_SERVER['HTTP_ACCEPT_LANGUAGE'] . "</h1>");
 
     # this logic gets the qvalue for each language
-    foreach($matches as $match) {
+    foreach ($matches as $match) {
 
         list($a, $b) = explode('-', $match[1]) + array('', '');
 
         $value = isset($match[2]) ? (float) $match[2] : 1.0;
 
-        if(isset($available_langs[$match[1]])) {
+        if (isset($available_langs[$match[1]])) {
             $browser_langs[$match[1]] = $value;
             continue;
         }
 
         # dialects (e.g. en-US) - don't overwrite if we've already got
         # a match on base language
-        if(!isset($browser_langs[$a]) && isset($available_langs[$a])) {
+        if (!isset($browser_langs[$a]) && isset($available_langs[$a])) {
             $browser_langs[$a] = $value - 0.1;
         }
 
     }
 
-    # default to english if there's no match 
+    # default to english if there's no match
     if (!is_array($browser_langs)) {
         return "en";
     }
@@ -327,14 +337,16 @@ function browser_lang() {
 # gets displayed - this function figures all that out
 # (actually there's not any more, so this is very simple)
 #-------------------------------------------
-function getlang() {
+function getlang()
+{
 
     # if there was no user or admin setting use the browser's request
     return browser_lang();
 
 }
 
-function authorized() {
+function authorized()
+{
 
     global $lang;
 
@@ -342,13 +354,13 @@ function authorized() {
     # that's considered authorized
     if (php_sapi_name() == "cli") {
         return true;
-    }   
+    }
 
     # if we've got a good cookie, return true
     if (isset($_COOKIE['rachel-auth']) && $_COOKIE['rachel-auth'] == "admin") {
         return true;
 
-    # if we've got good user/pass, issue cookie
+        # if we've got good user/pass, issue cookie
     } else if (isset($_POST['user']) && isset($_POST['pass'])) {
 
         $db = getdb();
@@ -367,7 +379,7 @@ function authorized() {
             setcookie("rachel-auth", "admin", 0, "/");
             header(
                 "Location: //$_SERVER[HTTP_HOST]"
-                . strtok($_SERVER["REQUEST_URI"],'?')
+                . strtok($_SERVER["REQUEST_URI"], '?')
             );
             return true;
         }
@@ -463,7 +475,7 @@ function authorized() {
 	      <tr>
 	        <td>
               <a href="/index.php">
-			    <img src="../art/login.png">
+			    <img style="width:80%; height:60%" src="../images/logo.jpg">
 			  </a>
             </td>
 	      </tr>
@@ -496,14 +508,17 @@ EOT;
 # to figure that out later
 #-------------------------------------------
 define("RACHELPI_MODPATH", "/var/www/modules");
-function is_rachelpi() {
+function is_rachelpi()
+{
     return is_dir(RACHELPI_MODPATH) || file_exists("/tmp/fake-rachelpi");
 }
 define("RACHELPLUS_MODPATH", "/media/RACHEL/rachel/modules");
-function is_rachelplus() {
+function is_rachelplus()
+{
     return is_dir(RACHELPLUS_MODPATH) || file_exists("/tmp/fake-rachelplus");
 }
-function is_rachelplusv3() {
+function is_rachelplusv3()
+{
     return is_dir("/.data/RACHEL") || file_exists("/tmp/fake-rachelplusv3");
 }
 
@@ -512,22 +527,24 @@ function is_rachelplusv3() {
 # this should work from any directory so install
 # scripts can call it and find the right place
 #-------------------------------------------
-function getAbsModPath() {
+function getAbsModPath()
+{
 
-    if (is_rachelplus()) { return RACHELPLUS_MODPATH; }
-    if (is_rachelpi()) { return RACHELPI_MODPATH; }
+    if (is_rachelplus()) {return RACHELPLUS_MODPATH;}
+    if (is_rachelpi()) {return RACHELPI_MODPATH;}
 
     # other system (from webroot)
-    if (file_exists("./modules")) { return realpath("./modules"); }
+    if (file_exists("./modules")) {return realpath("./modules");}
     # other (from admin dir)
-    if (file_exists("../modules")) { return realpath("../modules"); }
+    if (file_exists("../modules")) {return realpath("../modules");}
 
     # unknown
     return false;
 
 }
 
-function getAbsAdminPath() {
+function getAbsAdminPath()
+{
     return preg_replace("/modules/", "admin", getAbsModPath());
 }
 
@@ -536,7 +553,8 @@ function getAbsAdminPath() {
 # relative from the current directory instead.
 # This should work through HTTP or command line
 #-------------------------------------------
-function getRelModPath() {
+function getRelModPath()
+{
     if (isset($_SERVER['REQUEST_URI'])) {
         $me = $_SERVER['REQUEST_URI'];
     } else {
@@ -549,7 +567,8 @@ function getRelModPath() {
     }
 }
 
-function getRelAdminPath() {
+function getRelAdminPath()
+{
     return preg_replace("/modules/", "admin", getRelModPath());
 }
 
@@ -558,7 +577,8 @@ function getRelAdminPath() {
 # to the root RACHEL directory, presumably where
 # index.php is residing
 #-------------------------------------------
-function getAbsBaseUrl() {
+function getAbsBaseUrl()
+{
     # we avoid just using "/" here because in development
     # our code is sometimes in a subdirectory of the server
     $baseurl = dirname($_SERVER['REQUEST_URI']);
@@ -571,7 +591,8 @@ function getAbsBaseUrl() {
 # this function updates the database to match the modules that
 # are in the filesystem
 #-------------------------------------------
-function syncmods_fs2db() {
+function syncmods_fs2db()
+{
 
     # get info on the modules in the filesystem
     $fsmods = getmods_fs();
@@ -586,8 +607,8 @@ function syncmods_fs2db() {
         # insert anything we found in the fs that wasn't in the db
         foreach (array_keys($fsmods) as $moddir) {
             if (!isset($dbmods[$moddir])) {
-                $db_moddir =   $db->escapeString($moddir);
-                $db_title  =   $db->escapeString($fsmods[$moddir]['title']);
+                $db_moddir = $db->escapeString($moddir);
+                $db_title = $db->escapeString($fsmods[$moddir]['title']);
                 $db_position = $db->escapeString($fsmods[$moddir]['position']);
                 $db->exec(
                     "INSERT into modules (moddir, title, position, hidden) " .
@@ -601,7 +622,7 @@ function syncmods_fs2db() {
         # delete anything from the db that wasn't in the fs
         foreach (array_keys($dbmods) as $moddir) {
             if (!isset($fsmods[$moddir])) {
-                $db_moddir =   $db->escapeString($moddir);
+                $db_moddir = $db->escapeString($moddir);
                 $db->exec("DELETE FROM modules WHERE moddir = '$db_moddir'");
                 #error_log("DELETE FROM modules WHERE moddir = '$db_moddir'");
             }
@@ -614,7 +635,7 @@ function syncmods_fs2db() {
 }
 
 #-------------------------------------------
-# Read in a .modules file and return a sorted arrray 
+# Read in a .modules file and return a sorted arrray
 # of the modules that should be installed and an
 # associative array of modules that should be hidden.
 # So use it like this:
@@ -628,7 +649,8 @@ function syncmods_fs2db() {
 #
 # We just die on any error: can't read file, malformed file
 #-------------------------------------------
-function parseModulesFile($file) {
+function parseModulesFile($file)
+{
 
     $fh = fopen($file, "r");
     if (!$fh) {
@@ -666,12 +688,13 @@ function parseModulesFile($file) {
 
 }
 
-#------------------------------------------- 
+#-------------------------------------------
 # Installs sorts, and sets visibility based on a
 # .modules file -- must work from the command line
 # or the html admin interface
-#------------------------------------------- 
-function installmods($file, $install_server) {
+#-------------------------------------------
+function installmods($file, $install_server)
+{
 
     list($sorted, $hidden) = parseModulesFile($file);
 
@@ -696,7 +719,7 @@ function installmods($file, $install_server) {
     try {
 
         $db = getdb();
-        if (!$db) { throw new Exception($db->lastErrorMsg); }
+        if (!$db) {throw new Exception($db->lastErrorMsg);}
 
         # this is a performance enhancing command, more than for safety
         $db->exec("BEGIN");
@@ -706,7 +729,7 @@ function installmods($file, $install_server) {
             $cmd = "rsync -Pav$zip rsync://$install_server/rachelmods/$moddir $destdir";
 
             # insert a task into the DB
-            $db_cmd    = $db->escapeString($cmd);
+            $db_cmd = $db->escapeString($cmd);
             $db_moddir = $db->escapeString($moddir);
             $db->exec("
                 INSERT INTO tasks (moddir, command)
@@ -750,7 +773,8 @@ function installmods($file, $install_server) {
 #-------------------------------------------
 # Call this to sort modules based on a .modules file
 #-------------------------------------------
-function sortmods($file) {
+function sortmods($file)
+{
     list($sorted, $hidden) = parseModulesFile($file);
     _sortmods($sorted, $hidden);
 }
@@ -758,10 +782,11 @@ function sortmods($file) {
 #-------------------------------------------
 # Internal use - actually does the sorting/hiding work.
 # The instructions come from a .modules file
-# as parsed by parseModulesFile() -- modules that aren't 
+# as parsed by parseModulesFile() -- modules that aren't
 # seen at all are hidden and sorted last, but not removed.
 #-------------------------------------------
-function _sortmods($sorted, $hidden) {
+function _sortmods($sorted, $hidden)
+{
 
     # before we sort anything, let's make sure all the modules
     # are actually recorded in the DB
@@ -771,25 +796,25 @@ function _sortmods($sorted, $hidden) {
     try {
 
         $db = getdb();
-        if (!$db) { throw new Exception($db->lastErrorMsg); }
+        if (!$db) {throw new Exception($db->lastErrorMsg);}
         $db->exec("BEGIN");
 
         # boink everything to the bottom and hide it
         $res = $db->exec("UPDATE modules SET position = '9999', hidden = '1'");
-        if (!$res) { throw new Exception($db->lastErrorMsg()); }
+        if (!$res) {throw new Exception($db->lastErrorMsg());}
 
         # set the new order and new hidden state
         $db_position = 1;
         foreach ($sorted as $moddir) {
             $db_moddir = $db->escapeString($moddir);
-            if (isset($hidden[$moddir])) { $db_is_hidden = 1; } else { $db_is_hidden = 0; }
+            if (isset($hidden[$moddir])) {$db_is_hidden = 1;} else { $db_is_hidden = 0;}
             $rv = $db->exec("
                 UPDATE modules
                    SET position = '$db_position',
                        hidden   = '$db_is_hidden'
                  WHERE moddir = '$db_moddir'
             ");
-            if (!$rv) { throw new Exception($db->lastErrorMsg()); }
+            if (!$rv) {throw new Exception($db->lastErrorMsg());}
             ++$db_position;
         }
 
@@ -803,7 +828,8 @@ function _sortmods($sorted, $hidden) {
 
 }
 
-function showip () {
+function showip()
+{
     global $lang;
     #-------------------------------------------
     # this is done as a function to enforce scope on $output
@@ -818,12 +844,12 @@ function showip () {
     # but requires system-specific tweaking
     #-------------------------------------------
 
-    if(is_rachelpi()){
+    if (is_rachelpi()) {
         exec("/sbin/ifconfig", $output);
         preg_match("/(?:eth0|enp2s0).+?inet (.+?) /", join("", $output), $match);
-        if (isset($match[1])) { echo "<b>LAN</b>: $match[1]\n"; }
+        if (isset($match[1])) {echo "<b>LAN</b>: $match[1]\n";}
         preg_match("/(?:wlan0|br\-lan).+?inet (.+?) /", join("", $output), $match);
-        if (isset($match[1])) { echo "<br><b>WIFI</b>: $match[1]\n"; }
+        if (isset($match[1])) {echo "<br><b>WIFI</b>: $match[1]\n";}
         return;
     }
 
@@ -832,44 +858,44 @@ function showip () {
         # (though we're making windows static-only now)
         $output = shell_exec("ipconfig");
         preg_match("/IPv4 Address.+?: (.+)/", $output, $match);
-        if (isset($match[1])) { echo "<b>$lang[server_address]</b>: $match[1]\n"; }
+        if (isset($match[1])) {echo "<b>$lang[server_address]</b>: $match[1]\n";}
     } else if (preg_match("/^darwin/i", PHP_OS)) {
         # OSX is unix, but it's a little different
         exec("/sbin/ifconfig", $output);
         preg_match("/en0.+?inet (.+?) /", join("", $output), $match);
-        if (isset($match[1])) { echo "<b>$lang[server_address]</b>: $match[1]\n"; }
+        if (isset($match[1])) {echo "<b>$lang[server_address]</b>: $match[1]\n";}
     } else {
         # most likely linux based - so ifconfig should work
         # eth0/wlan for Rpi, CAP1&2, enp2s0/br-lan for CAP3
         exec("/sbin/ifconfig", $output);
         preg_match("/(?:eth0|enp2s0).+?inet addr:(.+?) /", join("", $output), $match);
-        if (isset($match[1])) { echo "<b>LAN</b>: $match[1]\n"; }
+        if (isset($match[1])) {echo "<b>LAN</b>: $match[1]\n";}
         preg_match("/(?:wlan0|br\-lan).+?inet addr:(.+?) /", join("", $output), $match);
-        if (isset($match[1])) { echo "<br><b>WIFI</b>: $match[1]\n"; }
+        if (isset($match[1])) {echo "<br><b>WIFI</b>: $match[1]\n";}
     }
 
 }
 
 # restart kiwix so it sees what modules are visible/hidden
-function kiwix_restart() {
-     if (is_rachelplus()){
-         exec("sudo bash /root/rachel-scripts/rachelKiwixStart.sh");
-     }
-     else if (is_rachelpi()){
-         exec("sudo systemctl restart kiwix");
-     }
+function kiwix_restart()
+{
+    if (is_rachelplus()) {
+        exec("sudo bash /root/rachel-scripts/rachelKiwixStart.sh");
+    } else if (is_rachelpi()) {
+        exec("sudo systemctl restart kiwix");
+    }
 }
 
-function show_local_content_link() {
+function show_local_content_link()
+{
     $db = getdb();
     $rv = $db->querySingle("SELECT 1 FROM prefs WHERE pref = 'show_local_content_link' AND value = '1'");
     return $rv;
 }
 
-function run_rsyncd() {
+function run_rsyncd()
+{
     $db = getdb();
     $rv = $db->querySingle("SELECT 1 FROM prefs WHERE pref = 'run_rsyncd' AND value = '1'");
     return $rv;
 }
-
-?>

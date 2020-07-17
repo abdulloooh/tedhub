@@ -106,9 +106,9 @@ if (show_local_content_link()) {
       </form> -->
 
 
-      <!-- <li class="nav-item admin">
+      <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
-      </li> -->
+      </li>
     </div>
   </nav>
 </header>

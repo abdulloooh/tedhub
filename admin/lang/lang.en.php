@@ -6,9 +6,9 @@
 # ALSO: THIS FILE MUST NOT HAVE ANY BLANK LINES OUTSIDE OF
 # THE PHP CODE - OR IT WILL BREAK HEADER CONTROL IN ADMIN.PHP
 #-------------------------------------------
- 
+
 $lang = array();
- 
+
 # for index.php
 $lang['langcode'] = 'en';
 $lang['home'] = 'Home';
@@ -21,7 +21,7 @@ $lang['version'] = 'Version';
 $lang['settings'] = 'Settings';
 $lang['months'] = array(
     'Null', 'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
+    'July', 'August', 'September', 'October', 'November', 'December',
 );
 $lang['languages'] = 'Languages';
 
@@ -93,11 +93,10 @@ $lang['brought_to_you_by'] = "Brought to you by";
 # for hardware.php
 $lang['wifi_control'] = "WIFI Control";
 $lang['current_status'] = "Current Status";
-$lang['turn_on']  = "Turn On";
+$lang['turn_on'] = "Turn On";
 $lang['turn_off'] = "Turn Off";
-$lang['is_on']    = "On";
-$lang['is_off']   = "Off";
+$lang['is_on'] = "On";
+$lang['is_off'] = "Off";
 $lang['wifi_warning'] = "WARNING: If you turn off WIFI while connected through WIFI, you will be disconnected.<br>WIFI will turn on again when the device is restarted.";
 $lang['an_error_occurred'] = "An Error Occurred";
-
-?>
+$lang['file_share'] = "File Share";

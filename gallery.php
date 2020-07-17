@@ -93,9 +93,9 @@ if (show_local_content_link()) {
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form> -->
 
-      <!-- <li class="nav-item admin">
+      <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
-      </li> -->
+      </li>
     </div>
   </nav>
 </header>
@@ -144,8 +144,8 @@ if ($fsmods) {
     //re-arrange course list to bring file share to the end
     $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
     unset($fsmods['en-file_share']);
-    $file_share = array("en-file_share" => $clone_file_share_sub_array);
-    $fsmods = $file_share + $fsmods;
+    // $file_share = array("en-file_share" => $clone_file_share_sub_array);
+    // $fsmods = $file_share + $fsmods;
     // $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
 
     # whether or not we were able to get anything
