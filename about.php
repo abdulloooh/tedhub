@@ -1,5 +1,5 @@
 
-<?php require_once("admin/common.php"); ?>
+<?php require_once "admin/common.php";?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang['langcode'] ?>">
   <head>
@@ -56,10 +56,10 @@
          or rsync. It's visible in the Admin panel too, but it's more convenient here. -->
     <div id="ip">
         <?php showip();
-        # on the RACHEL-Plus we also show a battery meter
-        # XXX abstract this and the admin one into one piece of code
-        if (is_rachelplus()) {
-            echo '
+# on the RACHEL-Plus we also show a battery meter
+# XXX abstract this and the admin one into one piece of code
+if (is_rachelplus()) {
+    echo '
                 <script>
                     refreshRate = 1000 * 60 * 10; // ten minutes on front page, be very conservative
                     function getBatteryInfo() {
@@ -89,10 +89,10 @@
                 </script>
                 <br><b>Battery</b>: <div id="battery"></div><span id="perc"></span>
             ';
-        }
-        ?>
+}
+?>
     </div>
-    
+
 </div>
 
 <!-- end from Ebx -->
@@ -109,16 +109,16 @@
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="about.php">About </a>       
+          <a class="nav-link" href="about.php">About </a>
         </li>
 
         <!-- start from Ebx -->
 
         <?php
-	        if (show_local_content_link()) {
-	            echo "<li><a href=\"http://$_SERVER[SERVER_ADDR]:8090/\" target=\"_self\">LOCAL CONTENT</a></li>";
-	        }
-    	?>
+if (show_local_content_link()) {
+    echo "<li><a href=\"http://$_SERVER[SERVER_ADDR]:8090/\" target=\"_self\">LOCAL CONTENT</a></li>";
+}
+?>
 
         <!-- end from Ebx -->
 
@@ -153,16 +153,29 @@
 
 <div id="content">
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam error voluptatibus ad odit officia voluptate eligendi ratione adipisci assumenda fugit unde, est repudiandae minus commodi quaerat, beatae consectetur optio. Dignissimos aspernatur aliquam ipsam quisquam sint, voluptatem non cumque beatae nihil quae nostrum sed vel fugiat officia atque accusamus qui ipsum tempore excepturi veniam voluptatum in praesentium corporis. Magni architecto, numquam porro laudantium veritatis pariatur, culpa odit labore minima praesentium cupiditate aliquam explicabo excepturi neque accusamus, distinctio dolor debitis temporibus fuga. Laudantium sit eos at voluptatum architecto, ea quas assumenda quis nulla commodi labore fugit nihil ullam molestiae et explicabo totam sint natus vero sapiente expedita odit. Nostrum illum ducimus veritatis quisquam, provident sapiente voluptatibus, aspernatur amet corrupti praesentium ratione voluptatem ullam. Harum ipsa atque libero nemo in exercitationem corrupti? Dolores earum nemo repellat eaque, iusto voluptate maxime consectetur! Nesciunt eaque magnam ad nostrum natus voluptas, mollitia quaerat accusantium sequi fugiat ea nulla vero architecto odio pariatur illo itaque id! Dolores minus accusantium deleniti perspiciatis cumque suscipit libero ea asperiores. Dolor nostrum voluptates eos quaerat tempora, minus quam omnis autem earum optio enim minima ipsam placeat maiores commodi sed? Molestiae error magnam iusto rem. Ea non explicabo quisquam nulla numquam provident!
+<h3>About Us</h3>
 
-<br>
+<p>TedPrime Hub is an Edtech Consulting Firm (with its parent organization - TedPrime Support Initiative) that aligns itself to the 2030 Agenda of the United Nations Sustainable Development Goals using education and technology as rallying points to build future-ready youths and workforce. </p>
+<p>TedPrime Hub is revamping Nigeria’s educational sector from primary to tertiary education sector using array of innovative practices and infrastructure framework and sustainable partnerships both locally and globally.</p>
 
-<blockquote>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione voluptatem velit nostrum ullam tempore veniam quasi odit facere aut reprehenderit excepturi quisquam repellendus voluptate magnam non, soluta ipsum eligendi sunt. Dicta, amet facere quibusdam rerum non tempora deserunt perspiciatis nobis natus dolorem aperiam officia autem temporibus ipsum fugiat nisi, recusandae qui. At error magnam, repellendus voluptate a quia quos incidunt accusantium earum necessitatibus explicabo numquam ipsum iusto architecto atque officiis voluptates aperiam maiores minima sint in quae sapiente. Saepe eligendi nostrum dolores eos numquam excepturi explicabo incidunt laudantium repudiandae, fuga ratione temporibus magni eius laborum quidem ullam tenetur error accusamus.
-</blockquote>
+<h3>About Edubox</h3>
 
+<p>Edubox is an innovative WiFi device that provides real time access to millions of learning resources to students without internet. It is suitable for home learning, school e-library set up, community learning centres and correctional homes. The resources are well tailored in line with Nigerian curriculum and global education standards with every user having a great access to add local learning resources.</p>
+<p>For corporate partnership, enquiries or service request on Edubox Technology:</p>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus porro laborum beatae! Nemo omnis perspiciatis explicabo voluptatum laudantium? Aperiam in expedita dolores reprehenderit quidem ipsum tempora assumenda veniam excepturi maxime, quos, nemo aliquid blanditiis eos hic. Eveniet magnam nemo non quibusdam ad corrupti assumenda ducimus expedita perferendis deleniti odio iste, laudantium ipsum accusamus ipsam voluptatem exercitationem id ipsa adipisci excepturi explicabo. Porro reprehenderit accusamus eaque sit sint. Eveniet sint eos maiores! Magni in totam possimus cupiditate. Nihil, minus. Debitis doloribus aliquam tempore maxime cupiditate! Rem sed rerum alias dolores nihil in quibusdam maiores ut consequuntur, reprehenderit facere eius minima minus, ex quam qui fugit fuga, mollitia odit nisi saepe? Placeat vitae error sunt nisi deleniti debitis repellat facilis eaque dicta nemo ab officiis iure doloremque dolore eos quasi, ut vero cupiditate commodi accusamus dolor. Facere, reprehenderit temporibus? Enim tempora consequuntur nisi nulla quae corrupti sed vero iure ut. Impedit sequi nisi molestias amet, cumque quos possimus facere repellat illo incidunt! Maxime vitae, inventore reiciendis delectus non placeat libero unde consequatur quisquam! Tempore atque alias autem quidem! Maxime reprehenderit magnam ullam dicta fugiat doloremque, mollitia, blanditiis qui dolorum debitis animi aliquam repudiandae fuga repellendus officia et saepe deserunt quidem! Voluptatum.
+<p>Visit <a href="www.tedprimehub.org">www.tedprimehub.org</a> </p>
+<Twitter:>E-mail: <a href="mailto:info@tedprimehub.org">info@tedprimehub.org</a> <br>
+ Twitter: <a href="https://twitter.com/tedprimehub">@tedprimehub</a> <br> Facebook: TedPrime Support Initiative <br> or call +2347080595110 </p>
+
+<h3>Correspondence</h3>
+
+<address>
+    TedPrime Hub & Support Initiative Building, <br>
+    Beside Baptist Girls’ College, Idi Aba, <br>
+    Abeokuta, Ogun State, <br>
+    Nigeria <br>
+</address>
+
 
 </div>
 
@@ -170,10 +183,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus porro 
     <hr>
 
   <!-- FOOTER -->
-  <footer class="container">
-    <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+  <?php include "footer.php";?>
 </main>
 
 

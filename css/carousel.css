@@ -3,7 +3,6 @@
   src: url(../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 } */
 
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -15,18 +14,15 @@ body {
   font-family: my_font;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   /* bottom: 3rem; */
-  top:12em;
+  top: 12em;
   z-index: 10;
   /* background-color: rgb(0, 0, 200,0.2); */
   flex: 1;
@@ -41,7 +37,6 @@ body {
   /* filter: grayscale(0%); */
   /* background-image: linear-gradient(to right, rgb(0, 0, 255, 0.5), rgb(0, 0, 0, 0.5)); */
   /* font-size: 20em; */
-
 }
 
 /* Declare heights because of positioning of img element */
@@ -51,18 +46,17 @@ body {
   bottom: 4rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 30% 20%;
   /* background-position: 50% 100%; */
   justify-content: center;
   align-items: center;
   position: relative;
   margin: auto;
-  background-color: #777;  /* use if image is not available*/
+  background-color: #777; /* use if image is not available*/
 
   /* -webkit-filter: grayscale(80%); Safari 6.0 - 9.0 */
   /* filter: grayscale(80%); */
 }
-.black-overlay{
+.black-overlay {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -70,19 +64,38 @@ body {
   width: 100%;
   background: rgb(0, 0, 0, 0.6);
 }
-.empower_teachers_image{
-  background-image: url("../images/empower_teachers.jpg");
-}
-.trusted_content_image{
-  background-image: url("../images/trusted_content.jpg");
-}
-.real_results_image{
+.real_results_image {
   background-image: url("../images/real_results.jpg");
-
+  background-position: 30% 10%;
 }
-.personalized_learning_image{
-  background-image: url("../images/personalized_learning.jpg");
-  /* background-position: 50% 30%; */
+.personalized_learning_image {
+  background-image: url("../images/rsz_personalized_learning.jpg");
+  background-position: 30% 30%;
+}
+.trusted_content_image {
+  background-image: url("../images/trusted_content.jpg");
+  background-position: -20% 20%;
+}
+.empower_teachers_image {
+  background-image: url("../images/empower_teachers.jpg");
+  background-position: 30% 40%;
+}
+.banner1 {
+  background-image: url("../images/1200px-WikiAfrica_Schools_training_African_School_for_Excellence_\(3\).jpg");
+  background-position: 30% 40%;
+}
+.banner2 {
+  background-image: url("../images/EduboxBD.jpg");
+  background-position: 30% 20%;
+}
+.banner3 {
+  background-image: url("../images/learn-1996845.jpg");
+  background-position: 30% 70%;
+  /* background-position: 50% 70%; */
+}
+.banner4 {
+  background-image: url("../images/students-377789.jpg");
+  background-position: 30% 20%;
 }
 .carousel-item > img {
   position: absolute;
@@ -90,9 +103,8 @@ body {
   left: 0;
   min-width: 100%;
   height: 20rem;
+  width: 100%;
 }
-
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -106,10 +118,9 @@ body {
   font-weight: 400;
 }
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
-
 
 /* Featurettes
 ------------------------- */
@@ -122,9 +133,8 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -147,15 +157,66 @@ body {
     margin-top: 7rem;
   }
 }
-@media(max-width:872px){
+@media (max-width: 872px) {
   .carousel-caption {
-    top:11em;
+    top: 11em;
     padding: 10px 10px 30px 20px;
   }
 }
 
-@media(max-width:443px){
+@media (max-width: 443px) {
   .carousel-caption {
-    top:150px;
+    top: 150px;
+  }
+}
+
+@media (min-width: 800px) {
+  .carousel-inner {
+    height: 500px;
+  }
+  .carousel-item {
+    height: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+  .carousel {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .real_results_image {
+    background-image: url("../images/real_results.jpg");
+    background-position: 0% 10%;
+  }
+  .personalized_learning_image {
+    background-image: url("../images/rsz_personalized_learning.jpg");
+    background-position: 30% 30%;
+  }
+  .trusted_content_image {
+    background-image: url("../images/trusted_content.jpg");
+    background-position: 0% 20%;
+  }
+  .empower_teachers_image {
+    background-image: url("../images/empower_teachers.jpg");
+    background-position: 70% 40%;
+  }
+  .banner1 {
+    background-image: url("../images/1200px-WikiAfrica_Schools_training_African_School_for_Excellence_\(3\).jpg");
+    background-position: 30% 40%;
+  }
+  .banner2 {
+    background-image: url("../images/EduboxBD.jpg");
+    background-position: 45% 20%;
+  }
+  .banner3 {
+    background-image: url("../images/learn-1996845.jpg");
+    background-position: 50% 70%;
+    /* background-position: 50% 70%; */
+  }
+  .banner4 {
+    background-image: url("../images/students-377789.jpg");
+    background-position: 50% 20%;
   }
 }

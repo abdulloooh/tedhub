@@ -1,5 +1,5 @@
 
-<?php require_once("admin/common.php"); ?>
+<?php require_once "admin/common.php";?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang['langcode'] ?>">
   <head>
@@ -64,8 +64,8 @@
   	<!-- start from Ebx -->
 
 <div id="rachel">
-   
-    
+
+
 </div>
 
 <!-- end from Ebx -->
@@ -82,16 +82,16 @@
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="about.php">About </a>       
+          <a class="nav-link" href="about.php">About </a>
         </li>
 
         <!-- start from Ebx -->
 
         <?php
-	        if (show_local_content_link()) {
-	            echo "<li><a href=\"http://$_SERVER[SERVER_ADDR]:8090/\" target=\"_self\">LOCAL CONTENT</a></li>";
-	        }
-    	?>
+if (show_local_content_link()) {
+    echo "<li><a href=\"http://$_SERVER[SERVER_ADDR]:8090/\" target=\"_self\">LOCAL CONTENT</a></li>";
+}
+?>
 
         <!-- end from Ebx -->
 
@@ -105,7 +105,7 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form> -->
 
-      
+
       <!-- <li class="nav-item admin">
         <a class="btn btn-outline-success my-2 my-sm-0" href="admin/modules.php">Admin</a>
       </li> -->
@@ -115,7 +115,7 @@
 
 <main role="main">
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
     <!-- <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -128,7 +128,7 @@
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#888"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <h6>For every student every classroom, real results.</h6>
+            <h5>For every student every classroom, real results.</h5>
             <p>We're an organization with the mission to provide quality, world-class education for anyone, anywhere.
 	        	<!-- <br>
 	        	Learners, and teachers alike. -->
@@ -142,7 +142,7 @@
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <h6>Personalized Learning.</h6>
+            <h5>Personalized Learning.</h5>
             <p>Students practice at their own pace, first filling in gaps in their understanding and
             then accelerating their learning</p>
             <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse Gallery</a></p>
@@ -154,8 +154,8 @@
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide" >
           <div class="carousel-caption text-left">
-            <h6>Trusted Content.</h6>
-            <p >Created by experts, Tedprimehub’s library of trusted practice and lessons covers math, 
+            <h5>Trusted Content.</h5>
+            <p >Created by experts, Tedprimehub’s library of trusted practice and lessons covers math,
             science, and more. Always free for learners and teachers.</p>
             <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
           </div>
@@ -166,10 +166,58 @@
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <h6>Tools to empower teachers</h6>
-            <p>With TedPrimeHub, teachers can identify gaps in their students’ 
+            <h5>Tools to empower teachers</h5>
+            <p>With TedPrimeHub, teachers can identify gaps in their students’
             understanding, tailor instruction, and meet the needs of every student.</p>
             <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item banner1">
+        <!-- <div class="black-overlay"></div> -->
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide">
+          <div class="carousel-caption text-left">
+            <!-- <h5>Tools to empower teachers</h5>
+            <p>With TedPrimeHub, teachers can identify gaps in their students’
+            understanding, tailor instruction, and meet the needs of every student.</p> -->
+            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item banner2">
+        <!-- <div class="black-overlay"></div> -->
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide">
+          <div class="carousel-caption text-left">
+            <!-- <h6>Tools to empower teachers</h6>
+            <p>With TedPrimeHub, teachers can identify gaps in their students’
+            understanding, tailor instruction, and meet the needs of every student.</p> -->
+            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item banner3">
+        <!-- <div class="black-overlay"></div> -->
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide">
+          <div class="carousel-caption text-left">
+            <!-- <h6>Tools to empower teachers</h6>
+            <p>With TedPrimeHub, teachers can identify gaps in their students’
+            understanding, tailor instruction, and meet the needs of every student.</p> -->
+            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item banner4">
+        <!-- <div class="black-overlay"></div> -->
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <div class="container slide">
+          <div class="carousel-caption text-left">
+            <!-- <h6>Tools to empower teachers</h6>
+            <p>With TedPrimeHub, teachers can identify gaps in their students’
+            understanding, tailor instruction, and meet the needs of every student.</p> -->
+            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
           </div>
         </div>
       </div>
@@ -198,64 +246,62 @@
 
 <?php
 
-    $modcount = 0;
+$modcount = 0;
 
-    $fsmods = getmods_fs();
+$fsmods = getmods_fs();
 
-    # if there were any modules found in the filesystem
-    if ($fsmods) {
+# if there were any modules found in the filesystem
+if ($fsmods) {
 
-        # get a list from the databases (where the sorting
-        # and visibility is stored)
-        $dbmods = getmods_db();
+    # get a list from the databases (where the sorting
+    # and visibility is stored)
+    $dbmods = getmods_db();
 
-        # populate the module list from the filesystem 
-        # with the visibility/sorting info from the database
-        foreach (array_keys($dbmods) as $moddir) {
-            if (isset($fsmods[$moddir])) {
-                $fsmods[$moddir]['position'] = $dbmods[$moddir]['position'];
-                $fsmods[$moddir]['hidden'] = $dbmods[$moddir]['hidden'];
-            }
+    # populate the module list from the filesystem
+    # with the visibility/sorting info from the database
+    foreach (array_keys($dbmods) as $moddir) {
+        if (isset($fsmods[$moddir])) {
+            $fsmods[$moddir]['position'] = $dbmods[$moddir]['position'];
+            $fsmods[$moddir]['hidden'] = $dbmods[$moddir]['hidden'];
         }
-
-        # custom sorting function in common.php
-        uasort($fsmods, 'bypos');
-        
-       
-        //re-arrange course list to bring file share to the start
-        $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
-        unset ($fsmods['en-file_share']);
-        $file_share = array("en-file_share" => $clone_file_share_sub_array);
-        $fsmods = $file_share + $fsmods;
-        // $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
-
-
-        # whether or not we were able to get anything
-        # from the DB, we show what we found in the filesystem
-        // die(var_dump($fsmods['W3Schools']));
-
-        $fsmodsHomepage = [];
-        $homepageList = ['PhET' , 'en-kalite-ess' , 'W3Schools' , 'en-math_expression'];
-        foreach ($homepageList as $key) {
-          $fsmodsHomepage += array($key => $fsmods[$key]);
-        }
-
-        // $fsmods = array_slice($fsmods,1,4);
-        $fsmods = $fsmodsHomepage;  //change full list $fsmods to just homepage list $fsmodshomepage
-        foreach (array_values($fsmods) as $mod) {
-            if ($mod['hidden'] || !$mod['fragment']) { continue; }
-            $dir  = $mod['dir'];
-            $moddir  = $mod['moddir'];
-            include $mod['fragment']; 
-            // if ($mod['moddir'] == 'en-file_share');
-            ++$modcount;
-        }
-
     }
 
-    if ($modcount == 0) {
-        echo $lang['no_mods_error'];
+    # custom sorting function in common.php
+    uasort($fsmods, 'bypos');
+
+    //re-arrange course list to bring file share to the start
+    $clone_file_share_sub_array = $fsmods['en-file_share']; //remove file share
+    unset($fsmods['en-file_share']);
+    $file_share = array("en-file_share" => $clone_file_share_sub_array);
+    $fsmods = $file_share + $fsmods;
+    // $fsmods['en-file_share'] = $clone_file_share_sub_array; //add it back to the end
+
+    # whether or not we were able to get anything
+    # from the DB, we show what we found in the filesystem
+    // die(var_dump($fsmods['W3Schools']));
+
+    $fsmodsHomepage = [];
+    $homepageList = ['PhET', 'en-kalite-ess', 'W3Schools', 'en-math_expression'];
+    foreach ($homepageList as $key) {
+        $fsmodsHomepage += array($key => $fsmods[$key]);
     }
+
+    // $fsmods = array_slice($fsmods,1,4);
+    $fsmods = $fsmodsHomepage; //change full list $fsmods to just homepage list $fsmodshomepage
+    foreach (array_values($fsmods) as $mod) {
+        if ($mod['hidden'] || !$mod['fragment']) {continue;}
+        $dir = $mod['dir'];
+        $moddir = $mod['moddir'];
+        include $mod['fragment'];
+        // if ($mod['moddir'] == 'en-file_share');
+        ++$modcount;
+    }
+
+}
+
+if ($modcount == 0) {
+    echo $lang['no_mods_error'];
+}
 
 ?>
 
@@ -287,7 +333,7 @@
         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div> -->
-<!-- 
+<!--
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
         <h2>Heading</h2>
@@ -301,7 +347,7 @@
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
-<!-- 
+<!--
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -344,10 +390,7 @@
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
-    <p>&copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+  <?php include "footer.php";?>
 </main>
 
 
