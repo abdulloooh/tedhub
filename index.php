@@ -174,50 +174,50 @@ if (show_local_content_link()) {
         </div>
       </div>
       <div class="carousel-item banner1">
-        <!-- <div class="black-overlay"></div> -->
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <!-- <h5>Tools to empower teachers</h5>
-            <p>With TedPrimeHub, teachers can identify gaps in their students’
-            understanding, tailor instruction, and meet the needs of every student.</p> -->
-            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+            <h5>For every student every classroom, real results.</h5>
+            <p>We're an organization with the mission to provide quality, world-class education for anyone, anywhere.
+            understanding, tailor instruction, and meet the needs of every student.</p>
+            <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item banner2">
-        <!-- <div class="black-overlay"></div> -->
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <!-- <h6>Tools to empower teachers</h6>
-            <p>With TedPrimeHub, teachers can identify gaps in their students’
-            understanding, tailor instruction, and meet the needs of every student.</p> -->
-            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+            <h5>Trusted Content.</h5>
+            <p >Created by experts, Tedprimehub’s library of trusted practice and lessons covers math,
+            science, and more. Always free for learners and teachers.</p>
+            <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item banner3">
-        <!-- <div class="black-overlay"></div> -->
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <!-- <h6>Tools to empower teachers</h6>
-            <p>With TedPrimeHub, teachers can identify gaps in their students’
-            understanding, tailor instruction, and meet the needs of every student.</p> -->
-            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+            <h5>Personalized Learning.</h5>
+            <p>Students practice at their own pace, first filling in gaps in their understanding and
+            then accelerating their learning</p>
+            <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item banner4">
-        <!-- <div class="black-overlay"></div> -->
+        <div class="black-overlay"></div>
         <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg> -->
         <div class="container slide">
           <div class="carousel-caption text-left">
-            <!-- <h6>Tools to empower teachers</h6>
+            <h5>Tools to empower teachers</h5>
             <p>With TedPrimeHub, teachers can identify gaps in their students’
-            understanding, tailor instruction, and meet the needs of every student.</p> -->
-            <!-- <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p> -->
+            understanding, tailor instruction, and meet the needs of every student.</p>
+            <p><a class="btn btn-lg btn-primary" href="home.php" role="button">Browse gallery</a></p>
           </div>
         </div>
       </div>

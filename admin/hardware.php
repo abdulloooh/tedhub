@@ -75,7 +75,7 @@ if (is_rachelpi()) {
     foreach ($output as $line) {
         list($fs, $size, $used, $avail, $perc, $name) = preg_split("/\s+/", $line);
         if (!preg_match("/^\/dev/", $fs)) {continue;}
-        if ($name == "/") {$name = "SD Card (RACHEL modules)";}
+        if ($name == "/") {$name = "SD Card (Tedprimehub modules)";}
         array_push($usage_rows, array(
             "name" => $name, "size" => $size, "used" => $used,
             "avail" => $avail, "perc" => $perc,
@@ -95,7 +95,7 @@ if (is_rachelpi()) {
         $partitions = array(
             "/media/preloaded" => "Admin (preloaded)",
             "/media/uploaded" => "Teacher (uploaded)",
-            "/media/RACHEL" => "RACHEL (RACHEL modules)",
+            "/media/RACHEL" => "Tedprimehub (Tedprimehub modules)",
         );
     }
 
